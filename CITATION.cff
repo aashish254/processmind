@@ -5,11 +5,11 @@ authors:
   - family-names: Aashish
     given-names: ""
     # Add your ORCID here once you register one (free): https://orcid.org
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0009-0007-8952-6357"
 version: 1.0.0
 date-released: 2026-09-20
 license: MIT
-repository-code: "https://github.com/YOUR-USERNAME/processmind"
+repository-code: "https://github.com/aashish254/processmind"
 keywords:
   - business process management
   - BPMN

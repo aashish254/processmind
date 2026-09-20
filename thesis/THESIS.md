@@ -1,7 +1,7 @@
 ---
 title: "LLM-Assisted Business Process Discovery"
 subtitle: "Combining Multi-Agent Extraction with Sound Process Mining for Automated BPMN Reconstruction"
-author: "Aashish"
+author: "Aashish Kumar Mahato"
 date: "September 2026"
 abstract: |
   This thesis investigates whether heterogeneous process knowledge sources — unstructured SOP text and structured event logs — can be fused into valid, conformance-checked BPMN 2.0 models by an automated pipeline. Five extractor configurations are implemented in the ProcessMind framework: deterministic rule parser (E1), single-shot LLM (E2), LLM with self-correction (E3), DFG discovery (E4), and Inductive Miner (E6). A one-command evaluation harness enables comparative evaluation under identical conditions on a four-SOP/seven-log corpus. Key findings: the rule parser achieves perfect extraction on controlled vocabulary (F1=1.00) but collapses on unstructured text (F1=0.10); the LLM recovers substantially on unstructured text (F1=0.48–0.50); the self-correction loop adds 0.02–0.09 F1 improvement on the genuine LLM extraction path; the Inductive Miner is empirically sound-by-construction (fitness = variant coverage across all logs, up to 0.947 on 40% noisy logs vs 0.667 for DFG); and bottleneck-grounded To-Be recommendations reduce estimated critical path by 17–31%.
@@ -18,7 +18,7 @@ keywords: [business process management, BPMN, process mining, LLM, multi-agent s
 \vspace{2cm}
 \textbf{Master of Information Technology (Research)}\par
 \vspace{0.5cm}
-\textbf{Aashish}\par
+\textbf{Aashish Kumar Mahato}\par
 \vspace{2cm}
 September 2026\par
 \vspace{1cm}

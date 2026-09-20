@@ -3,8 +3,9 @@
   "description": "ProcessMind is a research framework that fuses heterogeneous process knowledge sources (unstructured SOP text and structured event logs) into valid, conformance-checked BPMN 2.0 models. It implements five extractor configurations (deterministic rule parser E1, single-shot LLM E2, LLM with self-correction E3, DFG discovery E4, and a sound-by-construction Inductive Miner E6) evaluated under one identical-measures harness. Includes 162-test suite, 4-SOP/7-log corpus, and one-command reproducible evaluation.",
   "creators": [
     {
-      "name": "Aashish",
-      "affiliation": "Independent Researcher"
+      "name": "Mahato, Aashish Kumar",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0007-8952-6357"
     }
   ],
   "keywords": [

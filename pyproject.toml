@@ -9,7 +9,7 @@ description = "Enterprise AI Process Mining & BPMN Automation - a multi-agent pi
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Aashish" }]
+authors = [{ name = "Aashish Kumar Mahato" }]
 keywords = ["bpmn", "process-mining", "llm", "agents", "langgraph", "nlp"]
 dependencies = [
     "pydantic>=2.0",

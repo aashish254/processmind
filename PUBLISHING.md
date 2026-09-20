@@ -28,14 +28,14 @@ The repo is already committed locally. To publish it:
 #    Name: processmind   ·   Public   ·   DON'T check "Add README/.gitignore/License"
 #    (they already exist here)
 
-# 3. From this folder, connect and push (replace YOUR-USERNAME):
+# 3. From this folder, connect and push (replace aashish254):
 cd "/Users/aashish/Migrated_Caps/MASTERS CAP1"
-git remote add origin https://github.com/YOUR-USERNAME/processmind.git
+git remote add origin https://github.com/aashish254/processmind.git
 git branch -M main
 git push -u origin main
 ```
 
-4. Edit `CITATION.cff` and replace `YOUR-USERNAME` in `repository-code` with your real username, then `git add CITATION.cff && git commit -m "Set repository URL" && git push`.
+4. Edit `CITATION.cff` and replace `aashish254` in `repository-code` with your real username, then `git add CITATION.cff && git commit -m "Set repository URL" && git push`.
 
 **Why:** GitHub hosts the code publicly for free; it also auto-shows the "Cite this repository" button (powered by `CITATION.cff`).
 

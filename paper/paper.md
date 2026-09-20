@@ -1,6 +1,6 @@
 ---
 title: "One Pipeline, Five Extractors, One Harness: A Unified Benchmark for LLM-Based and Sound Process Discovery"
-author: "Aashish — Independent Researcher"
+author: "Aashish Kumar Mahato — Independent Researcher"
 date: "2026"
 geometry: margin=2.5cm
 fontsize: 11pt
@@ -9,7 +9,7 @@ numbersections: true
 
 **Keywords:** business process management, BPMN, process mining, large language models, multi-agent systems, process discovery, conformance checking
 
-**Repository (code, data, and one-command reproduction):** https://github.com/YOUR-USERNAME/processmind
+**Repository (code, data, and one-command reproduction):** https://github.com/aashish254/processmind
 
 # Introduction
 
