@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Aashish — Independent Researcher" />
+  <meta name="dcterms.date" content="2026-01-01" />
+  <title>One Pipeline, Five Extractors, One Harness: A Unified Benchmark for LLM-Based and Sound Process Discovery</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="paper.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">One Pipeline, Five Extractors, One Harness: A Unified
+Benchmark for LLM-Based and Sound Process Discovery</h1>
+<p class="author">Aashish — Independent Researcher</p>
+<p class="date">2026</p>
+</header>
+<p><strong>Keywords:</strong> business process management, BPMN, process
+mining, large language models, multi-agent systems, process discovery,
+conformance checking</p>
+<p><strong>Repository (code, data, and one-command
+reproduction):</strong> https://github.com/YOUR-USERNAME/processmind</p>
+<h1 data-number="1" id="introduction"><span
+class="header-section-number">1</span> Introduction</h1>
+<p>Business process knowledge lives in two artefacts that rarely agree.
+The <strong>documented process</strong> — standard operating procedures
+(SOPs), runbooks, and policy documents — is intent-rich but written for
+humans. The <strong>enacted process</strong> — event logs in ERP, CRM,
+and ITSM systems — is factual and machine-readable but blind to intent.
+Reconciling the two is the daily work of business and systems analysts,
+and it is slow: mapping a single process typically takes days to weeks
+of interviews and iterative validation (Mendling et al., 2010).</p>
+<p>Two research communities address halves of this problem without
+meeting. Process mining discovers models from event logs with formal
+guarantees (van der Aalst, 2016) but cannot read SOP text.
+Text-to-process extraction reads SOPs but, historically, produced models
+with structural-validity problems (Friedrich et al., 2011; van der Aa et
+al., 2019). Large language models (LLMs) have renewed interest in
+text-to-process extraction, yet recent work shows LLM-generated process
+models routinely exhibit structural faults — reversed gateways,
+unreachable nodes, deadlocks — even when they look plausible to a human
+reader (Bellan et al., 2023).</p>
+<p>What is missing is a way to compare these approaches fairly. Existing
+studies evaluate either a rule-based extractor, or an LLM extractor, or
+a discovery algorithm — but never all of them on identical inputs under
+identical measures. This paper closes that gap with a single question:
+<strong>can one pipeline fuse SOP text and event logs into valid,
+conformance-checked BPMN models, and how do deterministic, LLM-based,
+and mining-based extractors compare when measured
+identically?</strong></p>
+<p><strong>Contributions.</strong> We make three:</p>
+<ol type="1">
+<li><p><strong>A unified benchmark (E1–E6).</strong> Five extractor
+configurations — a deterministic rule parser (E1), single-shot LLM
+extraction (E2), LLM extraction with bounded validate-and-retry
+self-correction (E3), DFG discovery (E4), and a sound-by-construction
+Inductive Miner (E6) — evaluated under one harness with identical inputs
+and identical measures. To our knowledge this is the first commensurable
+comparison of these families.</p></li>
+<li><p><strong>An empirical soundness result.</strong> Across all seven
+event logs, the Inductive Miner’s replay fitness equals its variant
+coverage — the empirical signature of soundness-by-construction — while
+the DFG miner’s frequency thresholding trades up to 33 percentage points
+of fitness for readability on a 40%-noise log (0.667 vs 0.947).</p></li>
+<li><p><strong>A methodological finding on fallback
+transparency.</strong> Because the pipeline records the extraction
+method per run, we detected that a headline self-correction result was
+silently produced by a rule-parser fallback rather than the LLM. This
+changes the reported self-correction gain and yields a transferable
+lesson: <em>score only genuine LLM-path runs, and log the method, or
+benchmark results will be contaminated.</em></p></li>
+</ol>
+<p>The framework, ProcessMind, is fully open, deterministic offline, and
+reproducible with one command. A 162-test suite passes
+deterministically; every result in this paper can be regenerated from
+the repository.</p>
+<h1 data-number="2" id="background-and-related-work"><span
+class="header-section-number">2</span> Background and Related Work</h1>
+<p><strong>Process mining.</strong> Process discovery extracts models
+from event logs (van der Aalst, 2016). Directly-follows graph (DFG) and
+heuristic mining (Weijters &amp; van der Aalst, 2003) are fast but can
+produce unsound models; the Inductive Miner family (Leemans et al.,
+2013) guarantees sound, block-structured process trees by recursive
+xor/sequence/parallel/loop cuts. Conformance checking quantifies
+model–log agreement, most commonly by token-based replay fitness (van
+der Aalst et al., 2012). We use token-replay fitness throughout, and
+report variant coverage alongside it because fitness alone is a
+necessary-but-not-sufficient quality measure (a permissive “flower”
+model scores 1.0 on any log). Tooling is mature (ProM (van Dongen et
+al., 2005); PM4Py (Berti et al., 2019)), but all of it requires event
+logs and cannot process SOP text.</p>
+<p><strong>Text-to-process extraction.</strong> Early systems used
+syntactic pattern matching over control-flow cues (Friedrich et al.,
+2011); supervised sequence-labelling followed, with in-domain F1
+typically 0.6–0.8 and sharp degradation out-of-domain (van der Aa et
+al., 2019). The common thread is dependency on explicit markers and a
+priori meta-models — precisely the dependency our E1 baseline shares,
+and precisely where it breaks on unstructured text.</p>
+<p><strong>LLMs for BPM.</strong> LLMs promise to read unstructured
+operational text directly, but the structural-validity problem is now
+well documented: Bellan et al. (2023) show ChatGPT-generated process
+models frequently contain structural faults despite plausible
+appearance. A separate open question is whether multi-agent
+self-correction (validate → feedback → retry) reliably improves
+extraction over a single prompt; evidence is mixed (Shinn et al., 2024;
+Huang et al., 2024). Our E2-vs-E3 comparison contributes a controlled
+datapoint — and, unusually, a contamination caveat.</p>
+<p><strong>The gap.</strong> No existing study evaluates rule-based,
+LLM-based, and mining-based extraction under one harness on identical
+inputs with identical measures. That comparability is our
+contribution.</p>
+<h1 data-number="3" id="the-processmind-framework"><span
+class="header-section-number">3</span> The ProcessMind Framework</h1>
+<h2 data-number="3.1" id="design-stance"><span
+class="header-section-number">3.1</span> Design stance</h2>
+<p>The central design decision is to <strong>separate structure
+discovery from semantic enrichment</strong>. Control-flow structure —
+the soundness-critical element — comes from deterministic,
+provably-sound algorithms (the Inductive Miner) or from a deterministic
+rule parser. The LLM is confined to enrichment tasks (naming activities,
+inferring actors, proposing recommendations) where errors are
+recoverable and human-reviewable. Soundness is therefore a property of
+the algorithm, never of the LLM.</p>
+<h2 data-number="3.2" id="pipeline"><span
+class="header-section-number">3.2</span> Pipeline</h2>
+<p>Figure 1 shows the end-to-end pipeline. Inputs (SOP text; event logs)
+are normalised by an ingestion agent into a typed step stream
+(<code>IngestedDocument</code>). A modeler agent produces a
+<code>ProcessModel</code> (E1 rule parser offline, or E2/E3 LLM via an
+OpenAI-compatible endpoint). A structural validator checks the model
+(reachability, gateway direction, dangling nodes); on failure a bounded
+repair loop retries (max 2) with validation feedback. An optimizer agent
+produces bottleneck findings and an As-Is -&gt; To-Be transform. In
+parallel, event logs feed the DFG (E4) and Inductive Miner (E6)
+discovery paths. Outputs — BPMN 2.0 with a complete DI layer, draw.io,
+Mermaid, SVG, and a self-contained HTML analyst report — are gated by
+the evaluation harness.</p>
+<figure>
+<img src="figures/architecture.png" style="width:100.0%"
+alt="Figure 1: ProcessMind system architecture. SOPs and event logs are normalised, structured by the modeler agent with a bounded repair loop, mined in parallel by DFG (E4) and Inductive Miner (E6), and emitted as BPMN 2.0 + reports under the evaluation harness." />
+<figcaption aria-hidden="true">Figure 1: ProcessMind system
+architecture. SOPs and event logs are normalised, structured by the
+modeler agent with a bounded repair loop, mined in parallel by DFG (E4)
+and Inductive Miner (E6), and emitted as BPMN 2.0 + reports under the
+evaluation harness.</figcaption>
+</figure>
+<h2 data-number="3.3" id="the-five-extractor-configurations"><span
+class="header-section-number">3.3</span> The five extractor
+configurations</h2>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Config</th>
+<th>Source</th>
+<th>Mechanism</th>
+<th>Soundness guarantee</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E1</td>
+<td>SOP text</td>
+<td>Offline deterministic rule parser</td>
+<td>Structural validation only</td>
+</tr>
+<tr>
+<td>E2</td>
+<td>SOP text</td>
+<td>Schema-guided LLM (<code>qwen/qwen3-8b</code>), single-shot</td>
+<td>Validation + single pass</td>
+</tr>
+<tr>
+<td>E3</td>
+<td>SOP text</td>
+<td>E2 + bounded validate-&gt;feedback-&gt;retry (max 2)</td>
+<td>Validation + bounded retry</td>
+</tr>
+<tr>
+<td>E4</td>
+<td>Event log</td>
+<td>DFG discovery with frequency thresholding</td>
+<td>None (frequency heuristic)</td>
+</tr>
+<tr>
+<td>E6</td>
+<td>Event log</td>
+<td>Leemans-style xor-&gt;seq-&gt;par-&gt;loop cut hierarchy</td>
+<td>Sound by construction</td>
+</tr>
+</tbody>
+</table>
+<p><strong>E1</strong> is a frontier state machine over the step stream,
+detecting decisions via <code>if</code>/<code>otherwise</code>, parallel
+blocks via <code>while</code>/<code>meanwhile</code>, and rework loops
+via <code>returns to</code>. <strong>E2/E3</strong> use schema-guided
+prompting (full <code>ProcessModel</code> JSON schema, 3-5 in-context
+examples, JSON-only output) at temperature 0. <strong>E6</strong>
+applies recursive cuts with a soundness guard that rejects a parallel
+cut when any trace touches only one side of the partition, falling back
+to a flower model when no cut applies.</p>
+<h1 data-number="4" id="evaluation-setup"><span
+class="header-section-number">4</span> Evaluation Setup</h1>
+<p><strong>Corpus.</strong> Four SOPs (vendor onboarding, IT incident
+management, employee leave approval, and a deliberately messy real-world
+legacy IT purchase document) and seven event logs: two real SOP-log
+pairs, an XES variant, and four synthetic benchmark logs with planted
+ground truth (bottlenecks, rework loops, and a 40%-noise variant).</p>
+<p><strong>Measures.</strong> Extraction quality: task
+precision/recall/F1, actor F1, gateway-count error, and
+rework-loop-count error against hand-annotated gold models. Discovery
+soundness: token-replay fitness and variant coverage. Conformance:
+directly-follows (DF) precision/recall between documented and enacted
+models.</p>
+<p><strong>Harness.</strong> One command
+(<code>process_miner research-eval</code>) runs Experiment A (E1 vs
+gold) and Experiment B (E4 vs E6 on all seven logs) deterministically.
+LLM runs (E2/E3) used <code>qwen/qwen3-8b</code> via OpenRouter at
+temperature 0; the pipeline records the extraction method per run.</p>
+<h1 data-number="5" id="results"><span
+class="header-section-number">5</span> Results</h1>
+<h2 data-number="5.1" id="extraction-quality-e1-vs-e2-vs-e3"><span
+class="header-section-number">5.1</span> Extraction quality (E1 vs E2 vs
+E3)</h2>
+<p>Table 1 reports extraction quality against the gold models.</p>
+<p><strong>Table 1: Extraction quality vs gold (task F1 / actor
+F1).</strong></p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Document</th>
+<th>E1 rule</th>
+<th>E2 (1-shot)</th>
+<th>E3 (retry)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vendor Onboarding</td>
+<td><strong>1.00 / 1.00</strong></td>
+<td>0.87 / 1.00</td>
+<td>1.00020 / 1.00</td>
+</tr>
+<tr>
+<td>IT Incident Mgmt</td>
+<td><strong>1.00 / 1.00</strong></td>
+<td>0.77 / 0.89</td>
+<td>0.79 / 1.00</td>
+</tr>
+<tr>
+<td>Employee Leave</td>
+<td><strong>1.00 / 1.00</strong></td>
+<td>0.71 / 1.00</td>
+<td>0.80 / 1.00</td>
+</tr>
+<tr>
+<td>Legacy IT Purchase</td>
+<td>0.10 / 0.00</td>
+<td>0.48 / 0.83</td>
+<td><strong>0.50 / 1.00</strong></td>
+</tr>
+</tbody>
+</table>
+<p>020 See the transparency note below.</p>
+<p><strong>Finding 1 (document-dependence).</strong> The rule parser is
+perfect on controlled-vocabulary SOPs (F1 = 1.00 on all three) but
+collapses on unstructured text (F1 = 0.10). The LLM inverts this: it is
+worse than E1 on clean text (0.71-0.87) but recovers the messy document
+(0.48-0.50), a 4.8x improvement over E1 there. The optimal extractor is
+document-dependent.</p>
+<p><strong>Finding 2 (self-correction is real but modest).</strong> On
+genuine LLM-path runs, E3 improves over E2 on every document, by
+0.02-0.09 F1, and corrects actor assignments most reliably (e.g. 0.83
+-&gt; 1.00 on the legacy document). The mechanism fixes structural/actor
+errors more reliably than it recovers omitted tasks.</p>
+<p><strong>Finding 3 (the transparency caveat).</strong> The
+vendor-onboarding E3 run recorded <code>method = "offline-rules"</code>:
+the pipeline had fallen back to the deterministic rule parser after the
+LLM attempts did not validate. Its F1 = 1.00 therefore reflects the E1
+ceiling, not LLM self-correction. Because the method is logged per run,
+we detected and excluded this run from the E2-vs-E3 scoring (the genuine
+LLM-path gains are 0.02-0.09, not 0.13). Had the method not been
+recorded, the benchmark would have over-credited self-correction.</p>
+<h2 data-number="5.2" id="discovery-soundness-e4-vs-e6"><span
+class="header-section-number">5.2</span> Discovery soundness (E4 vs
+E6)</h2>
+<p><strong>Table 2: Replay fitness — E4 DFG vs E6 Inductive Miner
+(identical variant multisets).</strong></p>
+<table>
+<thead>
+<tr>
+<th>Log</th>
+<th>Cases</th>
+<th>E4 fitness</th>
+<th>E6 fitness</th>
+<th>E6 coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IT incident (csv)</td>
+<td>300</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>0.957</td>
+</tr>
+<tr>
+<td>Vendor onboarding</td>
+<td>250</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>0.940</td>
+</tr>
+<tr>
+<td>IT incident (xes)</td>
+<td>300</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>Invoice-to-Pay (syn)</td>
+<td>150</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>Order-to-Cash (syn)</td>
+<td>149</td>
+<td>0.919</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>Procurement (syn)</td>
+<td>150</td>
+<td>0.947</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>Noisy (40% syn)</td>
+<td>150</td>
+<td>0.667</td>
+<td><strong>0.947</strong></td>
+<td>0.947</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Finding 4 (soundness dividend).</strong> E6’s fitness equals
+its variant coverage on every log — the signature of a
+sound-by-construction miner. E4 matches E6 on clean logs but its
+frequency thresholding drops fitness on logs with meaningful variant
+spread, most sharply on the 40%-noise log (0.667 vs 0.947). The
+trade-off is real and application-dependent: E4 yields more readable
+models; E6 yields higher-fidelity ones. Figure 2 shows the E6-discovered
+model for the IT incident log.</p>
+<figure>
+<img src="figures/im_discovered_asis.png" style="width:100.0%"
+alt="Figure 2: IT incident As-Is BPMN model discovered from the event log by the Inductive Miner (E6); fitness 1.000 over 300 cases." />
+<figcaption aria-hidden="true">Figure 2: IT incident As-Is BPMN model
+discovered from the event log by the Inductive Miner (E6); fitness 1.000
+over 300 cases.</figcaption>
+</figure>
+<h2 data-number="5.3" id="conformance-and-to-be-generation"><span
+class="header-section-number">5.3</span> Conformance and To-Be
+generation</h2>
+<p>When an SOP and its log are both present, the pipeline aligns
+activities by token-stem matching and computes DF precision/recall
+between the documented and enacted models (IT incident: 82% recall;
+vendor onboarding: 50% recall), with vocabulary drift the dominant
+degradation source. Bottleneck evidence from the log (queue waits,
+rework rates) grounds the optimizer’s To-Be transforms: on vendor
+onboarding the estimated critical path fell 54 -&gt; 37 min (31%) and
+automation share rose 38% -&gt; 46%; on IT incident, 84 -&gt; 70 min
+(17%) and 27% -&gt; 40%. Figure 3 shows the As-Is / To-Be pair for
+vendor onboarding.</p>
+<figure>
+<img src="figures/vendor_onboarding_sop_asis.png" style="width:100.0%"
+alt="Figure 3: As-Is (top) and To-Be (bottom) BPMN models generated for the vendor onboarding SOP; the To-Be transform parallelises the approval chain and automates manual entry." />
+<figcaption aria-hidden="true">Figure 3: As-Is (top) and To-Be (bottom)
+BPMN models generated for the vendor onboarding SOP; the To-Be transform
+parallelises the approval chain and automates manual entry.</figcaption>
+</figure>
+<figure>
+<img src="figures/vendor_onboarding_sop_tobe.png" style="width:100.0%"
+alt="Figure 3 (continued): the To-Be model." />
+<figcaption aria-hidden="true">Figure 3 (continued): the To-Be
+model.</figcaption>
+</figure>
+<h1 data-number="6" id="discussion"><span
+class="header-section-number">6</span> Discussion</h1>
+<p><strong>The right tool depends on the document.</strong> The single
+clearest result is that no extractor dominates: E1 is unbeatable on
+controlled vocabulary and free (0 s, offline), while the LLM is the only
+viable option on unstructured text. This argues for a routing layer (a
+document-quality classifier) that dispatches each document to the
+appropriate extractor — a direct, buildable future extension.</p>
+<p><strong>Soundness is worth its cost.</strong> E6 produces more
+gateways than E4 (to preserve soundness) but never loses fitness to
+thresholding. Where behavioural fidelity matters (compliance, audit),
+that property dominates; where a clean presentation matters, E4’s
+readability is a legitimate choice.</p>
+<p><strong>A transferable methodological lesson.</strong> The
+fallback-transparency episode is, we argue, the most reusable finding.
+Any LLM pipeline with a deterministic fallback can silently contaminate
+a benchmark. Recording the extraction method per run — and scoring only
+genuine-path runs — is a cheap, general safeguard we recommend to the
+community.</p>
+<p><strong>Threats to validity.</strong> The corpus is small and three
+of four SOPs use controlled vocabulary, so the E1 ceiling is an upper
+bound, not a general result. A single open-weight LLM
+(<code>qwen/qwen3-8b</code>) was used; F1 values will differ for larger
+frontier models, though we expect the qualitative ordering (rule &gt;
+LLM on clean text; LLM &gt; rule on messy text) to hold. The legacy
+document is one proxy for external validity. We mitigate by releasing
+the full corpus, gold annotations, and harness for replication.</p>
+<h1 data-number="7" id="conclusion"><span
+class="header-section-number">7</span> Conclusion</h1>
+<p>We presented ProcessMind, a unified framework and benchmark that
+fuses SOP text and event logs into valid, conformance-checked BPMN 2.0
+models, comparing five extractor configurations under identical
+measures. The results show a clear document-dependence (rule parser on
+clean text, LLM on messy text), an empirical soundness dividend for the
+Inductive Miner (fitness = coverage on all seven logs), and a modest but
+real self-correction gain (0.02-0.09 F1) — together with a
+methodological caution about fallback contamination that we believe is
+broadly applicable. All code, data, and the one-command harness are
+openly available.</p>
+<h1 data-number="8" id="references"><span
+class="header-section-number">8</span> References</h1>
+<p>Bellan, R., Dragoni, M., Ghidini, C., Ponzetto, S. P., &amp; van der
+Aalst, W. M. P. (2023). Process modeling in the ChatGPT era: A critical
+analysis of large language model-generated process models. <em>Real-Time
+Business Process Management Workshop</em>.</p>
+<p>Berti, A., van der Aalst, W. M. P., &amp; Vedagiram, P. (2019).
+PM4Py: A process mining library for Python.
+<em>arXiv:1903.10773</em>.</p>
+<p>Dumas, M., La Rosa, M., Mendling, J., &amp; Reijers, H. A. (2018).
+<em>Fundamentals of Business Process Management</em> (2nd ed.).
+Springer.</p>
+<p>Friedrich, F., Mendling, J., &amp; Puhlmann, F. (2011). Process model
+generation from natural language text. <em>CAiSE 2011</em>, LNCS 6741,
+482-496. Springer.</p>
+<p>Huang, J., et al. (2024). Large language models cannot self-correct
+reasoning yet. <em>ICLR 2024</em>.</p>
+<p>Leemans, S. J. J., van der Aalst, W. M. P., &amp; van Montfort, T.
+(2013). Discovery of probabilistic sound process trees. <em>Information
+Sciences</em>, 315, 88-107.</p>
+<p>Mendling, J., Reijers, H. A., &amp; van der Aalst, W. M. P. (2010).
+Seven process modeling guidelines (7PMG). <em>Information and Software
+Technology</em>, 52(2), 127-136.</p>
+<p>Shinn, N., et al. (2024). Reflexion: Language agents with verbal
+reinforcement learning. <em>NeurIPS 2023</em>.</p>
+<p>van der Aa, H., Di Ciccio, C., Leopold, H., &amp; Reijers, H. A.
+(2019). Extracting declarative process models from natural language.
+<em>CAiSE 2019</em>, LNCS 11483, 365-382. Springer.</p>
+<p>van der Aalst, W. M. P. (2016). <em>Process Mining: Data Science in
+Action</em> (2nd ed.). Springer.</p>
+<p>van der Aalst, W. M. P., et al. (2012). Process mining: A two-stage
+approach using frequency and coverage. <em>Information Systems</em>,
+37(2), 116-138.</p>
+<p>van Dongen, B. F., de Medeiros, A. K. A., &amp; Song, M. (2005). The
+ProM framework: A new era in process mining tool support.
+<em>Applications and Theory of Petri Nets</em>, 435-454.</p>
+<p>Weijters, A. J. M. M., &amp; van der Aalst, W. M. P. (2003).
+Rediscovering workflow models from event-based data. <em>ECIS
+2003</em>.</p>
+<p>Wohlin, C., et al. (2012). <em>Experimentation in Software
+Engineering</em>. Springer.</p>
+</body>
+</html>
