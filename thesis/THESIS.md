@@ -730,12 +730,12 @@ When the pipeline is run with both an SOP document and its corresponding event l
 
 | SOP-Log Pair | Activities Matched | Total Gold Activities | DF Precision | DF Recall |
 |---|---|---|---|---|
-| IT Incident | 11 | 15 | 47% | 82% |
-| Vendor Onboarding | 9 | 13 | 31% | 50% |
+| IT Incident | 10 | 12 | 56% | 100% |
+| Vendor Onboarding | 7 | 10 | 25% | 33% |
 
 *DF precision = fraction of documented DF relations found in the log. DF recall = fraction of log DF relations found in the documented model.*
 
-IT incident shows better conformance alignment (82% recall) than vendor onboarding (50% recall). The primary driver is vocabulary drift: the IT incident SOP uses terminology ("Investigate Issue", "Apply Standard Fix") that closely mirrors the log activity names, while the vendor onboarding SOP's narrative phrasing ("Perform Background Screening") diverges from the log's system vocabulary ("Compliance Screening"). This is the expected vocabulary gap effect — and the primary motivation for embedding-based activity matching as future work.
+IT incident shows better conformance alignment (100% recall) than vendor onboarding (33% recall). The primary driver is vocabulary drift: the IT incident SOP uses terminology ("Investigate Issue", "Apply Standard Fix") that closely mirrors the log activity names, while the vendor onboarding SOP's narrative phrasing ("Perform Background Screening") diverges from the log's system vocabulary ("Compliance Screening"). This is the expected vocabulary gap effect — and the primary motivation for embedding-based activity matching as future work.
 
 ### 5.3.2 Bottleneck Detection
 
@@ -759,7 +759,7 @@ These models are not hand-drawn illustrations — they are the actual artefacts 
 
 ### 5.3.4 Summary: RQ5
 
-Documented-vs-enacted drift is detected and quantified at the activity level (token-stem alignment) and the control-flow level (DF precision/recall). The vocabulary gap is the dominant source of low conformance scores (IT incident: 82% recall; vendor onboarding: 50% recall), confirming that token-stem matching is an insufficient alignment method for documents where SOP vocabulary and log vocabulary diverge. Bottleneck evidence from the log (queue waits, rework rates) successfully grounds the To-Be recommendations: the estimated critical path reduction is 17–31%, with automation share improvement of 8–13 percentage points.
+Documented-vs-enacted drift is detected and quantified at the activity level (token-stem alignment) and the control-flow level (DF precision/recall). The vocabulary gap is the dominant source of low conformance scores (IT incident: 100% recall; vendor onboarding: 33% recall), confirming that token-stem matching is an insufficient alignment method for documents where SOP vocabulary and log vocabulary diverge. Bottleneck evidence from the log (queue waits, rework rates) successfully grounds the To-Be recommendations: the estimated critical path reduction is 17–31%, with automation share improvement of 8–13 percentage points.
 
 ---
 
@@ -771,7 +771,7 @@ Documented-vs-enacted drift is detected and quantified at the activity level (to
 | RQ2 | Rule vs LLM comparison | Rule parser (E1) dominates on controlled vocabulary (1.00 vs 0.71–0.87); LLM (E2) dominates on unstructured documents (0.48 vs 0.10). Optimal extractor is document-dependent. |
 | RQ3 | Self-correction effectiveness | E3 consistently improves over E2 by 0.02–0.09 F1 points on valid LLM-path runs. Largest gain on employee leave (+0.09); marginal on unstructured text (legacy: +0.02). |
 | RQ4 | DFG vs Inductive Miner trade-off | E6 consistently matches or exceeds E4 on fitness. E4's frequency thresholding causes fitness loss of 0–33% (mean 8%). Noisy logs show the maximum gap (0.667 vs 0.947). E6's soundness-by-construction property is empirically confirmed. |
-| RQ5 | Automated drift detection and To-Be generation | Activity alignment detects vocabulary drift (IT incident: 82% recall; vendor: 50% recall). Bottleneck-grounded optimisation reduces estimated critical path by 17–31% with 8–13 pp automation improvement. |
+| RQ5 | Automated drift detection and To-Be generation | Activity alignment detects vocabulary drift (IT incident: 100% recall; vendor: 33% recall). Bottleneck-grounded optimisation reduces estimated critical path by 17–31% with 8–13 pp automation improvement. |
 
 ---
 
@@ -827,7 +827,7 @@ E4's frequency-thresholded DFG trades this guarantee for readability. On the noi
 
 ### 6.1.5 Vocabulary Drift as the Dominant Conformance Problem
 
-IT incident (82% DF recall) and vendor onboarding (50% DF recall) differ primarily in vocabulary alignment, not process structure. The activities in the IT incident SOP and log share surface vocabulary ("Investigate Issue", "Apply Standard Fix"); the activities in the vendor onboarding SOP and log do not ("Perform Background Screening" vs "Compliance Screening"). The 32 percentage-point gap in recall is attributable to this mismatch.
+IT incident (100% DF recall) and vendor onboarding (33% DF recall) differ primarily in vocabulary alignment, not process structure. The activities in the IT incident SOP and log share surface vocabulary ("Investigate Issue", "Apply Standard Fix"); the activities in the vendor onboarding SOP and log do not ("Perform Background Screening" vs "Compliance Screening"). The 67 percentage-point gap in recall is attributable to this mismatch.
 
 This confirms the limitation of token-stem matching for activity alignment and motivates the embedding-based approach identified in the research plan: sentence-embedding similarity (e.g., using a model fine-tuned on process terminology) would align "Perform Background Screening" with "Compliance Screening" at high similarity even though their lexical overlap is low.
 
@@ -939,7 +939,7 @@ This thesis investigated the question of whether heterogeneous process knowledge
 
 **RQ4 (DFG vs Inductive Miner):** The Inductive Miner (E6) consistently matches or exceeds the DFG miner (E4) on token-replay fitness across all seven event logs. E6's fitness = variant coverage property holds throughout, confirming the soundness-by-construction guarantee empirically. E4's frequency thresholding causes fitness losses of up to 33% on noisy logs, but produces more compact models (fewer gateways). The trade-off is real and application-dependent.
 
-**RQ5 (Automated drift detection and To-Be generation):** Documented-versus-enacted drift is detected and quantified at both the activity and control-flow levels. Token-stem matching achieves 50–82% DF recall, with vocabulary drift as the dominant degradation source. Bottleneck evidence from event logs (queue wait times, rework rates) successfully grounds To-Be recommendations: 17–31% estimated critical path reduction, 8–13 percentage-point automation improvement.
+**RQ5 (Automated drift detection and To-Be generation):** Documented-versus-enacted drift is detected and quantified at both the activity and control-flow levels. Token-stem matching achieves 33–100% DF recall, with vocabulary drift as the dominant degradation source. Bottleneck evidence from event logs (queue wait times, rework rates) successfully grounds To-Be recommendations: 17–31% estimated critical path reduction, 8–13 percentage-point automation improvement.
 
 ---
 
@@ -1053,41 +1053,6 @@ Figure A.1 shows the As-Is BPMN model produced by the offline rule parser (E1) f
 *Generated file:* `outputs/demo/vendor_onboarding_sop_asis.svg`
 
 ![Figure A.1: Vendor Onboarding As-Is BPMN model generated by the pipeline (E1 extraction, F1 = 1.00). Rendered from `outputs/demo/vendor_onboarding_sop_asis.svg`.](figures/vendor_onboarding_sop_asis.png){width=100%}
-┌─ POOL: Vendor Onboarding ─────────────────────────────────┐
-│                                                           │
-│  [S]──►│ Vendor Initiation │                             │
-│         └────┬──────────────┬────────────────────► [E]    │
-│                │            │                              │
-│                ▼            │                              │
-│         │ Collect Info │                                  │
-│                │            │                              │
-│         ┌─────┴────────────┴─────┐                       │
-│         ▼                           ▼                    │
-│   [Compliance Screening]    [Financial Risk Assess]        │
-│   │ (AND parallel)          │                             │
-│   └─────┬───────────────────┘                             │
-│         ▼                                                 │
-│    │ Review Submission │                                   │
-│         │                                             │
-│    ┌───┴───┐                                          │
-│    ▼       ▼                                           │
-│  [Reject]  ▼                                           │
-│            │ Notify Vendor Rejection │                   │
-│            └──────────────────────────────────► [E]      │
-│                                                          │
-│    (continues to:)                                       │
-│                                                          │
-│    │ Approve & Create Account │                            │
-│            │                                              │
-│    ┌───────┴───────┐                                     │
-│    ▼               ▼                                     │
-│  [No Audit]  │ Conduct Audit │                           │
-│    │              │                                     │
-│    └──────┬───────┘                                     │
-│           ▼                                               │
-│    │ Provision Access │──────► [E]                       │
-└───────────────────────────────────────────────────────────┘
-```
 
 **Model characteristics extracted by E1:**
 - Start and end events ✓
@@ -1182,17 +1147,19 @@ Figure A.3 shows the conformance drift report for the vendor onboarding SOP-log 
 ```
 CONFORMANCE REPORT — Vendor Onboarding SOP vs vendor_onboarding_events.csv
 ========================================================================
-Activities matched: 9 / 13 gold activities (DF recall: 50%)
-  ✓ Matched: Log the requisition, Attach vendor quote, Check budget...
-  ✗ Missed: Perform background screening, Conduct financial review...
+Activities matched: 7 / 10 documented activities (trace fitness: 37%)
+  ✓ Matched: Review Application, Financial Risk Assessment,
+             Reject Application, Create Vendor Record, ...
+  ✗ Missed: Approve Compliance Findings, Evaluate Financial Documents,
+             Notify Vendor to Resubmit
 
-DF Precision: 31% (9 of 29 documented flows found in log)
-DF Recall:    50% (9 of 18 log flows found in documented model)
+DF Precision: 25% (documented flows found in log)
+DF Recall:    33% (log flows found in documented model)
 
 Drift classification:
-  documented-not-enacted: 4 activities (in SOP, not in log)
-  enacted-not-documented: 2 activities (in log, not in SOP)
-  sequence-mismatch: 3 flows (both present, different order)
+  documented-not-enacted: 3 activities (in SOP, not in log)
+  enacted-not-documented: 4 activities (in log, not in SOP)
+  sequence-mismatch:      9 documented-only / 6 enacted-only flows
 
 Root cause: vocabulary gap ("Perform background screening" ≠ "Compliance Screening")
 ```

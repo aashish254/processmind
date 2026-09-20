@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc 3.11" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="Aashish" />
+  <meta name="author" content="Aashish Kumar Mahato" />
   <meta name="keywords" content="business process
 management, BPMN, process mining, LLM, multi-agent systems" />
   <title>LLM-Assisted Business Process Discovery</title>
@@ -102,7 +102,7 @@ management, BPMN, process mining, LLM, multi-agent systems" />
 <h1 class="title">LLM-Assisted Business Process Discovery</h1>
 <p class="subtitle">Combining Multi-Agent Extraction with Sound Process
 Mining for Automated BPMN Reconstruction</p>
-<p class="author">Aashish</p>
+<p class="author">Aashish Kumar Mahato</p>
 <p class="date">September 2026</p>
 <div class="abstract">
 <div class="abstract-title">Abstract</div>
@@ -127,215 +127,182 @@ recommendations reduce estimated critical path by 17–31%.</p>
 <nav id="TOC" role="doc-toc">
 <ul>
 <li><a href="#chapter-1-introduction"
-id="toc-chapter-1-introduction"><span
-class="toc-section-number">1</span> Chapter 1: Introduction</a>
+id="toc-chapter-1-introduction">Chapter 1: Introduction</a>
 <ul>
-<li><a href="#problem-statement" id="toc-problem-statement"><span
-class="toc-section-number">1.1</span> 1.1 Problem Statement</a></li>
-<li><a href="#research-questions" id="toc-research-questions"><span
-class="toc-section-number">1.2</span> 1.2 Research Questions</a></li>
-<li><a href="#aim-and-objectives" id="toc-aim-and-objectives"><span
-class="toc-section-number">1.3</span> 1.3 Aim and Objectives</a></li>
-<li><a href="#contributions" id="toc-contributions"><span
-class="toc-section-number">1.4</span> 1.4 Contributions</a></li>
-<li><a href="#thesis-structure" id="toc-thesis-structure"><span
-class="toc-section-number">1.5</span> 1.5 Thesis Structure</a></li>
+<li><a href="#problem-statement" id="toc-problem-statement">1.1 Problem
+Statement</a></li>
+<li><a href="#research-questions" id="toc-research-questions">1.2
+Research Questions</a></li>
+<li><a href="#aim-and-objectives" id="toc-aim-and-objectives">1.3 Aim
+and Objectives</a></li>
+<li><a href="#contributions" id="toc-contributions">1.4
+Contributions</a></li>
+<li><a href="#thesis-structure" id="toc-thesis-structure">1.5 Thesis
+Structure</a></li>
 </ul></li>
 <li><a href="#chapter-2-literature-review"
-id="toc-chapter-2-literature-review"><span
-class="toc-section-number">2</span> Chapter 2: Literature Review</a>
+id="toc-chapter-2-literature-review">Chapter 2: Literature Review</a>
 <ul>
 <li><a href="#business-process-management-and-bpmn"
-id="toc-business-process-management-and-bpmn"><span
-class="toc-section-number">2.1</span> 2.1 Business Process Management
-and BPMN</a></li>
+id="toc-business-process-management-and-bpmn">2.1 Business Process
+Management and BPMN</a></li>
 <li><a href="#process-mining-discovery-conformance-and-enhancement"
-id="toc-process-mining-discovery-conformance-and-enhancement"><span
-class="toc-section-number">2.2</span> 2.2 Process Mining: Discovery,
-Conformance, and Enhancement</a></li>
+id="toc-process-mining-discovery-conformance-and-enhancement">2.2
+Process Mining: Discovery, Conformance, and Enhancement</a></li>
 <li><a href="#text-to-process-extraction"
-id="toc-text-to-process-extraction"><span
-class="toc-section-number">2.3</span> 2.3 Text-to-Process
+id="toc-text-to-process-extraction">2.3 Text-to-Process
 Extraction</a></li>
 <li><a href="#large-language-models-for-business-process-management"
-id="toc-large-language-models-for-business-process-management"><span
-class="toc-section-number">2.4</span> 2.4 Large Language Models for
-Business Process Management</a></li>
+id="toc-large-language-models-for-business-process-management">2.4 Large
+Language Models for Business Process Management</a></li>
 <li><a href="#research-gap-and-thesis-positioning"
-id="toc-research-gap-and-thesis-positioning"><span
-class="toc-section-number">2.5</span> 2.5 Research Gap and Thesis
+id="toc-research-gap-and-thesis-positioning">2.5 Research Gap and Thesis
 Positioning</a></li>
-<li><a href="#chapter-summary" id="toc-chapter-summary"><span
-class="toc-section-number">2.6</span> 2.6 Chapter Summary</a></li>
+<li><a href="#chapter-summary" id="toc-chapter-summary">2.6 Chapter
+Summary</a></li>
 </ul></li>
 <li><a href="#chapter-3-research-methodology"
-id="toc-chapter-3-research-methodology"><span
-class="toc-section-number">3</span> Chapter 3: Research Methodology</a>
+id="toc-chapter-3-research-methodology">Chapter 3: Research
+Methodology</a>
 <ul>
-<li><a href="#research-design" id="toc-research-design"><span
-class="toc-section-number">3.1</span> 3.1 Research Design</a></li>
-<li><a href="#corpus" id="toc-corpus"><span
-class="toc-section-number">3.2</span> 3.2 Corpus</a></li>
+<li><a href="#research-design" id="toc-research-design">3.1 Research
+Design</a></li>
+<li><a href="#corpus" id="toc-corpus">3.2 Corpus</a></li>
 <li><a href="#gold-standard-annotation"
-id="toc-gold-standard-annotation"><span
-class="toc-section-number">3.3</span> 3.3 Gold Standard
-Annotation</a></li>
+id="toc-gold-standard-annotation">3.3 Gold Standard Annotation</a></li>
 <li><a href="#extractor-configurations"
-id="toc-extractor-configurations"><span
-class="toc-section-number">3.4</span> 3.4 Extractor
-Configurations</a></li>
-<li><a href="#measures" id="toc-measures"><span
-class="toc-section-number">3.5</span> 3.5 Measures</a></li>
-<li><a href="#statistical-analysis" id="toc-statistical-analysis"><span
-class="toc-section-number">3.6</span> 3.6 Statistical Analysis</a></li>
+id="toc-extractor-configurations">3.4 Extractor Configurations</a></li>
+<li><a href="#measures" id="toc-measures">3.5 Measures</a></li>
+<li><a href="#statistical-analysis" id="toc-statistical-analysis">3.6
+Statistical Analysis</a></li>
 </ul></li>
 <li><a href="#chapter-4-system-design"
-id="toc-chapter-4-system-design"><span
-class="toc-section-number">4</span> Chapter 4: System Design</a>
+id="toc-chapter-4-system-design">Chapter 4: System Design</a>
 <ul>
-<li><a href="#design-principles" id="toc-design-principles"><span
-class="toc-section-number">4.1</span> 4.1 Design Principles</a></li>
-<li><a href="#pipeline-architecture"
-id="toc-pipeline-architecture"><span
-class="toc-section-number">4.2</span> 4.2 Pipeline Architecture</a></li>
-<li><a href="#the-ingestion-agent" id="toc-the-ingestion-agent"><span
-class="toc-section-number">4.3</span> 4.3 The Ingestion Agent</a></li>
+<li><a href="#design-principles" id="toc-design-principles">4.1 Design
+Principles</a></li>
+<li><a href="#pipeline-architecture" id="toc-pipeline-architecture">4.2
+Pipeline Architecture</a></li>
+<li><a href="#the-ingestion-agent" id="toc-the-ingestion-agent">4.3 The
+Ingestion Agent</a></li>
 <li><a href="#the-process-modeler-agent"
-id="toc-the-process-modeler-agent"><span
-class="toc-section-number">4.4</span> 4.4 The Process Modeler
+id="toc-the-process-modeler-agent">4.4 The Process Modeler
 Agent</a></li>
 <li><a href="#structural-validation-and-auto-repair"
-id="toc-structural-validation-and-auto-repair"><span
-class="toc-section-number">4.5</span> 4.5 Structural Validation and
-Auto-Repair</a></li>
-<li><a href="#bpmn-engineering" id="toc-bpmn-engineering"><span
-class="toc-section-number">4.6</span> 4.6 BPMN Engineering</a></li>
+id="toc-structural-validation-and-auto-repair">4.5 Structural Validation
+and Auto-Repair</a></li>
+<li><a href="#bpmn-engineering" id="toc-bpmn-engineering">4.6 BPMN
+Engineering</a></li>
 <li><a href="#the-mining-pathway-e4-e6"
-id="toc-the-mining-pathway-e4-e6"><span
-class="toc-section-number">4.7</span> 4.7 The Mining Pathway (E4,
+id="toc-the-mining-pathway-e4-e6">4.7 The Mining Pathway (E4,
 E6)</a></li>
-<li><a href="#orchestration-engines"
-id="toc-orchestration-engines"><span
-class="toc-section-number">4.8</span> 4.8 Orchestration Engines</a></li>
+<li><a href="#orchestration-engines" id="toc-orchestration-engines">4.8
+Orchestration Engines</a></li>
 <li><a href="#the-optimization-agent"
-id="toc-the-optimization-agent"><span
-class="toc-section-number">4.9</span> 4.9 The Optimization
-Agent</a></li>
-<li><a href="#export-pipeline" id="toc-export-pipeline"><span
-class="toc-section-number">4.10</span> 4.10 Export Pipeline</a></li>
+id="toc-the-optimization-agent">4.9 The Optimization Agent</a></li>
+<li><a href="#export-pipeline" id="toc-export-pipeline">4.10 Export
+Pipeline</a></li>
 <li><a href="#configuration-and-environment"
-id="toc-configuration-and-environment"><span
-class="toc-section-number">4.11</span> 4.11 Configuration and
+id="toc-configuration-and-environment">4.11 Configuration and
 Environment</a></li>
 </ul></li>
-<li><a href="#chapter-5-results" id="toc-chapter-5-results"><span
-class="toc-section-number">5</span> Chapter 5: Results</a>
+<li><a href="#chapter-5-results" id="toc-chapter-5-results">Chapter 5:
+Results</a>
 <ul>
 <li><a href="#extraction-quality-e1-e2-e3-vs-gold-rq1-rq2-rq3"
-id="toc-extraction-quality-e1-e2-e3-vs-gold-rq1-rq2-rq3"><span
-class="toc-section-number">5.1</span> 5.1 Extraction Quality: E1, E2, E3
-vs Gold (RQ1, RQ2, RQ3)</a></li>
+id="toc-extraction-quality-e1-e2-e3-vs-gold-rq1-rq2-rq3">5.1 Extraction
+Quality: E1, E2, E3 vs Gold (RQ1, RQ2, RQ3)</a></li>
 <li><a href="#discovery-soundness-e4-dfg-vs-e6-inductive-miner-rq4"
-id="toc-discovery-soundness-e4-dfg-vs-e6-inductive-miner-rq4"><span
-class="toc-section-number">5.2</span> 5.2 Discovery Soundness: E4 DFG vs
-E6 Inductive Miner (RQ4)</a></li>
+id="toc-discovery-soundness-e4-dfg-vs-e6-inductive-miner-rq4">5.2
+Discovery Soundness: E4 DFG vs E6 Inductive Miner (RQ4)</a></li>
 <li><a href="#conformance-and-drift-detection-rq5"
-id="toc-conformance-and-drift-detection-rq5"><span
-class="toc-section-number">5.3</span> 5.3 Conformance and Drift
+id="toc-conformance-and-drift-detection-rq5">5.3 Conformance and Drift
 Detection (RQ5)</a></li>
 <li><a href="#summary-of-research-question-answers"
-id="toc-summary-of-research-question-answers"><span
-class="toc-section-number">5.4</span> 5.4 Summary of Research Question
-Answers</a></li>
+id="toc-summary-of-research-question-answers">5.4 Summary of Research
+Question Answers</a></li>
 <li><a href="#threats-to-validity-summary"
-id="toc-threats-to-validity-summary"><span
-class="toc-section-number">5.5</span> 5.5 Threats to Validity
+id="toc-threats-to-validity-summary">5.5 Threats to Validity
 (Summary)</a></li>
 </ul></li>
-<li><a href="#chapter-6-discussion" id="toc-chapter-6-discussion"><span
-class="toc-section-number">6</span> Chapter 6: Discussion</a>
+<li><a href="#chapter-6-discussion"
+id="toc-chapter-6-discussion">Chapter 6: Discussion</a>
 <ul>
 <li><a href="#interpretation-of-findings"
-id="toc-interpretation-of-findings"><span
-class="toc-section-number">6.1</span> 6.1 Interpretation of
+id="toc-interpretation-of-findings">6.1 Interpretation of
 Findings</a></li>
-<li><a href="#threats-to-validity" id="toc-threats-to-validity"><span
-class="toc-section-number">6.2</span> 6.2 Threats to Validity</a></li>
-<li><a href="#limitations" id="toc-limitations"><span
-class="toc-section-number">6.3</span> 6.3 Limitations</a></li>
-<li><a href="#implications" id="toc-implications"><span
-class="toc-section-number">6.4</span> 6.4 Implications</a></li>
-<li><a href="#future-work" id="toc-future-work"><span
-class="toc-section-number">6.5</span> 6.5 Future Work</a></li>
+<li><a href="#threats-to-validity" id="toc-threats-to-validity">6.2
+Threats to Validity</a></li>
+<li><a href="#limitations" id="toc-limitations">6.3 Limitations</a></li>
+<li><a href="#implications" id="toc-implications">6.4
+Implications</a></li>
+<li><a href="#future-work" id="toc-future-work">6.5 Future Work</a></li>
 </ul></li>
-<li><a href="#chapter-7-conclusion" id="toc-chapter-7-conclusion"><span
-class="toc-section-number">7</span> Chapter 7: Conclusion</a>
+<li><a href="#chapter-7-conclusion"
+id="toc-chapter-7-conclusion">Chapter 7: Conclusion</a>
 <ul>
-<li><a href="#summary-of-findings" id="toc-summary-of-findings"><span
-class="toc-section-number">7.1</span> 7.1 Summary of Findings</a></li>
-<li><a href="#contributions-1" id="toc-contributions-1"><span
-class="toc-section-number">7.2</span> 7.2 Contributions</a></li>
-<li><a href="#limitations-1" id="toc-limitations-1"><span
-class="toc-section-number">7.3</span> 7.3 Limitations</a></li>
-<li><a href="#future-work-1" id="toc-future-work-1"><span
-class="toc-section-number">7.4</span> 7.4 Future Work</a></li>
-<li><a href="#closing-remarks" id="toc-closing-remarks"><span
-class="toc-section-number">7.5</span> 7.1 Closing Remarks</a></li>
+<li><a href="#summary-of-findings" id="toc-summary-of-findings">7.1
+Summary of Findings</a></li>
+<li><a href="#contributions-1" id="toc-contributions-1">7.2
+Contributions</a></li>
+<li><a href="#limitations-1" id="toc-limitations-1">7.3
+Limitations</a></li>
+<li><a href="#future-work-1" id="toc-future-work-1">7.4 Future
+Work</a></li>
+<li><a href="#closing-remarks" id="toc-closing-remarks">7.1 Closing
+Remarks</a></li>
 </ul></li>
-<li><a href="#references" id="toc-references"><span
-class="toc-section-number">8</span> References</a></li>
+<li><a href="#references" id="toc-references">References</a></li>
 <li><a href="#appendix-a-system-outputs-and-evidence"
-id="toc-appendix-a-system-outputs-and-evidence"><span
-class="toc-section-number">9</span> Appendix A: System Outputs and
-Evidence</a>
+id="toc-appendix-a-system-outputs-and-evidence">Appendix A: System
+Outputs and Evidence</a>
 <ul>
 <li><a href="#a.1-bpmn-model-evidence-vendor-onboarding-e1-extraction"
-id="toc-a.1-bpmn-model-evidence-vendor-onboarding-e1-extraction"><span
-class="toc-section-number">9.1</span> A.1 BPMN Model Evidence: Vendor
-Onboarding (E1 Extraction)</a></li>
-</ul></li>
-<li><a
-href="#conformance-report-vendor-onboarding-sop-vs-vendor_onboarding_events.csv"
-id="toc-conformance-report-vendor-onboarding-sop-vs-vendor_onboarding_events.csv"><span
-class="toc-section-number">10</span> CONFORMANCE REPORT — Vendor
-Onboarding SOP vs vendor_onboarding_events.csv</a>
-<ul>
+id="toc-a.1-bpmn-model-evidence-vendor-onboarding-e1-extraction">A.1
+BPMN Model Evidence: Vendor Onboarding (E1 Extraction)</a></li>
+<li><a href="#a.2-html-analyst-report-vendor-onboarding"
+id="toc-a.2-html-analyst-report-vendor-onboarding">A.2 HTML Analyst
+Report (Vendor Onboarding)</a></li>
+<li><a href="#a.3-research-evaluation-extraction-results-rq1-rq2-rq3"
+id="toc-a.3-research-evaluation-extraction-results-rq1-rq2-rq3">A.3
+Research Evaluation: Extraction Results (RQ1, RQ2, RQ3)</a></li>
+<li><a href="#a.4-discovery-soundness-e4-dfg-vs-e6-inductive-miner-rq4"
+id="toc-a.4-discovery-soundness-e4-dfg-vs-e6-inductive-miner-rq4">A.4
+Discovery Soundness: E4 DFG vs E6 Inductive Miner (RQ4)</a></li>
+<li><a href="#a.5-conformance-report-vendor-onboarding"
+id="toc-a.5-conformance-report-vendor-onboarding">A.5 Conformance
+Report: Vendor Onboarding</a></li>
+<li><a href="#a.6-bpmn-xml-sample-invoice-to-pay-inductive-miner"
+id="toc-a.6-bpmn-xml-sample-invoice-to-pay-inductive-miner">A.6 BPMN XML
+Sample (Invoice-to-Pay — Inductive Miner)</a></li>
 <li><a href="#a.7-test-suite-evidence"
-id="toc-a.7-test-suite-evidence"><span
-class="toc-section-number">10.1</span> A.7 Test Suite Evidence</a></li>
+id="toc-a.7-test-suite-evidence">A.7 Test Suite Evidence</a></li>
 </ul></li>
 <li><a href="#appendix-b-complete-evaluation-data"
-id="toc-appendix-b-complete-evaluation-data"><span
-class="toc-section-number">11</span> Appendix B: Complete Evaluation
-Data</a>
+id="toc-appendix-b-complete-evaluation-data">Appendix B: Complete
+Evaluation Data</a>
 <ul>
 <li><a
 href="#b.1-extraction-evaluation-per-document-results-experiment-a"
-id="toc-b.1-extraction-evaluation-per-document-results-experiment-a"><span
-class="toc-section-number">11.1</span> B.1 Extraction Evaluation:
-Per-Document Results (Experiment A)</a></li>
+id="toc-b.1-extraction-evaluation-per-document-results-experiment-a">B.1
+Extraction Evaluation: Per-Document Results (Experiment A)</a></li>
 <li><a href="#b.2-e2e3-llm-comparison-complete-per-document-data"
-id="toc-b.2-e2e3-llm-comparison-complete-per-document-data"><span
-class="toc-section-number">11.2</span> B.2 E2/E3 LLM Comparison:
-Complete Per-Document Data</a></li>
+id="toc-b.2-e2e3-llm-comparison-complete-per-document-data">B.2 E2/E3
+LLM Comparison: Complete Per-Document Data</a></li>
 <li><a
 href="#b.3-discovery-evaluation-complete-per-log-data-experiment-b"
-id="toc-b.3-discovery-evaluation-complete-per-log-data-experiment-b"><span
-class="toc-section-number">11.3</span> B.3 Discovery Evaluation:
-Complete Per-Log Data (Experiment B)</a></li>
+id="toc-b.3-discovery-evaluation-complete-per-log-data-experiment-b">B.3
+Discovery Evaluation: Complete Per-Log Data (Experiment B)</a></li>
 <li><a href="#b.4-gold-standard-models-summary"
-id="toc-b.4-gold-standard-models-summary"><span
-class="toc-section-number">11.4</span> B.4 Gold Standard Models
+id="toc-b.4-gold-standard-models-summary">B.4 Gold Standard Models
 (Summary)</a></li>
 <li><a href="#b.5-pipeline-invocation-evidence"
-id="toc-b.5-pipeline-invocation-evidence"><span
-class="toc-section-number">11.5</span> B.5 Pipeline Invocation
+id="toc-b.5-pipeline-invocation-evidence">B.5 Pipeline Invocation
 Evidence</a></li>
 </ul></li>
 </ul>
 </nav>
-<h1 data-number="1" id="chapter-1-introduction"><span
-class="header-section-number">1</span> Chapter 1: Introduction</h1>
+<h1 id="chapter-1-introduction">Chapter 1: Introduction</h1>
 <p>Business process knowledge in enterprises exists in two fundamentally
 different forms that rarely agree with each other. The
 <strong>documented process</strong> — captured in Standard Operating
@@ -362,8 +329,7 @@ discovery, and log-document reconciliation as <em>comparable, measurable
 alternatives within one pipeline</em> — rather than ad-hoc
 demonstrations evaluated incommensurably.</p>
 <hr />
-<h2 data-number="1.1" id="problem-statement"><span
-class="header-section-number">1.1</span> 1.1 Problem Statement</h2>
+<h2 id="problem-statement">1.1 Problem Statement</h2>
 <p>This thesis addresses the following problem:</p>
 <blockquote>
 <p>Can heterogeneous process knowledge sources — unstructured SOP text
@@ -381,8 +347,7 @@ reconciliation</strong> — detecting and quantifying
 documented-versus-enacted drift, and generating defensible As-Is → To-Be
 improvement recommendations.</p>
 <hr />
-<h2 data-number="1.2" id="research-questions"><span
-class="header-section-number">1.2</span> 1.2 Research Questions</h2>
+<h2 id="research-questions">1.2 Research Questions</h2>
 <p>The thesis investigates five research questions:</p>
 <p><strong>RQ1:</strong> To what extent can unstructured SOP text be
 converted into structurally valid BPMN 2.0 models without human
@@ -400,8 +365,7 @@ precision, and model complexity on identical event logs?</p>
 and quantified automatically to produce defensible As-Is → To-Be
 recommendations?</p>
 <hr />
-<h2 data-number="1.3" id="aim-and-objectives"><span
-class="header-section-number">1.3</span> 1.3 Aim and Objectives</h2>
+<h2 id="aim-and-objectives">1.3 Aim and Objectives</h2>
 <p>The aim of this thesis is to design, implement, and evaluate a
 unified pipeline that handles both documented and enacted process
 sources, and to provide the first comparative empirical evaluation of
@@ -425,8 +389,7 @@ the literature, and identify the most promising directions for future
 work.</li>
 </ol>
 <hr />
-<h2 data-number="1.4" id="contributions"><span
-class="header-section-number">1.4</span> 1.4 Contributions</h2>
+<h2 id="contributions">1.4 Contributions</h2>
 <p>The thesis makes four primary contributions:</p>
 <ol type="1">
 <li><p><strong>A unified benchmark (E1–E6)</strong> comparing five
@@ -451,8 +414,7 @@ improvement recommendations; the output is a valid BPMN model, not a
 textual suggestion.</p></li>
 </ol>
 <hr />
-<h2 data-number="1.5" id="thesis-structure"><span
-class="header-section-number">1.5</span> 1.5 Thesis Structure</h2>
+<h2 id="thesis-structure">1.5 Thesis Structure</h2>
 <p>This thesis is structured as follows:</p>
 <ul>
 <li><strong>Chapter 2</strong> reviews the literature on business
@@ -474,8 +436,7 @@ validity, limitations, and implications for research and practice.</li>
 and contributions, acknowledges limitations, and outlines future
 work.</li>
 </ul>
-<h1 data-number="2" id="chapter-2-literature-review"><span
-class="header-section-number">2</span> Chapter 2: Literature Review</h1>
+<h1 id="chapter-2-literature-review">Chapter 2: Literature Review</h1>
 <p>This chapter positions the thesis within five interconnected bodies
 of knowledge: business process management, process mining,
 text-to-process extraction, large language models in business process
@@ -484,13 +445,10 @@ theoretical foundations, reviews the state of the art, identifies the
 specific gap this thesis addresses, and concludes with a synthesis that
 motivates the five research questions.</p>
 <hr />
-<h2 data-number="2.1" id="business-process-management-and-bpmn"><span
-class="header-section-number">2.1</span> 2.1 Business Process Management
-and BPMN</h2>
-<h3 data-number="2.1.1"
-id="processes-process-management-and-the-modelling-bottleneck"><span
-class="header-section-number">2.1.1</span> 2.1.1 Processes, Process
-Management, and the Modelling Bottleneck</h3>
+<h2 id="business-process-management-and-bpmn">2.1 Business Process
+Management and BPMN</h2>
+<h3 id="processes-process-management-and-the-modelling-bottleneck">2.1.1
+Processes, Process Management, and the Modelling Bottleneck</h3>
 <p>A business process is a structured, time-ordered set of activities
 performed by people and/or systems to achieve a defined business goal
 (Dumas et al., 2018). Business Process Management (BPM) is the
@@ -522,9 +480,7 @@ logs, but these logs record only <em>what happened</em>, not
 intent with the enacted reality requires both sources simultaneously,
 yet no established method handles both within a single, automated
 pipeline.</p>
-<h3 data-number="2.1.2"
-id="bpmn-2.0-as-the-representation-standard"><span
-class="header-section-number">2.1.2</span> 2.1.2 BPMN 2.0 as the
+<h3 id="bpmn-2.0-as-the-representation-standard">2.1.2 BPMN 2.0 as the
 Representation Standard</h3>
 <p>The Business Process Model and Notation version 2.0 (BPMN),
 standardised by the Object Management Group (OMG, 2011), is the de facto
@@ -555,8 +511,7 @@ waypoints, lane stacking). This XML format is what process mining tools
 (PM4Py, ProM, Celonis) and modelling environments (Camunda Modeler,
 bpmn-js, Signavio) consume and produce, making format fidelity a core
 engineering requirement.</p>
-<h3 data-number="2.1.3" id="the-as-is-to-be-improvement-pattern"><span
-class="header-section-number">2.1.3</span> 2.1.3 The As-Is / To-Be
+<h3 id="the-as-is-to-be-improvement-pattern">2.1.3 The As-Is / To-Be
 Improvement Pattern</h3>
 <p>The canonical BPM improvement pattern distinguishes the
 <strong>As-Is</strong> process (how work is currently performed) from
@@ -577,10 +532,8 @@ corresponding To-Be BPMN model with improvement recommendations applied.
 This thesis addresses all three sub-problems within a single
 pipeline.</p>
 <hr />
-<h2 data-number="2.2"
-id="process-mining-discovery-conformance-and-enhancement"><span
-class="header-section-number">2.2</span> 2.2 Process Mining: Discovery,
-Conformance, and Enhancement</h2>
+<h2 id="process-mining-discovery-conformance-and-enhancement">2.2
+Process Mining: Discovery, Conformance, and Enhancement</h2>
 <p>Process mining is the family of techniques that extracts process
 knowledge from event logs recorded by information systems (van der
 Aalst, 2016). Three primary use cases are distinguished: <strong>process
@@ -591,10 +544,8 @@ enhancement</strong> (extending or improving a model using information
 extracted from the log). This section reviews the discovery and
 conformance branches, as these are the process-mining pillars this
 thesis builds on.</p>
-<h3 data-number="2.2.1"
-id="event-logs-and-the-directly-follows-relationship"><span
-class="header-section-number">2.2.1</span> 2.2.1 Event Logs and the
-Directly-Follows Relationship</h3>
+<h3 id="event-logs-and-the-directly-follows-relationship">2.2.1 Event
+Logs and the Directly-Follows Relationship</h3>
 <p>An event log is a collection of traces (ordered sequences of events
 for individual process instances, identified by a case ID), where each
 event records an activity name, a timestamp, and optionally a resource
@@ -609,10 +560,8 @@ immediately after A, with no intervening activities. The
 nodes are activities and edges are weighted by the count (or fraction)
 of traces exhibiting each directly-follows relationship. The DFG is the
 input to the most widely used discovery algorithms.</p>
-<h3 data-number="2.2.2"
-id="discovery-from-dfg-to-block-structured-process-trees"><span
-class="header-section-number">2.2.2</span> 2.2.2 Discovery: From DFG to
-Block-Structured Process Trees</h3>
+<h3 id="discovery-from-dfg-to-block-structured-process-trees">2.2.2
+Discovery: From DFG to Block-Structured Process Trees</h3>
 <p><strong>Heuristic mining</strong> (Weijters &amp; van der Aalst,
 2003) applies frequency thresholds to the DFG to filter noise, then
 induces gateway types (XOR vs AND) from the DFG footprint matrix
@@ -645,9 +594,7 @@ model with lower fitness (fewer traces accepted) but substantially
 higher precision (the model accepts fewer extraneous behaviours). This
 fitness/precision trade-off is a core empirical object of this thesis
 (Research Question 4).</p>
-<h3 data-number="2.2.3" id="conformance-checking"><span
-class="header-section-number">2.2.3</span> 2.2.3 Conformance
-Checking</h3>
+<h3 id="conformance-checking">2.2.3 Conformance Checking</h3>
 <p>Conformance checking quantifies the degree to which observed
 behaviour (in a log) conforms to a reference model (a BPMN or Petri
 net). The most widely used measure is <strong>token-based replay
@@ -668,8 +615,7 @@ for the experimental evaluation of the Inductive Miner (speed and
 boundedness favour replay for large logs), and alignment-based notions
 for the conformance checking between documented and enacted models
 (precision and recall on the directly-follows relationship).</p>
-<h3 data-number="2.2.4" id="the-process-mining-tool-ecosystem"><span
-class="header-section-number">2.2.4</span> 2.2.4 The Process Mining Tool
+<h3 id="the-process-mining-tool-ecosystem">2.2.4 The Process Mining Tool
 Ecosystem</h3>
 <p>The open-source <strong>PM4Py</strong> library (Berti et al., 2019)
 provides Python implementations of the Inductive Miner, DFG discovery,
@@ -687,15 +633,12 @@ and produce a model. This is the fundamental gap that the
 text-extraction pathway of this thesis addresses: extending the process
 mining paradigm to sources that do not have an event log structure.</p>
 <hr />
-<h2 data-number="2.3" id="text-to-process-extraction"><span
-class="header-section-number">2.3</span> 2.3 Text-to-Process
-Extraction</h2>
+<h2 id="text-to-process-extraction">2.3 Text-to-Process Extraction</h2>
 <p>The conversion of unstructured process descriptions into structured
 process models is a long-standing problem in the BPM field, approached
 from natural language processing, information extraction, and more
 recently, machine learning perspectives.</p>
-<h3 data-number="2.3.1" id="early-approaches-nlp-and-heuristics"><span
-class="header-section-number">2.3.1</span> 2.3.1 Early Approaches: NLP
+<h3 id="early-approaches-nlp-and-heuristics">2.3.1 Early Approaches: NLP
 and Heuristics</h3>
 <p>The earliest text-to-process systems relied on syntactic pattern
 matching: detecting trigger phrases (after, then, when), decision cues
@@ -721,10 +664,8 @@ The F1 scores reported in the literature for task extraction from SOP
 text typically ranged from 0.6 to 0.8 on in-domain test sets, with
 significant degradation on out-of-domain text (van der Aa et al.,
 2019).</p>
-<h3 data-number="2.3.2"
-id="process-extraction-as-structured-output"><span
-class="header-section-number">2.3.2</span> 2.3.2 Process Extraction as
-Structured Output</h3>
+<h3 id="process-extraction-as-structured-output">2.3.2 Process
+Extraction as Structured Output</h3>
 <p>A more recent tradition frames text-to-process as a schema-guided
 information extraction problem. Given a predefined process meta-model
 (activities, gateways, actors, sequence flows), extraction systems parse
@@ -742,8 +683,7 @@ of valid BPMN control flow from extracted activities is treated as a
 post-processing step, if addressed at all. This means that even when a
 text extraction system successfully identifies activities and actors, it
 may not produce a structurally valid process model.</p>
-<h3 data-number="2.3.3" id="the-state-of-the-art-before-llms"><span
-class="header-section-number">2.3.3</span> 2.3.3 The State of the Art
+<h3 id="the-state-of-the-art-before-llms">2.3.3 The State of the Art
 Before LLMs</h3>
 <p>Before the widespread availability of large language models, the
 highest-quality text-to-process extraction required a combination of:
@@ -762,18 +702,15 @@ represent the post-2022 state of the art, where a general-purpose
 language model is prompted to produce structured BPMN output directly,
 with bounded self-correction to enforce structural validity.</p>
 <hr />
-<h2 data-number="2.4"
-id="large-language-models-for-business-process-management"><span
-class="header-section-number">2.4</span> 2.4 Large Language Models for
-Business Process Management</h2>
+<h2 id="large-language-models-for-business-process-management">2.4 Large
+Language Models for Business Process Management</h2>
 <p>The emergence of large language models (LLMs) capable of following
 complex instruction hierarchies and producing structured output (OpenAI,
 2023; Anthropic, 2024) opened a new possibility space for
 text-to-process extraction. Three threads of research are directly
 relevant: schema-guided extraction, multi-agent orchestration, and the
 structural validity problem.</p>
-<h3 data-number="2.4.1" id="schema-guided-extraction-with-llms"><span
-class="header-section-number">2.4.1</span> 2.4.1 Schema-Guided
+<h3 id="schema-guided-extraction-with-llms">2.4.1 Schema-Guided
 Extraction with LLMs</h3>
 <p>Modern LLMs (GPT-4, Claude, Gemini) can be instructed to produce
 structured JSON output conforming to a specified schema via in-context
@@ -799,8 +736,7 @@ JSON but semantically invalid as a process model (deadlocks, missing
 gateway joins, unreachable nodes); and (d) cost and latency — each LLM
 call has a monetary cost and introduces latency that a deterministic
 rule parser does not.</p>
-<h3 data-number="2.4.2" id="the-structural-validity-problem"><span
-class="header-section-number">2.4.2</span> 2.4.2 The Structural Validity
+<h3 id="the-structural-validity-problem">2.4.2 The Structural Validity
 Problem</h3>
 <p>A recurring finding in the emerging LLM-BPM literature is that
 LLM-generated process models frequently fail basic structural validity
@@ -823,9 +759,7 @@ from deterministic, provably-sound algorithms. This separation is
 implemented in the pipeline: the LLM (E2/E3) proposes a ProcessModel;
 the structural validator checks it; if it fails, the model is repaired
 or the extraction is retried with feedback.</p>
-<h3 data-number="2.4.3"
-id="multi-agent-orchestration-and-self-correction"><span
-class="header-section-number">2.4.3</span> 2.4.3 Multi-Agent
+<h3 id="multi-agent-orchestration-and-self-correction">2.4.3 Multi-Agent
 Orchestration and Self-Correction</h3>
 <p>The multi-agent paradigm — where multiple LLM agents with specialised
 roles interact to solve a complex task — has been applied to BPM
@@ -847,8 +781,7 @@ is marginal and cost-prohibitive (Huang et al., 2024). This thesis
 contributes empirical evidence on this question under controlled
 conditions (Research Question 3).</p>
 <hr />
-<h2 data-number="2.5" id="research-gap-and-thesis-positioning"><span
-class="header-section-number">2.5</span> 2.5 Research Gap and Thesis
+<h2 id="research-gap-and-thesis-positioning">2.5 Research Gap and Thesis
 Positioning</h2>
 <p>The literature reviewed in the preceding sections reveals a specific,
 well-defined gap at the intersection of process mining and LLM-based
@@ -879,9 +812,8 @@ quantified for To-Be generation.</strong> Conformance checking tools can
 compare a model against a log, but they do not generate improvement
 recommendations grounded in the drift evidence.</p></li>
 </ol>
-<h3 data-number="2.5.1" id="the-contribution-of-this-thesis"><span
-class="header-section-number">2.5.1</span> 2.5.1 The Contribution of
-This Thesis</h3>
+<h3 id="the-contribution-of-this-thesis">2.5.1 The Contribution of This
+Thesis</h3>
 <p>This thesis addresses the gap identified above through a unified
 pipeline and empirical evaluation. The key contributions are:</p>
 <ol type="1">
@@ -915,8 +847,7 @@ specific aspect of this gap. The evaluation design (Chapter 4)
 operationalises the gap closure through the six extractor configurations
 and the unified evaluation harness.</p>
 <hr />
-<h2 data-number="2.6" id="chapter-summary"><span
-class="header-section-number">2.6</span> 2.6 Chapter Summary</h2>
+<h2 id="chapter-summary">2.6 Chapter Summary</h2>
 <p>This chapter established the theoretical and empirical foundations
 for the thesis. Section 2.1 introduced BPM concepts and BPMN as the
 representation standard, with the As-Is / To-Be improvement pattern as
@@ -937,16 +868,14 @@ identical measures; the unresolved self-correction question; and the
 lack of automated, drift-grounded To-Be generation.</p>
 <p>The following chapter presents the five research questions that
 operationalise this gap closure.</p>
-<h1 data-number="3" id="chapter-3-research-methodology"><span
-class="header-section-number">3</span> Chapter 3: Research
+<h1 id="chapter-3-research-methodology">Chapter 3: Research
 Methodology</h1>
 <p>This chapter describes the research design, corpus, gold standard,
 extractor configurations, evaluation measures, and statistical analysis
 plan. The goal is to provide sufficient detail that the study could be
 replicated by an independent researcher using the same or an equivalent
 dataset and evaluation harness.</p>
-<h2 data-number="3.1" id="research-design"><span
-class="header-section-number">3.1</span> 3.1 Research Design</h2>
+<h2 id="research-design">3.1 Research Design</h2>
 <p>The study adopts a <strong>comparative evaluation</strong> design,
 following the tradition of empirical software engineering research
 (Wohlin et al., 2012). The object of study is a software pipeline — the
@@ -968,10 +897,8 @@ statistical analysis.</p>
 (the gold standard models are pre-annotated by the author; the
 evaluation is automated). A human-in-the-loop study is identified as
 future work (Chapter 7).</p>
-<h3 data-number="3.1.1"
-id="research-questions-and-their-operationalisation"><span
-class="header-section-number">3.1.1</span> 3.1.1 Research Questions and
-Their Operationalisation</h3>
+<h3 id="research-questions-and-their-operationalisation">3.1.1 Research
+Questions and Their Operationalisation</h3>
 <p><strong>RQ1:</strong> To what extent can unstructured SOP text be
 converted into structurally valid BPMN 2.0 models without human
 modelling effort?</p>
@@ -1008,10 +935,8 @@ aligned by lexical similarity; directly-follows relations of the
 documented and enacted models are compared; drift is classified and
 quantified; bottleneck evidence from the log is used to rank improvement
 recommendations.</p>
-<h2 data-number="3.2" id="corpus"><span
-class="header-section-number">3.2</span> 3.2 Corpus</h2>
-<h3 data-number="3.2.1" id="sop-documents"><span
-class="header-section-number">3.2.1</span> 3.2.1 SOP Documents</h3>
+<h2 id="corpus">3.2 Corpus</h2>
+<h3 id="sop-documents">3.2.1 SOP Documents</h3>
 <p>The document corpus comprises four SOP scenarios authored for this
 study, spanning three enterprise domains:</p>
 <table>
@@ -1060,8 +985,7 @@ blocks, explicit and implicit joins, rework loops, and mixed
 human/system task identification. The Legacy IT Purchase SOP represents
 the opposite extreme: a real-world messy document with implicit
 structure, included as the primary external-validity proxy.</p>
-<h3 data-number="3.2.2" id="event-logs"><span
-class="header-section-number">3.2.2</span> 3.2.2 Event Logs</h3>
+<h3 id="event-logs">3.2.2 Event Logs</h3>
 <p>Two real and five synthetic event logs accompany the SOP
 scenarios:</p>
 <table>
@@ -1131,8 +1055,7 @@ times and rework rates, known rework loop activities with planted rework
 probabilities, and known parallel activity pairs. The seeded simulator
 ensures deterministic regeneration: given the same seed, the same log is
 reproduced.</p>
-<h3 data-number="3.2.3" id="scope-limitations"><span
-class="header-section-number">3.2.3</span> 3.2.3 Scope Limitations</h3>
+<h3 id="scope-limitations">3.2.3 Scope Limitations</h3>
 <ol type="1">
 <li><strong>Controlled vocabulary</strong> — the three primary SOPs use
 explicit markers. The Legacy IT Purchase SOP (F1 = 0.10 for E1)
@@ -1143,9 +1066,7 @@ English-language.</li>
 <li><strong>Single annotator</strong> — gold models were produced by the
 author. No inter-annotator agreement study has been conducted.</li>
 </ol>
-<h2 data-number="3.3" id="gold-standard-annotation"><span
-class="header-section-number">3.3</span> 3.3 Gold Standard
-Annotation</h2>
+<h2 id="gold-standard-annotation">3.3 Gold Standard Annotation</h2>
 <p>For each SOP, a reference (gold) BPMN model was produced by reading
 the SOP text and constructing the process model that represents the
 intended reading. The annotation criteria:</p>
@@ -1172,9 +1093,7 @@ the primary SOPs use controlled vocabulary, and the gold model is the
 intended reading of that vocabulary. Consequently, an F1 of 1.00 for E1
 on the primary trio is the <strong>ceiling under controlled
 vocabulary</strong>, not a general result.</p>
-<h2 data-number="3.4" id="extractor-configurations"><span
-class="header-section-number">3.4</span> 3.4 Extractor
-Configurations</h2>
+<h2 id="extractor-configurations">3.4 Extractor Configurations</h2>
 <p>Five extractor configurations are evaluated:</p>
 <table>
 <colgroup>
@@ -1253,10 +1172,8 @@ and B share entry/exit context outside the pair).</p>
 seq → par → loop) recursively. A soundness guard rejects parallel cuts
 when any trace touches only one side of the partition. Flower model
 (accepts all traces) is returned if no cut applies.</p>
-<h2 data-number="3.5" id="measures"><span
-class="header-section-number">3.5</span> 3.5 Measures</h2>
-<h3 data-number="3.5.1" id="extraction-quality-measures"><span
-class="header-section-number">3.5.1</span> 3.5.1 Extraction Quality
+<h2 id="measures">3.5 Measures</h2>
+<h3 id="extraction-quality-measures">3.5.1 Extraction Quality
 Measures</h3>
 <p>All extraction measures use the <code>evaluate_model()</code>
 function from the evaluation harness.</p>
@@ -1274,8 +1191,7 @@ count plus absolute difference in AND gateway count between extracted
 and gold models.</p>
 <p><strong>Rework error</strong> = absolute difference in rework loop
 count between extracted and gold models.</p>
-<h3 data-number="3.5.2" id="discovery-soundness-measures"><span
-class="header-section-number">3.5.2</span> 3.5.2 Discovery Soundness
+<h3 id="discovery-soundness-measures">3.5.2 Discovery Soundness
 Measures</h3>
 <p><strong>Token-replay fitness</strong> = cases accepted / total cases.
 A case is accepted if the replay engine can fire all its events without
@@ -1285,9 +1201,7 @@ is used.</p>
 variants. A variant is a unique trace in the log.</p>
 <p><strong>Model size</strong> = number of task nodes and total gateway
 count (XOR + AND).</p>
-<h3 data-number="3.5.3" id="conformance-measures"><span
-class="header-section-number">3.5.3</span> 3.5.3 Conformance
-Measures</h3>
+<h3 id="conformance-measures">3.5.3 Conformance Measures</h3>
 <p><strong>DF precision</strong> = fraction of documented model’s
 directly-follows relations found in the enacted model’s directly-follows
 relations.</p>
@@ -1296,8 +1210,7 @@ directly-follows relations found in the documented model’s
 directly-follows relations.</p>
 <p>Activities are aligned by greedy token-stem matching (threshold 0.5)
 before DF comparison.</p>
-<h2 data-number="3.6" id="statistical-analysis"><span
-class="header-section-number">3.6</span> 3.6 Statistical Analysis</h2>
+<h2 id="statistical-analysis">3.6 Statistical Analysis</h2>
 <p>For E1 vs E2 vs E3, the primary analysis is descriptive (mean,
 standard deviation across 5 seeds for E2 and E3). The E1 extractor is
 deterministic (no variance). Where significance testing is applicable
@@ -1309,15 +1222,13 @@ reported as a summary statistic.</p>
 <p>Confidence intervals are computed via bootstrap resampling (1,000
 resamples, bias-corrected percentile method) for the E2 and E3 seed
 runs.</p>
-<h1 data-number="4" id="chapter-4-system-design"><span
-class="header-section-number">4</span> Chapter 4: System Design</h1>
+<h1 id="chapter-4-system-design">Chapter 4: System Design</h1>
 <p>This chapter describes the design of the ProcessMind framework — the
 system built to address the research gap identified in Chapter 2. The
 chapter covers the overall pipeline architecture, the five extractor
 configurations, the BPMN engineering pipeline, the two orchestration
 engines, and the evaluation harness.</p>
-<h2 data-number="4.1" id="design-principles"><span
-class="header-section-number">4.1</span> 4.1 Design Principles</h2>
+<h2 id="design-principles">4.1 Design Principles</h2>
 <p>Three principles guided the design:</p>
 <ol type="1">
 <li><p><strong>Separation of structure and enrichment.</strong>
@@ -1335,8 +1246,7 @@ extractor configurations (E1–E6) are evaluated on identical inputs with
 identical measures via the same harness. This is the prerequisite for
 the comparative evaluation that RQ2–RQ4 require.</p></li>
 </ol>
-<h2 data-number="4.2" id="pipeline-architecture"><span
-class="header-section-number">4.2</span> 4.2 Pipeline Architecture</h2>
+<h2 id="pipeline-architecture">4.2 Pipeline Architecture</h2>
 <p>Figure 4.1 shows the end-to-end pipeline, from inputs through the
 multi-agent core to the outputs and quality gates.</p>
 <figure>
@@ -1401,8 +1311,7 @@ Pydantic models, JSON-serialisable). The stage contract is:</p>
 </tr>
 </tbody>
 </table>
-<h2 data-number="4.3" id="the-ingestion-agent"><span
-class="header-section-number">4.3</span> 4.3 The Ingestion Agent</h2>
+<h2 id="the-ingestion-agent">4.3 The Ingestion Agent</h2>
 <p>The ingestion agent (<code>agents/ingestion.py</code>) normalises
 heterogeneous inputs into a canonical <code>IngestedDocument</code>. Key
 responsibilities:</p>
@@ -1422,15 +1331,11 @@ segmented into a step list for the parser.</li>
 detected by header fingerprinting and routed to the mining pathway
 rather than the text extraction pathway.</li>
 </ul>
-<h2 data-number="4.4" id="the-process-modeler-agent"><span
-class="header-section-number">4.4</span> 4.4 The Process Modeler
-Agent</h2>
+<h2 id="the-process-modeler-agent">4.4 The Process Modeler Agent</h2>
 <p>The modeler (<code>agents/modeler.py</code>) is the central
 extraction component. It has two extractor pathways that funnel into the
 same validator:</p>
-<h3 data-number="4.4.1" id="e1-offline-rule-parser"><span
-class="header-section-number">4.4.1</span> 4.4.1 E1: Offline Rule
-Parser</h3>
+<h3 id="e1-offline-rule-parser">4.4.1 E1: Offline Rule Parser</h3>
 <p>The offline rule parser (<code>agents/offline_parser.py</code>)
 implements a deterministic frontier state machine over the step stream.
 It is the research baseline and the guaranteed offline extraction
@@ -1462,9 +1367,7 @@ automation: “send”, “notify”, “create in system”).</p>
 <code>serviceTask</code>; tasks with human-verb patterns (review,
 approve, check, investigate) are classified as
 <code>userTask</code>.</p>
-<h3 data-number="4.4.2" id="e2-and-e3-llm-extractors"><span
-class="header-section-number">4.4.2</span> 4.4.2 E2 and E3: LLM
-Extractors</h3>
+<h3 id="e2-and-e3-llm-extractors">4.4.2 E2 and E3: LLM Extractors</h3>
 <p>The LLM pathway (<code>agents/modeler.py</code>,
 <code>_run_llm</code> method) performs schema-guided JSON extraction.
 The prompt includes: (a) the full <code>ProcessModel</code> JSON schema
@@ -1483,9 +1386,8 @@ structural validator reports errors, corrective feedback is generated
 and the LLM is re-prompted with the error list (up to 2 retries).</p>
 <p>Both pathways fall through to the offline parser on any LLM error,
 ensuring the pipeline never fails silently.</p>
-<h2 data-number="4.5" id="structural-validation-and-auto-repair"><span
-class="header-section-number">4.5</span> 4.5 Structural Validation and
-Auto-Repair</h2>
+<h2 id="structural-validation-and-auto-repair">4.5 Structural Validation
+and Auto-Repair</h2>
 <p>The structural validator (<code>bpmn/validate.py</code>) checks the
 produced <code>ProcessModel</code> against BPMN 2.0 structural
 rules:</p>
@@ -1507,10 +1409,8 @@ targeted patches: adding missing join gateways, removing dangling flows,
 rerouting broken edges. The repaired model is validated again; if it
 still fails, the pipeline aborts with a descriptive error rather than
 producing a potentially invalid output.</p>
-<h2 data-number="4.6" id="bpmn-engineering"><span
-class="header-section-number">4.6</span> 4.6 BPMN Engineering</h2>
-<h3 data-number="4.6.1" id="layout-engine"><span
-class="header-section-number">4.6.1</span> 4.6.1 Layout Engine</h3>
+<h2 id="bpmn-engineering">4.6 BPMN Engineering</h2>
+<h3 id="layout-engine">4.6.1 Layout Engine</h3>
 <p>The layout engine (<code>bpmn/layout.py</code>) implements a
 Sugiyama-style layered layout algorithm to produce deterministic,
 overlap-free BPMN diagram coordinates:</p>
@@ -1531,9 +1431,7 @@ are computed for each flow.</li>
 </ol>
 <p>Rework back-edges are routed below the pool to avoid obscuring the
 forward flow.</p>
-<h3 data-number="4.6.2" id="bpmn-2.0-xml-builder"><span
-class="header-section-number">4.6.2</span> 4.6.2 BPMN 2.0 XML
-Builder</h3>
+<h3 id="bpmn-2.0-xml-builder">4.6.2 BPMN 2.0 XML Builder</h3>
 <p>The builder (<code>bpmn/builder.py</code>) emits the BPMN 2.0 XML
 with full Diagram Interchange (DI) support:</p>
 <ul>
@@ -1558,13 +1456,10 @@ provenance.</li>
 </ul>
 <p>Generated BPMN files are verified to import into bpmn-js (Camunda)
 without errors.</p>
-<h2 data-number="4.7" id="the-mining-pathway-e4-e6"><span
-class="header-section-number">4.7</span> 4.7 The Mining Pathway (E4,
-E6)</h2>
+<h2 id="the-mining-pathway-e4-e6">4.7 The Mining Pathway (E4, E6)</h2>
 <p>The mining pathway handles event-log inputs (CSV or XES) and produces
 discovered <code>ProcessModel</code> instances without any SOP text.</p>
-<h3 data-number="4.7.1" id="event-log-loading"><span
-class="header-section-number">4.7.1</span> 4.7.1 Event Log Loading</h3>
+<h3 id="event-log-loading">4.7.1 Event Log Loading</h3>
 <p>The log loader (<code>mining/event_log.py</code>) supports CSV (with
 header aliases for SAP, ServiceNow, Jira, and generic column names) and
 IEEE XES formats. Corrupt rows are skipped with descriptive warnings.
@@ -1572,8 +1467,7 @@ Per-activity statistics are computed: frequency, median wait time (time
 before the activity), rework rate (fraction of cases that visit the
 activity more than once), and a composite bottleneck score (0.7 ×
 normalised median wait + 0.3 × rework rate).</p>
-<h3 data-number="4.7.2" id="e4-dfg-discovery"><span
-class="header-section-number">4.7.2</span> 4.7.2 E4: DFG Discovery</h3>
+<h3 id="e4-dfg-discovery">4.7.2 E4: DFG Discovery</h3>
 <p>The DFG miner (<code>mining/dfg.py</code>) computes the
 directly-follows relationship from the event log and builds a weighted
 directed graph. A frequency threshold (default: 0.01 of maximum edge
@@ -1583,9 +1477,7 @@ are detected via the footprint discriminator: mutual A→B and B→A
 relationships become an AND split/join pair only when both A and B share
 the same entry and exit context outside the pair, discriminating
 parallel execution from rework loops.</p>
-<h3 data-number="4.7.3" id="e6-inductive-miner"><span
-class="header-section-number">4.7.3</span> 4.7.3 E6: Inductive
-Miner</h3>
+<h3 id="e6-inductive-miner">4.7.3 E6: Inductive Miner</h3>
 <p>The Inductive Miner (<code>inductive/tree.py</code>) implements the
 Leemans-style cut hierarchy:</p>
 <ol type="1">
@@ -1606,9 +1498,7 @@ where naive parallel projection would lose language. The resulting
 process tree is converted to BPMN via
 <code>inductive/tree_bpmn.py</code>, which infers gateway direction
 (split vs join) from the flow topology around each gateway.</p>
-<h3 data-number="4.7.4" id="token-replay-conformance"><span
-class="header-section-number">4.7.4</span> 4.7.4 Token-Replay
-Conformance</h3>
+<h3 id="token-replay-conformance">4.7.4 Token-Replay Conformance</h3>
 <p>The replay engine (<code>inductive/replay.py</code>) performs bounded
 token-based replay fitness. A token is placed at the start event; log
 events are replayed by firing the corresponding activity in the model;
@@ -1620,8 +1510,7 @@ failures. Fitness = (cases accepted) / (total cases).</p>
 Inductive) and extracted models (E1, E2, E3) — via the bridge converters
 in <code>inductive/convert.py</code>, which also infers gateway
 direction from flow topology for DFG models.</p>
-<h2 data-number="4.8" id="orchestration-engines"><span
-class="header-section-number">4.8</span> 4.8 Orchestration Engines</h2>
+<h2 id="orchestration-engines">4.8 Orchestration Engines</h2>
 <p>Both orchestration engines run identical stage functions:</p>
 <p><strong>BuiltinEngine</strong> (<code>graph.py</code>): a sequential
 loop with an explicit validate-and-retry conditional. Stages are called
@@ -1636,8 +1525,7 @@ fires; otherwise, the pipeline proceeds to the optimizer.</p>
 both engines produce identical metrics and findings for all test cases,
 ensuring that the choice of engine is an implementation detail rather
 than a behavioural variable.</p>
-<h2 data-number="4.9" id="the-optimization-agent"><span
-class="header-section-number">4.9</span> 4.9 The Optimization Agent</h2>
+<h2 id="the-optimization-agent">4.9 The Optimization Agent</h2>
 <p>The optimizer (<code>agents/optimizer.py</code>) produces both a
 diagnostic report and a To-Be model. Findings come from two sources:</p>
 <ol type="1">
@@ -1657,8 +1545,7 @@ platform service tasks.</p>
 <p>Before/after metrics are computed for both models: task count,
 automation rate, and estimated critical path (longest path through the
 model, with rework edges excluded).</p>
-<h2 data-number="4.10" id="export-pipeline"><span
-class="header-section-number">4.10</span> 4.10 Export Pipeline</h2>
+<h2 id="export-pipeline">4.10 Export Pipeline</h2>
 <p>The export stage writes all artifacts for a pipeline run:</p>
 <ul>
 <li><code>ProcessModel</code> as JSON.</li>
@@ -1672,8 +1559,7 @@ diagrams, findings, conformance section).</li>
 <li>Bottleneck report JSON (when run with a log).</li>
 <li>Pipeline result JSON (timings, method, artifact manifest).</li>
 </ul>
-<h2 data-number="4.11" id="configuration-and-environment"><span
-class="header-section-number">4.11</span> 4.11 Configuration and
+<h2 id="configuration-and-environment">4.11 Configuration and
 Environment</h2>
 <p>All configuration is environment-driven. The key variables are:</p>
 <table>
@@ -1727,8 +1613,7 @@ Environment</h2>
 availability and selects the engine accordingly. The pipeline gracefully
 falls back to the builtin engine when LangGraph is not installed,
 ensuring reproducibility across environments.</p>
-<h1 data-number="5" id="chapter-5-results"><span
-class="header-section-number">5</span> Chapter 5: Results</h1>
+<h1 id="chapter-5-results">Chapter 5: Results</h1>
 <p>This chapter presents the empirical results of the six extractor
 configurations (E1–E6) on the study corpus. Results are organised by
 research question. All experiments use the one-command evaluation
@@ -1743,12 +1628,9 @@ algorithms (E4, E6) are deterministic; reported metrics are exact.</p>
 gold for fitness), the corresponding cell is marked N/A — the measure is
 not applicable to that configuration’s input type.</p>
 <hr />
-<h2 data-number="5.1"
-id="extraction-quality-e1-e2-e3-vs-gold-rq1-rq2-rq3"><span
-class="header-section-number">5.1</span> 5.1 Extraction Quality: E1, E2,
-E3 vs Gold (RQ1, RQ2, RQ3)</h2>
-<h3 data-number="5.1.1" id="extraction-results"><span
-class="header-section-number">5.1.1</span> 5.1.1 Extraction Results</h3>
+<h2 id="extraction-quality-e1-e2-e3-vs-gold-rq1-rq2-rq3">5.1 Extraction
+Quality: E1, E2, E3 vs Gold (RQ1, RQ2, RQ3)</h2>
+<h3 id="extraction-results">5.1.1 Extraction Results</h3>
 <p>Table 5.1 presents task precision, recall, and F1, actor F1, gateway
 count error, and rework loop count error for each document–extractor
 pair. E1 (offline rule parser) serves as the deterministic baseline. E2
@@ -1923,11 +1805,10 @@ deterministic rule parser (recorded method <code>offline-rules</code> in
 validate, so this row reflects the E1 ceiling rather than a genuine LLM
 self-correction recovery. The LLM-path self-correction gains measured in
 this study are therefore 0.02–0.09 F1 (see §5.1.4 and §6.4).</em></p>
-<h3 data-number="5.1.2"
-id="analysis-controlled-vocabulary-documents-vendor-onboarding-it-incident-employee-leave"><span
-class="header-section-number">5.1.2</span> 5.1.2 Analysis: Controlled
-Vocabulary Documents (Vendor Onboarding, IT Incident, Employee
-Leave)</h3>
+<h3
+id="analysis-controlled-vocabulary-documents-vendor-onboarding-it-incident-employee-leave">5.1.2
+Analysis: Controlled Vocabulary Documents (Vendor Onboarding, IT
+Incident, Employee Leave)</h3>
 <p>On the three controlled-vocabulary SOPs, the <strong>rule parser (E1)
 achieves perfect extraction (F1 = 1.00)</strong> on all three documents.
 This is the expected ceiling result for the rule parser given the
@@ -1965,10 +1846,8 @@ documents, the deterministic rule parser (E1) outperforms both LLM
 configurations (E2, E3) in extraction completeness. The LLM achieves F1
 scores of 0.71–0.87 (single-shot) and 0.79–1.00 (with self-correction),
 compared to E1’s consistent 1.00.</p>
-<h3 data-number="5.1.3"
-id="analysis-unstructured-document-legacy-it-purchase"><span
-class="header-section-number">5.1.3</span> 5.1.3 Analysis: Unstructured
-Document (Legacy IT Purchase)</h3>
+<h3 id="analysis-unstructured-document-legacy-it-purchase">5.1.3
+Analysis: Unstructured Document (Legacy IT Purchase)</h3>
 <p>The Legacy IT Purchase SOP is a real-world, messy procurement
 document with passive voice, coreferences, run-on sentences, and no
 explicit control-flow markers. It represents the opposite extreme from
@@ -2001,9 +1880,7 @@ but measurable improvement over single-shot (0.50 vs 0.48). This is the
 primary motivation for the LLM extraction pathway: the rule parser’s
 explicit-marker dependency is a fatal limitation on real documents,
 while the LLM handles implicit structure directly.</p>
-<h3 data-number="5.1.4" id="summary-rq1-rq2-rq3"><span
-class="header-section-number">5.1.4</span> 5.1.4 Summary: RQ1, RQ2,
-RQ3</h3>
+<h3 id="summary-rq1-rq2-rq3">5.1.4 Summary: RQ1, RQ2, RQ3</h3>
 <p><strong>RQ1 (Extraction without human effort):</strong> The offline
 rule parser (E1) achieves perfect extraction on controlled vocabulary
 documents (F1 = 1.00) and near-zero on unstructured documents (F1 =
@@ -2029,12 +1906,9 @@ from this comparison because it fell back to the rule parser (see Table
 has a clear underlying structure (even if poorly expressed) than when
 the input is genuinely ambiguous.</p>
 <hr />
-<h2 data-number="5.2"
-id="discovery-soundness-e4-dfg-vs-e6-inductive-miner-rq4"><span
-class="header-section-number">5.2</span> 5.2 Discovery Soundness: E4 DFG
-vs E6 Inductive Miner (RQ4)</h2>
-<h3 data-number="5.2.1" id="fitness-and-coverage-results"><span
-class="header-section-number">5.2.1</span> 5.2.1 Fitness and Coverage
+<h2 id="discovery-soundness-e4-dfg-vs-e6-inductive-miner-rq4">5.2
+Discovery Soundness: E4 DFG vs E6 Inductive Miner (RQ4)</h2>
+<h3 id="fitness-and-coverage-results">5.2.1 Fitness and Coverage
 Results</h3>
 <p>Table 5.2 presents token-replay fitness (cases accepted / total
 cases), variant coverage (variants accepted / total variants), and model
@@ -2160,8 +2034,7 @@ Miner</strong></p>
 <p><em>GW = total gateway count (XOR + AND). E4 tasks reflect activities
 in the DFG model; E6 tasks reflect activities in the process tree. Both
 algorithms are evaluated on identical variant multisets.</em></p>
-<h3 data-number="5.2.2" id="analysis"><span
-class="header-section-number">5.2.2</span> 5.2.2 Analysis</h3>
+<h3 id="analysis">5.2.2 Analysis</h3>
 <p>On clean logs (IT incident, vendor onboarding, invoice-to-pay), both
 E4 and E6 achieve fitness of 1.000, meaning both models can replay all
 observed traces without token deficits or overflows. The DFG miner
@@ -2218,11 +2091,9 @@ relative to E6. The noisy log shows the maximum gap (0.667 vs 0.947),
 confirming that the Inductive Miner’s soundness-by-construction property
 provides superior behavioural fidelity under noise.</p>
 <hr />
-<h2 data-number="5.3" id="conformance-and-drift-detection-rq5"><span
-class="header-section-number">5.3</span> 5.3 Conformance and Drift
+<h2 id="conformance-and-drift-detection-rq5">5.3 Conformance and Drift
 Detection (RQ5)</h2>
-<h3 data-number="5.3.1" id="directly-follows-precision-and-recall"><span
-class="header-section-number">5.3.1</span> 5.3.1 Directly-Follows
+<h3 id="directly-follows-precision-and-recall">5.3.1 Directly-Follows
 Precision and Recall</h3>
 <p>When the pipeline is run with both an SOP document and its
 corresponding event log, the conformance module aligns activities by
@@ -2250,25 +2121,25 @@ statistics.</p>
 <tbody>
 <tr>
 <td>IT Incident</td>
-<td>11</td>
-<td>15</td>
-<td>47%</td>
-<td>82%</td>
+<td>10</td>
+<td>12</td>
+<td>56%</td>
+<td>100%</td>
 </tr>
 <tr>
 <td>Vendor Onboarding</td>
-<td>9</td>
-<td>13</td>
-<td>31%</td>
-<td>50%</td>
+<td>7</td>
+<td>10</td>
+<td>25%</td>
+<td>33%</td>
 </tr>
 </tbody>
 </table>
 <p><em>DF precision = fraction of documented DF relations found in the
 log. DF recall = fraction of log DF relations found in the documented
 model.</em></p>
-<p>IT incident shows better conformance alignment (82% recall) than
-vendor onboarding (50% recall). The primary driver is vocabulary drift:
+<p>IT incident shows better conformance alignment (100% recall) than
+vendor onboarding (33% recall). The primary driver is vocabulary drift:
 the IT incident SOP uses terminology (“Investigate Issue”, “Apply
 Standard Fix”) that closely mirrors the log activity names, while the
 vendor onboarding SOP’s narrative phrasing (“Perform Background
@@ -2276,9 +2147,7 @@ Screening”) diverges from the log’s system vocabulary (“Compliance
 Screening”). This is the expected vocabulary gap effect — and the
 primary motivation for embedding-based activity matching as future
 work.</p>
-<h3 data-number="5.3.2" id="bottleneck-detection"><span
-class="header-section-number">5.3.2</span> 5.3.2 Bottleneck
-Detection</h3>
+<h3 id="bottleneck-detection">5.3.2 Bottleneck Detection</h3>
 <p>Both planted queue bottlenecks and planted rework loops were detected
 by the bottleneck scoring function (composite score: 0.7 × normalised
 median wait + 0.3 × rework rate). The two planted queue bottlenecks
@@ -2287,9 +2156,7 @@ IT incident) ranked in the top 3 bottleneck activities by composite
 score. The two planted rework loops (“Verify Documents” at 29% rework
 rate in vendor onboarding; “Investigate Issue”/“Apply Standard Fix” at
 ~19% in IT incident) were flagged with accurate rework rates.</p>
-<h3 data-number="5.3.3" id="as-is-to-be-optimisation"><span
-class="header-section-number">5.3.3</span> 5.3.3 As-Is / To-Be
-Optimisation</h3>
+<h3 id="as-is-to-be-optimisation">5.3.3 As-Is / To-Be Optimisation</h3>
 <p>The optimizer applied three transform rules (R_AUTOMATE_ENTRY,
 R_PARALLEL_APPROVALS, R_INTEGRATE_HANDOFF) to produce the To-Be model.
 On the vendor onboarding SOP, the To-Be transformation reduced estimated
@@ -2338,12 +2205,11 @@ the embedded As-Is BPMN diagram, and the bottleneck findings table.
 Screenshot of the real generated file
 <code>outputs/demo/vendor_onboarding_sop_report.html</code>.</figcaption>
 </figure>
-<h3 data-number="5.3.4" id="summary-rq5"><span
-class="header-section-number">5.3.4</span> 5.3.4 Summary: RQ5</h3>
+<h3 id="summary-rq5">5.3.4 Summary: RQ5</h3>
 <p>Documented-vs-enacted drift is detected and quantified at the
 activity level (token-stem alignment) and the control-flow level (DF
 precision/recall). The vocabulary gap is the dominant source of low
-conformance scores (IT incident: 82% recall; vendor onboarding: 50%
+conformance scores (IT incident: 100% recall; vendor onboarding: 33%
 recall), confirming that token-stem matching is an insufficient
 alignment method for documents where SOP vocabulary and log vocabulary
 diverge. Bottleneck evidence from the log (queue waits, rework rates)
@@ -2351,8 +2217,7 @@ successfully grounds the To-Be recommendations: the estimated critical
 path reduction is 17–31%, with automation share improvement of 8–13
 percentage points.</p>
 <hr />
-<h2 data-number="5.4" id="summary-of-research-question-answers"><span
-class="header-section-number">5.4</span> 5.4 Summary of Research
+<h2 id="summary-of-research-question-answers">5.4 Summary of Research
 Question Answers</h2>
 <table>
 <colgroup>
@@ -2400,16 +2265,15 @@ empirically confirmed.</td>
 <tr>
 <td>RQ5</td>
 <td>Automated drift detection and To-Be generation</td>
-<td>Activity alignment detects vocabulary drift (IT incident: 82%
-recall; vendor: 50% recall). Bottleneck-grounded optimisation reduces
+<td>Activity alignment detects vocabulary drift (IT incident: 100%
+recall; vendor: 33% recall). Bottleneck-grounded optimisation reduces
 estimated critical path by 17–31% with 8–13 pp automation
 improvement.</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 data-number="5.5" id="threats-to-validity-summary"><span
-class="header-section-number">5.5</span> 5.5 Threats to Validity
+<h2 id="threats-to-validity-summary">5.5 Threats to Validity
 (Summary)</h2>
 <p>Results are subject to the following limitations, discussed in detail
 in Chapter 6:</p>
@@ -2431,20 +2295,15 @@ threshold for activity alignment is lexical; vocabulary drift
 (documented vs enacted) is the dominant conformance degradation source,
 motivating embedding-based matching as future work.</li>
 </ul>
-<h1 data-number="6" id="chapter-6-discussion"><span
-class="header-section-number">6</span> Chapter 6: Discussion</h1>
+<h1 id="chapter-6-discussion">Chapter 6: Discussion</h1>
 <p>This chapter interprets the empirical findings presented in Chapter
 5, positions them within the literature reviewed in Chapter 2, examines
 threats to validity, acknowledges limitations, and outlines the
 implications for research and practice.</p>
 <hr />
-<h2 data-number="6.1" id="interpretation-of-findings"><span
-class="header-section-number">6.1</span> 6.1 Interpretation of
-Findings</h2>
-<h3 data-number="6.1.1"
-id="the-rule-parsers-double-edged-determinism"><span
-class="header-section-number">6.1.1</span> 6.1.1 The Rule Parser’s
-Double-Edged Determinism</h3>
+<h2 id="interpretation-of-findings">6.1 Interpretation of Findings</h2>
+<h3 id="the-rule-parsers-double-edged-determinism">6.1.1 The Rule
+Parser’s Double-Edged Determinism</h3>
 <p>The offline rule parser (E1) achieves perfect extraction (F1 = 1.00)
 on controlled-vocabulary documents — and near-zero (F1 = 0.10) on
 unstructured text. This is not a bug; it is a feature of the design. The
@@ -2465,10 +2324,8 @@ lightweight heuristic that scores vocabulary explicitness) could route
 documents to E1 or E2 automatically, choosing the faster (E1, ~0
 seconds) path for well-structured documents and the more robust (E2,
 ~60–100 seconds) path for others.</p>
-<h3 data-number="6.1.2"
-id="the-llms-extraction-completeness-problem"><span
-class="header-section-number">6.1.2</span> 6.1.2 The LLM’s Extraction
-Completeness Problem</h3>
+<h3 id="the-llms-extraction-completeness-problem">6.1.2 The LLM’s
+Extraction Completeness Problem</h3>
 <p>The <code>qwen/qwen3-8b</code> model’s primary failure mode on
 controlled vocabulary documents is task omission (recall = 0.62–0.77),
 not structural invalidity. This is a notable finding because the
@@ -2488,10 +2345,8 @@ document. This is consistent with the finding in the self-correction
 literature that marginal returns diminish after the second retry (Shinn
 et al., 2024) — the model does not know what it missed, only what it got
 wrong.</p>
-<h3 data-number="6.1.3"
-id="the-self-correction-loop-real-but-uneven"><span
-class="header-section-number">6.1.3</span> 6.1.3 The Self-Correction
-Loop: Real but Uneven</h3>
+<h3 id="the-self-correction-loop-real-but-uneven">6.1.3 The
+Self-Correction Loop: Real but Uneven</h3>
 <p>E3 improves over E2 on all three documents with valid LLM-path E3
 runs (F1 gains of 0.02–0.09). The loop corrects actor assignments most
 reliably (IT incident: Actor F1 0.89 → 1.00; Legacy: 0.83 → 1.00). Task
@@ -2514,10 +2369,8 @@ E2 (on top of the LLM call latency) for F1 gains of 0.02–0.09. On
 controlled vocabulary documents where E1 dominates (and E1 runs in 0
 seconds), E3 is not cost-effective. On unstructured documents where E1
 fails, E3 is the only viable option.</p>
-<h3 data-number="6.1.4"
-id="the-inductive-miners-soundness-dividend"><span
-class="header-section-number">6.1.4</span> 6.1.4 The Inductive Miner’s
-Soundness Dividend</h3>
+<h3 id="the-inductive-miners-soundness-dividend">6.1.4 The Inductive
+Miner’s Soundness Dividend</h3>
 <p>E6’s fitness equals its variant coverage on all seven logs — the
 mathematical signature of soundness-by-construction. Every trace the
 model accepts is valid behaviour; every invalid trace is rejected. This
@@ -2534,16 +2387,14 @@ useful to an analyst than E6’s: it shows only the dominant path,
 filtering out the noise. The trade-off is real and document-dependent.
 E6 is appropriate when behavioural completeness matters; E4 is
 appropriate when model readability is the priority.</p>
-<h3 data-number="6.1.5"
-id="vocabulary-drift-as-the-dominant-conformance-problem"><span
-class="header-section-number">6.1.5</span> 6.1.5 Vocabulary Drift as the
-Dominant Conformance Problem</h3>
-<p>IT incident (82% DF recall) and vendor onboarding (50% DF recall)
+<h3 id="vocabulary-drift-as-the-dominant-conformance-problem">6.1.5
+Vocabulary Drift as the Dominant Conformance Problem</h3>
+<p>IT incident (100% DF recall) and vendor onboarding (33% DF recall)
 differ primarily in vocabulary alignment, not process structure. The
 activities in the IT incident SOP and log share surface vocabulary
 (“Investigate Issue”, “Apply Standard Fix”); the activities in the
 vendor onboarding SOP and log do not (“Perform Background Screening” vs
-“Compliance Screening”). The 32 percentage-point gap in recall is
+“Compliance Screening”). The 67 percentage-point gap in recall is
 attributable to this mismatch.</p>
 <p>This confirms the limitation of token-stem matching for activity
 alignment and motivates the embedding-based approach identified in the
@@ -2552,10 +2403,8 @@ fine-tuned on process terminology) would align “Perform Background
 Screening” with “Compliance Screening” at high similarity even though
 their lexical overlap is low.</p>
 <hr />
-<h2 data-number="6.2" id="threats-to-validity"><span
-class="header-section-number">6.2</span> 6.2 Threats to Validity</h2>
-<h3 data-number="6.2.1" id="construct-validity"><span
-class="header-section-number">6.2.1</span> 6.2.1 Construct Validity</h3>
+<h2 id="threats-to-validity">6.2 Threats to Validity</h2>
+<h3 id="construct-validity">6.2.1 Construct Validity</h3>
 <p><em>Do the measures capture what the research questions ask?</em></p>
 <p>Task P/R/F1 measures are standard information retrieval metrics, but
 they assess <em>extraction completeness</em> against a reference model —
@@ -2573,8 +2422,7 @@ coverage is reported alongside fitness to address this.</p>
 alignment-based fitness measures. The literature notes that
 alignment-based fitness is more precise but computationally expensive;
 the bounded replay search used here is a pragmatic compromise.</p>
-<h3 data-number="6.2.2" id="internal-validity"><span
-class="header-section-number">6.2.2</span> 6.2.2 Internal Validity</h3>
+<h3 id="internal-validity">6.2.2 Internal Validity</h3>
 <p><em>Are the observed differences caused by the extractor
 configuration, or by confounding factors?</em></p>
 <p>The E2 vs E3 comparison is subject to a confound: E3 makes up to 3
@@ -2589,8 +2437,7 @@ implementation-level nondeterminism in modern LLMs. Multi-seed runs (5
 seeds) with reported confidence intervals mitigate this but do not
 eliminate it. A fully rigorous comparison would require 30+ seeds per
 condition.</p>
-<h3 data-number="6.2.3" id="external-validity"><span
-class="header-section-number">6.2.3</span> 6.2.3 External Validity</h3>
+<h3 id="external-validity">6.2.3 External Validity</h3>
 <p><em>Can the findings be generalised beyond the study corpus?</em></p>
 <p>The curated SOP corpus uses controlled vocabulary — F1 = 1.00 for E1
 on the curated trio is a ceiling, not a typical result. The legacy IT
@@ -2608,16 +2455,14 @@ the seeded simulator). The planted ground truth enables evaluation
 against known answers, but the synthetic logs do not capture the
 multi-tenancy, concept drift, and lifecycle complexity of real
 enterprise event logs.</p>
-<h3 data-number="6.2.4" id="reliability"><span
-class="header-section-number">6.2.4</span> 6.2.4 Reliability</h3>
+<h3 id="reliability">6.2.4 Reliability</h3>
 <p><em>Can the results be replicated?</em></p>
 <p>The rule parser (E1), DFG miner (E4), and Inductive Miner (E6) are
 deterministic. Identical inputs produce byte-identical outputs; all
 seeds and parameters are documented. The LLM experiments report 5-seed
 means with standard deviations, providing a replication target.</p>
 <hr />
-<h2 data-number="6.3" id="limitations"><span
-class="header-section-number">6.3</span> 6.3 Limitations</h2>
+<h2 id="limitations">6.3 Limitations</h2>
 <ol type="1">
 <li><p><strong>Corpus scope.</strong> Four SOPs and seven event logs are
 insufficient to characterise the full distribution of real-world
@@ -2652,10 +2497,8 @@ interleaving, the bounded search may fail to find valid alignments that
 exist. The bounding parameter was not tuned in this study.</p></li>
 </ol>
 <hr />
-<h2 data-number="6.4" id="implications"><span
-class="header-section-number">6.4</span> 6.4 Implications</h2>
-<h3 data-number="6.4.1" id="for-research"><span
-class="header-section-number">6.4.1</span> 6.4.1 For Research</h3>
+<h2 id="implications">6.4 Implications</h2>
+<h3 id="for-research">6.4.1 For Research</h3>
 <p><strong>The unified benchmark fills a gap.</strong> The absence of a
 unified benchmark comparing deterministic, LLM-based, and mining-based
 extraction under identical measures was identified in the literature
@@ -2673,8 +2516,7 @@ solely on validation feedback.</p>
 validated.</strong> E6’s fitness = coverage property holds across all
 seven logs, confirming that separating structure discovery from semantic
 enrichment is the right architectural choice for a hybrid pipeline.</p>
-<h3 data-number="6.4.2" id="for-practice"><span
-class="header-section-number">6.4.2</span> 6.4.2 For Practice</h3>
+<h3 id="for-practice">6.4.2 For Practice</h3>
 <p><strong>The pipeline can produce a first draft BPMN from an SOP in
 seconds.</strong> The offline rule parser runs in milliseconds; the LLM
 path runs in 1–2 minutes. For well-structured documents (the majority in
@@ -2692,8 +2534,7 @@ vocabulary mismatch — shows that aligning SOP language with log language
 is the bottleneck for automated drift detection. Embedding-based
 matching would address this directly.</p>
 <hr />
-<h2 data-number="6.5" id="future-work"><span
-class="header-section-number">6.5</span> 6.5 Future Work</h2>
+<h2 id="future-work">6.5 Future Work</h2>
 <p>The three axes identified in the research proposal are supported by
 the findings:</p>
 <ol type="1">
@@ -2722,16 +2563,14 @@ classifier that scores vocabulary explicitness could automatically route
 documents to E1 (fast, perfect on structured) or E2/E3 (slower, robust
 on unstructured), optimising the speed-quality trade-off at the document
 level.</p>
-<h1 data-number="7" id="chapter-7-conclusion"><span
-class="header-section-number">7</span> Chapter 7: Conclusion</h1>
+<h1 id="chapter-7-conclusion">Chapter 7: Conclusion</h1>
 <p>This thesis investigated the question of whether heterogeneous
 process knowledge sources — unstructured SOP text and structured event
 logs — can be fused into valid, conformance-checked BPMN 2.0 models by
 an automated pipeline, and how alternative extraction approaches compare
 on validity, fidelity, and conformance.</p>
 <hr />
-<h2 data-number="7.1" id="summary-of-findings"><span
-class="header-section-number">7.1</span> 7.1 Summary of Findings</h2>
+<h2 id="summary-of-findings">7.1 Summary of Findings</h2>
 <p><strong>RQ1 (Automated SOP → BPMN conversion):</strong> The offline
 rule parser achieves perfect extraction (F1 = 1.00) on
 controlled-vocabulary documents and collapses (F1 = 0.10) on
@@ -2761,14 +2600,13 @@ gateways). The trade-off is real and application-dependent.</p>
 <p><strong>RQ5 (Automated drift detection and To-Be
 generation):</strong> Documented-versus-enacted drift is detected and
 quantified at both the activity and control-flow levels. Token-stem
-matching achieves 50–82% DF recall, with vocabulary drift as the
+matching achieves 33–100% DF recall, with vocabulary drift as the
 dominant degradation source. Bottleneck evidence from event logs (queue
 wait times, rework rates) successfully grounds To-Be recommendations:
 17–31% estimated critical path reduction, 8–13 percentage-point
 automation improvement.</p>
 <hr />
-<h2 data-number="7.2" id="contributions-1"><span
-class="header-section-number">7.2</span> 7.2 Contributions</h2>
+<h2 id="contributions-1">7.2 Contributions</h2>
 <p>This thesis makes four primary contributions:</p>
 <ol type="1">
 <li><p><strong>A unified benchmark (E1–E6)</strong> comparing
@@ -2793,8 +2631,7 @@ the improvement recommendations, and the output is a valid BPMN artifact
 improvement recommendation within a single automated pipeline.</p></li>
 </ol>
 <hr />
-<h2 data-number="7.3" id="limitations-1"><span
-class="header-section-number">7.3</span> 7.3 Limitations</h2>
+<h2 id="limitations-1">7.3 Limitations</h2>
 <p>The corpus is small (4 SOPs, 7 logs) and partially controlled. The F1
 = 1.00 ceiling for the rule parser on the curated trio is not
 representative of the full distribution of real-world SOP quality. The
@@ -2810,8 +2647,7 @@ inter-annotator agreement verification. The ceiling result for E1 should
 be interpreted as the ceiling under the author’s reading of the
 text.</p>
 <hr />
-<h2 data-number="7.4" id="future-work-1"><span
-class="header-section-number">7.4</span> 7.4 Future Work</h2>
+<h2 id="future-work-1">7.4 Future Work</h2>
 <p>Four extensions are identified, in order of priority:</p>
 <ol type="1">
 <li><p><strong>Evaluation at scale.</strong> Running E1–E6 on the BPI
@@ -2836,8 +2672,7 @@ automatically, optimising the quality-cost trade-off at the document
 level.</p></li>
 </ol>
 <hr />
-<h2 data-number="7.5" id="closing-remarks"><span
-class="header-section-number">7.5</span> 7.1 Closing Remarks</h2>
+<h2 id="closing-remarks">7.1 Closing Remarks</h2>
 <p>The analyst bottleneck — days to weeks of manual effort to produce a
 first draft process map — is real and costly. This thesis demonstrates
 that the bottleneck can be partially automated: a first draft BPMN model
@@ -2855,8 +2690,7 @@ makes these trade-offs measurable rather than anecdotal — and that
 measurability is the foundation for building better hybrid systems.</p>
 <p>The source code, evaluation harness, experimental data, and this
 thesis document are all available in the project repository.</p>
-<h1 data-number="8" id="references"><span
-class="header-section-number">8</span> References</h1>
+<h1 id="references">References</h1>
 <p>Anthropic. (2024). <em>Claude model card and API documentation</em>.
 https://docs.anthropic.com/</p>
 <p>Bellan, R., Dragoni, M., Ghidini, C., Ponzetto, S. P., &amp; van der
@@ -2916,9 +2750,8 @@ Rediscovering workflow models from event-based data. <em>Proceedings of
 the 11th European Conference on Information Systems</em>.</p>
 <p>Wohlin, C., et al. (2012). <em>Experimentation in Software
 Engineering</em>. Springer.</p>
-<h1 data-number="9" id="appendix-a-system-outputs-and-evidence"><span
-class="header-section-number">9</span> Appendix A: System Outputs and
-Evidence</h1>
+<h1 id="appendix-a-system-outputs-and-evidence">Appendix A: System
+Outputs and Evidence</h1>
 <p>This appendix presents the actual outputs generated by the
 ProcessMind pipeline — BPMN models, process diagrams, evaluation tables,
 and analyst reports — as evidence that the system functions as
@@ -2926,198 +2759,450 @@ described. All artifacts were produced by running the one-command
 evaluation harness (<code>python -m process_miner.cli demo</code> and
 <code>python -m process_miner.cli research-eval</code>).</p>
 <hr />
-<h2 data-number="9.1"
-id="a.1-bpmn-model-evidence-vendor-onboarding-e1-extraction"><span
-class="header-section-number">9.1</span> A.1 BPMN Model Evidence: Vendor
-Onboarding (E1 Extraction)</h2>
+<h2 id="a.1-bpmn-model-evidence-vendor-onboarding-e1-extraction">A.1
+BPMN Model Evidence: Vendor Onboarding (E1 Extraction)</h2>
 <p>Figure A.1 shows the As-Is BPMN model produced by the offline rule
 parser (E1) for the vendor onboarding SOP. This is the highest-quality
 extraction in the corpus (F1 = 1.00 vs gold annotations).</p>
 <p><em>Generated file:</em>
 <code>outputs/demo/vendor_onboarding_sop_asis.svg</code></p>
-<p><img src="figures/vendor_onboarding_sop_asis.png"
-style="width:100.0%"
+<figure>
+<img src="figures/vendor_onboarding_sop_asis.png" style="width:100.0%"
 alt="Figure A.1: Vendor Onboarding As-Is BPMN model generated by the pipeline (E1 extraction, F1 = 1.00). Rendered from outputs/demo/vendor_onboarding_sop_asis.svg." />
-┌─ POOL: Vendor Onboarding ─────────────────────────────────┐ │ │ │
-[S]──►│ Vendor Initiation │ │ │
-└────┬──────────────┬────────────────────► [E] │ │ │ │ │ │ ▼ │ │ │ │
-Collect Info │ │ │ │ │ │ │ ┌─────┴────────────┴─────┐ │ │ ▼ ▼ │ │
-[Compliance Screening] [Financial Risk Assess] │ │ │ (AND parallel) │ │
-│ └─────┬───────────────────┘ │ │ ▼ │ │ │ Review Submission │ │ │ │ │ │
-┌───┴───┐ │ │ ▼ ▼ │ │ [Reject] ▼ │ │ │ Notify Vendor Rejection │ │ │
-└──────────────────────────────────► [E] │ │ │ │ (continues to:) │ │ │ │
-│ Approve &amp; Create Account │ │ │ │ │ │ ┌───────┴───────┐ │ │ ▼ ▼ │ │
-[No Audit] │ Conduct Audit │ │ │ │ │ │ │ └──────┬───────┘ │ │ ▼ │ │ │
-Provision Access │──────► [E] │
-└───────────────────────────────────────────────────────────┘</p>
-<pre><code>
-**Model characteristics extracted by E1:**
-- Start and end events ✓
-- 11 tasks across 6 lanes (Vendor, Compliance Team, Finance, HR, IT, System) ✓
-- 3 XOR gateways (decision points) ✓
-- 1 AND gateway (parallel compliance screening) ✓
-- 1 rework loop (Audit required path) ✓
-- Automation rate: 27% (3 automated service tasks) ✓
+<figcaption aria-hidden="true">Figure A.1: Vendor Onboarding As-Is BPMN
+model generated by the pipeline (E1 extraction, F1 = 1.00). Rendered
+from
+<code>outputs/demo/vendor_onboarding_sop_asis.svg</code>.</figcaption>
+</figure>
+<p><strong>Model characteristics extracted by E1:</strong> - Start and
+end events ✓ - 11 tasks across 6 lanes (Vendor, Compliance Team,
+Finance, HR, IT, System) ✓ - 3 XOR gateways (decision points) ✓ - 1 AND
+gateway (parallel compliance screening) ✓ - 1 rework loop (Audit
+required path) ✓ - Automation rate: 27% (3 automated service tasks)
+✓</p>
+<p><strong>BPMN validity:</strong> All generated <code>.bpmn</code>
+files pass the structural validator and are verified to import into
+bpmn-js (Camunda Modeler) without errors.</p>
+<hr />
+<h2 id="a.2-html-analyst-report-vendor-onboarding">A.2 HTML Analyst
+Report (Vendor Onboarding)</h2>
+<p>Figure A.2 shows the self-contained HTML analyst report generated for
+the vendor onboarding SOP. The report includes metric cards, the
+As-Is/To-Be diagrams, findings tables, bottleneck rankings, and
+conformance information.</p>
+<p><em>Generated file:</em>
+<code>outputs/demo/vendor_onboarding_sop_report.html</code></p>
+<figure>
+<img src="figures/html_analyst_report.png"
+alt="Figure A.2: Self-contained HTML analyst report generated by the pipeline for the vendor onboarding SOP — metric cards, embedded As-Is BPMN diagram, and bottleneck findings table. Rendered from outputs/demo/vendor_onboarding_sop_report.html." />
+<figcaption aria-hidden="true">Figure A.2: Self-contained HTML analyst
+report generated by the pipeline for the vendor onboarding SOP — metric
+cards, embedded As-Is BPMN diagram, and bottleneck findings table.
+Rendered from
+<code>outputs/demo/vendor_onboarding_sop_report.html</code>.</figcaption>
+</figure>
+<hr />
+<h2 id="a.3-research-evaluation-extraction-results-rq1-rq2-rq3">A.3
+Research Evaluation: Extraction Results (RQ1, RQ2, RQ3)</h2>
+<p>Table A.1 presents the complete extraction quality results for all
+four SOPs, all three extractor configurations (E1 rule parser, E2 LLM
+single-shot, E3 LLM self-correction). These are the actual measured
+values from running
+<code>python -m process_miner.cli research-eval</code> with OpenRouter
+<code>qwen/qwen3-8b</code>.</p>
+<p><em>Generated file:</em> <code>outputs/llm_comparison.json</code></p>
+<p><strong>Table A.1: Extraction Quality — E1 vs E2 vs E3 vs Gold
+Annotations</strong></p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr>
+<th>Document</th>
+<th>Config</th>
+<th>Task P</th>
+<th>Task R</th>
+<th>Task F1</th>
+<th>Actor F1</th>
+<th>GW Err</th>
+<th>Rework Err</th>
+<th>Time (s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vendor Onboarding</td>
+<td>E1 (rule)</td>
+<td>1.00</td>
+<td>1.00</td>
+<td><strong>1.00</strong></td>
+<td>1.00</td>
+<td>0</td>
+<td>0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td></td>
+<td>E2 (LLM 1-shot)</td>
+<td>1.00</td>
+<td>0.77</td>
+<td>0.87</td>
+<td>1.00</td>
+<td>2</td>
+<td>1</td>
+<td>103.4</td>
+</tr>
+<tr>
+<td></td>
+<td>E3 (LLM retry)</td>
+<td>1.00</td>
+<td>1.00</td>
+<td><strong>1.00</strong> ✓</td>
+<td>1.00</td>
+<td>0</td>
+<td>0</td>
+<td>123.0</td>
+</tr>
+<tr>
+<td>IT Incident Mgmt</td>
+<td>E1 (rule)</td>
+<td>1.00</td>
+<td>1.00</td>
+<td><strong>1.00</strong></td>
+<td>1.00</td>
+<td>0</td>
+<td>0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td></td>
+<td>E2 (LLM 1-shot)</td>
+<td>0.91</td>
+<td>0.67</td>
+<td>0.77</td>
+<td>0.89</td>
+<td>4</td>
+<td>1</td>
+<td>22.6</td>
+</tr>
+<tr>
+<td></td>
+<td>E3 (LLM retry)</td>
+<td>0.85</td>
+<td>0.73</td>
+<td>0.79</td>
+<td>1.00</td>
+<td>4</td>
+<td>1</td>
+<td>25.0</td>
+</tr>
+<tr>
+<td>Employee Leave</td>
+<td>E1 (rule)</td>
+<td>1.00</td>
+<td>1.00</td>
+<td><strong>1.00</strong></td>
+<td>1.00</td>
+<td>0</td>
+<td>0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td></td>
+<td>E2 (LLM 1-shot)</td>
+<td>0.83</td>
+<td>0.62</td>
+<td>0.71</td>
+<td>1.00</td>
+<td>3</td>
+<td>0</td>
+<td>76.0</td>
+</tr>
+<tr>
+<td></td>
+<td>E3 (LLM retry)</td>
+<td>0.86</td>
+<td>0.75</td>
+<td>0.80</td>
+<td>1.00</td>
+<td>2</td>
+<td>0</td>
+<td>52.9</td>
+</tr>
+<tr>
+<td>Legacy IT Purchase</td>
+<td>E1 (rule)</td>
+<td>0.17</td>
+<td>0.07</td>
+<td>0.10</td>
+<td>0.00</td>
+<td>3</td>
+<td>1</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td></td>
+<td>E2 (LLM 1-shot)</td>
+<td>0.55</td>
+<td>0.43</td>
+<td>0.48</td>
+<td>0.83</td>
+<td>1</td>
+<td>1</td>
+<td>85.4</td>
+</tr>
+<tr>
+<td></td>
+<td>E3 (LLM retry)</td>
+<td>0.60</td>
+<td>0.43</td>
+<td><strong>0.50</strong> ←</td>
+<td>1.00</td>
+<td>1</td>
+<td>1</td>
+<td>114.5</td>
+</tr>
+</tbody>
+</table>
+<p><em>Extraction method recorded per run in <code>result.json</code>:
+<code>"method": "offline-rules"</code> (E1),
+<code>"method": "llm:openai-compatible"</code> (E2/E3).</em></p>
+<p><strong>Key observations:</strong> - E1 achieves perfect extraction
+(F1 = 1.00) on the three controlled-vocabulary SOPs ✓ - E1 collapses on
+the unstructured Legacy IT Purchase SOP (F1 = 0.10) ✓ - E2 recovers
+substantially on the unstructured SOP (F1 = 0.48, 4.8× better than E1) ✓
+- E3 improves over E2 on all three documents with valid LLM-path runs
+(gains: 0.02 to 0.09 F1) ✓ - Vendor onboarding E3 (F1 = 1.00) is a
+rule-parser fallback run (recorded method <code>offline-rules</code>),
+not LLM self-correction — see Table 5.1 footnote ✓</p>
+<hr />
+<h2 id="a.4-discovery-soundness-e4-dfg-vs-e6-inductive-miner-rq4">A.4
+Discovery Soundness: E4 DFG vs E6 Inductive Miner (RQ4)</h2>
+<p>Table A.2 presents the token-replay fitness and model size comparison
+between the DFG miner (E4) and the Inductive Miner (E6) across all seven
+event logs. Both algorithms were run on identical variant multisets.</p>
+<p><em>Generated by:</em>
+<code>python -m process_miner.cli discover-im</code> and
+<code>python -m process_miner.cli analyze-log</code>; fitness computed
+by <code>inductive/replay.py</code>.</p>
+<p><strong>Table A.2: Discovery Soundness — E4 DFG vs E6 Inductive
+Miner</strong></p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr>
+<th>Log</th>
+<th>Cases</th>
+<th>Variants</th>
+<th>E4 Fitness</th>
+<th>E6 Fitness</th>
+<th>E6 Coverage</th>
+<th>E4 Tasks</th>
+<th>E6 Tasks</th>
+<th>E4 GW</th>
+<th>E6 GW</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IT incident (csv)</td>
+<td>300</td>
+<td>4</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>0.957</td>
+<td>12</td>
+<td>12</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Vendor onboarding (csv)</td>
+<td>250</td>
+<td>4</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>0.940</td>
+<td>11</td>
+<td>11</td>
+<td>5</td>
+<td>8</td>
+</tr>
+<tr>
+<td>IT incident (xes)</td>
+<td>300</td>
+<td>4</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>12</td>
+<td>12</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Invoice-to-Pay (syn)</td>
+<td>150</td>
+<td>3</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>7</td>
+<td>7</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Order-to-Cash (syn)</td>
+<td>149</td>
+<td>5</td>
+<td>0.919</td>
+<td><strong>1.000</strong></td>
+<td>1.000</td>
+<td>11</td>
+<td>12</td>
+<td>6</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Procurement (syn)</td>
+<td>150</td>
+<td>4</td>
+<td>0.947</td>
+<td><strong>1.000</strong></td>
+<td>1.000</td>
+<td>8</td>
+<td>9</td>
+<td>6</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Noisy synthetic</td>
+<td>150</td>
+<td>5</td>
+<td>0.667</td>
+<td><strong>0.947</strong></td>
+<td>0.947</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p><em>GW = total gateway count (XOR + AND). All E4 and E6 models are
+structurally valid (passed <code>bpmn/validate.py</code>).</em></p>
+<p><strong>Key observations:</strong> - E6 fitness equals E6 variant
+coverage on every log — the signature of sound-by-construction ✓ - Noisy
+log: E4 fitness = 0.667 (frequency threshold loses 33% of trace
+variants) vs E6 fitness = 0.947 ✓ - Order-to-Cash and Procurement: E4
+fitness below 1.000 (0.919 and 0.947) despite clean logs ✓ - E6 produces
+more gateways than E4 (to maintain soundness) but is always valid ✓</p>
+<hr />
+<h2 id="a.5-conformance-report-vendor-onboarding">A.5 Conformance
+Report: Vendor Onboarding</h2>
+<p>Figure A.3 shows the conformance drift report for the vendor
+onboarding SOP-log pair, generated by <code>conformance.py</code>.</p>
+<p><em>Generated file:</em>
+<code>outputs/demo/vendor_onboarding_sop_conformance.json</code></p>
+<pre><code>CONFORMANCE REPORT — Vendor Onboarding SOP vs vendor_onboarding_events.csv
+========================================================================
+Activities matched: 7 / 10 documented activities (trace fitness: 37%)
+  ✓ Matched: Review Application, Financial Risk Assessment,
+             Reject Application, Create Vendor Record, ...
+  ✗ Missed: Approve Compliance Findings, Evaluate Financial Documents,
+             Notify Vendor to Resubmit
 
-**BPMN validity:** All generated `.bpmn` files pass the structural validator and are verified to import into bpmn-js (Camunda Modeler) without errors.
+DF Precision: 25% (documented flows found in log)
+DF Recall:    33% (log flows found in documented model)
 
----
+Drift classification:
+  documented-not-enacted: 3 activities (in SOP, not in log)
+  enacted-not-documented: 4 activities (in log, not in SOP)
+  sequence-mismatch:      9 documented-only / 6 enacted-only flows
 
-## A.2 HTML Analyst Report (Vendor Onboarding)
-
-Figure A.2 shows the self-contained HTML analyst report generated for the vendor onboarding SOP. The report includes metric cards, the As-Is/To-Be diagrams, findings tables, bottleneck rankings, and conformance information.
-
-*Generated file:* `outputs/demo/vendor_onboarding_sop_report.html`
-
-![Figure A.2: Self-contained HTML analyst report generated by the pipeline for the vendor onboarding SOP — metric cards, embedded As-Is BPMN diagram, and bottleneck findings table. Rendered from `outputs/demo/vendor_onboarding_sop_report.html`.](figures/html_analyst_report.png)
-
----
-
-## A.3 Research Evaluation: Extraction Results (RQ1, RQ2, RQ3)
-
-Table A.1 presents the complete extraction quality results for all four SOPs, all three extractor configurations (E1 rule parser, E2 LLM single-shot, E3 LLM self-correction). These are the actual measured values from running `python -m process_miner.cli research-eval` with OpenRouter `qwen/qwen3-8b`.
-
-*Generated file:* `outputs/llm_comparison.json`
-
-**Table A.1: Extraction Quality — E1 vs E2 vs E3 vs Gold Annotations**
-
-| Document | Config | Task P | Task R | Task F1 | Actor F1 | GW Err | Rework Err | Time (s) |
-|---|---|---|---|---|---|---|---|---|
-| Vendor Onboarding | E1 (rule) | 1.00 | 1.00 | **1.00** | 1.00 | 0 | 0 | 0.0 |
-| | E2 (LLM 1-shot) | 1.00 | 0.77 | 0.87 | 1.00 | 2 | 1 | 103.4 |
-| | E3 (LLM retry) | 1.00 | 1.00 | **1.00** ✓ | 1.00 | 0 | 0 | 123.0 |
-| IT Incident Mgmt | E1 (rule) | 1.00 | 1.00 | **1.00** | 1.00 | 0 | 0 | 0.0 |
-| | E2 (LLM 1-shot) | 0.91 | 0.67 | 0.77 | 0.89 | 4 | 1 | 22.6 |
-| | E3 (LLM retry) | 0.85 | 0.73 | 0.79 | 1.00 | 4 | 1 | 25.0 |
-| Employee Leave | E1 (rule) | 1.00 | 1.00 | **1.00** | 1.00 | 0 | 0 | 0.0 |
-| | E2 (LLM 1-shot) | 0.83 | 0.62 | 0.71 | 1.00 | 3 | 0 | 76.0 |
-| | E3 (LLM retry) | 0.86 | 0.75 | 0.80 | 1.00 | 2 | 0 | 52.9 |
-| Legacy IT Purchase | E1 (rule) | 0.17 | 0.07 | 0.10 | 0.00 | 3 | 1 | 0.0 |
-| | E2 (LLM 1-shot) | 0.55 | 0.43 | 0.48 | 0.83 | 1 | 1 | 85.4 |
-| | E3 (LLM retry) | 0.60 | 0.43 | **0.50** ← | 1.00 | 1 | 1 | 114.5 |
-
-*Extraction method recorded per run in `result.json`: `&quot;method&quot;: &quot;offline-rules&quot;` (E1), `&quot;method&quot;: &quot;llm:openai-compatible&quot;` (E2/E3).*
-
-**Key observations:**
-- E1 achieves perfect extraction (F1 = 1.00) on the three controlled-vocabulary SOPs ✓
-- E1 collapses on the unstructured Legacy IT Purchase SOP (F1 = 0.10) ✓
-- E2 recovers substantially on the unstructured SOP (F1 = 0.48, 4.8× better than E1) ✓
-- E3 improves over E2 on all three documents with valid LLM-path runs (gains: 0.02 to 0.09 F1) ✓
-- Vendor onboarding E3 (F1 = 1.00) is a rule-parser fallback run (recorded method `offline-rules`), not LLM self-correction — see Table 5.1 footnote ✓
-
----
-
-## A.4 Discovery Soundness: E4 DFG vs E6 Inductive Miner (RQ4)
-
-Table A.2 presents the token-replay fitness and model size comparison between the DFG miner (E4) and the Inductive Miner (E6) across all seven event logs. Both algorithms were run on identical variant multisets.
-
-*Generated by:* `python -m process_miner.cli discover-im` and `python -m process_miner.cli analyze-log`; fitness computed by `inductive/replay.py`.
-
-**Table A.2: Discovery Soundness — E4 DFG vs E6 Inductive Miner**
-
-| Log | Cases | Variants | E4 Fitness | E6 Fitness | E6 Coverage | E4 Tasks | E6 Tasks | E4 GW | E6 GW |
-|---|---|---|---|---|---|---|---|---|---|
-| IT incident (csv) | 300 | 4 | 1.000 | 1.000 | 0.957 | 12 | 12 | 4 | 4 |
-| Vendor onboarding (csv) | 250 | 4 | 1.000 | 1.000 | 0.940 | 11 | 11 | 5 | 8 |
-| IT incident (xes) | 300 | 4 | 1.000 | 1.000 | 1.000 | 12 | 12 | 4 | 4 |
-| Invoice-to-Pay (syn) | 150 | 3 | 1.000 | 1.000 | 1.000 | 7 | 7 | 2 | 6 |
-| Order-to-Cash (syn) | 149 | 5 | 0.919 | **1.000** | 1.000 | 11 | 12 | 6 | 12 |
-| Procurement (syn) | 150 | 4 | 0.947 | **1.000** | 1.000 | 8 | 9 | 6 | 8 |
-| Noisy synthetic | 150 | 5 | 0.667 | **0.947** | 0.947 | 5 | 5 | 2 | 4 |
-
-*GW = total gateway count (XOR + AND). All E4 and E6 models are structurally valid (passed `bpmn/validate.py`).*
-
-**Key observations:**
-- E6 fitness equals E6 variant coverage on every log — the signature of sound-by-construction ✓
-- Noisy log: E4 fitness = 0.667 (frequency threshold loses 33% of trace variants) vs E6 fitness = 0.947 ✓
-- Order-to-Cash and Procurement: E4 fitness below 1.000 (0.919 and 0.947) despite clean logs ✓
-- E6 produces more gateways than E4 (to maintain soundness) but is always valid ✓
-
----
-
-## A.5 Conformance Report: Vendor Onboarding
-
-Figure A.3 shows the conformance drift report for the vendor onboarding SOP-log pair, generated by `conformance.py`.
-
-*Generated file:* `outputs/demo/vendor_onboarding_sop_conformance.json`
-</code></pre>
-<h1 data-number="10"
-id="conformance-report-vendor-onboarding-sop-vs-vendor_onboarding_events.csv"><span
-class="header-section-number">10</span> CONFORMANCE REPORT — Vendor
-Onboarding SOP vs vendor_onboarding_events.csv</h1>
-<p>Activities matched: 9 / 13 gold activities (DF recall: 50%) ✓
-Matched: Log the requisition, Attach vendor quote, Check budget… ✗
-Missed: Perform background screening, Conduct financial review…</p>
-<p>DF Precision: 31% (9 of 29 documented flows found in log) DF Recall:
-50% (9 of 18 log flows found in documented model)</p>
-<p>Drift classification: documented-not-enacted: 4 activities (in SOP,
-not in log) enacted-not-documented: 2 activities (in log, not in SOP)
-sequence-mismatch: 3 flows (both present, different order)</p>
-<p>Root cause: vocabulary gap (“Perform background screening” ≠
-“Compliance Screening”)</p>
-<pre><code>
-*Figure A.3: Conformance drift report — vocabulary gap identified as dominant cause.*
-
----
-
-## A.6 BPMN XML Sample (Invoice-to-Pay — Inductive Miner)
-
-Figure A.6 shows a snippet of the BPMN 2.0 XML produced by the Inductive Miner (E6) for the invoice-to-pay synthetic log, demonstrating the complete DI (Diagram Interchange) layer.
-
-*Generated file:* `outputs/im/invoice_ap_log_bpmn.bpmn`
-
-```xml
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;bpmn:definitions xmlns:bpmn=&quot;http://www.omg.org/spec/BPMN/20100524/MODEL&quot;
-                  xmlns:bpmndi=&quot;http://www.omg.org/spec/BPMN/20100524/DI&quot;
-                  xmlns:dc=&quot;http://www.omg.org/spec/DD/20100524/DC&quot;
-                  id=&quot;Definitions_1&quot; ...&gt;
-
-  &lt;bpmn:process id=&quot;Process_1&quot; isExecutable=&quot;true&quot;&gt;
-    &lt;!-- Start event --&gt;
-    &lt;bpmn:startEvent id=&quot;StartEvent_1&quot; name=&quot;Start&quot;&gt;
-      &lt;bpmn:outgoing&gt;Flow_1&lt;/bpmn:outgoing&gt;
-    &lt;/bpmn:startEvent&gt;
-
-    &lt;!-- Tasks (typed: userTask / serviceTask) --&gt;
-    &lt;bpmn:userTask id=&quot;Activity_ReceiveInvoice&quot; name=&quot;Receive and log invoice&quot;&gt;
-      &lt;bpmn:documentation&gt;Source: Inductive Miner E6 | Variant freq: 98/150&lt;/bpmn:documentation&gt;
-      &lt;bpmn:incoming&gt;Flow_1&lt;/bpmn:incoming&gt;
-      &lt;bpmn:outgoing&gt;Flow_2&lt;/bpmn:outgoing&gt;
-    &lt;/bpmn:userTask&gt;
-
-    &lt;!-- XOR Gateway (data-based split) --&gt;
-    &lt;bpmn:exclusiveGateway id=&quot;Gateway_1&quot; name=&quot;Valid?&quot; gatewayDirection=&quot;Converging&quot;&gt;
-      &lt;bpmn:incoming&gt;Flow_2&lt;/bpmn:incoming&gt;
-      &lt;bpmn:incoming&gt;Flow_8&lt;/bpmn:incoming&gt;
-      &lt;bpmn:outgoing&gt;Flow_3&lt;/bpmn:outgoing&gt;
-    &lt;/bpmn:exclusiveGateway&gt;
-
-    &lt;!-- AND Gateway (parallel split) --&gt;
-    &lt;bpmn:parallelGateway id=&quot;Gateway_2&quot; name=&quot;AP+Legal Review (parallel)&quot;
-                          gatewayDirection=&quot;Diverging&quot;&gt;
-      &lt;bpmn:incoming&gt;Flow_3&lt;/bpmn:incoming&gt;
-      &lt;bpmn:outgoing&gt;Flow_4&lt;/bpmn:outgoing&gt;
-      &lt;bpmn:outgoing&gt;Flow_5&lt;/bpmn:outgoing&gt;
-    &lt;/bpmn:parallelGateway&gt;
-
-    &lt;!-- Complete DI: shapes with bounds, edges with waypoints --&gt;
-  &lt;/bpmn:process&gt;
-
-  &lt;bpmndi:BPMNDiagram id=&quot;BPMNDiagram_1&quot;&gt;
-    &lt;bpmndi:BPMNPlane id=&quot;BPMNPlane_1&quot; bpmnElement=&quot;Process_1&quot;&gt;
-      &lt;bpmndi:BPMNShape id=&quot;StartEvent_1_di&quot; bpmnElement=&quot;StartEvent_1&quot;&gt;
-        &lt;dc:Bounds x=&quot;100&quot; y=&quot;100&quot; width=&quot;36&quot; height=&quot;36&quot;/&gt;
-      &lt;/bpmndi:BPMNShape&gt;
-      &lt;!-- ... full DI for all nodes and edges ... --&gt;
-    &lt;/bpmndi:BPMNPlane&gt;
-  &lt;/bpmndi:BPMNDiagram&gt;
-&lt;/bpmn:definitions&gt;</code></pre>
+Root cause: vocabulary gap (&quot;Perform background screening&quot; ≠ &quot;Compliance Screening&quot;)</code></pre>
+<p><em>Figure A.3: Conformance drift report — vocabulary gap identified
+as dominant cause.</em></p>
+<hr />
+<h2 id="a.6-bpmn-xml-sample-invoice-to-pay-inductive-miner">A.6 BPMN XML
+Sample (Invoice-to-Pay — Inductive Miner)</h2>
+<p>Figure A.6 shows a snippet of the BPMN 2.0 XML produced by the
+Inductive Miner (E6) for the invoice-to-pay synthetic log, demonstrating
+the complete DI (Diagram Interchange) layer.</p>
+<p><em>Generated file:</em>
+<code>outputs/im/invoice_ap_log_bpmn.bpmn</code></p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode xml"><code class="sourceCode xml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">&lt;?xml</span> <span class="ot">version=</span><span class="st">&quot;1.0&quot;</span> <span class="ot">encoding=</span><span class="st">&quot;UTF-8&quot;</span><span class="fu">?&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">bpmn:definitions</span> <span class="ot">xmlns:bpmn=</span><span class="st">&quot;http://www.omg.org/spec/BPMN/20100524/MODEL&quot;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>                  <span class="ot">xmlns:bpmndi=</span><span class="st">&quot;http://www.omg.org/spec/BPMN/20100524/DI&quot;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>                  <span class="ot">xmlns:dc=</span><span class="st">&quot;http://www.omg.org/spec/DD/20100524/DC&quot;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>                  <span class="ot">id=</span><span class="st">&quot;Definitions_1&quot;</span> <span class="er">...</span>&gt;</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">bpmn:process</span> <span class="ot">id=</span><span class="st">&quot;Process_1&quot;</span> <span class="ot">isExecutable=</span><span class="st">&quot;true&quot;</span>&gt;</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">&lt;!-- Start event --&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">bpmn:startEvent</span> <span class="ot">id=</span><span class="st">&quot;StartEvent_1&quot;</span> <span class="ot">name=</span><span class="st">&quot;Start&quot;</span>&gt;</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:outgoing</span>&gt;Flow_1&lt;/<span class="kw">bpmn:outgoing</span>&gt;</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">bpmn:startEvent</span>&gt;</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">&lt;!-- Tasks (typed: userTask / serviceTask) --&gt;</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">bpmn:userTask</span> <span class="ot">id=</span><span class="st">&quot;Activity_ReceiveInvoice&quot;</span> <span class="ot">name=</span><span class="st">&quot;Receive and log invoice&quot;</span>&gt;</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:documentation</span>&gt;Source: Inductive Miner E6 | Variant freq: 98/150&lt;/<span class="kw">bpmn:documentation</span>&gt;</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:incoming</span>&gt;Flow_1&lt;/<span class="kw">bpmn:incoming</span>&gt;</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:outgoing</span>&gt;Flow_2&lt;/<span class="kw">bpmn:outgoing</span>&gt;</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">bpmn:userTask</span>&gt;</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">&lt;!-- XOR Gateway (data-based split) --&gt;</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">bpmn:exclusiveGateway</span> <span class="ot">id=</span><span class="st">&quot;Gateway_1&quot;</span> <span class="ot">name=</span><span class="st">&quot;Valid?&quot;</span> <span class="ot">gatewayDirection=</span><span class="st">&quot;Converging&quot;</span>&gt;</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:incoming</span>&gt;Flow_2&lt;/<span class="kw">bpmn:incoming</span>&gt;</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:incoming</span>&gt;Flow_8&lt;/<span class="kw">bpmn:incoming</span>&gt;</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:outgoing</span>&gt;Flow_3&lt;/<span class="kw">bpmn:outgoing</span>&gt;</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">bpmn:exclusiveGateway</span>&gt;</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="co">&lt;!-- AND Gateway (parallel split) --&gt;</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">bpmn:parallelGateway</span> <span class="ot">id=</span><span class="st">&quot;Gateway_2&quot;</span> <span class="ot">name=</span><span class="st">&quot;AP+Legal Review (parallel)&quot;</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>                          <span class="ot">gatewayDirection=</span><span class="st">&quot;Diverging&quot;</span>&gt;</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:incoming</span>&gt;Flow_3&lt;/<span class="kw">bpmn:incoming</span>&gt;</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:outgoing</span>&gt;Flow_4&lt;/<span class="kw">bpmn:outgoing</span>&gt;</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmn:outgoing</span>&gt;Flow_5&lt;/<span class="kw">bpmn:outgoing</span>&gt;</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">bpmn:parallelGateway</span>&gt;</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>    <span class="co">&lt;!-- Complete DI: shapes with bounds, edges with waypoints --&gt;</span></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">bpmn:process</span>&gt;</span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">bpmndi:BPMNDiagram</span> <span class="ot">id=</span><span class="st">&quot;BPMNDiagram_1&quot;</span>&gt;</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">bpmndi:BPMNPlane</span> <span class="ot">id=</span><span class="st">&quot;BPMNPlane_1&quot;</span> <span class="ot">bpmnElement=</span><span class="st">&quot;Process_1&quot;</span>&gt;</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">bpmndi:BPMNShape</span> <span class="ot">id=</span><span class="st">&quot;StartEvent_1_di&quot;</span> <span class="ot">bpmnElement=</span><span class="st">&quot;StartEvent_1&quot;</span>&gt;</span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">dc:Bounds</span> <span class="ot">x=</span><span class="st">&quot;100&quot;</span> <span class="ot">y=</span><span class="st">&quot;100&quot;</span> <span class="ot">width=</span><span class="st">&quot;36&quot;</span> <span class="ot">height=</span><span class="st">&quot;36&quot;</span>/&gt;</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>      &lt;/<span class="kw">bpmndi:BPMNShape</span>&gt;</span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>      <span class="co">&lt;!-- ... full DI for all nodes and edges ... --&gt;</span></span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">bpmndi:BPMNPlane</span>&gt;</span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">bpmndi:BPMNDiagram</span>&gt;</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">bpmn:definitions</span>&gt;</span></code></pre></div>
 <p><em>Figure A.6: BPMN 2.0 XML excerpt — complete with DI layer
 (shapes, bounds, waypoints), verified to import into bpmn-js.</em></p>
 <hr />
-<h2 data-number="10.1" id="a.7-test-suite-evidence"><span
-class="header-section-number">10.1</span> A.7 Test Suite Evidence</h2>
+<h2 id="a.7-test-suite-evidence">A.7 Test Suite Evidence</h2>
 <p>All pipeline components have automated test coverage. The full test
 suite (162 tests) passes deterministically, providing evidence of system
 reliability.</p>
@@ -3153,21 +3238,17 @@ run of the ProcessMind suite — 162 passed.</figcaption>
 <p><strong>Note:</strong> LLM-dependent tests (<code>test_llm_*</code>)
 use mock providers when <code>OPENAI_API_KEY</code> is not set, ensuring
 deterministic test results regardless of API availability.</p>
-<h1 data-number="11" id="appendix-b-complete-evaluation-data"><span
-class="header-section-number">11</span> Appendix B: Complete Evaluation
-Data</h1>
+<h1 id="appendix-b-complete-evaluation-data">Appendix B: Complete
+Evaluation Data</h1>
 <p>This appendix contains the complete raw data from the evaluation
 runs, providing full reproducibility evidence for all results reported
 in Chapter 5.</p>
 <hr />
-<h2 data-number="11.1"
-id="b.1-extraction-evaluation-per-document-results-experiment-a"><span
-class="header-section-number">11.1</span> B.1 Extraction Evaluation:
-Per-Document Results (Experiment A)</h2>
+<h2 id="b.1-extraction-evaluation-per-document-results-experiment-a">B.1
+Extraction Evaluation: Per-Document Results (Experiment A)</h2>
 <p>Generated by: <code>python -m process_miner.cli eval</code> (E1 rule
 parser vs gold)</p>
-<h3 data-number="11.1.1" id="employee-leave-approval"><span
-class="header-section-number">11.1.1</span> Employee Leave Approval</h3>
+<h3 id="employee-leave-approval">Employee Leave Approval</h3>
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -3220,8 +3301,7 @@ leave balance</td>
 </tr>
 </tbody>
 </table>
-<h3 data-number="11.1.2" id="it-incident-management"><span
-class="header-section-number">11.1.2</span> IT Incident Management</h3>
+<h3 id="it-incident-management">IT Incident Management</h3>
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -3275,8 +3355,7 @@ priority, Categorise incident, Log incident</td>
 </tr>
 </tbody>
 </table>
-<h3 data-number="11.1.3" id="legacy-it-purchase"><span
-class="header-section-number">11.1.3</span> Legacy IT Purchase</h3>
+<h3 id="legacy-it-purchase">Legacy IT Purchase</h3>
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -3335,14 +3414,11 @@ Inspect goods, Archive invoice</td>
 </tbody>
 </table>
 <hr />
-<h2 data-number="11.2"
-id="b.2-e2e3-llm-comparison-complete-per-document-data"><span
-class="header-section-number">11.2</span> B.2 E2/E3 LLM Comparison:
-Complete Per-Document Data</h2>
+<h2 id="b.2-e2e3-llm-comparison-complete-per-document-data">B.2 E2/E3
+LLM Comparison: Complete Per-Document Data</h2>
 <p>Generated by: <code>python scripts/run_llm_experiments.py</code>
 (OpenRouter <code>qwen/qwen3-8b</code>, 5 seeds averaged)</p>
-<h3 data-number="11.2.1" id="vendor-onboarding"><span
-class="header-section-number">11.2.1</span> Vendor Onboarding</h3>
+<h3 id="vendor-onboarding">Vendor Onboarding</h3>
 <table style="width:100%;">
 <colgroup>
 <col style="width: 11%" />
@@ -3411,8 +3487,7 @@ parser (method <code>offline-rules</code> in
 <code>outputs/llm_comparison.json</code>) after the LLM attempts did not
 validate; the F1 = 1.00 reflects the E1 ceiling, not LLM
 self-correction.</p>
-<h3 data-number="11.2.2" id="it-incident-management-1"><span
-class="header-section-number">11.2.2</span> IT Incident Management</h3>
+<h3 id="it-incident-management-1">IT Incident Management</h3>
 <table>
 <colgroup>
 <col style="width: 12%" />
@@ -3473,8 +3548,7 @@ class="header-section-number">11.2.2</span> IT Incident Management</h3>
 business stakeholders” (LLM confused with auto-notification) <strong>E3
 Recovery:</strong> Actor assignment corrected after validation feedback;
 task recall partially improved</p>
-<h3 data-number="11.2.3" id="employee-leave-approval-1"><span
-class="header-section-number">11.2.3</span> Employee Leave Approval</h3>
+<h3 id="employee-leave-approval-1">Employee Leave Approval</h3>
 <table>
 <colgroup>
 <col style="width: 12%" />
@@ -3531,8 +3605,7 @@ class="header-section-number">11.2.3</span> Employee Leave Approval</h3>
 </tr>
 </tbody>
 </table>
-<h3 data-number="11.2.4" id="legacy-it-purchase-1"><span
-class="header-section-number">11.2.4</span> Legacy IT Purchase</h3>
+<h3 id="legacy-it-purchase-1">Legacy IT Purchase</h3>
 <table>
 <colgroup>
 <col style="width: 12%" />
@@ -3590,15 +3663,12 @@ class="header-section-number">11.2.4</span> Legacy IT Purchase</h3>
 </tbody>
 </table>
 <hr />
-<h2 data-number="11.3"
-id="b.3-discovery-evaluation-complete-per-log-data-experiment-b"><span
-class="header-section-number">11.3</span> B.3 Discovery Evaluation:
-Complete Per-Log Data (Experiment B)</h2>
+<h2 id="b.3-discovery-evaluation-complete-per-log-data-experiment-b">B.3
+Discovery Evaluation: Complete Per-Log Data (Experiment B)</h2>
 <p>Generated by: <code>python -m process_miner.cli discover-im</code>
 (E6) and <code>python -m process_miner.cli analyze-log</code> (E4);
 fitness by <code>inductive/replay.py</code></p>
-<h3 data-number="11.3.1" id="per-log-detail"><span
-class="header-section-number">11.3.1</span> Per-Log Detail</h3>
+<h3 id="per-log-detail">Per-Log Detail</h3>
 <table>
 <colgroup>
 <col style="width: 12%" />
@@ -3775,8 +3845,7 @@ class="header-section-number">11.3.1</span> Per-Log Detail</h3>
 </tbody>
 </table>
 <hr />
-<h2 data-number="11.4" id="b.4-gold-standard-models-summary"><span
-class="header-section-number">11.4</span> B.4 Gold Standard Models
+<h2 id="b.4-gold-standard-models-summary">B.4 Gold Standard Models
 (Summary)</h2>
 <p>The gold annotation files in <code>eval/gold/</code> contain the
 reference ProcessModel JSON for each SOP. The annotation protocol and
@@ -3828,8 +3897,7 @@ co-design note are described in Chapter 3, §3.3.</p>
 </tbody>
 </table>
 <hr />
-<h2 data-number="11.5" id="b.5-pipeline-invocation-evidence"><span
-class="header-section-number">11.5</span> B.5 Pipeline Invocation
+<h2 id="b.5-pipeline-invocation-evidence">B.5 Pipeline Invocation
 Evidence</h2>
 <p>All results are produced by the following commands (fully documented
 and reproducible):</p>
