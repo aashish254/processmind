@@ -2,13 +2,14 @@
 ## LLM Multi-Agent Extraction + Sound Process Mining for Automated BPMN Reconstruction
 
 [![Thesis DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22854334.svg)](https://doi.org/10.5281/zenodo.22854334)
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22854725.svg)](https://doi.org/10.5281/zenodo.22854725)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Tests: 162 passing](https://img.shields.io/badge/tests-162%20passing-brightgreen.svg)](tests/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--8952--6357-green.svg)](https://orcid.org/0009-0007-8952-6357)
 
 > **Author:** Aashish Kumar Mahato · Independent Researcher · [ORCID 0009-0007-8952-6357](https://orcid.org/0009-0007-8952-6357)
 >
-> **Published preprint:** Mahato, A. K. (2026). *LLM-Assisted Business Process Discovery*. Zenodo. https://doi.org/10.5281/zenodo.22854334
+> **Published:** Thesis preprint — https://doi.org/10.5281/zenodo.22854334 · Software archive — https://doi.org/10.5281/zenodo.22854725
 
 **Start here for the thesis:** [thesis/THESIS_README.md](thesis/THESIS_README.md) — one-page guide: run commands, where the numbers live, what to say when presenting.
 
