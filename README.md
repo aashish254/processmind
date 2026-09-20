@@ -1,6 +1,15 @@
 # ProcessMind — Merged Research Framework
 ## LLM Multi-Agent Extraction + Sound Process Mining for Automated BPMN Reconstruction
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Tests: 162 passing](https://img.shields.io/badge/tests-162%20passing-brightgreen.svg)](tests/)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0007--8952--6357-green.svg)](https://orcid.org/0009-0007-8952-6357)
+
+> **Author:** Aashish Kumar Mahato · Independent Researcher · [ORCID 0009-0007-8952-6357](https://orcid.org/0009-0007-8952-6357)
+>
+> *(Replace `10.5281/zenodo.XXXXXXX` above with your real Zenodo DOI after Step 2 in [PUBLISHING.md](PUBLISHING.md).)*
+
 **Start here for the thesis:** [thesis/THESIS_README.md](thesis/THESIS_README.md) — one-page guide: run commands, where the numbers live, what to say when presenting.
 
 **Quick demo:** `open outputs/thesis_index.html` — visual browser of all 4 SOP artifacts with PNG screenshots.
