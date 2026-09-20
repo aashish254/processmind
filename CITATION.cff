@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ProcessMind: LLM Multi-Agent Extraction + Sound Process Mining for Automated BPMN Reconstruction"
+authors:
+  - family-names: Aashish
+    given-names: ""
+    # Add your ORCID here once you register one (free): https://orcid.org
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 1.0.0
+date-released: 2026-09-20
+license: MIT
+repository-code: "https://github.com/YOUR-USERNAME/processmind"
+keywords:
+  - business process management
+  - BPMN
+  - process mining
+  - large language models
+  - multi-agent systems
+  - process discovery
+abstract: >-
+  ProcessMind is a research framework that fuses heterogeneous process
+  knowledge sources — unstructured SOP text and structured event logs —
+  into valid, conformance-checked BPMN 2.0 models. It implements five
+  extractor configurations (deterministic rule parser, single-shot LLM,
+  LLM with self-correction, DFG discovery, and a sound-by-construction
+  Inductive Miner) evaluated under one identical-measures harness.

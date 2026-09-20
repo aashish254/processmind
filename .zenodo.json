@@ -1,0 +1,25 @@
+{
+  "title": "ProcessMind: LLM Multi-Agent Extraction + Sound Process Mining for Automated BPMN Reconstruction",
+  "description": "ProcessMind is a research framework that fuses heterogeneous process knowledge sources (unstructured SOP text and structured event logs) into valid, conformance-checked BPMN 2.0 models. It implements five extractor configurations (deterministic rule parser E1, single-shot LLM E2, LLM with self-correction E3, DFG discovery E4, and a sound-by-construction Inductive Miner E6) evaluated under one identical-measures harness. Includes 162-test suite, 4-SOP/7-log corpus, and one-command reproducible evaluation.",
+  "creators": [
+    {
+      "name": "Aashish",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "business process management",
+    "BPMN",
+    "process mining",
+    "large language models",
+    "multi-agent systems",
+    "process discovery",
+    "inductive miner",
+    "conformance checking"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "access_right": "open",
+  "communities": []
+}

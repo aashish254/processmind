@@ -1,0 +1,3289 @@
+case_id,activity,timestamp,resource
+INC-0001,Log Incident,2026-02-15 17:42,Service Desk Agent
+INC-0001,Categorize Incident,2026-02-15 18:06,ITSM Platform
+INC-0001,Assign Priority,2026-02-15 18:20,ITSM Platform
+INC-0001,Investigate Issue,2026-02-16 00:03,Service Desk Agent
+INC-0001,Open War Room,2026-02-16 02:03,Incident Manager
+INC-0001,Restore Service,2026-02-16 04:30,Network Team
+INC-0001,Escalate Ticket,2026-02-16 14:56,Service Desk Agent
+INC-0001,Investigate Issue,2026-02-16 15:55,Incident Manager
+INC-0001,Apply Standard Fix,2026-02-16 18:24,Service Desk Agent
+INC-0001,Restore Service,2026-02-16 19:01,Network Team
+INC-0001,Await User Response,2026-02-16 20:47,End User
+INC-0001,Confirm Fix,2026-02-16 20:57,End User
+INC-0001,Close Ticket,2026-02-16 22:53,Service Desk Agent
+INC-0001,Send Satisfaction Survey,2026-02-16 23:20,ITSM Platform
+INC-0002,Log Incident,2026-02-04 04:18,Service Desk Agent
+INC-0002,Categorize Incident,2026-02-04 04:53,ITSM Platform
+INC-0002,Assign Priority,2026-02-04 04:57,ITSM Platform
+INC-0002,Investigate Issue,2026-02-04 09:49,Service Desk Agent
+INC-0002,Apply Standard Fix,2026-02-04 13:35,Service Desk Agent
+INC-0002,Restore Service,2026-02-04 16:09,Network Team
+INC-0002,Escalate Ticket,2026-02-04 20:27,Service Desk Agent
+INC-0002,Investigate Issue,2026-02-05 02:19,Incident Manager
+INC-0002,Apply Standard Fix,2026-02-05 05:19,Service Desk Agent
+INC-0002,Restore Service,2026-02-05 06:43,Network Team
+INC-0002,Await User Response,2026-02-05 09:19,End User
+INC-0002,Confirm Fix,2026-02-05 10:00,End User
+INC-0002,Close Ticket,2026-02-05 12:34,Service Desk Agent
+INC-0002,Send Satisfaction Survey,2026-02-05 13:00,ITSM Platform
+INC-0003,Log Incident,2026-02-03 06:09,Service Desk Agent
+INC-0003,Categorize Incident,2026-02-03 06:42,ITSM Platform
+INC-0003,Assign Priority,2026-02-03 06:45,ITSM Platform
+INC-0003,Investigate Issue,2026-02-03 11:40,Service Desk Agent
+INC-0003,Apply Standard Fix,2026-02-03 13:09,Service Desk Agent
+INC-0003,Restore Service,2026-02-03 15:06,Network Team
+INC-0003,Escalate Ticket,2026-02-03 17:36,Service Desk Agent
+INC-0003,Investigate Issue,2026-02-03 22:58,Incident Manager
+INC-0003,Apply Standard Fix,2026-02-04 00:36,Service Desk Agent
+INC-0003,Restore Service,2026-02-04 01:57,Network Team
+INC-0003,Await User Response,2026-02-05 01:43,End User
+INC-0003,Confirm Fix,2026-02-05 01:59,End User
+INC-0003,Close Ticket,2026-02-05 02:30,Service Desk Agent
+INC-0003,Send Satisfaction Survey,2026-02-05 03:08,ITSM Platform
+INC-0004,Log Incident,2026-02-26 23:54,Service Desk Agent
+INC-0004,Categorize Incident,2026-02-27 01:20,ITSM Platform
+INC-0004,Assign Priority,2026-02-27 01:28,ITSM Platform
+INC-0004,Investigate Issue,2026-02-27 04:48,Service Desk Agent
+INC-0004,Open War Room,2026-02-27 06:34,Incident Manager
+INC-0004,Restore Service,2026-02-27 07:00,Network Team
+INC-0004,Await User Response,2026-02-28 04:37,End User
+INC-0004,Confirm Fix,2026-02-28 04:55,End User
+INC-0004,Close Ticket,2026-02-28 07:07,Service Desk Agent
+INC-0004,Send Satisfaction Survey,2026-02-28 07:51,ITSM Platform
+INC-0005,Log Incident,2026-02-25 04:46,Service Desk Agent
+INC-0005,Categorize Incident,2026-02-25 05:45,ITSM Platform
+INC-0005,Assign Priority,2026-02-25 05:57,ITSM Platform
+INC-0005,Investigate Issue,2026-02-25 10:05,Service Desk Agent
+INC-0005,Apply Standard Fix,2026-02-25 12:16,Service Desk Agent
+INC-0005,Restore Service,2026-02-25 13:58,Network Team
+INC-0005,Await User Response,2026-02-25 20:36,End User
+INC-0005,Confirm Fix,2026-02-25 21:25,End User
+INC-0005,Close Ticket,2026-02-26 00:49,Service Desk Agent
+INC-0005,Send Satisfaction Survey,2026-02-26 01:05,ITSM Platform
+INC-0006,Log Incident,2026-02-04 17:24,Service Desk Agent
+INC-0006,Categorize Incident,2026-02-04 18:42,ITSM Platform
+INC-0006,Assign Priority,2026-02-04 18:53,ITSM Platform
+INC-0006,Investigate Issue,2026-02-04 23:31,Service Desk Agent
+INC-0006,Apply Standard Fix,2026-02-05 01:13,Service Desk Agent
+INC-0006,Restore Service,2026-02-05 03:17,Network Team
+INC-0006,Await User Response,2026-02-05 06:16,End User
+INC-0006,Confirm Fix,2026-02-05 06:28,End User
+INC-0006,Close Ticket,2026-02-05 08:44,Service Desk Agent
+INC-0006,Send Satisfaction Survey,2026-02-05 09:11,ITSM Platform
+INC-0007,Log Incident,2026-02-08 12:10,Service Desk Agent
+INC-0007,Categorize Incident,2026-02-08 12:58,ITSM Platform
+INC-0007,Assign Priority,2026-02-08 13:04,ITSM Platform
+INC-0007,Investigate Issue,2026-02-08 17:24,Service Desk Agent
+INC-0007,Apply Standard Fix,2026-02-08 20:30,Service Desk Agent
+INC-0007,Restore Service,2026-02-08 20:59,Network Team
+INC-0007,Await User Response,2026-02-09 17:02,End User
+INC-0007,Confirm Fix,2026-02-09 17:57,End User
+INC-0007,Close Ticket,2026-02-09 21:46,Service Desk Agent
+INC-0007,Send Satisfaction Survey,2026-02-09 22:39,ITSM Platform
+INC-0008,Log Incident,2026-02-15 06:41,Service Desk Agent
+INC-0008,Categorize Incident,2026-02-15 07:29,ITSM Platform
+INC-0008,Assign Priority,2026-02-15 07:42,ITSM Platform
+INC-0008,Investigate Issue,2026-02-15 12:56,Service Desk Agent
+INC-0008,Apply Standard Fix,2026-02-15 16:35,Service Desk Agent
+INC-0008,Restore Service,2026-02-15 18:41,Network Team
+INC-0008,Escalate Ticket,2026-02-15 20:46,Service Desk Agent
+INC-0008,Investigate Issue,2026-02-15 23:34,Incident Manager
+INC-0008,Apply Standard Fix,2026-02-16 01:55,Service Desk Agent
+INC-0008,Restore Service,2026-02-16 03:34,Network Team
+INC-0008,Await User Response,2026-02-17 02:44,End User
+INC-0008,Confirm Fix,2026-02-17 02:53,End User
+INC-0008,Close Ticket,2026-02-17 03:13,Service Desk Agent
+INC-0008,Send Satisfaction Survey,2026-02-17 04:00,ITSM Platform
+INC-0009,Log Incident,2026-02-15 02:10,Service Desk Agent
+INC-0009,Categorize Incident,2026-02-15 03:37,ITSM Platform
+INC-0009,Assign Priority,2026-02-15 03:57,ITSM Platform
+INC-0009,Investigate Issue,2026-02-15 09:55,Service Desk Agent
+INC-0009,Apply Standard Fix,2026-02-15 11:22,Service Desk Agent
+INC-0009,Restore Service,2026-02-15 13:10,Network Team
+INC-0009,Await User Response,2026-02-16 01:30,End User
+INC-0009,Confirm Fix,2026-02-16 01:36,End User
+INC-0009,Close Ticket,2026-02-16 03:39,Service Desk Agent
+INC-0009,Send Satisfaction Survey,2026-02-16 04:02,ITSM Platform
+INC-0010,Log Incident,2026-02-08 15:33,Service Desk Agent
+INC-0010,Categorize Incident,2026-02-08 16:56,ITSM Platform
+INC-0010,Assign Priority,2026-02-08 17:01,ITSM Platform
+INC-0010,Investigate Issue,2026-02-08 21:23,Service Desk Agent
+INC-0010,Open War Room,2026-02-08 23:16,Incident Manager
+INC-0010,Restore Service,2026-02-09 00:39,Network Team
+INC-0010,Escalate Ticket,2026-02-09 05:22,Service Desk Agent
+INC-0010,Investigate Issue,2026-02-09 09:15,Incident Manager
+INC-0010,Apply Standard Fix,2026-02-09 11:15,Service Desk Agent
+INC-0010,Restore Service,2026-02-09 12:28,Network Team
+INC-0010,Await User Response,2026-02-09 15:43,End User
+INC-0010,Confirm Fix,2026-02-09 15:58,End User
+INC-0010,Close Ticket,2026-02-09 17:57,Service Desk Agent
+INC-0010,Send Satisfaction Survey,2026-02-09 18:23,ITSM Platform
+INC-0011,Log Incident,2026-02-26 00:08,Service Desk Agent
+INC-0011,Categorize Incident,2026-02-26 00:48,ITSM Platform
+INC-0011,Assign Priority,2026-02-26 00:54,ITSM Platform
+INC-0011,Investigate Issue,2026-02-26 04:44,Service Desk Agent
+INC-0011,Apply Standard Fix,2026-02-26 06:10,Service Desk Agent
+INC-0011,Restore Service,2026-02-26 08:06,Network Team
+INC-0011,Await User Response,2026-02-27 07:54,End User
+INC-0011,Confirm Fix,2026-02-27 08:23,End User
+INC-0011,Close Ticket,2026-02-27 09:27,Service Desk Agent
+INC-0011,Send Satisfaction Survey,2026-02-27 09:37,ITSM Platform
+INC-0012,Log Incident,2026-02-04 18:38,Service Desk Agent
+INC-0012,Categorize Incident,2026-02-04 19:05,ITSM Platform
+INC-0012,Assign Priority,2026-02-04 19:11,ITSM Platform
+INC-0012,Investigate Issue,2026-02-04 21:19,Service Desk Agent
+INC-0012,Apply Standard Fix,2026-02-04 21:37,Service Desk Agent
+INC-0012,Restore Service,2026-02-04 23:51,Network Team
+INC-0012,Await User Response,2026-02-05 06:34,End User
+INC-0012,Confirm Fix,2026-02-05 06:55,End User
+INC-0012,Close Ticket,2026-02-05 08:12,Service Desk Agent
+INC-0012,Send Satisfaction Survey,2026-02-05 08:13,ITSM Platform
+INC-0013,Log Incident,2026-02-07 15:07,Service Desk Agent
+INC-0013,Categorize Incident,2026-02-07 16:05,ITSM Platform
+INC-0013,Assign Priority,2026-02-07 16:24,ITSM Platform
+INC-0013,Investigate Issue,2026-02-07 19:43,Service Desk Agent
+INC-0013,Apply Standard Fix,2026-02-07 21:19,Service Desk Agent
+INC-0013,Restore Service,2026-02-07 22:01,Network Team
+INC-0013,Await User Response,2026-02-08 16:06,End User
+INC-0013,Confirm Fix,2026-02-08 16:50,End User
+INC-0013,Close Ticket,2026-02-08 19:42,Service Desk Agent
+INC-0013,Send Satisfaction Survey,2026-02-08 20:26,ITSM Platform
+INC-0014,Log Incident,2026-02-03 10:58,Service Desk Agent
+INC-0014,Categorize Incident,2026-02-03 12:01,ITSM Platform
+INC-0014,Assign Priority,2026-02-03 12:20,ITSM Platform
+INC-0014,Investigate Issue,2026-02-03 15:50,Service Desk Agent
+INC-0014,Apply Standard Fix,2026-02-03 17:45,Service Desk Agent
+INC-0014,Restore Service,2026-02-03 18:21,Network Team
+INC-0014,Await User Response,2026-02-04 08:31,End User
+INC-0014,Confirm Fix,2026-02-04 08:39,End User
+INC-0014,Close Ticket,2026-02-04 09:32,Service Desk Agent
+INC-0014,Send Satisfaction Survey,2026-02-04 09:37,ITSM Platform
+INC-0015,Log Incident,2026-02-10 12:01,Service Desk Agent
+INC-0015,Categorize Incident,2026-02-10 13:02,ITSM Platform
+INC-0015,Assign Priority,2026-02-10 13:09,ITSM Platform
+INC-0015,Investigate Issue,2026-02-10 14:15,Service Desk Agent
+INC-0015,Apply Standard Fix,2026-02-10 14:43,Service Desk Agent
+INC-0015,Restore Service,2026-02-10 15:19,Network Team
+INC-0015,Escalate Ticket,2026-02-10 18:23,Service Desk Agent
+INC-0015,Investigate Issue,2026-02-10 23:27,Incident Manager
+INC-0015,Apply Standard Fix,2026-02-11 00:12,Service Desk Agent
+INC-0015,Restore Service,2026-02-11 01:08,Network Team
+INC-0015,Await User Response,2026-02-11 22:34,End User
+INC-0015,Confirm Fix,2026-02-11 22:40,End User
+INC-0015,Close Ticket,2026-02-11 23:03,Service Desk Agent
+INC-0015,Send Satisfaction Survey,2026-02-11 23:59,ITSM Platform
+INC-0016,Log Incident,2026-02-10 11:08,Service Desk Agent
+INC-0016,Categorize Incident,2026-02-10 12:31,ITSM Platform
+INC-0016,Assign Priority,2026-02-10 12:45,ITSM Platform
+INC-0016,Investigate Issue,2026-02-10 14:11,Service Desk Agent
+INC-0016,Apply Standard Fix,2026-02-10 15:54,Service Desk Agent
+INC-0016,Restore Service,2026-02-10 18:38,Network Team
+INC-0016,Await User Response,2026-02-10 23:19,End User
+INC-0016,Confirm Fix,2026-02-10 23:31,End User
+INC-0016,Close Ticket,2026-02-11 03:13,Service Desk Agent
+INC-0016,Send Satisfaction Survey,2026-02-11 03:45,ITSM Platform
+INC-0017,Log Incident,2026-02-22 04:59,Service Desk Agent
+INC-0017,Categorize Incident,2026-02-22 06:05,ITSM Platform
+INC-0017,Assign Priority,2026-02-22 06:22,ITSM Platform
+INC-0017,Investigate Issue,2026-02-22 09:11,Service Desk Agent
+INC-0017,Open War Room,2026-02-22 09:39,Incident Manager
+INC-0017,Restore Service,2026-02-22 11:16,Network Team
+INC-0017,Await User Response,2026-02-23 04:06,End User
+INC-0017,Confirm Fix,2026-02-23 05:04,End User
+INC-0017,Close Ticket,2026-02-23 08:06,Service Desk Agent
+INC-0017,Send Satisfaction Survey,2026-02-23 08:17,ITSM Platform
+INC-0018,Log Incident,2026-02-24 11:58,Service Desk Agent
+INC-0018,Categorize Incident,2026-02-24 12:05,ITSM Platform
+INC-0018,Assign Priority,2026-02-24 12:13,ITSM Platform
+INC-0018,Investigate Issue,2026-02-24 16:53,Service Desk Agent
+INC-0018,Apply Standard Fix,2026-02-24 20:04,Service Desk Agent
+INC-0018,Restore Service,2026-02-24 22:33,Network Team
+INC-0018,Await User Response,2026-02-25 17:04,End User
+INC-0018,Confirm Fix,2026-02-25 17:28,End User
+INC-0018,Close Ticket,2026-02-25 20:17,Service Desk Agent
+INC-0018,Send Satisfaction Survey,2026-02-25 21:13,ITSM Platform
+INC-0019,Log Incident,2026-02-05 03:24,Service Desk Agent
+INC-0019,Categorize Incident,2026-02-05 04:02,ITSM Platform
+INC-0019,Assign Priority,2026-02-05 04:20,ITSM Platform
+INC-0019,Investigate Issue,2026-02-05 07:37,Service Desk Agent
+INC-0019,Apply Standard Fix,2026-02-05 09:23,Service Desk Agent
+INC-0019,Restore Service,2026-02-05 10:30,Network Team
+INC-0019,Await User Response,2026-02-06 04:09,End User
+INC-0019,Confirm Fix,2026-02-06 04:35,End User
+INC-0019,Close Ticket,2026-02-06 07:22,Service Desk Agent
+INC-0019,Send Satisfaction Survey,2026-02-06 07:37,ITSM Platform
+INC-0020,Log Incident,2026-02-28 21:48,Service Desk Agent
+INC-0020,Categorize Incident,2026-02-28 22:17,ITSM Platform
+INC-0020,Assign Priority,2026-02-28 22:26,ITSM Platform
+INC-0020,Investigate Issue,2026-03-01 02:01,Service Desk Agent
+INC-0020,Apply Standard Fix,2026-03-01 03:14,Service Desk Agent
+INC-0020,Restore Service,2026-03-01 04:15,Network Team
+INC-0020,Await User Response,2026-03-01 16:53,End User
+INC-0020,Confirm Fix,2026-03-01 17:44,End User
+INC-0020,Close Ticket,2026-03-01 17:56,Service Desk Agent
+INC-0020,Send Satisfaction Survey,2026-03-01 17:58,ITSM Platform
+INC-0021,Log Incident,2026-02-13 17:11,Service Desk Agent
+INC-0021,Categorize Incident,2026-02-13 18:16,ITSM Platform
+INC-0021,Assign Priority,2026-02-13 18:26,ITSM Platform
+INC-0021,Investigate Issue,2026-02-13 20:15,Service Desk Agent
+INC-0021,Apply Standard Fix,2026-02-13 21:58,Service Desk Agent
+INC-0021,Restore Service,2026-02-14 00:02,Network Team
+INC-0021,Await User Response,2026-02-15 01:12,End User
+INC-0021,Confirm Fix,2026-02-15 01:39,End User
+INC-0021,Close Ticket,2026-02-15 03:17,Service Desk Agent
+INC-0021,Send Satisfaction Survey,2026-02-15 03:23,ITSM Platform
+INC-0022,Log Incident,2026-02-11 00:48,Service Desk Agent
+INC-0022,Categorize Incident,2026-02-11 01:06,ITSM Platform
+INC-0022,Assign Priority,2026-02-11 01:15,ITSM Platform
+INC-0022,Investigate Issue,2026-02-11 05:25,Service Desk Agent
+INC-0022,Apply Standard Fix,2026-02-11 06:32,Service Desk Agent
+INC-0022,Restore Service,2026-02-11 08:45,Network Team
+INC-0022,Await User Response,2026-02-12 06:04,End User
+INC-0022,Confirm Fix,2026-02-12 07:02,End User
+INC-0022,Close Ticket,2026-02-12 07:07,Service Desk Agent
+INC-0022,Send Satisfaction Survey,2026-02-12 07:38,ITSM Platform
+INC-0023,Log Incident,2026-02-16 15:44,Service Desk Agent
+INC-0023,Categorize Incident,2026-02-16 17:11,ITSM Platform
+INC-0023,Assign Priority,2026-02-16 17:15,ITSM Platform
+INC-0023,Investigate Issue,2026-02-16 23:03,Service Desk Agent
+INC-0023,Open War Room,2026-02-17 00:07,Incident Manager
+INC-0023,Restore Service,2026-02-17 01:08,Network Team
+INC-0023,Await User Response,2026-02-17 07:43,End User
+INC-0023,Confirm Fix,2026-02-17 08:15,End User
+INC-0023,Close Ticket,2026-02-17 11:42,Service Desk Agent
+INC-0023,Send Satisfaction Survey,2026-02-17 12:23,ITSM Platform
+INC-0024,Log Incident,2026-02-16 03:11,Service Desk Agent
+INC-0024,Categorize Incident,2026-02-16 03:27,ITSM Platform
+INC-0024,Assign Priority,2026-02-16 03:41,ITSM Platform
+INC-0024,Investigate Issue,2026-02-16 07:48,Service Desk Agent
+INC-0024,Apply Standard Fix,2026-02-16 08:24,Service Desk Agent
+INC-0024,Restore Service,2026-02-16 09:14,Network Team
+INC-0024,Escalate Ticket,2026-02-16 11:54,Service Desk Agent
+INC-0024,Investigate Issue,2026-02-16 12:38,Incident Manager
+INC-0024,Apply Standard Fix,2026-02-16 13:36,Service Desk Agent
+INC-0024,Restore Service,2026-02-16 15:01,Network Team
+INC-0024,Await User Response,2026-02-17 07:24,End User
+INC-0024,Confirm Fix,2026-02-17 08:20,End User
+INC-0024,Close Ticket,2026-02-17 11:12,Service Desk Agent
+INC-0024,Send Satisfaction Survey,2026-02-17 11:22,ITSM Platform
+INC-0025,Log Incident,2026-02-28 20:00,Service Desk Agent
+INC-0025,Categorize Incident,2026-02-28 21:21,ITSM Platform
+INC-0025,Assign Priority,2026-02-28 21:38,ITSM Platform
+INC-0025,Investigate Issue,2026-03-01 03:24,Service Desk Agent
+INC-0025,Apply Standard Fix,2026-03-01 04:18,Service Desk Agent
+INC-0025,Restore Service,2026-03-01 06:48,Network Team
+INC-0025,Await User Response,2026-03-01 08:01,End User
+INC-0025,Confirm Fix,2026-03-01 08:06,End User
+INC-0025,Close Ticket,2026-03-01 11:35,Service Desk Agent
+INC-0025,Send Satisfaction Survey,2026-03-01 12:22,ITSM Platform
+INC-0026,Log Incident,2026-02-05 16:15,Service Desk Agent
+INC-0026,Categorize Incident,2026-02-05 17:27,ITSM Platform
+INC-0026,Assign Priority,2026-02-05 17:33,ITSM Platform
+INC-0026,Investigate Issue,2026-02-05 21:25,Service Desk Agent
+INC-0026,Apply Standard Fix,2026-02-05 22:29,Service Desk Agent
+INC-0026,Restore Service,2026-02-05 23:33,Network Team
+INC-0026,Escalate Ticket,2026-02-06 03:40,Service Desk Agent
+INC-0026,Investigate Issue,2026-02-06 06:39,Incident Manager
+INC-0026,Apply Standard Fix,2026-02-06 09:07,Service Desk Agent
+INC-0026,Restore Service,2026-02-06 09:47,Network Team
+INC-0026,Await User Response,2026-02-07 06:18,End User
+INC-0026,Confirm Fix,2026-02-07 06:43,End User
+INC-0026,Close Ticket,2026-02-07 07:54,Service Desk Agent
+INC-0026,Send Satisfaction Survey,2026-02-07 08:29,ITSM Platform
+INC-0027,Log Incident,2026-02-20 01:40,Service Desk Agent
+INC-0027,Categorize Incident,2026-02-20 02:01,ITSM Platform
+INC-0027,Assign Priority,2026-02-20 02:04,ITSM Platform
+INC-0027,Investigate Issue,2026-02-20 05:15,Service Desk Agent
+INC-0027,Apply Standard Fix,2026-02-20 08:19,Service Desk Agent
+INC-0027,Restore Service,2026-02-20 10:58,Network Team
+INC-0027,Await User Response,2026-02-21 05:06,End User
+INC-0027,Confirm Fix,2026-02-21 05:37,End User
+INC-0027,Close Ticket,2026-02-21 09:13,Service Desk Agent
+INC-0027,Send Satisfaction Survey,2026-02-21 10:12,ITSM Platform
+INC-0028,Log Incident,2026-02-23 19:56,Service Desk Agent
+INC-0028,Categorize Incident,2026-02-23 20:17,ITSM Platform
+INC-0028,Assign Priority,2026-02-23 20:36,ITSM Platform
+INC-0028,Investigate Issue,2026-02-23 22:03,Service Desk Agent
+INC-0028,Apply Standard Fix,2026-02-23 22:22,Service Desk Agent
+INC-0028,Restore Service,2026-02-24 00:24,Network Team
+INC-0028,Await User Response,2026-02-24 21:40,End User
+INC-0028,Confirm Fix,2026-02-24 21:45,End User
+INC-0028,Close Ticket,2026-02-25 01:08,Service Desk Agent
+INC-0028,Send Satisfaction Survey,2026-02-25 02:00,ITSM Platform
+INC-0029,Log Incident,2026-02-07 19:37,Service Desk Agent
+INC-0029,Categorize Incident,2026-02-07 20:04,ITSM Platform
+INC-0029,Assign Priority,2026-02-07 20:10,ITSM Platform
+INC-0029,Investigate Issue,2026-02-08 00:22,Service Desk Agent
+INC-0029,Apply Standard Fix,2026-02-08 01:07,Service Desk Agent
+INC-0029,Restore Service,2026-02-08 03:39,Network Team
+INC-0029,Escalate Ticket,2026-02-08 12:59,Service Desk Agent
+INC-0029,Investigate Issue,2026-02-08 18:00,Incident Manager
+INC-0029,Apply Standard Fix,2026-02-08 20:42,Service Desk Agent
+INC-0029,Restore Service,2026-02-08 21:53,Network Team
+INC-0029,Await User Response,2026-02-09 02:00,End User
+INC-0029,Confirm Fix,2026-02-09 02:40,End User
+INC-0029,Close Ticket,2026-02-09 02:59,Service Desk Agent
+INC-0029,Send Satisfaction Survey,2026-02-09 03:15,ITSM Platform
+INC-0030,Log Incident,2026-02-09 16:57,Service Desk Agent
+INC-0030,Categorize Incident,2026-02-09 17:37,ITSM Platform
+INC-0030,Assign Priority,2026-02-09 17:40,ITSM Platform
+INC-0030,Investigate Issue,2026-02-09 18:40,Service Desk Agent
+INC-0030,Apply Standard Fix,2026-02-09 21:18,Service Desk Agent
+INC-0030,Restore Service,2026-02-09 21:35,Network Team
+INC-0030,Await User Response,2026-02-10 00:14,End User
+INC-0030,Confirm Fix,2026-02-10 00:47,End User
+INC-0030,Close Ticket,2026-02-10 02:15,Service Desk Agent
+INC-0030,Send Satisfaction Survey,2026-02-10 02:55,ITSM Platform
+INC-0031,Log Incident,2026-02-24 00:11,Service Desk Agent
+INC-0031,Categorize Incident,2026-02-24 01:33,ITSM Platform
+INC-0031,Assign Priority,2026-02-24 01:51,ITSM Platform
+INC-0031,Investigate Issue,2026-02-24 03:43,Service Desk Agent
+INC-0031,Apply Standard Fix,2026-02-24 05:53,Service Desk Agent
+INC-0031,Restore Service,2026-02-24 08:13,Network Team
+INC-0031,Await User Response,2026-02-25 01:02,End User
+INC-0031,Confirm Fix,2026-02-25 01:39,End User
+INC-0031,Close Ticket,2026-02-25 02:47,Service Desk Agent
+INC-0031,Send Satisfaction Survey,2026-02-25 03:32,ITSM Platform
+INC-0032,Log Incident,2026-02-24 19:29,Service Desk Agent
+INC-0032,Categorize Incident,2026-02-24 20:07,ITSM Platform
+INC-0032,Assign Priority,2026-02-24 20:26,ITSM Platform
+INC-0032,Investigate Issue,2026-02-24 22:19,Service Desk Agent
+INC-0032,Apply Standard Fix,2026-02-24 23:09,Service Desk Agent
+INC-0032,Restore Service,2026-02-25 01:05,Network Team
+INC-0032,Escalate Ticket,2026-02-25 09:07,Service Desk Agent
+INC-0032,Investigate Issue,2026-02-25 12:18,Incident Manager
+INC-0032,Apply Standard Fix,2026-02-25 12:56,Service Desk Agent
+INC-0032,Restore Service,2026-02-25 14:31,Network Team
+INC-0032,Await User Response,2026-02-25 23:13,End User
+INC-0032,Confirm Fix,2026-02-25 23:45,End User
+INC-0032,Close Ticket,2026-02-26 00:08,Service Desk Agent
+INC-0032,Send Satisfaction Survey,2026-02-26 00:22,ITSM Platform
+INC-0033,Log Incident,2026-02-14 18:42,Service Desk Agent
+INC-0033,Categorize Incident,2026-02-14 19:02,ITSM Platform
+INC-0033,Assign Priority,2026-02-14 19:08,ITSM Platform
+INC-0033,Investigate Issue,2026-02-15 00:47,Service Desk Agent
+INC-0033,Apply Standard Fix,2026-02-15 01:38,Service Desk Agent
+INC-0033,Restore Service,2026-02-15 02:52,Network Team
+INC-0033,Await User Response,2026-02-15 19:19,End User
+INC-0033,Confirm Fix,2026-02-15 19:38,End User
+INC-0033,Close Ticket,2026-02-15 22:54,Service Desk Agent
+INC-0033,Send Satisfaction Survey,2026-02-15 23:01,ITSM Platform
+INC-0034,Log Incident,2026-02-19 03:00,Service Desk Agent
+INC-0034,Categorize Incident,2026-02-19 04:07,ITSM Platform
+INC-0034,Assign Priority,2026-02-19 04:14,ITSM Platform
+INC-0034,Investigate Issue,2026-02-19 10:05,Service Desk Agent
+INC-0034,Apply Standard Fix,2026-02-19 11:01,Service Desk Agent
+INC-0034,Restore Service,2026-02-19 13:01,Network Team
+INC-0034,Await User Response,2026-02-20 03:18,End User
+INC-0034,Confirm Fix,2026-02-20 03:44,End User
+INC-0034,Close Ticket,2026-02-20 05:36,Service Desk Agent
+INC-0034,Send Satisfaction Survey,2026-02-20 05:49,ITSM Platform
+INC-0035,Log Incident,2026-02-17 05:31,Service Desk Agent
+INC-0035,Categorize Incident,2026-02-17 06:16,ITSM Platform
+INC-0035,Assign Priority,2026-02-17 06:20,ITSM Platform
+INC-0035,Investigate Issue,2026-02-17 09:37,Service Desk Agent
+INC-0035,Open War Room,2026-02-17 11:02,Incident Manager
+INC-0035,Restore Service,2026-02-17 13:09,Network Team
+INC-0035,Await User Response,2026-02-17 14:16,End User
+INC-0035,Confirm Fix,2026-02-17 14:45,End User
+INC-0035,Close Ticket,2026-02-17 16:14,Service Desk Agent
+INC-0035,Send Satisfaction Survey,2026-02-17 16:48,ITSM Platform
+INC-0036,Log Incident,2026-02-14 10:42,Service Desk Agent
+INC-0036,Categorize Incident,2026-02-14 11:52,ITSM Platform
+INC-0036,Assign Priority,2026-02-14 11:56,ITSM Platform
+INC-0036,Investigate Issue,2026-02-14 13:03,Service Desk Agent
+INC-0036,Apply Standard Fix,2026-02-14 16:39,Service Desk Agent
+INC-0036,Restore Service,2026-02-14 17:47,Network Team
+INC-0036,Await User Response,2026-02-14 21:51,End User
+INC-0036,Confirm Fix,2026-02-14 22:01,End User
+INC-0036,Close Ticket,2026-02-14 23:13,Service Desk Agent
+INC-0036,Send Satisfaction Survey,2026-02-14 23:31,ITSM Platform
+INC-0037,Log Incident,2026-02-02 19:14,Service Desk Agent
+INC-0037,Categorize Incident,2026-02-02 19:42,ITSM Platform
+INC-0037,Assign Priority,2026-02-02 19:52,ITSM Platform
+INC-0037,Investigate Issue,2026-02-02 21:08,Service Desk Agent
+INC-0037,Apply Standard Fix,2026-02-03 01:00,Service Desk Agent
+INC-0037,Restore Service,2026-02-03 02:16,Network Team
+INC-0037,Await User Response,2026-02-03 21:04,End User
+INC-0037,Confirm Fix,2026-02-03 21:41,End User
+INC-0037,Close Ticket,2026-02-04 00:12,Service Desk Agent
+INC-0037,Send Satisfaction Survey,2026-02-04 00:44,ITSM Platform
+INC-0038,Log Incident,2026-02-15 21:13,Service Desk Agent
+INC-0038,Categorize Incident,2026-02-15 21:29,ITSM Platform
+INC-0038,Assign Priority,2026-02-15 21:39,ITSM Platform
+INC-0038,Investigate Issue,2026-02-15 22:18,Service Desk Agent
+INC-0038,Apply Standard Fix,2026-02-15 23:19,Service Desk Agent
+INC-0038,Restore Service,2026-02-16 01:17,Network Team
+INC-0038,Await User Response,2026-02-16 10:57,End User
+INC-0038,Confirm Fix,2026-02-16 11:03,End User
+INC-0038,Close Ticket,2026-02-16 13:50,Service Desk Agent
+INC-0038,Send Satisfaction Survey,2026-02-16 13:56,ITSM Platform
+INC-0039,Log Incident,2026-02-12 20:35,Service Desk Agent
+INC-0039,Categorize Incident,2026-02-12 20:50,ITSM Platform
+INC-0039,Assign Priority,2026-02-12 20:59,ITSM Platform
+INC-0039,Investigate Issue,2026-02-12 21:43,Service Desk Agent
+INC-0039,Apply Standard Fix,2026-02-12 22:29,Service Desk Agent
+INC-0039,Restore Service,2026-02-13 00:35,Network Team
+INC-0039,Escalate Ticket,2026-02-13 10:31,Service Desk Agent
+INC-0039,Investigate Issue,2026-02-13 14:34,Incident Manager
+INC-0039,Apply Standard Fix,2026-02-13 16:02,Service Desk Agent
+INC-0039,Restore Service,2026-02-13 17:31,Network Team
+INC-0039,Await User Response,2026-02-13 22:25,End User
+INC-0039,Confirm Fix,2026-02-13 22:32,End User
+INC-0039,Close Ticket,2026-02-14 00:51,Service Desk Agent
+INC-0039,Send Satisfaction Survey,2026-02-14 01:37,ITSM Platform
+INC-0040,Log Incident,2026-02-11 20:26,Service Desk Agent
+INC-0040,Categorize Incident,2026-02-11 20:45,ITSM Platform
+INC-0040,Assign Priority,2026-02-11 20:52,ITSM Platform
+INC-0040,Investigate Issue,2026-02-11 23:16,Service Desk Agent
+INC-0040,Open War Room,2026-02-11 23:56,Incident Manager
+INC-0040,Restore Service,2026-02-12 01:25,Network Team
+INC-0040,Await User Response,2026-02-12 20:02,End User
+INC-0040,Confirm Fix,2026-02-12 20:55,End User
+INC-0040,Close Ticket,2026-02-12 21:52,Service Desk Agent
+INC-0040,Send Satisfaction Survey,2026-02-12 22:11,ITSM Platform
+INC-0041,Log Incident,2026-02-21 06:48,Service Desk Agent
+INC-0041,Categorize Incident,2026-02-21 07:57,ITSM Platform
+INC-0041,Assign Priority,2026-02-21 08:04,ITSM Platform
+INC-0041,Investigate Issue,2026-02-21 10:32,Service Desk Agent
+INC-0041,Apply Standard Fix,2026-02-21 10:51,Service Desk Agent
+INC-0041,Restore Service,2026-02-21 12:05,Network Team
+INC-0041,Escalate Ticket,2026-02-21 12:53,Service Desk Agent
+INC-0041,Investigate Issue,2026-02-21 19:38,Incident Manager
+INC-0041,Apply Standard Fix,2026-02-21 22:07,Service Desk Agent
+INC-0041,Restore Service,2026-02-21 23:27,Network Team
+INC-0041,Await User Response,2026-02-22 06:25,End User
+INC-0041,Confirm Fix,2026-02-22 07:02,End User
+INC-0041,Close Ticket,2026-02-22 09:08,Service Desk Agent
+INC-0041,Send Satisfaction Survey,2026-02-22 09:24,ITSM Platform
+INC-0042,Log Incident,2026-02-21 08:18,Service Desk Agent
+INC-0042,Categorize Incident,2026-02-21 08:36,ITSM Platform
+INC-0042,Assign Priority,2026-02-21 08:51,ITSM Platform
+INC-0042,Investigate Issue,2026-02-21 14:37,Service Desk Agent
+INC-0042,Apply Standard Fix,2026-02-21 18:25,Service Desk Agent
+INC-0042,Restore Service,2026-02-21 20:15,Network Team
+INC-0042,Await User Response,2026-02-22 07:15,End User
+INC-0042,Confirm Fix,2026-02-22 08:04,End User
+INC-0042,Close Ticket,2026-02-22 09:04,Service Desk Agent
+INC-0042,Send Satisfaction Survey,2026-02-22 09:19,ITSM Platform
+INC-0043,Log Incident,2026-02-16 14:19,Service Desk Agent
+INC-0043,Categorize Incident,2026-02-16 14:49,ITSM Platform
+INC-0043,Assign Priority,2026-02-16 14:55,ITSM Platform
+INC-0043,Investigate Issue,2026-02-16 18:32,Service Desk Agent
+INC-0043,Apply Standard Fix,2026-02-16 19:00,Service Desk Agent
+INC-0043,Restore Service,2026-02-16 19:43,Network Team
+INC-0043,Escalate Ticket,2026-02-17 06:53,Service Desk Agent
+INC-0043,Investigate Issue,2026-02-17 13:42,Incident Manager
+INC-0043,Apply Standard Fix,2026-02-17 15:07,Service Desk Agent
+INC-0043,Restore Service,2026-02-17 16:12,Network Team
+INC-0043,Await User Response,2026-02-17 22:16,End User
+INC-0043,Confirm Fix,2026-02-17 22:24,End User
+INC-0043,Close Ticket,2026-02-17 22:50,Service Desk Agent
+INC-0043,Send Satisfaction Survey,2026-02-17 23:33,ITSM Platform
+INC-0044,Log Incident,2026-02-18 08:01,Service Desk Agent
+INC-0044,Categorize Incident,2026-02-18 09:10,ITSM Platform
+INC-0044,Assign Priority,2026-02-18 09:21,ITSM Platform
+INC-0044,Investigate Issue,2026-02-18 14:37,Service Desk Agent
+INC-0044,Apply Standard Fix,2026-02-18 16:07,Service Desk Agent
+INC-0044,Restore Service,2026-02-18 16:28,Network Team
+INC-0044,Await User Response,2026-02-18 22:20,End User
+INC-0044,Confirm Fix,2026-02-18 22:42,End User
+INC-0044,Close Ticket,2026-02-19 00:41,Service Desk Agent
+INC-0044,Send Satisfaction Survey,2026-02-19 00:42,ITSM Platform
+INC-0045,Log Incident,2026-02-12 23:31,Service Desk Agent
+INC-0045,Categorize Incident,2026-02-13 00:22,ITSM Platform
+INC-0045,Assign Priority,2026-02-13 00:34,ITSM Platform
+INC-0045,Investigate Issue,2026-02-13 05:24,Service Desk Agent
+INC-0045,Apply Standard Fix,2026-02-13 05:47,Service Desk Agent
+INC-0045,Restore Service,2026-02-13 07:16,Network Team
+INC-0045,Escalate Ticket,2026-02-13 10:53,Service Desk Agent
+INC-0045,Investigate Issue,2026-02-13 11:23,Incident Manager
+INC-0045,Apply Standard Fix,2026-02-13 13:08,Service Desk Agent
+INC-0045,Restore Service,2026-02-13 14:06,Network Team
+INC-0045,Await User Response,2026-02-13 17:27,End User
+INC-0045,Confirm Fix,2026-02-13 18:02,End User
+INC-0045,Close Ticket,2026-02-13 19:18,Service Desk Agent
+INC-0045,Send Satisfaction Survey,2026-02-13 19:51,ITSM Platform
+INC-0046,Log Incident,2026-02-10 03:31,Service Desk Agent
+INC-0046,Categorize Incident,2026-02-10 04:07,ITSM Platform
+INC-0046,Assign Priority,2026-02-10 04:25,ITSM Platform
+INC-0046,Investigate Issue,2026-02-10 04:37,Service Desk Agent
+INC-0046,Open War Room,2026-02-10 06:36,Incident Manager
+INC-0046,Restore Service,2026-02-10 07:08,Network Team
+INC-0046,Escalate Ticket,2026-02-10 17:38,Service Desk Agent
+INC-0046,Investigate Issue,2026-02-10 18:29,Incident Manager
+INC-0046,Apply Standard Fix,2026-02-10 20:29,Service Desk Agent
+INC-0046,Restore Service,2026-02-10 20:41,Network Team
+INC-0046,Await User Response,2026-02-11 07:24,End User
+INC-0046,Confirm Fix,2026-02-11 07:48,End User
+INC-0046,Close Ticket,2026-02-11 10:34,Service Desk Agent
+INC-0046,Send Satisfaction Survey,2026-02-11 10:49,ITSM Platform
+INC-0047,Log Incident,2026-02-04 20:16,Service Desk Agent
+INC-0047,Categorize Incident,2026-02-04 21:35,ITSM Platform
+INC-0047,Assign Priority,2026-02-04 21:53,ITSM Platform
+INC-0047,Investigate Issue,2026-02-04 23:22,Service Desk Agent
+INC-0047,Apply Standard Fix,2026-02-05 02:40,Service Desk Agent
+INC-0047,Restore Service,2026-02-05 05:22,Network Team
+INC-0047,Await User Response,2026-02-05 16:59,End User
+INC-0047,Confirm Fix,2026-02-05 17:50,End User
+INC-0047,Close Ticket,2026-02-05 20:01,Service Desk Agent
+INC-0047,Send Satisfaction Survey,2026-02-05 20:11,ITSM Platform
+INC-0048,Log Incident,2026-02-13 22:23,Service Desk Agent
+INC-0048,Categorize Incident,2026-02-13 23:47,ITSM Platform
+INC-0048,Assign Priority,2026-02-13 23:53,ITSM Platform
+INC-0048,Investigate Issue,2026-02-14 00:25,Service Desk Agent
+INC-0048,Apply Standard Fix,2026-02-14 03:43,Service Desk Agent
+INC-0048,Restore Service,2026-02-14 06:04,Network Team
+INC-0048,Await User Response,2026-02-15 07:36,End User
+INC-0048,Confirm Fix,2026-02-15 08:25,End User
+INC-0048,Close Ticket,2026-02-15 11:57,Service Desk Agent
+INC-0048,Send Satisfaction Survey,2026-02-15 12:30,ITSM Platform
+INC-0049,Log Incident,2026-02-07 08:09,Service Desk Agent
+INC-0049,Categorize Incident,2026-02-07 09:21,ITSM Platform
+INC-0049,Assign Priority,2026-02-07 09:39,ITSM Platform
+INC-0049,Investigate Issue,2026-02-07 14:40,Service Desk Agent
+INC-0049,Apply Standard Fix,2026-02-07 18:20,Service Desk Agent
+INC-0049,Restore Service,2026-02-07 18:34,Network Team
+INC-0049,Await User Response,2026-02-08 15:00,End User
+INC-0049,Confirm Fix,2026-02-08 15:56,End User
+INC-0049,Close Ticket,2026-02-08 19:49,Service Desk Agent
+INC-0049,Send Satisfaction Survey,2026-02-08 20:35,ITSM Platform
+INC-0050,Log Incident,2026-02-11 11:09,Service Desk Agent
+INC-0050,Categorize Incident,2026-02-11 11:24,ITSM Platform
+INC-0050,Assign Priority,2026-02-11 11:26,ITSM Platform
+INC-0050,Investigate Issue,2026-02-11 11:57,Service Desk Agent
+INC-0050,Open War Room,2026-02-11 12:58,Incident Manager
+INC-0050,Restore Service,2026-02-11 13:34,Network Team
+INC-0050,Await User Response,2026-02-12 05:28,End User
+INC-0050,Confirm Fix,2026-02-12 06:08,End User
+INC-0050,Close Ticket,2026-02-12 06:25,Service Desk Agent
+INC-0050,Send Satisfaction Survey,2026-02-12 07:06,ITSM Platform
+INC-0051,Log Incident,2026-02-01 20:34,Service Desk Agent
+INC-0051,Categorize Incident,2026-02-01 21:59,ITSM Platform
+INC-0051,Assign Priority,2026-02-01 22:18,ITSM Platform
+INC-0051,Investigate Issue,2026-02-02 04:16,Service Desk Agent
+INC-0051,Apply Standard Fix,2026-02-02 05:38,Service Desk Agent
+INC-0051,Restore Service,2026-02-02 05:48,Network Team
+INC-0051,Await User Response,2026-02-02 08:41,End User
+INC-0051,Confirm Fix,2026-02-02 09:33,End User
+INC-0051,Close Ticket,2026-02-02 11:46,Service Desk Agent
+INC-0051,Send Satisfaction Survey,2026-02-02 12:44,ITSM Platform
+INC-0052,Log Incident,2026-02-25 08:34,Service Desk Agent
+INC-0052,Categorize Incident,2026-02-25 08:50,ITSM Platform
+INC-0052,Assign Priority,2026-02-25 09:08,ITSM Platform
+INC-0052,Investigate Issue,2026-02-25 09:51,Service Desk Agent
+INC-0052,Apply Standard Fix,2026-02-25 12:07,Service Desk Agent
+INC-0052,Restore Service,2026-02-25 13:21,Network Team
+INC-0052,Await User Response,2026-02-25 22:54,End User
+INC-0052,Confirm Fix,2026-02-25 23:14,End User
+INC-0052,Close Ticket,2026-02-26 02:25,Service Desk Agent
+INC-0052,Send Satisfaction Survey,2026-02-26 03:14,ITSM Platform
+INC-0053,Log Incident,2026-02-10 08:09,Service Desk Agent
+INC-0053,Categorize Incident,2026-02-10 08:43,ITSM Platform
+INC-0053,Assign Priority,2026-02-10 08:59,ITSM Platform
+INC-0053,Investigate Issue,2026-02-10 13:21,Service Desk Agent
+INC-0053,Apply Standard Fix,2026-02-10 13:55,Service Desk Agent
+INC-0053,Restore Service,2026-02-10 16:07,Network Team
+INC-0053,Await User Response,2026-02-11 02:25,End User
+INC-0053,Confirm Fix,2026-02-11 03:19,End User
+INC-0053,Close Ticket,2026-02-11 03:35,Service Desk Agent
+INC-0053,Send Satisfaction Survey,2026-02-11 04:15,ITSM Platform
+INC-0054,Log Incident,2026-02-10 00:35,Service Desk Agent
+INC-0054,Categorize Incident,2026-02-10 00:49,ITSM Platform
+INC-0054,Assign Priority,2026-02-10 00:55,ITSM Platform
+INC-0054,Investigate Issue,2026-02-10 03:54,Service Desk Agent
+INC-0054,Apply Standard Fix,2026-02-10 07:19,Service Desk Agent
+INC-0054,Restore Service,2026-02-10 08:46,Network Team
+INC-0054,Await User Response,2026-02-10 13:49,End User
+INC-0054,Confirm Fix,2026-02-10 13:54,End User
+INC-0054,Close Ticket,2026-02-10 16:02,Service Desk Agent
+INC-0054,Send Satisfaction Survey,2026-02-10 16:06,ITSM Platform
+INC-0055,Log Incident,2026-02-23 02:37,Service Desk Agent
+INC-0055,Categorize Incident,2026-02-23 03:16,ITSM Platform
+INC-0055,Assign Priority,2026-02-23 03:21,ITSM Platform
+INC-0055,Investigate Issue,2026-02-23 05:22,Service Desk Agent
+INC-0055,Apply Standard Fix,2026-02-23 06:51,Service Desk Agent
+INC-0055,Restore Service,2026-02-23 09:13,Network Team
+INC-0055,Await User Response,2026-02-24 01:37,End User
+INC-0055,Confirm Fix,2026-02-24 02:11,End User
+INC-0055,Close Ticket,2026-02-24 05:32,Service Desk Agent
+INC-0055,Send Satisfaction Survey,2026-02-24 05:40,ITSM Platform
+INC-0056,Log Incident,2026-02-25 23:44,Service Desk Agent
+INC-0056,Categorize Incident,2026-02-26 00:14,ITSM Platform
+INC-0056,Assign Priority,2026-02-26 00:25,ITSM Platform
+INC-0056,Investigate Issue,2026-02-26 01:18,Service Desk Agent
+INC-0056,Apply Standard Fix,2026-02-26 01:37,Service Desk Agent
+INC-0056,Restore Service,2026-02-26 03:01,Network Team
+INC-0056,Await User Response,2026-02-26 20:48,End User
+INC-0056,Confirm Fix,2026-02-26 21:21,End User
+INC-0056,Close Ticket,2026-02-26 22:34,Service Desk Agent
+INC-0056,Send Satisfaction Survey,2026-02-26 22:59,ITSM Platform
+INC-0057,Log Incident,2026-02-10 13:11,Service Desk Agent
+INC-0057,Categorize Incident,2026-02-10 13:42,ITSM Platform
+INC-0057,Assign Priority,2026-02-10 13:46,ITSM Platform
+INC-0057,Investigate Issue,2026-02-10 18:53,Service Desk Agent
+INC-0057,Open War Room,2026-02-10 20:43,Incident Manager
+INC-0057,Restore Service,2026-02-10 23:07,Network Team
+INC-0057,Await User Response,2026-02-11 11:53,End User
+INC-0057,Confirm Fix,2026-02-11 12:06,End User
+INC-0057,Close Ticket,2026-02-11 14:45,Service Desk Agent
+INC-0057,Send Satisfaction Survey,2026-02-11 15:38,ITSM Platform
+INC-0058,Log Incident,2026-02-24 03:41,Service Desk Agent
+INC-0058,Categorize Incident,2026-02-24 04:21,ITSM Platform
+INC-0058,Assign Priority,2026-02-24 04:26,ITSM Platform
+INC-0058,Investigate Issue,2026-02-24 07:42,Service Desk Agent
+INC-0058,Apply Standard Fix,2026-02-24 11:41,Service Desk Agent
+INC-0058,Restore Service,2026-02-24 13:55,Network Team
+INC-0058,Await User Response,2026-02-24 19:50,End User
+INC-0058,Confirm Fix,2026-02-24 19:55,End User
+INC-0058,Close Ticket,2026-02-24 22:05,Service Desk Agent
+INC-0058,Send Satisfaction Survey,2026-02-24 22:49,ITSM Platform
+INC-0059,Log Incident,2026-02-21 12:21,Service Desk Agent
+INC-0059,Categorize Incident,2026-02-21 13:17,ITSM Platform
+INC-0059,Assign Priority,2026-02-21 13:28,ITSM Platform
+INC-0059,Investigate Issue,2026-02-21 14:50,Service Desk Agent
+INC-0059,Apply Standard Fix,2026-02-21 16:41,Service Desk Agent
+INC-0059,Restore Service,2026-02-21 18:11,Network Team
+INC-0059,Escalate Ticket,2026-02-22 00:20,Service Desk Agent
+INC-0059,Investigate Issue,2026-02-22 00:50,Incident Manager
+INC-0059,Apply Standard Fix,2026-02-22 02:33,Service Desk Agent
+INC-0059,Restore Service,2026-02-22 04:19,Network Team
+INC-0059,Await User Response,2026-02-22 16:21,End User
+INC-0059,Confirm Fix,2026-02-22 17:19,End User
+INC-0059,Close Ticket,2026-02-22 19:05,Service Desk Agent
+INC-0059,Send Satisfaction Survey,2026-02-22 19:13,ITSM Platform
+INC-0060,Log Incident,2026-02-09 21:48,Service Desk Agent
+INC-0060,Categorize Incident,2026-02-09 21:54,ITSM Platform
+INC-0060,Assign Priority,2026-02-09 22:05,ITSM Platform
+INC-0060,Investigate Issue,2026-02-10 00:24,Service Desk Agent
+INC-0060,Apply Standard Fix,2026-02-10 02:19,Service Desk Agent
+INC-0060,Restore Service,2026-02-10 04:08,Network Team
+INC-0060,Await User Response,2026-02-11 00:44,End User
+INC-0060,Confirm Fix,2026-02-11 00:53,End User
+INC-0060,Close Ticket,2026-02-11 02:30,Service Desk Agent
+INC-0060,Send Satisfaction Survey,2026-02-11 03:30,ITSM Platform
+INC-0061,Log Incident,2026-02-20 11:32,Service Desk Agent
+INC-0061,Categorize Incident,2026-02-20 12:12,ITSM Platform
+INC-0061,Assign Priority,2026-02-20 12:15,ITSM Platform
+INC-0061,Investigate Issue,2026-02-20 14:48,Service Desk Agent
+INC-0061,Open War Room,2026-02-20 16:27,Incident Manager
+INC-0061,Restore Service,2026-02-20 17:50,Network Team
+INC-0061,Await User Response,2026-02-20 23:24,End User
+INC-0061,Confirm Fix,2026-02-20 23:44,End User
+INC-0061,Close Ticket,2026-02-21 00:57,Service Desk Agent
+INC-0061,Send Satisfaction Survey,2026-02-21 01:25,ITSM Platform
+INC-0062,Log Incident,2026-02-24 06:06,Service Desk Agent
+INC-0062,Categorize Incident,2026-02-24 06:51,ITSM Platform
+INC-0062,Assign Priority,2026-02-24 06:59,ITSM Platform
+INC-0062,Investigate Issue,2026-02-24 10:20,Service Desk Agent
+INC-0062,Apply Standard Fix,2026-02-24 12:24,Service Desk Agent
+INC-0062,Restore Service,2026-02-24 12:41,Network Team
+INC-0062,Await User Response,2026-02-25 10:43,End User
+INC-0062,Confirm Fix,2026-02-25 11:13,End User
+INC-0062,Close Ticket,2026-02-25 15:11,Service Desk Agent
+INC-0062,Send Satisfaction Survey,2026-02-25 16:08,ITSM Platform
+INC-0063,Log Incident,2026-02-26 05:16,Service Desk Agent
+INC-0063,Categorize Incident,2026-02-26 06:31,ITSM Platform
+INC-0063,Assign Priority,2026-02-26 06:39,ITSM Platform
+INC-0063,Investigate Issue,2026-02-26 07:30,Service Desk Agent
+INC-0063,Open War Room,2026-02-26 09:18,Incident Manager
+INC-0063,Restore Service,2026-02-26 11:13,Network Team
+INC-0063,Await User Response,2026-02-26 16:26,End User
+INC-0063,Confirm Fix,2026-02-26 17:12,End User
+INC-0063,Close Ticket,2026-02-26 20:59,Service Desk Agent
+INC-0063,Send Satisfaction Survey,2026-02-26 21:18,ITSM Platform
+INC-0064,Log Incident,2026-02-23 02:22,Service Desk Agent
+INC-0064,Categorize Incident,2026-02-23 02:33,ITSM Platform
+INC-0064,Assign Priority,2026-02-23 02:52,ITSM Platform
+INC-0064,Investigate Issue,2026-02-23 04:07,Service Desk Agent
+INC-0064,Open War Room,2026-02-23 05:15,Incident Manager
+INC-0064,Restore Service,2026-02-23 06:52,Network Team
+INC-0064,Await User Response,2026-02-23 16:05,End User
+INC-0064,Confirm Fix,2026-02-23 16:57,End User
+INC-0064,Close Ticket,2026-02-23 20:11,Service Desk Agent
+INC-0064,Send Satisfaction Survey,2026-02-23 20:53,ITSM Platform
+INC-0065,Log Incident,2026-02-12 20:10,Service Desk Agent
+INC-0065,Categorize Incident,2026-02-12 21:06,ITSM Platform
+INC-0065,Assign Priority,2026-02-12 21:15,ITSM Platform
+INC-0065,Investigate Issue,2026-02-12 23:59,Service Desk Agent
+INC-0065,Apply Standard Fix,2026-02-13 03:05,Service Desk Agent
+INC-0065,Restore Service,2026-02-13 04:55,Network Team
+INC-0065,Escalate Ticket,2026-02-13 16:23,Service Desk Agent
+INC-0065,Investigate Issue,2026-02-13 18:15,Incident Manager
+INC-0065,Apply Standard Fix,2026-02-13 18:54,Service Desk Agent
+INC-0065,Restore Service,2026-02-13 19:30,Network Team
+INC-0065,Await User Response,2026-02-14 13:05,End User
+INC-0065,Confirm Fix,2026-02-14 14:01,End User
+INC-0065,Close Ticket,2026-02-14 16:13,Service Desk Agent
+INC-0065,Send Satisfaction Survey,2026-02-14 16:49,ITSM Platform
+INC-0066,Log Incident,2026-02-11 00:19,Service Desk Agent
+INC-0066,Categorize Incident,2026-02-11 01:21,ITSM Platform
+INC-0066,Assign Priority,2026-02-11 01:33,ITSM Platform
+INC-0066,Investigate Issue,2026-02-11 05:33,Service Desk Agent
+INC-0066,Apply Standard Fix,2026-02-11 08:08,Service Desk Agent
+INC-0066,Restore Service,2026-02-11 09:07,Network Team
+INC-0066,Await User Response,2026-02-11 15:34,End User
+INC-0066,Confirm Fix,2026-02-11 16:00,End User
+INC-0066,Close Ticket,2026-02-11 18:27,Service Desk Agent
+INC-0066,Send Satisfaction Survey,2026-02-11 18:33,ITSM Platform
+INC-0067,Log Incident,2026-02-15 12:44,Service Desk Agent
+INC-0067,Categorize Incident,2026-02-15 13:19,ITSM Platform
+INC-0067,Assign Priority,2026-02-15 13:32,ITSM Platform
+INC-0067,Investigate Issue,2026-02-15 15:54,Service Desk Agent
+INC-0067,Apply Standard Fix,2026-02-15 17:00,Service Desk Agent
+INC-0067,Restore Service,2026-02-15 17:15,Network Team
+INC-0067,Await User Response,2026-02-16 07:50,End User
+INC-0067,Confirm Fix,2026-02-16 08:19,End User
+INC-0067,Close Ticket,2026-02-16 10:09,Service Desk Agent
+INC-0067,Send Satisfaction Survey,2026-02-16 10:57,ITSM Platform
+INC-0068,Log Incident,2026-02-24 20:31,Service Desk Agent
+INC-0068,Categorize Incident,2026-02-24 21:02,ITSM Platform
+INC-0068,Assign Priority,2026-02-24 21:16,ITSM Platform
+INC-0068,Investigate Issue,2026-02-24 23:44,Service Desk Agent
+INC-0068,Apply Standard Fix,2026-02-25 00:14,Service Desk Agent
+INC-0068,Restore Service,2026-02-25 02:31,Network Team
+INC-0068,Await User Response,2026-02-25 15:18,End User
+INC-0068,Confirm Fix,2026-02-25 15:31,End User
+INC-0068,Close Ticket,2026-02-25 18:31,Service Desk Agent
+INC-0068,Send Satisfaction Survey,2026-02-25 19:04,ITSM Platform
+INC-0069,Log Incident,2026-02-25 02:03,Service Desk Agent
+INC-0069,Categorize Incident,2026-02-25 03:28,ITSM Platform
+INC-0069,Assign Priority,2026-02-25 03:36,ITSM Platform
+INC-0069,Investigate Issue,2026-02-25 04:33,Service Desk Agent
+INC-0069,Apply Standard Fix,2026-02-25 05:51,Service Desk Agent
+INC-0069,Restore Service,2026-02-25 07:39,Network Team
+INC-0069,Await User Response,2026-02-25 23:22,End User
+INC-0069,Confirm Fix,2026-02-25 23:54,End User
+INC-0069,Close Ticket,2026-02-26 01:18,Service Desk Agent
+INC-0069,Send Satisfaction Survey,2026-02-26 02:13,ITSM Platform
+INC-0070,Log Incident,2026-02-01 23:49,Service Desk Agent
+INC-0070,Categorize Incident,2026-02-02 00:10,ITSM Platform
+INC-0070,Assign Priority,2026-02-02 00:13,ITSM Platform
+INC-0070,Investigate Issue,2026-02-02 04:00,Service Desk Agent
+INC-0070,Apply Standard Fix,2026-02-02 07:40,Service Desk Agent
+INC-0070,Restore Service,2026-02-02 09:51,Network Team
+INC-0070,Await User Response,2026-02-03 03:04,End User
+INC-0070,Confirm Fix,2026-02-03 03:09,End User
+INC-0070,Close Ticket,2026-02-03 03:32,Service Desk Agent
+INC-0070,Send Satisfaction Survey,2026-02-03 03:58,ITSM Platform
+INC-0071,Log Incident,2026-02-25 00:33,Service Desk Agent
+INC-0071,Categorize Incident,2026-02-25 01:37,ITSM Platform
+INC-0071,Assign Priority,2026-02-25 01:53,ITSM Platform
+INC-0071,Investigate Issue,2026-02-25 04:10,Service Desk Agent
+INC-0071,Apply Standard Fix,2026-02-25 05:22,Service Desk Agent
+INC-0071,Restore Service,2026-02-25 06:11,Network Team
+INC-0071,Escalate Ticket,2026-02-25 08:32,Service Desk Agent
+INC-0071,Investigate Issue,2026-02-25 16:04,Incident Manager
+INC-0071,Apply Standard Fix,2026-02-25 19:28,Service Desk Agent
+INC-0071,Restore Service,2026-02-25 21:07,Network Team
+INC-0071,Await User Response,2026-02-26 19:42,End User
+INC-0071,Confirm Fix,2026-02-26 20:41,End User
+INC-0071,Close Ticket,2026-02-27 00:01,Service Desk Agent
+INC-0071,Send Satisfaction Survey,2026-02-27 00:59,ITSM Platform
+INC-0072,Log Incident,2026-02-21 19:31,Service Desk Agent
+INC-0072,Categorize Incident,2026-02-21 19:46,ITSM Platform
+INC-0072,Assign Priority,2026-02-21 20:05,ITSM Platform
+INC-0072,Investigate Issue,2026-02-21 20:35,Service Desk Agent
+INC-0072,Open War Room,2026-02-21 21:06,Incident Manager
+INC-0072,Restore Service,2026-02-21 22:15,Network Team
+INC-0072,Await User Response,2026-02-22 00:01,End User
+INC-0072,Confirm Fix,2026-02-22 00:47,End User
+INC-0072,Close Ticket,2026-02-22 03:55,Service Desk Agent
+INC-0072,Send Satisfaction Survey,2026-02-22 04:15,ITSM Platform
+INC-0073,Log Incident,2026-02-06 19:46,Service Desk Agent
+INC-0073,Categorize Incident,2026-02-06 21:11,ITSM Platform
+INC-0073,Assign Priority,2026-02-06 21:21,ITSM Platform
+INC-0073,Investigate Issue,2026-02-07 02:01,Service Desk Agent
+INC-0073,Apply Standard Fix,2026-02-07 05:14,Service Desk Agent
+INC-0073,Restore Service,2026-02-07 05:52,Network Team
+INC-0073,Escalate Ticket,2026-02-07 11:29,Service Desk Agent
+INC-0073,Investigate Issue,2026-02-07 16:27,Incident Manager
+INC-0073,Apply Standard Fix,2026-02-07 19:16,Service Desk Agent
+INC-0073,Restore Service,2026-02-07 19:50,Network Team
+INC-0073,Await User Response,2026-02-08 09:34,End User
+INC-0073,Confirm Fix,2026-02-08 09:55,End User
+INC-0073,Close Ticket,2026-02-08 10:57,Service Desk Agent
+INC-0073,Send Satisfaction Survey,2026-02-08 11:48,ITSM Platform
+INC-0074,Log Incident,2026-02-28 08:31,Service Desk Agent
+INC-0074,Categorize Incident,2026-02-28 08:36,ITSM Platform
+INC-0074,Assign Priority,2026-02-28 08:38,ITSM Platform
+INC-0074,Investigate Issue,2026-02-28 13:23,Service Desk Agent
+INC-0074,Apply Standard Fix,2026-02-28 15:35,Service Desk Agent
+INC-0074,Restore Service,2026-02-28 16:56,Network Team
+INC-0074,Await User Response,2026-03-01 15:26,End User
+INC-0074,Confirm Fix,2026-03-01 16:24,End User
+INC-0074,Close Ticket,2026-03-01 20:15,Service Desk Agent
+INC-0074,Send Satisfaction Survey,2026-03-01 20:31,ITSM Platform
+INC-0075,Log Incident,2026-02-22 15:09,Service Desk Agent
+INC-0075,Categorize Incident,2026-02-22 16:21,ITSM Platform
+INC-0075,Assign Priority,2026-02-22 16:30,ITSM Platform
+INC-0075,Investigate Issue,2026-02-22 21:20,Service Desk Agent
+INC-0075,Apply Standard Fix,2026-02-22 23:20,Service Desk Agent
+INC-0075,Restore Service,2026-02-23 02:16,Network Team
+INC-0075,Await User Response,2026-02-23 03:30,End User
+INC-0075,Confirm Fix,2026-02-23 03:47,End User
+INC-0075,Close Ticket,2026-02-23 05:59,Service Desk Agent
+INC-0075,Send Satisfaction Survey,2026-02-23 06:56,ITSM Platform
+INC-0076,Log Incident,2026-02-20 02:46,Service Desk Agent
+INC-0076,Categorize Incident,2026-02-20 03:01,ITSM Platform
+INC-0076,Assign Priority,2026-02-20 03:11,ITSM Platform
+INC-0076,Investigate Issue,2026-02-20 05:17,Service Desk Agent
+INC-0076,Apply Standard Fix,2026-02-20 07:06,Service Desk Agent
+INC-0076,Restore Service,2026-02-20 08:14,Network Team
+INC-0076,Await User Response,2026-02-21 08:29,End User
+INC-0076,Confirm Fix,2026-02-21 08:55,End User
+INC-0076,Close Ticket,2026-02-21 12:03,Service Desk Agent
+INC-0076,Send Satisfaction Survey,2026-02-21 12:30,ITSM Platform
+INC-0077,Log Incident,2026-02-17 11:44,Service Desk Agent
+INC-0077,Categorize Incident,2026-02-17 12:39,ITSM Platform
+INC-0077,Assign Priority,2026-02-17 12:47,ITSM Platform
+INC-0077,Investigate Issue,2026-02-17 13:00,Service Desk Agent
+INC-0077,Apply Standard Fix,2026-02-17 16:24,Service Desk Agent
+INC-0077,Restore Service,2026-02-17 18:43,Network Team
+INC-0077,Escalate Ticket,2026-02-18 03:40,Service Desk Agent
+INC-0077,Investigate Issue,2026-02-18 05:52,Incident Manager
+INC-0077,Apply Standard Fix,2026-02-18 07:31,Service Desk Agent
+INC-0077,Restore Service,2026-02-18 09:19,Network Team
+INC-0077,Await User Response,2026-02-18 16:26,End User
+INC-0077,Confirm Fix,2026-02-18 16:45,End User
+INC-0077,Close Ticket,2026-02-18 18:49,Service Desk Agent
+INC-0077,Send Satisfaction Survey,2026-02-18 19:04,ITSM Platform
+INC-0078,Log Incident,2026-02-13 01:28,Service Desk Agent
+INC-0078,Categorize Incident,2026-02-13 02:10,ITSM Platform
+INC-0078,Assign Priority,2026-02-13 02:15,ITSM Platform
+INC-0078,Investigate Issue,2026-02-13 07:44,Service Desk Agent
+INC-0078,Apply Standard Fix,2026-02-13 08:46,Service Desk Agent
+INC-0078,Restore Service,2026-02-13 09:53,Network Team
+INC-0078,Await User Response,2026-02-14 09:05,End User
+INC-0078,Confirm Fix,2026-02-14 09:13,End User
+INC-0078,Close Ticket,2026-02-14 11:50,Service Desk Agent
+INC-0078,Send Satisfaction Survey,2026-02-14 12:00,ITSM Platform
+INC-0079,Log Incident,2026-02-18 21:45,Service Desk Agent
+INC-0079,Categorize Incident,2026-02-18 21:56,ITSM Platform
+INC-0079,Assign Priority,2026-02-18 22:04,ITSM Platform
+INC-0079,Investigate Issue,2026-02-18 22:26,Service Desk Agent
+INC-0079,Apply Standard Fix,2026-02-18 23:17,Service Desk Agent
+INC-0079,Restore Service,2026-02-19 01:13,Network Team
+INC-0079,Escalate Ticket,2026-02-19 02:44,Service Desk Agent
+INC-0079,Investigate Issue,2026-02-19 04:48,Incident Manager
+INC-0079,Apply Standard Fix,2026-02-19 06:48,Service Desk Agent
+INC-0079,Restore Service,2026-02-19 07:55,Network Team
+INC-0079,Await User Response,2026-02-20 08:43,End User
+INC-0079,Confirm Fix,2026-02-20 09:08,End User
+INC-0079,Close Ticket,2026-02-20 12:20,Service Desk Agent
+INC-0079,Send Satisfaction Survey,2026-02-20 12:28,ITSM Platform
+INC-0080,Log Incident,2026-02-04 14:41,Service Desk Agent
+INC-0080,Categorize Incident,2026-02-04 15:07,ITSM Platform
+INC-0080,Assign Priority,2026-02-04 15:19,ITSM Platform
+INC-0080,Investigate Issue,2026-02-04 17:06,Service Desk Agent
+INC-0080,Apply Standard Fix,2026-02-04 19:35,Service Desk Agent
+INC-0080,Restore Service,2026-02-04 21:44,Network Team
+INC-0080,Escalate Ticket,2026-02-05 09:34,Service Desk Agent
+INC-0080,Investigate Issue,2026-02-05 16:15,Incident Manager
+INC-0080,Apply Standard Fix,2026-02-05 18:11,Service Desk Agent
+INC-0080,Restore Service,2026-02-05 20:08,Network Team
+INC-0080,Await User Response,2026-02-06 09:23,End User
+INC-0080,Confirm Fix,2026-02-06 09:49,End User
+INC-0080,Close Ticket,2026-02-06 11:47,Service Desk Agent
+INC-0080,Send Satisfaction Survey,2026-02-06 11:58,ITSM Platform
+INC-0081,Log Incident,2026-02-05 23:00,Service Desk Agent
+INC-0081,Categorize Incident,2026-02-05 23:05,ITSM Platform
+INC-0081,Assign Priority,2026-02-05 23:09,ITSM Platform
+INC-0081,Investigate Issue,2026-02-06 01:42,Service Desk Agent
+INC-0081,Open War Room,2026-02-06 02:50,Incident Manager
+INC-0081,Restore Service,2026-02-06 03:31,Network Team
+INC-0081,Await User Response,2026-02-06 11:05,End User
+INC-0081,Confirm Fix,2026-02-06 11:34,End User
+INC-0081,Close Ticket,2026-02-06 13:10,Service Desk Agent
+INC-0081,Send Satisfaction Survey,2026-02-06 14:00,ITSM Platform
+INC-0082,Log Incident,2026-02-15 01:10,Service Desk Agent
+INC-0082,Categorize Incident,2026-02-15 02:10,ITSM Platform
+INC-0082,Assign Priority,2026-02-15 02:14,ITSM Platform
+INC-0082,Investigate Issue,2026-02-15 02:49,Service Desk Agent
+INC-0082,Apply Standard Fix,2026-02-15 03:54,Service Desk Agent
+INC-0082,Restore Service,2026-02-15 05:39,Network Team
+INC-0082,Await User Response,2026-02-15 21:23,End User
+INC-0082,Confirm Fix,2026-02-15 21:40,End User
+INC-0082,Close Ticket,2026-02-15 23:07,Service Desk Agent
+INC-0082,Send Satisfaction Survey,2026-02-15 23:31,ITSM Platform
+INC-0083,Log Incident,2026-02-22 14:19,Service Desk Agent
+INC-0083,Categorize Incident,2026-02-22 14:27,ITSM Platform
+INC-0083,Assign Priority,2026-02-22 14:42,ITSM Platform
+INC-0083,Investigate Issue,2026-02-22 16:58,Service Desk Agent
+INC-0083,Apply Standard Fix,2026-02-22 20:29,Service Desk Agent
+INC-0083,Restore Service,2026-02-22 22:22,Network Team
+INC-0083,Escalate Ticket,2026-02-22 23:27,Service Desk Agent
+INC-0083,Investigate Issue,2026-02-23 03:54,Incident Manager
+INC-0083,Apply Standard Fix,2026-02-23 04:30,Service Desk Agent
+INC-0083,Restore Service,2026-02-23 06:22,Network Team
+INC-0083,Await User Response,2026-02-23 08:58,End User
+INC-0083,Confirm Fix,2026-02-23 09:19,End User
+INC-0083,Close Ticket,2026-02-23 10:13,Service Desk Agent
+INC-0083,Send Satisfaction Survey,2026-02-23 11:01,ITSM Platform
+INC-0084,Log Incident,2026-02-03 20:39,Service Desk Agent
+INC-0084,Categorize Incident,2026-02-03 22:01,ITSM Platform
+INC-0084,Assign Priority,2026-02-03 22:13,ITSM Platform
+INC-0084,Investigate Issue,2026-02-04 01:28,Service Desk Agent
+INC-0084,Apply Standard Fix,2026-02-04 04:20,Service Desk Agent
+INC-0084,Restore Service,2026-02-04 04:41,Network Team
+INC-0084,Await User Response,2026-02-05 05:38,End User
+INC-0084,Confirm Fix,2026-02-05 06:27,End User
+INC-0084,Close Ticket,2026-02-05 07:53,Service Desk Agent
+INC-0084,Send Satisfaction Survey,2026-02-05 08:53,ITSM Platform
+INC-0085,Log Incident,2026-02-13 13:03,Service Desk Agent
+INC-0085,Categorize Incident,2026-02-13 13:46,ITSM Platform
+INC-0085,Assign Priority,2026-02-13 13:48,ITSM Platform
+INC-0085,Investigate Issue,2026-02-13 19:02,Service Desk Agent
+INC-0085,Apply Standard Fix,2026-02-13 21:59,Service Desk Agent
+INC-0085,Restore Service,2026-02-13 22:25,Network Team
+INC-0085,Escalate Ticket,2026-02-14 02:54,Service Desk Agent
+INC-0085,Investigate Issue,2026-02-14 04:18,Incident Manager
+INC-0085,Apply Standard Fix,2026-02-14 06:39,Service Desk Agent
+INC-0085,Restore Service,2026-02-14 08:20,Network Team
+INC-0085,Await User Response,2026-02-15 00:43,End User
+INC-0085,Confirm Fix,2026-02-15 01:37,End User
+INC-0085,Close Ticket,2026-02-15 03:20,Service Desk Agent
+INC-0085,Send Satisfaction Survey,2026-02-15 04:11,ITSM Platform
+INC-0086,Log Incident,2026-02-12 10:12,Service Desk Agent
+INC-0086,Categorize Incident,2026-02-12 11:12,ITSM Platform
+INC-0086,Assign Priority,2026-02-12 11:29,ITSM Platform
+INC-0086,Investigate Issue,2026-02-12 12:46,Service Desk Agent
+INC-0086,Apply Standard Fix,2026-02-12 13:47,Service Desk Agent
+INC-0086,Restore Service,2026-02-12 13:59,Network Team
+INC-0086,Await User Response,2026-02-13 15:41,End User
+INC-0086,Confirm Fix,2026-02-13 16:05,End User
+INC-0086,Close Ticket,2026-02-13 19:40,Service Desk Agent
+INC-0086,Send Satisfaction Survey,2026-02-13 20:25,ITSM Platform
+INC-0087,Log Incident,2026-02-07 21:16,Service Desk Agent
+INC-0087,Categorize Incident,2026-02-07 22:38,ITSM Platform
+INC-0087,Assign Priority,2026-02-07 22:47,ITSM Platform
+INC-0087,Investigate Issue,2026-02-08 01:44,Service Desk Agent
+INC-0087,Apply Standard Fix,2026-02-08 03:56,Service Desk Agent
+INC-0087,Restore Service,2026-02-08 05:38,Network Team
+INC-0087,Await User Response,2026-02-09 02:28,End User
+INC-0087,Confirm Fix,2026-02-09 02:38,End User
+INC-0087,Close Ticket,2026-02-09 04:54,Service Desk Agent
+INC-0087,Send Satisfaction Survey,2026-02-09 05:07,ITSM Platform
+INC-0088,Log Incident,2026-02-18 19:49,Service Desk Agent
+INC-0088,Categorize Incident,2026-02-18 20:14,ITSM Platform
+INC-0088,Assign Priority,2026-02-18 20:23,ITSM Platform
+INC-0088,Investigate Issue,2026-02-19 00:01,Service Desk Agent
+INC-0088,Open War Room,2026-02-19 00:20,Incident Manager
+INC-0088,Restore Service,2026-02-19 02:33,Network Team
+INC-0088,Await User Response,2026-02-19 14:10,End User
+INC-0088,Confirm Fix,2026-02-19 14:25,End User
+INC-0088,Close Ticket,2026-02-19 16:19,Service Desk Agent
+INC-0088,Send Satisfaction Survey,2026-02-19 17:16,ITSM Platform
+INC-0089,Log Incident,2026-02-05 18:55,Service Desk Agent
+INC-0089,Categorize Incident,2026-02-05 19:09,ITSM Platform
+INC-0089,Assign Priority,2026-02-05 19:19,ITSM Platform
+INC-0089,Investigate Issue,2026-02-06 00:48,Service Desk Agent
+INC-0089,Open War Room,2026-02-06 01:15,Incident Manager
+INC-0089,Restore Service,2026-02-06 03:12,Network Team
+INC-0089,Await User Response,2026-02-07 03:55,End User
+INC-0089,Confirm Fix,2026-02-07 04:28,End User
+INC-0089,Close Ticket,2026-02-07 05:17,Service Desk Agent
+INC-0089,Send Satisfaction Survey,2026-02-07 05:32,ITSM Platform
+INC-0090,Log Incident,2026-02-07 01:11,Service Desk Agent
+INC-0090,Categorize Incident,2026-02-07 02:09,ITSM Platform
+INC-0090,Assign Priority,2026-02-07 02:25,ITSM Platform
+INC-0090,Investigate Issue,2026-02-07 07:52,Service Desk Agent
+INC-0090,Apply Standard Fix,2026-02-07 09:07,Service Desk Agent
+INC-0090,Restore Service,2026-02-07 11:34,Network Team
+INC-0090,Await User Response,2026-02-08 10:44,End User
+INC-0090,Confirm Fix,2026-02-08 11:37,End User
+INC-0090,Close Ticket,2026-02-08 12:13,Service Desk Agent
+INC-0090,Send Satisfaction Survey,2026-02-08 13:03,ITSM Platform
+INC-0091,Log Incident,2026-02-14 09:02,Service Desk Agent
+INC-0091,Categorize Incident,2026-02-14 09:44,ITSM Platform
+INC-0091,Assign Priority,2026-02-14 09:54,ITSM Platform
+INC-0091,Investigate Issue,2026-02-14 14:54,Service Desk Agent
+INC-0091,Apply Standard Fix,2026-02-14 16:14,Service Desk Agent
+INC-0091,Restore Service,2026-02-14 17:30,Network Team
+INC-0091,Escalate Ticket,2026-02-14 22:13,Service Desk Agent
+INC-0091,Investigate Issue,2026-02-15 00:18,Incident Manager
+INC-0091,Apply Standard Fix,2026-02-15 01:40,Service Desk Agent
+INC-0091,Restore Service,2026-02-15 02:20,Network Team
+INC-0091,Await User Response,2026-02-15 08:04,End User
+INC-0091,Confirm Fix,2026-02-15 08:27,End User
+INC-0091,Close Ticket,2026-02-15 12:18,Service Desk Agent
+INC-0091,Send Satisfaction Survey,2026-02-15 13:17,ITSM Platform
+INC-0092,Log Incident,2026-02-27 07:38,Service Desk Agent
+INC-0092,Categorize Incident,2026-02-27 08:07,ITSM Platform
+INC-0092,Assign Priority,2026-02-27 08:19,ITSM Platform
+INC-0092,Investigate Issue,2026-02-27 09:02,Service Desk Agent
+INC-0092,Apply Standard Fix,2026-02-27 10:19,Service Desk Agent
+INC-0092,Restore Service,2026-02-27 12:38,Network Team
+INC-0092,Await User Response,2026-02-28 11:18,End User
+INC-0092,Confirm Fix,2026-02-28 12:14,End User
+INC-0092,Close Ticket,2026-02-28 12:44,Service Desk Agent
+INC-0092,Send Satisfaction Survey,2026-02-28 13:26,ITSM Platform
+INC-0093,Log Incident,2026-02-22 02:43,Service Desk Agent
+INC-0093,Categorize Incident,2026-02-22 02:52,ITSM Platform
+INC-0093,Assign Priority,2026-02-22 02:57,ITSM Platform
+INC-0093,Investigate Issue,2026-02-22 03:09,Service Desk Agent
+INC-0093,Apply Standard Fix,2026-02-22 06:53,Service Desk Agent
+INC-0093,Restore Service,2026-02-22 08:02,Network Team
+INC-0093,Await User Response,2026-02-22 21:17,End User
+INC-0093,Confirm Fix,2026-02-22 21:24,End User
+INC-0093,Close Ticket,2026-02-23 01:13,Service Desk Agent
+INC-0093,Send Satisfaction Survey,2026-02-23 01:32,ITSM Platform
+INC-0094,Log Incident,2026-02-11 14:22,Service Desk Agent
+INC-0094,Categorize Incident,2026-02-11 14:42,ITSM Platform
+INC-0094,Assign Priority,2026-02-11 14:45,ITSM Platform
+INC-0094,Investigate Issue,2026-02-11 16:32,Service Desk Agent
+INC-0094,Apply Standard Fix,2026-02-11 20:18,Service Desk Agent
+INC-0094,Restore Service,2026-02-11 22:57,Network Team
+INC-0094,Escalate Ticket,2026-02-12 00:43,Service Desk Agent
+INC-0094,Investigate Issue,2026-02-12 04:23,Incident Manager
+INC-0094,Apply Standard Fix,2026-02-12 06:54,Service Desk Agent
+INC-0094,Restore Service,2026-02-12 08:54,Network Team
+INC-0094,Await User Response,2026-02-12 15:28,End User
+INC-0094,Confirm Fix,2026-02-12 16:01,End User
+INC-0094,Close Ticket,2026-02-12 18:40,Service Desk Agent
+INC-0094,Send Satisfaction Survey,2026-02-12 18:57,ITSM Platform
+INC-0095,Log Incident,2026-02-01 06:55,Service Desk Agent
+INC-0095,Categorize Incident,2026-02-01 07:13,ITSM Platform
+INC-0095,Assign Priority,2026-02-01 07:26,ITSM Platform
+INC-0095,Investigate Issue,2026-02-01 09:27,Service Desk Agent
+INC-0095,Open War Room,2026-02-01 10:25,Incident Manager
+INC-0095,Restore Service,2026-02-01 11:11,Network Team
+INC-0095,Escalate Ticket,2026-02-01 16:02,Service Desk Agent
+INC-0095,Investigate Issue,2026-02-01 16:51,Incident Manager
+INC-0095,Apply Standard Fix,2026-02-01 19:44,Service Desk Agent
+INC-0095,Restore Service,2026-02-01 21:27,Network Team
+INC-0095,Await User Response,2026-02-02 20:11,End User
+INC-0095,Confirm Fix,2026-02-02 20:29,End User
+INC-0095,Close Ticket,2026-02-03 00:02,Service Desk Agent
+INC-0095,Send Satisfaction Survey,2026-02-03 00:03,ITSM Platform
+INC-0096,Log Incident,2026-02-15 21:26,Service Desk Agent
+INC-0096,Categorize Incident,2026-02-15 22:23,ITSM Platform
+INC-0096,Assign Priority,2026-02-15 22:36,ITSM Platform
+INC-0096,Investigate Issue,2026-02-16 00:20,Service Desk Agent
+INC-0096,Apply Standard Fix,2026-02-16 00:54,Service Desk Agent
+INC-0096,Restore Service,2026-02-16 01:56,Network Team
+INC-0096,Escalate Ticket,2026-02-16 10:53,Service Desk Agent
+INC-0096,Investigate Issue,2026-02-16 16:03,Incident Manager
+INC-0096,Apply Standard Fix,2026-02-16 18:26,Service Desk Agent
+INC-0096,Restore Service,2026-02-16 18:44,Network Team
+INC-0096,Await User Response,2026-02-17 09:09,End User
+INC-0096,Confirm Fix,2026-02-17 09:20,End User
+INC-0096,Close Ticket,2026-02-17 12:48,Service Desk Agent
+INC-0096,Send Satisfaction Survey,2026-02-17 13:14,ITSM Platform
+INC-0097,Log Incident,2026-02-26 00:53,Service Desk Agent
+INC-0097,Categorize Incident,2026-02-26 01:17,ITSM Platform
+INC-0097,Assign Priority,2026-02-26 01:36,ITSM Platform
+INC-0097,Investigate Issue,2026-02-26 02:32,Service Desk Agent
+INC-0097,Apply Standard Fix,2026-02-26 04:28,Service Desk Agent
+INC-0097,Restore Service,2026-02-26 05:47,Network Team
+INC-0097,Await User Response,2026-02-26 15:57,End User
+INC-0097,Confirm Fix,2026-02-26 16:44,End User
+INC-0097,Close Ticket,2026-02-26 18:07,Service Desk Agent
+INC-0097,Send Satisfaction Survey,2026-02-26 18:34,ITSM Platform
+INC-0098,Log Incident,2026-02-03 08:05,Service Desk Agent
+INC-0098,Categorize Incident,2026-02-03 08:49,ITSM Platform
+INC-0098,Assign Priority,2026-02-03 09:09,ITSM Platform
+INC-0098,Investigate Issue,2026-02-03 12:21,Service Desk Agent
+INC-0098,Apply Standard Fix,2026-02-03 12:40,Service Desk Agent
+INC-0098,Restore Service,2026-02-03 14:23,Network Team
+INC-0098,Await User Response,2026-02-04 04:13,End User
+INC-0098,Confirm Fix,2026-02-04 05:04,End User
+INC-0098,Close Ticket,2026-02-04 06:52,Service Desk Agent
+INC-0098,Send Satisfaction Survey,2026-02-04 07:06,ITSM Platform
+INC-0099,Log Incident,2026-02-01 06:25,Service Desk Agent
+INC-0099,Categorize Incident,2026-02-01 07:25,ITSM Platform
+INC-0099,Assign Priority,2026-02-01 07:32,ITSM Platform
+INC-0099,Investigate Issue,2026-02-01 11:18,Service Desk Agent
+INC-0099,Open War Room,2026-02-01 11:44,Incident Manager
+INC-0099,Restore Service,2026-02-01 13:37,Network Team
+INC-0099,Await User Response,2026-02-02 02:33,End User
+INC-0099,Confirm Fix,2026-02-02 03:07,End User
+INC-0099,Close Ticket,2026-02-02 06:29,Service Desk Agent
+INC-0099,Send Satisfaction Survey,2026-02-02 06:40,ITSM Platform
+INC-0100,Log Incident,2026-02-06 21:58,Service Desk Agent
+INC-0100,Categorize Incident,2026-02-06 22:04,ITSM Platform
+INC-0100,Assign Priority,2026-02-06 22:07,ITSM Platform
+INC-0100,Investigate Issue,2026-02-07 02:59,Service Desk Agent
+INC-0100,Open War Room,2026-02-07 04:57,Incident Manager
+INC-0100,Restore Service,2026-02-07 06:48,Network Team
+INC-0100,Escalate Ticket,2026-02-07 17:55,Service Desk Agent
+INC-0100,Investigate Issue,2026-02-07 21:34,Incident Manager
+INC-0100,Apply Standard Fix,2026-02-08 01:02,Service Desk Agent
+INC-0100,Restore Service,2026-02-08 02:16,Network Team
+INC-0100,Await User Response,2026-02-08 08:37,End User
+INC-0100,Confirm Fix,2026-02-08 08:51,End User
+INC-0100,Close Ticket,2026-02-08 10:25,Service Desk Agent
+INC-0100,Send Satisfaction Survey,2026-02-08 10:44,ITSM Platform
+INC-0101,Log Incident,2026-02-08 08:44,Service Desk Agent
+INC-0101,Categorize Incident,2026-02-08 09:55,ITSM Platform
+INC-0101,Assign Priority,2026-02-08 10:02,ITSM Platform
+INC-0101,Investigate Issue,2026-02-08 10:46,Service Desk Agent
+INC-0101,Open War Room,2026-02-08 12:03,Incident Manager
+INC-0101,Restore Service,2026-02-08 13:03,Network Team
+INC-0101,Await User Response,2026-02-08 15:02,End User
+INC-0101,Confirm Fix,2026-02-08 15:37,End User
+INC-0101,Close Ticket,2026-02-08 17:02,Service Desk Agent
+INC-0101,Send Satisfaction Survey,2026-02-08 17:06,ITSM Platform
+INC-0102,Log Incident,2026-02-28 15:42,Service Desk Agent
+INC-0102,Categorize Incident,2026-02-28 17:08,ITSM Platform
+INC-0102,Assign Priority,2026-02-28 17:22,ITSM Platform
+INC-0102,Investigate Issue,2026-02-28 18:16,Service Desk Agent
+INC-0102,Apply Standard Fix,2026-02-28 21:09,Service Desk Agent
+INC-0102,Restore Service,2026-02-28 22:00,Network Team
+INC-0102,Await User Response,2026-03-01 06:04,End User
+INC-0102,Confirm Fix,2026-03-01 06:48,End User
+INC-0102,Close Ticket,2026-03-01 08:36,Service Desk Agent
+INC-0102,Send Satisfaction Survey,2026-03-01 09:16,ITSM Platform
+INC-0103,Log Incident,2026-02-09 22:12,Service Desk Agent
+INC-0103,Categorize Incident,2026-02-09 23:17,ITSM Platform
+INC-0103,Assign Priority,2026-02-09 23:24,ITSM Platform
+INC-0103,Investigate Issue,2026-02-10 04:23,Service Desk Agent
+INC-0103,Apply Standard Fix,2026-02-10 06:20,Service Desk Agent
+INC-0103,Restore Service,2026-02-10 08:42,Network Team
+INC-0103,Escalate Ticket,2026-02-10 15:19,Service Desk Agent
+INC-0103,Investigate Issue,2026-02-10 16:52,Incident Manager
+INC-0103,Apply Standard Fix,2026-02-10 17:50,Service Desk Agent
+INC-0103,Restore Service,2026-02-10 18:31,Network Team
+INC-0103,Await User Response,2026-02-11 19:45,End User
+INC-0103,Confirm Fix,2026-02-11 20:42,End User
+INC-0103,Close Ticket,2026-02-12 00:36,Service Desk Agent
+INC-0103,Send Satisfaction Survey,2026-02-12 00:49,ITSM Platform
+INC-0104,Log Incident,2026-02-02 20:53,Service Desk Agent
+INC-0104,Categorize Incident,2026-02-02 22:09,ITSM Platform
+INC-0104,Assign Priority,2026-02-02 22:12,ITSM Platform
+INC-0104,Investigate Issue,2026-02-03 04:03,Service Desk Agent
+INC-0104,Apply Standard Fix,2026-02-03 04:48,Service Desk Agent
+INC-0104,Restore Service,2026-02-03 06:37,Network Team
+INC-0104,Await User Response,2026-02-04 01:53,End User
+INC-0104,Confirm Fix,2026-02-04 02:52,End User
+INC-0104,Close Ticket,2026-02-04 05:37,Service Desk Agent
+INC-0104,Send Satisfaction Survey,2026-02-04 06:27,ITSM Platform
+INC-0105,Log Incident,2026-02-14 22:28,Service Desk Agent
+INC-0105,Categorize Incident,2026-02-14 23:56,ITSM Platform
+INC-0105,Assign Priority,2026-02-15 00:11,ITSM Platform
+INC-0105,Investigate Issue,2026-02-15 02:58,Service Desk Agent
+INC-0105,Apply Standard Fix,2026-02-15 05:01,Service Desk Agent
+INC-0105,Restore Service,2026-02-15 06:50,Network Team
+INC-0105,Await User Response,2026-02-15 22:35,End User
+INC-0105,Confirm Fix,2026-02-15 23:12,End User
+INC-0105,Close Ticket,2026-02-16 01:09,Service Desk Agent
+INC-0105,Send Satisfaction Survey,2026-02-16 01:21,ITSM Platform
+INC-0106,Log Incident,2026-02-02 01:31,Service Desk Agent
+INC-0106,Categorize Incident,2026-02-02 01:36,ITSM Platform
+INC-0106,Assign Priority,2026-02-02 01:53,ITSM Platform
+INC-0106,Investigate Issue,2026-02-02 06:01,Service Desk Agent
+INC-0106,Apply Standard Fix,2026-02-02 09:31,Service Desk Agent
+INC-0106,Restore Service,2026-02-02 12:19,Network Team
+INC-0106,Await User Response,2026-02-03 04:27,End User
+INC-0106,Confirm Fix,2026-02-03 05:25,End User
+INC-0106,Close Ticket,2026-02-03 06:15,Service Desk Agent
+INC-0106,Send Satisfaction Survey,2026-02-03 07:07,ITSM Platform
+INC-0107,Log Incident,2026-02-22 12:52,Service Desk Agent
+INC-0107,Categorize Incident,2026-02-22 13:48,ITSM Platform
+INC-0107,Assign Priority,2026-02-22 13:53,ITSM Platform
+INC-0107,Investigate Issue,2026-02-22 14:37,Service Desk Agent
+INC-0107,Open War Room,2026-02-22 15:47,Incident Manager
+INC-0107,Restore Service,2026-02-22 17:30,Network Team
+INC-0107,Escalate Ticket,2026-02-23 01:32,Service Desk Agent
+INC-0107,Investigate Issue,2026-02-23 06:20,Incident Manager
+INC-0107,Apply Standard Fix,2026-02-23 08:50,Service Desk Agent
+INC-0107,Restore Service,2026-02-23 10:24,Network Team
+INC-0107,Await User Response,2026-02-23 12:17,End User
+INC-0107,Confirm Fix,2026-02-23 12:24,End User
+INC-0107,Close Ticket,2026-02-23 15:11,Service Desk Agent
+INC-0107,Send Satisfaction Survey,2026-02-23 15:20,ITSM Platform
+INC-0108,Log Incident,2026-02-04 17:49,Service Desk Agent
+INC-0108,Categorize Incident,2026-02-04 18:34,ITSM Platform
+INC-0108,Assign Priority,2026-02-04 18:52,ITSM Platform
+INC-0108,Investigate Issue,2026-02-04 19:42,Service Desk Agent
+INC-0108,Open War Room,2026-02-04 21:01,Incident Manager
+INC-0108,Restore Service,2026-02-04 22:47,Network Team
+INC-0108,Await User Response,2026-02-05 03:55,End User
+INC-0108,Confirm Fix,2026-02-05 04:01,End User
+INC-0108,Close Ticket,2026-02-05 07:45,Service Desk Agent
+INC-0108,Send Satisfaction Survey,2026-02-05 07:50,ITSM Platform
+INC-0109,Log Incident,2026-02-28 22:47,Service Desk Agent
+INC-0109,Categorize Incident,2026-02-28 23:06,ITSM Platform
+INC-0109,Assign Priority,2026-02-28 23:14,ITSM Platform
+INC-0109,Investigate Issue,2026-03-01 00:31,Service Desk Agent
+INC-0109,Apply Standard Fix,2026-03-01 02:51,Service Desk Agent
+INC-0109,Restore Service,2026-03-01 04:14,Network Team
+INC-0109,Await User Response,2026-03-01 10:22,End User
+INC-0109,Confirm Fix,2026-03-01 11:10,End User
+INC-0109,Close Ticket,2026-03-01 14:36,Service Desk Agent
+INC-0109,Send Satisfaction Survey,2026-03-01 15:23,ITSM Platform
+INC-0110,Log Incident,2026-02-11 01:31,Service Desk Agent
+INC-0110,Categorize Incident,2026-02-11 01:44,ITSM Platform
+INC-0110,Assign Priority,2026-02-11 01:57,ITSM Platform
+INC-0110,Investigate Issue,2026-02-11 07:19,Service Desk Agent
+INC-0110,Apply Standard Fix,2026-02-11 08:14,Service Desk Agent
+INC-0110,Restore Service,2026-02-11 09:46,Network Team
+INC-0110,Await User Response,2026-02-11 19:39,End User
+INC-0110,Confirm Fix,2026-02-11 20:36,End User
+INC-0110,Close Ticket,2026-02-11 22:37,Service Desk Agent
+INC-0110,Send Satisfaction Survey,2026-02-11 22:47,ITSM Platform
+INC-0111,Log Incident,2026-02-12 13:36,Service Desk Agent
+INC-0111,Categorize Incident,2026-02-12 14:45,ITSM Platform
+INC-0111,Assign Priority,2026-02-12 15:02,ITSM Platform
+INC-0111,Investigate Issue,2026-02-12 16:58,Service Desk Agent
+INC-0111,Apply Standard Fix,2026-02-12 19:50,Service Desk Agent
+INC-0111,Restore Service,2026-02-12 22:09,Network Team
+INC-0111,Await User Response,2026-02-13 11:21,End User
+INC-0111,Confirm Fix,2026-02-13 11:28,End User
+INC-0111,Close Ticket,2026-02-13 12:23,Service Desk Agent
+INC-0111,Send Satisfaction Survey,2026-02-13 12:35,ITSM Platform
+INC-0112,Log Incident,2026-02-19 08:41,Service Desk Agent
+INC-0112,Categorize Incident,2026-02-19 09:06,ITSM Platform
+INC-0112,Assign Priority,2026-02-19 09:16,ITSM Platform
+INC-0112,Investigate Issue,2026-02-19 15:13,Service Desk Agent
+INC-0112,Apply Standard Fix,2026-02-19 17:04,Service Desk Agent
+INC-0112,Restore Service,2026-02-19 17:57,Network Team
+INC-0112,Await User Response,2026-02-20 03:28,End User
+INC-0112,Confirm Fix,2026-02-20 03:40,End User
+INC-0112,Close Ticket,2026-02-20 07:01,Service Desk Agent
+INC-0112,Send Satisfaction Survey,2026-02-20 07:35,ITSM Platform
+INC-0113,Log Incident,2026-02-03 05:03,Service Desk Agent
+INC-0113,Categorize Incident,2026-02-03 06:29,ITSM Platform
+INC-0113,Assign Priority,2026-02-03 06:42,ITSM Platform
+INC-0113,Investigate Issue,2026-02-03 10:43,Service Desk Agent
+INC-0113,Apply Standard Fix,2026-02-03 13:26,Service Desk Agent
+INC-0113,Restore Service,2026-02-03 14:02,Network Team
+INC-0113,Await User Response,2026-02-04 08:49,End User
+INC-0113,Confirm Fix,2026-02-04 09:34,End User
+INC-0113,Close Ticket,2026-02-04 13:18,Service Desk Agent
+INC-0113,Send Satisfaction Survey,2026-02-04 13:44,ITSM Platform
+INC-0114,Log Incident,2026-02-17 21:44,Service Desk Agent
+INC-0114,Categorize Incident,2026-02-17 22:22,ITSM Platform
+INC-0114,Assign Priority,2026-02-17 22:36,ITSM Platform
+INC-0114,Investigate Issue,2026-02-18 01:54,Service Desk Agent
+INC-0114,Apply Standard Fix,2026-02-18 03:41,Service Desk Agent
+INC-0114,Restore Service,2026-02-18 05:15,Network Team
+INC-0114,Await User Response,2026-02-18 20:50,End User
+INC-0114,Confirm Fix,2026-02-18 21:09,End User
+INC-0114,Close Ticket,2026-02-18 21:59,Service Desk Agent
+INC-0114,Send Satisfaction Survey,2026-02-18 22:39,ITSM Platform
+INC-0115,Log Incident,2026-02-03 04:44,Service Desk Agent
+INC-0115,Categorize Incident,2026-02-03 05:26,ITSM Platform
+INC-0115,Assign Priority,2026-02-03 05:44,ITSM Platform
+INC-0115,Investigate Issue,2026-02-03 08:03,Service Desk Agent
+INC-0115,Apply Standard Fix,2026-02-03 12:00,Service Desk Agent
+INC-0115,Restore Service,2026-02-03 14:39,Network Team
+INC-0115,Await User Response,2026-02-04 01:49,End User
+INC-0115,Confirm Fix,2026-02-04 02:40,End User
+INC-0115,Close Ticket,2026-02-04 02:45,Service Desk Agent
+INC-0115,Send Satisfaction Survey,2026-02-04 03:33,ITSM Platform
+INC-0116,Log Incident,2026-02-02 12:54,Service Desk Agent
+INC-0116,Categorize Incident,2026-02-02 13:27,ITSM Platform
+INC-0116,Assign Priority,2026-02-02 13:33,ITSM Platform
+INC-0116,Investigate Issue,2026-02-02 16:11,Service Desk Agent
+INC-0116,Apply Standard Fix,2026-02-02 18:16,Service Desk Agent
+INC-0116,Restore Service,2026-02-02 20:12,Network Team
+INC-0116,Await User Response,2026-02-02 22:19,End User
+INC-0116,Confirm Fix,2026-02-02 22:32,End User
+INC-0116,Close Ticket,2026-02-03 00:42,Service Desk Agent
+INC-0116,Send Satisfaction Survey,2026-02-03 00:57,ITSM Platform
+INC-0117,Log Incident,2026-02-28 21:02,Service Desk Agent
+INC-0117,Categorize Incident,2026-02-28 22:30,ITSM Platform
+INC-0117,Assign Priority,2026-02-28 22:33,ITSM Platform
+INC-0117,Investigate Issue,2026-02-28 22:54,Service Desk Agent
+INC-0117,Open War Room,2026-03-01 00:21,Incident Manager
+INC-0117,Restore Service,2026-03-01 02:01,Network Team
+INC-0117,Await User Response,2026-03-01 20:22,End User
+INC-0117,Confirm Fix,2026-03-01 20:49,End User
+INC-0117,Close Ticket,2026-03-01 23:10,Service Desk Agent
+INC-0117,Send Satisfaction Survey,2026-03-01 23:25,ITSM Platform
+INC-0118,Log Incident,2026-02-19 19:21,Service Desk Agent
+INC-0118,Categorize Incident,2026-02-19 20:40,ITSM Platform
+INC-0118,Assign Priority,2026-02-19 20:51,ITSM Platform
+INC-0118,Investigate Issue,2026-02-20 02:02,Service Desk Agent
+INC-0118,Open War Room,2026-02-20 03:03,Incident Manager
+INC-0118,Restore Service,2026-02-20 05:52,Network Team
+INC-0118,Await User Response,2026-02-20 11:46,End User
+INC-0118,Confirm Fix,2026-02-20 11:59,End User
+INC-0118,Close Ticket,2026-02-20 12:07,Service Desk Agent
+INC-0118,Send Satisfaction Survey,2026-02-20 13:07,ITSM Platform
+INC-0119,Log Incident,2026-02-12 02:03,Service Desk Agent
+INC-0119,Categorize Incident,2026-02-12 02:27,ITSM Platform
+INC-0119,Assign Priority,2026-02-12 02:43,ITSM Platform
+INC-0119,Investigate Issue,2026-02-12 03:42,Service Desk Agent
+INC-0119,Open War Room,2026-02-12 04:15,Incident Manager
+INC-0119,Restore Service,2026-02-12 07:15,Network Team
+INC-0119,Await User Response,2026-02-12 21:28,End User
+INC-0119,Confirm Fix,2026-02-12 22:24,End User
+INC-0119,Close Ticket,2026-02-12 23:36,Service Desk Agent
+INC-0119,Send Satisfaction Survey,2026-02-12 23:37,ITSM Platform
+INC-0120,Log Incident,2026-02-03 13:18,Service Desk Agent
+INC-0120,Categorize Incident,2026-02-03 14:45,ITSM Platform
+INC-0120,Assign Priority,2026-02-03 15:04,ITSM Platform
+INC-0120,Investigate Issue,2026-02-03 18:13,Service Desk Agent
+INC-0120,Apply Standard Fix,2026-02-03 20:56,Service Desk Agent
+INC-0120,Restore Service,2026-02-03 22:59,Network Team
+INC-0120,Await User Response,2026-02-04 17:09,End User
+INC-0120,Confirm Fix,2026-02-04 18:00,End User
+INC-0120,Close Ticket,2026-02-04 20:11,Service Desk Agent
+INC-0120,Send Satisfaction Survey,2026-02-04 20:27,ITSM Platform
+INC-0121,Log Incident,2026-02-08 12:19,Service Desk Agent
+INC-0121,Categorize Incident,2026-02-08 12:24,ITSM Platform
+INC-0121,Assign Priority,2026-02-08 12:27,ITSM Platform
+INC-0121,Investigate Issue,2026-02-08 13:08,Service Desk Agent
+INC-0121,Apply Standard Fix,2026-02-08 15:06,Service Desk Agent
+INC-0121,Restore Service,2026-02-08 16:03,Network Team
+INC-0121,Await User Response,2026-02-08 18:32,End User
+INC-0121,Confirm Fix,2026-02-08 19:26,End User
+INC-0121,Close Ticket,2026-02-08 19:57,Service Desk Agent
+INC-0121,Send Satisfaction Survey,2026-02-08 19:58,ITSM Platform
+INC-0122,Log Incident,2026-02-28 21:09,Service Desk Agent
+INC-0122,Categorize Incident,2026-02-28 22:24,ITSM Platform
+INC-0122,Assign Priority,2026-02-28 22:32,ITSM Platform
+INC-0122,Investigate Issue,2026-02-28 23:54,Service Desk Agent
+INC-0122,Apply Standard Fix,2026-03-01 02:21,Service Desk Agent
+INC-0122,Restore Service,2026-03-01 05:06,Network Team
+INC-0122,Await User Response,2026-03-02 03:42,End User
+INC-0122,Confirm Fix,2026-03-02 04:28,End User
+INC-0122,Close Ticket,2026-03-02 06:19,Service Desk Agent
+INC-0122,Send Satisfaction Survey,2026-03-02 07:12,ITSM Platform
+INC-0123,Log Incident,2026-02-28 21:45,Service Desk Agent
+INC-0123,Categorize Incident,2026-02-28 22:12,ITSM Platform
+INC-0123,Assign Priority,2026-02-28 22:30,ITSM Platform
+INC-0123,Investigate Issue,2026-03-01 01:18,Service Desk Agent
+INC-0123,Open War Room,2026-03-01 02:53,Incident Manager
+INC-0123,Restore Service,2026-03-01 03:15,Network Team
+INC-0123,Await User Response,2026-03-02 04:28,End User
+INC-0123,Confirm Fix,2026-03-02 05:23,End User
+INC-0123,Close Ticket,2026-03-02 07:30,Service Desk Agent
+INC-0123,Send Satisfaction Survey,2026-03-02 08:16,ITSM Platform
+INC-0124,Log Incident,2026-02-25 12:04,Service Desk Agent
+INC-0124,Categorize Incident,2026-02-25 12:09,ITSM Platform
+INC-0124,Assign Priority,2026-02-25 12:23,ITSM Platform
+INC-0124,Investigate Issue,2026-02-25 16:16,Service Desk Agent
+INC-0124,Apply Standard Fix,2026-02-25 18:30,Service Desk Agent
+INC-0124,Restore Service,2026-02-25 19:00,Network Team
+INC-0124,Await User Response,2026-02-26 10:56,End User
+INC-0124,Confirm Fix,2026-02-26 11:12,End User
+INC-0124,Close Ticket,2026-02-26 12:14,Service Desk Agent
+INC-0124,Send Satisfaction Survey,2026-02-26 12:21,ITSM Platform
+INC-0125,Log Incident,2026-02-12 21:32,Service Desk Agent
+INC-0125,Categorize Incident,2026-02-12 22:06,ITSM Platform
+INC-0125,Assign Priority,2026-02-12 22:09,ITSM Platform
+INC-0125,Investigate Issue,2026-02-12 23:22,Service Desk Agent
+INC-0125,Apply Standard Fix,2026-02-13 02:48,Service Desk Agent
+INC-0125,Restore Service,2026-02-13 04:05,Network Team
+INC-0125,Await User Response,2026-02-13 13:39,End User
+INC-0125,Confirm Fix,2026-02-13 14:24,End User
+INC-0125,Close Ticket,2026-02-13 16:50,Service Desk Agent
+INC-0125,Send Satisfaction Survey,2026-02-13 17:34,ITSM Platform
+INC-0126,Log Incident,2026-02-20 20:17,Service Desk Agent
+INC-0126,Categorize Incident,2026-02-20 21:28,ITSM Platform
+INC-0126,Assign Priority,2026-02-20 21:38,ITSM Platform
+INC-0126,Investigate Issue,2026-02-21 00:19,Service Desk Agent
+INC-0126,Apply Standard Fix,2026-02-21 01:29,Service Desk Agent
+INC-0126,Restore Service,2026-02-21 02:00,Network Team
+INC-0126,Await User Response,2026-02-21 03:01,End User
+INC-0126,Confirm Fix,2026-02-21 03:16,End User
+INC-0126,Close Ticket,2026-02-21 04:27,Service Desk Agent
+INC-0126,Send Satisfaction Survey,2026-02-21 05:25,ITSM Platform
+INC-0127,Log Incident,2026-02-11 17:53,Service Desk Agent
+INC-0127,Categorize Incident,2026-02-11 18:23,ITSM Platform
+INC-0127,Assign Priority,2026-02-11 18:30,ITSM Platform
+INC-0127,Investigate Issue,2026-02-11 21:27,Service Desk Agent
+INC-0127,Apply Standard Fix,2026-02-11 23:21,Service Desk Agent
+INC-0127,Restore Service,2026-02-12 00:55,Network Team
+INC-0127,Await User Response,2026-02-12 14:22,End User
+INC-0127,Confirm Fix,2026-02-12 15:21,End User
+INC-0127,Close Ticket,2026-02-12 18:07,Service Desk Agent
+INC-0127,Send Satisfaction Survey,2026-02-12 19:06,ITSM Platform
+INC-0128,Log Incident,2026-02-25 09:50,Service Desk Agent
+INC-0128,Categorize Incident,2026-02-25 10:55,ITSM Platform
+INC-0128,Assign Priority,2026-02-25 11:12,ITSM Platform
+INC-0128,Investigate Issue,2026-02-25 15:53,Service Desk Agent
+INC-0128,Apply Standard Fix,2026-02-25 19:47,Service Desk Agent
+INC-0128,Restore Service,2026-02-25 20:03,Network Team
+INC-0128,Await User Response,2026-02-26 21:17,End User
+INC-0128,Confirm Fix,2026-02-26 21:36,End User
+INC-0128,Close Ticket,2026-02-27 00:07,Service Desk Agent
+INC-0128,Send Satisfaction Survey,2026-02-27 01:04,ITSM Platform
+INC-0129,Log Incident,2026-02-15 00:08,Service Desk Agent
+INC-0129,Categorize Incident,2026-02-15 00:40,ITSM Platform
+INC-0129,Assign Priority,2026-02-15 00:54,ITSM Platform
+INC-0129,Investigate Issue,2026-02-15 06:22,Service Desk Agent
+INC-0129,Apply Standard Fix,2026-02-15 09:01,Service Desk Agent
+INC-0129,Restore Service,2026-02-15 09:54,Network Team
+INC-0129,Escalate Ticket,2026-02-15 10:51,Service Desk Agent
+INC-0129,Investigate Issue,2026-02-15 12:18,Incident Manager
+INC-0129,Apply Standard Fix,2026-02-15 13:05,Service Desk Agent
+INC-0129,Restore Service,2026-02-15 14:34,Network Team
+INC-0129,Await User Response,2026-02-15 20:35,End User
+INC-0129,Confirm Fix,2026-02-15 21:02,End User
+INC-0129,Close Ticket,2026-02-15 21:43,Service Desk Agent
+INC-0129,Send Satisfaction Survey,2026-02-15 22:28,ITSM Platform
+INC-0130,Log Incident,2026-02-02 07:23,Service Desk Agent
+INC-0130,Categorize Incident,2026-02-02 07:31,ITSM Platform
+INC-0130,Assign Priority,2026-02-02 07:34,ITSM Platform
+INC-0130,Investigate Issue,2026-02-02 08:54,Service Desk Agent
+INC-0130,Apply Standard Fix,2026-02-02 11:51,Service Desk Agent
+INC-0130,Restore Service,2026-02-02 12:11,Network Team
+INC-0130,Await User Response,2026-02-03 13:49,End User
+INC-0130,Confirm Fix,2026-02-03 13:56,End User
+INC-0130,Close Ticket,2026-02-03 14:17,Service Desk Agent
+INC-0130,Send Satisfaction Survey,2026-02-03 15:12,ITSM Platform
+INC-0131,Log Incident,2026-02-27 20:57,Service Desk Agent
+INC-0131,Categorize Incident,2026-02-27 21:48,ITSM Platform
+INC-0131,Assign Priority,2026-02-27 21:56,ITSM Platform
+INC-0131,Investigate Issue,2026-02-28 02:39,Service Desk Agent
+INC-0131,Apply Standard Fix,2026-02-28 03:10,Service Desk Agent
+INC-0131,Restore Service,2026-02-28 04:58,Network Team
+INC-0131,Escalate Ticket,2026-02-28 08:58,Service Desk Agent
+INC-0131,Investigate Issue,2026-02-28 11:12,Incident Manager
+INC-0131,Apply Standard Fix,2026-02-28 12:00,Service Desk Agent
+INC-0131,Restore Service,2026-02-28 12:14,Network Team
+INC-0131,Await User Response,2026-02-28 13:54,End User
+INC-0131,Confirm Fix,2026-02-28 14:53,End User
+INC-0131,Close Ticket,2026-02-28 18:51,Service Desk Agent
+INC-0131,Send Satisfaction Survey,2026-02-28 19:43,ITSM Platform
+INC-0132,Log Incident,2026-02-04 23:32,Service Desk Agent
+INC-0132,Categorize Incident,2026-02-05 00:57,ITSM Platform
+INC-0132,Assign Priority,2026-02-05 01:08,ITSM Platform
+INC-0132,Investigate Issue,2026-02-05 05:22,Service Desk Agent
+INC-0132,Open War Room,2026-02-05 05:49,Incident Manager
+INC-0132,Restore Service,2026-02-05 08:44,Network Team
+INC-0132,Escalate Ticket,2026-02-05 14:40,Service Desk Agent
+INC-0132,Investigate Issue,2026-02-05 18:02,Incident Manager
+INC-0132,Apply Standard Fix,2026-02-05 20:10,Service Desk Agent
+INC-0132,Restore Service,2026-02-05 20:53,Network Team
+INC-0132,Await User Response,2026-02-05 22:05,End User
+INC-0132,Confirm Fix,2026-02-05 22:32,End User
+INC-0132,Close Ticket,2026-02-05 23:42,Service Desk Agent
+INC-0132,Send Satisfaction Survey,2026-02-06 00:42,ITSM Platform
+INC-0133,Log Incident,2026-02-13 20:40,Service Desk Agent
+INC-0133,Categorize Incident,2026-02-13 20:51,ITSM Platform
+INC-0133,Assign Priority,2026-02-13 21:04,ITSM Platform
+INC-0133,Investigate Issue,2026-02-13 23:58,Service Desk Agent
+INC-0133,Apply Standard Fix,2026-02-14 02:47,Service Desk Agent
+INC-0133,Restore Service,2026-02-14 05:05,Network Team
+INC-0133,Await User Response,2026-02-14 15:24,End User
+INC-0133,Confirm Fix,2026-02-14 16:08,End User
+INC-0133,Close Ticket,2026-02-14 19:23,Service Desk Agent
+INC-0133,Send Satisfaction Survey,2026-02-14 19:25,ITSM Platform
+INC-0134,Log Incident,2026-02-19 19:01,Service Desk Agent
+INC-0134,Categorize Incident,2026-02-19 19:09,ITSM Platform
+INC-0134,Assign Priority,2026-02-19 19:24,ITSM Platform
+INC-0134,Investigate Issue,2026-02-19 23:59,Service Desk Agent
+INC-0134,Apply Standard Fix,2026-02-20 01:42,Service Desk Agent
+INC-0134,Restore Service,2026-02-20 03:52,Network Team
+INC-0134,Await User Response,2026-02-20 22:43,End User
+INC-0134,Confirm Fix,2026-02-20 23:24,End User
+INC-0134,Close Ticket,2026-02-21 00:24,Service Desk Agent
+INC-0134,Send Satisfaction Survey,2026-02-21 01:10,ITSM Platform
+INC-0135,Log Incident,2026-02-05 03:16,Service Desk Agent
+INC-0135,Categorize Incident,2026-02-05 04:34,ITSM Platform
+INC-0135,Assign Priority,2026-02-05 04:45,ITSM Platform
+INC-0135,Investigate Issue,2026-02-05 06:22,Service Desk Agent
+INC-0135,Apply Standard Fix,2026-02-05 08:51,Service Desk Agent
+INC-0135,Restore Service,2026-02-05 09:52,Network Team
+INC-0135,Await User Response,2026-02-05 12:12,End User
+INC-0135,Confirm Fix,2026-02-05 12:17,End User
+INC-0135,Close Ticket,2026-02-05 13:51,Service Desk Agent
+INC-0135,Send Satisfaction Survey,2026-02-05 14:23,ITSM Platform
+INC-0136,Log Incident,2026-02-05 08:31,Service Desk Agent
+INC-0136,Categorize Incident,2026-02-05 09:38,ITSM Platform
+INC-0136,Assign Priority,2026-02-05 09:45,ITSM Platform
+INC-0136,Investigate Issue,2026-02-05 14:08,Service Desk Agent
+INC-0136,Apply Standard Fix,2026-02-05 17:55,Service Desk Agent
+INC-0136,Restore Service,2026-02-05 20:16,Network Team
+INC-0136,Await User Response,2026-02-06 02:11,End User
+INC-0136,Confirm Fix,2026-02-06 02:34,End User
+INC-0136,Close Ticket,2026-02-06 06:07,Service Desk Agent
+INC-0136,Send Satisfaction Survey,2026-02-06 06:21,ITSM Platform
+INC-0137,Log Incident,2026-02-11 12:53,Service Desk Agent
+INC-0137,Categorize Incident,2026-02-11 14:01,ITSM Platform
+INC-0137,Assign Priority,2026-02-11 14:08,ITSM Platform
+INC-0137,Investigate Issue,2026-02-11 15:14,Service Desk Agent
+INC-0137,Apply Standard Fix,2026-02-11 18:45,Service Desk Agent
+INC-0137,Restore Service,2026-02-11 19:15,Network Team
+INC-0137,Await User Response,2026-02-12 19:32,End User
+INC-0137,Confirm Fix,2026-02-12 20:12,End User
+INC-0137,Close Ticket,2026-02-12 23:38,Service Desk Agent
+INC-0137,Send Satisfaction Survey,2026-02-12 23:45,ITSM Platform
+INC-0138,Log Incident,2026-02-15 20:46,Service Desk Agent
+INC-0138,Categorize Incident,2026-02-15 21:36,ITSM Platform
+INC-0138,Assign Priority,2026-02-15 21:41,ITSM Platform
+INC-0138,Investigate Issue,2026-02-16 01:16,Service Desk Agent
+INC-0138,Apply Standard Fix,2026-02-16 04:41,Service Desk Agent
+INC-0138,Restore Service,2026-02-16 05:13,Network Team
+INC-0138,Await User Response,2026-02-17 03:45,End User
+INC-0138,Confirm Fix,2026-02-17 03:51,End User
+INC-0138,Close Ticket,2026-02-17 05:31,Service Desk Agent
+INC-0138,Send Satisfaction Survey,2026-02-17 05:45,ITSM Platform
+INC-0139,Log Incident,2026-02-14 19:06,Service Desk Agent
+INC-0139,Categorize Incident,2026-02-14 19:44,ITSM Platform
+INC-0139,Assign Priority,2026-02-14 19:59,ITSM Platform
+INC-0139,Investigate Issue,2026-02-15 00:48,Service Desk Agent
+INC-0139,Apply Standard Fix,2026-02-15 02:40,Service Desk Agent
+INC-0139,Restore Service,2026-02-15 05:31,Network Team
+INC-0139,Await User Response,2026-02-15 21:44,End User
+INC-0139,Confirm Fix,2026-02-15 21:57,End User
+INC-0139,Close Ticket,2026-02-16 00:18,Service Desk Agent
+INC-0139,Send Satisfaction Survey,2026-02-16 00:57,ITSM Platform
+INC-0140,Log Incident,2026-02-28 13:12,Service Desk Agent
+INC-0140,Categorize Incident,2026-02-28 14:39,ITSM Platform
+INC-0140,Assign Priority,2026-02-28 14:42,ITSM Platform
+INC-0140,Investigate Issue,2026-02-28 17:50,Service Desk Agent
+INC-0140,Apply Standard Fix,2026-02-28 20:18,Service Desk Agent
+INC-0140,Restore Service,2026-02-28 21:07,Network Team
+INC-0140,Await User Response,2026-03-01 12:59,End User
+INC-0140,Confirm Fix,2026-03-01 13:46,End User
+INC-0140,Close Ticket,2026-03-01 16:12,Service Desk Agent
+INC-0140,Send Satisfaction Survey,2026-03-01 17:00,ITSM Platform
+INC-0141,Log Incident,2026-02-15 17:10,Service Desk Agent
+INC-0141,Categorize Incident,2026-02-15 17:36,ITSM Platform
+INC-0141,Assign Priority,2026-02-15 17:52,ITSM Platform
+INC-0141,Investigate Issue,2026-02-15 21:46,Service Desk Agent
+INC-0141,Apply Standard Fix,2026-02-15 23:06,Service Desk Agent
+INC-0141,Restore Service,2026-02-16 01:44,Network Team
+INC-0141,Await User Response,2026-02-16 13:38,End User
+INC-0141,Confirm Fix,2026-02-16 14:12,End User
+INC-0141,Close Ticket,2026-02-16 17:01,Service Desk Agent
+INC-0141,Send Satisfaction Survey,2026-02-16 17:58,ITSM Platform
+INC-0142,Log Incident,2026-02-11 19:53,Service Desk Agent
+INC-0142,Categorize Incident,2026-02-11 21:02,ITSM Platform
+INC-0142,Assign Priority,2026-02-11 21:10,ITSM Platform
+INC-0142,Investigate Issue,2026-02-11 23:36,Service Desk Agent
+INC-0142,Apply Standard Fix,2026-02-12 02:51,Service Desk Agent
+INC-0142,Restore Service,2026-02-12 05:39,Network Team
+INC-0142,Escalate Ticket,2026-02-12 08:48,Service Desk Agent
+INC-0142,Investigate Issue,2026-02-12 11:24,Incident Manager
+INC-0142,Apply Standard Fix,2026-02-12 14:49,Service Desk Agent
+INC-0142,Restore Service,2026-02-12 15:40,Network Team
+INC-0142,Await User Response,2026-02-13 12:44,End User
+INC-0142,Confirm Fix,2026-02-13 13:22,End User
+INC-0142,Close Ticket,2026-02-13 14:56,Service Desk Agent
+INC-0142,Send Satisfaction Survey,2026-02-13 15:07,ITSM Platform
+INC-0143,Log Incident,2026-02-11 18:00,Service Desk Agent
+INC-0143,Categorize Incident,2026-02-11 18:46,ITSM Platform
+INC-0143,Assign Priority,2026-02-11 18:54,ITSM Platform
+INC-0143,Investigate Issue,2026-02-11 21:16,Service Desk Agent
+INC-0143,Apply Standard Fix,2026-02-12 00:37,Service Desk Agent
+INC-0143,Restore Service,2026-02-12 01:13,Network Team
+INC-0143,Escalate Ticket,2026-02-12 12:56,Service Desk Agent
+INC-0143,Investigate Issue,2026-02-12 14:18,Incident Manager
+INC-0143,Apply Standard Fix,2026-02-12 15:28,Service Desk Agent
+INC-0143,Restore Service,2026-02-12 16:27,Network Team
+INC-0143,Await User Response,2026-02-12 22:06,End User
+INC-0143,Confirm Fix,2026-02-12 22:20,End User
+INC-0143,Close Ticket,2026-02-13 01:48,Service Desk Agent
+INC-0143,Send Satisfaction Survey,2026-02-13 02:08,ITSM Platform
+INC-0144,Log Incident,2026-02-14 12:50,Service Desk Agent
+INC-0144,Categorize Incident,2026-02-14 13:50,ITSM Platform
+INC-0144,Assign Priority,2026-02-14 14:00,ITSM Platform
+INC-0144,Investigate Issue,2026-02-14 15:50,Service Desk Agent
+INC-0144,Open War Room,2026-02-14 16:18,Incident Manager
+INC-0144,Restore Service,2026-02-14 17:39,Network Team
+INC-0144,Escalate Ticket,2026-02-15 00:46,Service Desk Agent
+INC-0144,Investigate Issue,2026-02-15 05:13,Incident Manager
+INC-0144,Apply Standard Fix,2026-02-15 05:41,Service Desk Agent
+INC-0144,Restore Service,2026-02-15 05:52,Network Team
+INC-0144,Await User Response,2026-02-15 19:59,End User
+INC-0144,Confirm Fix,2026-02-15 20:58,End User
+INC-0144,Close Ticket,2026-02-16 00:25,Service Desk Agent
+INC-0144,Send Satisfaction Survey,2026-02-16 00:53,ITSM Platform
+INC-0145,Log Incident,2026-02-11 02:58,Service Desk Agent
+INC-0145,Categorize Incident,2026-02-11 04:07,ITSM Platform
+INC-0145,Assign Priority,2026-02-11 04:18,ITSM Platform
+INC-0145,Investigate Issue,2026-02-11 08:25,Service Desk Agent
+INC-0145,Open War Room,2026-02-11 09:12,Incident Manager
+INC-0145,Restore Service,2026-02-11 11:56,Network Team
+INC-0145,Await User Response,2026-02-11 12:37,End User
+INC-0145,Confirm Fix,2026-02-11 13:29,End User
+INC-0145,Close Ticket,2026-02-11 14:36,Service Desk Agent
+INC-0145,Send Satisfaction Survey,2026-02-11 15:35,ITSM Platform
+INC-0146,Log Incident,2026-02-20 13:42,Service Desk Agent
+INC-0146,Categorize Incident,2026-02-20 15:00,ITSM Platform
+INC-0146,Assign Priority,2026-02-20 15:20,ITSM Platform
+INC-0146,Investigate Issue,2026-02-20 21:01,Service Desk Agent
+INC-0146,Apply Standard Fix,2026-02-20 22:14,Service Desk Agent
+INC-0146,Restore Service,2026-02-21 01:14,Network Team
+INC-0146,Await User Response,2026-02-21 23:38,End User
+INC-0146,Confirm Fix,2026-02-22 00:27,End User
+INC-0146,Close Ticket,2026-02-22 03:01,Service Desk Agent
+INC-0146,Send Satisfaction Survey,2026-02-22 03:56,ITSM Platform
+INC-0147,Log Incident,2026-02-11 09:41,Service Desk Agent
+INC-0147,Categorize Incident,2026-02-11 10:09,ITSM Platform
+INC-0147,Assign Priority,2026-02-11 10:14,ITSM Platform
+INC-0147,Investigate Issue,2026-02-11 14:16,Service Desk Agent
+INC-0147,Apply Standard Fix,2026-02-11 15:37,Service Desk Agent
+INC-0147,Restore Service,2026-02-11 18:27,Network Team
+INC-0147,Await User Response,2026-02-12 09:16,End User
+INC-0147,Confirm Fix,2026-02-12 09:36,End User
+INC-0147,Close Ticket,2026-02-12 13:01,Service Desk Agent
+INC-0147,Send Satisfaction Survey,2026-02-12 13:27,ITSM Platform
+INC-0148,Log Incident,2026-02-08 02:53,Service Desk Agent
+INC-0148,Categorize Incident,2026-02-08 03:30,ITSM Platform
+INC-0148,Assign Priority,2026-02-08 03:45,ITSM Platform
+INC-0148,Investigate Issue,2026-02-08 08:02,Service Desk Agent
+INC-0148,Apply Standard Fix,2026-02-08 10:56,Service Desk Agent
+INC-0148,Restore Service,2026-02-08 12:50,Network Team
+INC-0148,Await User Response,2026-02-09 11:53,End User
+INC-0148,Confirm Fix,2026-02-09 12:53,End User
+INC-0148,Close Ticket,2026-02-09 13:44,Service Desk Agent
+INC-0148,Send Satisfaction Survey,2026-02-09 14:42,ITSM Platform
+INC-0149,Log Incident,2026-02-15 22:19,Service Desk Agent
+INC-0149,Categorize Incident,2026-02-15 22:25,ITSM Platform
+INC-0149,Assign Priority,2026-02-15 22:39,ITSM Platform
+INC-0149,Investigate Issue,2026-02-16 02:59,Service Desk Agent
+INC-0149,Apply Standard Fix,2026-02-16 03:41,Service Desk Agent
+INC-0149,Restore Service,2026-02-16 04:00,Network Team
+INC-0149,Await User Response,2026-02-16 11:56,End User
+INC-0149,Confirm Fix,2026-02-16 12:11,End User
+INC-0149,Close Ticket,2026-02-16 15:19,Service Desk Agent
+INC-0149,Send Satisfaction Survey,2026-02-16 16:10,ITSM Platform
+INC-0150,Log Incident,2026-02-10 02:14,Service Desk Agent
+INC-0150,Categorize Incident,2026-02-10 03:25,ITSM Platform
+INC-0150,Assign Priority,2026-02-10 03:38,ITSM Platform
+INC-0150,Investigate Issue,2026-02-10 04:39,Service Desk Agent
+INC-0150,Apply Standard Fix,2026-02-10 06:50,Service Desk Agent
+INC-0150,Restore Service,2026-02-10 09:18,Network Team
+INC-0150,Escalate Ticket,2026-02-10 17:55,Service Desk Agent
+INC-0150,Investigate Issue,2026-02-10 22:47,Incident Manager
+INC-0150,Apply Standard Fix,2026-02-10 23:11,Service Desk Agent
+INC-0150,Restore Service,2026-02-11 00:42,Network Team
+INC-0150,Await User Response,2026-02-11 13:49,End User
+INC-0150,Confirm Fix,2026-02-11 14:27,End User
+INC-0150,Close Ticket,2026-02-11 15:59,Service Desk Agent
+INC-0150,Send Satisfaction Survey,2026-02-11 16:26,ITSM Platform
+INC-0151,Log Incident,2026-02-21 19:04,Service Desk Agent
+INC-0151,Categorize Incident,2026-02-21 19:35,ITSM Platform
+INC-0151,Assign Priority,2026-02-21 19:42,ITSM Platform
+INC-0151,Investigate Issue,2026-02-21 23:12,Service Desk Agent
+INC-0151,Apply Standard Fix,2026-02-21 23:58,Service Desk Agent
+INC-0151,Restore Service,2026-02-22 02:45,Network Team
+INC-0151,Await User Response,2026-02-22 05:10,End User
+INC-0151,Confirm Fix,2026-02-22 05:31,End User
+INC-0151,Close Ticket,2026-02-22 06:46,Service Desk Agent
+INC-0151,Send Satisfaction Survey,2026-02-22 07:11,ITSM Platform
+INC-0152,Log Incident,2026-02-19 04:33,Service Desk Agent
+INC-0152,Categorize Incident,2026-02-19 04:45,ITSM Platform
+INC-0152,Assign Priority,2026-02-19 04:47,ITSM Platform
+INC-0152,Investigate Issue,2026-02-19 05:35,Service Desk Agent
+INC-0152,Apply Standard Fix,2026-02-19 07:37,Service Desk Agent
+INC-0152,Restore Service,2026-02-19 10:27,Network Team
+INC-0152,Await User Response,2026-02-19 22:58,End User
+INC-0152,Confirm Fix,2026-02-19 23:40,End User
+INC-0152,Close Ticket,2026-02-20 00:52,Service Desk Agent
+INC-0152,Send Satisfaction Survey,2026-02-20 00:59,ITSM Platform
+INC-0153,Log Incident,2026-02-11 05:08,Service Desk Agent
+INC-0153,Categorize Incident,2026-02-11 05:51,ITSM Platform
+INC-0153,Assign Priority,2026-02-11 06:05,ITSM Platform
+INC-0153,Investigate Issue,2026-02-11 10:44,Service Desk Agent
+INC-0153,Apply Standard Fix,2026-02-11 14:24,Service Desk Agent
+INC-0153,Restore Service,2026-02-11 16:14,Network Team
+INC-0153,Await User Response,2026-02-11 22:20,End User
+INC-0153,Confirm Fix,2026-02-11 22:33,End User
+INC-0153,Close Ticket,2026-02-12 01:56,Service Desk Agent
+INC-0153,Send Satisfaction Survey,2026-02-12 02:01,ITSM Platform
+INC-0154,Log Incident,2026-02-09 18:59,Service Desk Agent
+INC-0154,Categorize Incident,2026-02-09 20:04,ITSM Platform
+INC-0154,Assign Priority,2026-02-09 20:23,ITSM Platform
+INC-0154,Investigate Issue,2026-02-09 22:28,Service Desk Agent
+INC-0154,Apply Standard Fix,2026-02-09 23:20,Service Desk Agent
+INC-0154,Restore Service,2026-02-10 01:00,Network Team
+INC-0154,Await User Response,2026-02-10 15:36,End User
+INC-0154,Confirm Fix,2026-02-10 16:10,End User
+INC-0154,Close Ticket,2026-02-10 17:30,Service Desk Agent
+INC-0154,Send Satisfaction Survey,2026-02-10 18:19,ITSM Platform
+INC-0155,Log Incident,2026-02-25 22:51,Service Desk Agent
+INC-0155,Categorize Incident,2026-02-26 00:19,ITSM Platform
+INC-0155,Assign Priority,2026-02-26 00:25,ITSM Platform
+INC-0155,Investigate Issue,2026-02-26 04:35,Service Desk Agent
+INC-0155,Apply Standard Fix,2026-02-26 08:27,Service Desk Agent
+INC-0155,Restore Service,2026-02-26 09:35,Network Team
+INC-0155,Await User Response,2026-02-26 22:55,End User
+INC-0155,Confirm Fix,2026-02-26 23:43,End User
+INC-0155,Close Ticket,2026-02-27 00:52,Service Desk Agent
+INC-0155,Send Satisfaction Survey,2026-02-27 01:20,ITSM Platform
+INC-0156,Log Incident,2026-02-09 11:02,Service Desk Agent
+INC-0156,Categorize Incident,2026-02-09 12:08,ITSM Platform
+INC-0156,Assign Priority,2026-02-09 12:10,ITSM Platform
+INC-0156,Investigate Issue,2026-02-09 14:43,Service Desk Agent
+INC-0156,Apply Standard Fix,2026-02-09 17:45,Service Desk Agent
+INC-0156,Restore Service,2026-02-09 19:12,Network Team
+INC-0156,Await User Response,2026-02-10 12:15,End User
+INC-0156,Confirm Fix,2026-02-10 12:47,End User
+INC-0156,Close Ticket,2026-02-10 15:31,Service Desk Agent
+INC-0156,Send Satisfaction Survey,2026-02-10 16:12,ITSM Platform
+INC-0157,Log Incident,2026-02-04 21:18,Service Desk Agent
+INC-0157,Categorize Incident,2026-02-04 22:47,ITSM Platform
+INC-0157,Assign Priority,2026-02-04 23:00,ITSM Platform
+INC-0157,Investigate Issue,2026-02-05 00:28,Service Desk Agent
+INC-0157,Apply Standard Fix,2026-02-05 04:21,Service Desk Agent
+INC-0157,Restore Service,2026-02-05 06:09,Network Team
+INC-0157,Escalate Ticket,2026-02-05 16:17,Service Desk Agent
+INC-0157,Investigate Issue,2026-02-05 19:33,Incident Manager
+INC-0157,Apply Standard Fix,2026-02-05 23:13,Service Desk Agent
+INC-0157,Restore Service,2026-02-05 23:40,Network Team
+INC-0157,Await User Response,2026-02-06 18:16,End User
+INC-0157,Confirm Fix,2026-02-06 19:14,End User
+INC-0157,Close Ticket,2026-02-06 20:47,Service Desk Agent
+INC-0157,Send Satisfaction Survey,2026-02-06 21:28,ITSM Platform
+INC-0158,Log Incident,2026-02-27 12:11,Service Desk Agent
+INC-0158,Categorize Incident,2026-02-27 12:17,ITSM Platform
+INC-0158,Assign Priority,2026-02-27 12:19,ITSM Platform
+INC-0158,Investigate Issue,2026-02-27 14:16,Service Desk Agent
+INC-0158,Apply Standard Fix,2026-02-27 17:18,Service Desk Agent
+INC-0158,Restore Service,2026-02-27 18:43,Network Team
+INC-0158,Await User Response,2026-02-27 22:40,End User
+INC-0158,Confirm Fix,2026-02-27 23:22,End User
+INC-0158,Close Ticket,2026-02-28 00:03,Service Desk Agent
+INC-0158,Send Satisfaction Survey,2026-02-28 00:58,ITSM Platform
+INC-0159,Log Incident,2026-02-11 15:11,Service Desk Agent
+INC-0159,Categorize Incident,2026-02-11 15:39,ITSM Platform
+INC-0159,Assign Priority,2026-02-11 15:55,ITSM Platform
+INC-0159,Investigate Issue,2026-02-11 19:02,Service Desk Agent
+INC-0159,Apply Standard Fix,2026-02-11 20:10,Service Desk Agent
+INC-0159,Restore Service,2026-02-11 22:03,Network Team
+INC-0159,Await User Response,2026-02-12 04:16,End User
+INC-0159,Confirm Fix,2026-02-12 05:00,End User
+INC-0159,Close Ticket,2026-02-12 08:53,Service Desk Agent
+INC-0159,Send Satisfaction Survey,2026-02-12 09:38,ITSM Platform
+INC-0160,Log Incident,2026-02-28 16:29,Service Desk Agent
+INC-0160,Categorize Incident,2026-02-28 16:45,ITSM Platform
+INC-0160,Assign Priority,2026-02-28 17:04,ITSM Platform
+INC-0160,Investigate Issue,2026-02-28 22:39,Service Desk Agent
+INC-0160,Apply Standard Fix,2026-02-28 23:44,Service Desk Agent
+INC-0160,Restore Service,2026-03-01 02:00,Network Team
+INC-0160,Await User Response,2026-03-01 20:37,End User
+INC-0160,Confirm Fix,2026-03-01 20:47,End User
+INC-0160,Close Ticket,2026-03-02 00:01,Service Desk Agent
+INC-0160,Send Satisfaction Survey,2026-03-02 00:55,ITSM Platform
+INC-0161,Log Incident,2026-02-20 23:03,Service Desk Agent
+INC-0161,Categorize Incident,2026-02-21 00:33,ITSM Platform
+INC-0161,Assign Priority,2026-02-21 00:38,ITSM Platform
+INC-0161,Investigate Issue,2026-02-21 05:32,Service Desk Agent
+INC-0161,Open War Room,2026-02-21 06:40,Incident Manager
+INC-0161,Restore Service,2026-02-21 07:49,Network Team
+INC-0161,Await User Response,2026-02-22 00:28,End User
+INC-0161,Confirm Fix,2026-02-22 01:04,End User
+INC-0161,Close Ticket,2026-02-22 03:31,Service Desk Agent
+INC-0161,Send Satisfaction Survey,2026-02-22 03:35,ITSM Platform
+INC-0162,Log Incident,2026-02-23 01:03,Service Desk Agent
+INC-0162,Categorize Incident,2026-02-23 02:07,ITSM Platform
+INC-0162,Assign Priority,2026-02-23 02:13,ITSM Platform
+INC-0162,Investigate Issue,2026-02-23 06:34,Service Desk Agent
+INC-0162,Apply Standard Fix,2026-02-23 07:31,Service Desk Agent
+INC-0162,Restore Service,2026-02-23 09:59,Network Team
+INC-0162,Await User Response,2026-02-24 11:33,End User
+INC-0162,Confirm Fix,2026-02-24 11:38,End User
+INC-0162,Close Ticket,2026-02-24 12:24,Service Desk Agent
+INC-0162,Send Satisfaction Survey,2026-02-24 13:18,ITSM Platform
+INC-0163,Log Incident,2026-02-15 14:16,Service Desk Agent
+INC-0163,Categorize Incident,2026-02-15 15:20,ITSM Platform
+INC-0163,Assign Priority,2026-02-15 15:40,ITSM Platform
+INC-0163,Investigate Issue,2026-02-15 20:04,Service Desk Agent
+INC-0163,Apply Standard Fix,2026-02-15 23:54,Service Desk Agent
+INC-0163,Restore Service,2026-02-16 02:03,Network Team
+INC-0163,Await User Response,2026-02-16 16:50,End User
+INC-0163,Confirm Fix,2026-02-16 17:38,End User
+INC-0163,Close Ticket,2026-02-16 18:02,Service Desk Agent
+INC-0163,Send Satisfaction Survey,2026-02-16 18:14,ITSM Platform
+INC-0164,Log Incident,2026-02-17 09:37,Service Desk Agent
+INC-0164,Categorize Incident,2026-02-17 11:03,ITSM Platform
+INC-0164,Assign Priority,2026-02-17 11:05,ITSM Platform
+INC-0164,Investigate Issue,2026-02-17 11:25,Service Desk Agent
+INC-0164,Apply Standard Fix,2026-02-17 14:34,Service Desk Agent
+INC-0164,Restore Service,2026-02-17 16:08,Network Team
+INC-0164,Await User Response,2026-02-17 19:50,End User
+INC-0164,Confirm Fix,2026-02-17 20:27,End User
+INC-0164,Close Ticket,2026-02-17 22:35,Service Desk Agent
+INC-0164,Send Satisfaction Survey,2026-02-17 23:07,ITSM Platform
+INC-0165,Log Incident,2026-02-07 13:49,Service Desk Agent
+INC-0165,Categorize Incident,2026-02-07 13:58,ITSM Platform
+INC-0165,Assign Priority,2026-02-07 14:06,ITSM Platform
+INC-0165,Investigate Issue,2026-02-07 17:48,Service Desk Agent
+INC-0165,Apply Standard Fix,2026-02-07 19:29,Service Desk Agent
+INC-0165,Restore Service,2026-02-07 20:03,Network Team
+INC-0165,Await User Response,2026-02-08 09:02,End User
+INC-0165,Confirm Fix,2026-02-08 09:28,End User
+INC-0165,Close Ticket,2026-02-08 11:34,Service Desk Agent
+INC-0165,Send Satisfaction Survey,2026-02-08 12:24,ITSM Platform
+INC-0166,Log Incident,2026-02-24 22:01,Service Desk Agent
+INC-0166,Categorize Incident,2026-02-24 23:16,ITSM Platform
+INC-0166,Assign Priority,2026-02-24 23:24,ITSM Platform
+INC-0166,Investigate Issue,2026-02-25 01:59,Service Desk Agent
+INC-0166,Apply Standard Fix,2026-02-25 04:02,Service Desk Agent
+INC-0166,Restore Service,2026-02-25 05:16,Network Team
+INC-0166,Await User Response,2026-02-25 15:38,End User
+INC-0166,Confirm Fix,2026-02-25 16:01,End User
+INC-0166,Close Ticket,2026-02-25 17:36,Service Desk Agent
+INC-0166,Send Satisfaction Survey,2026-02-25 18:29,ITSM Platform
+INC-0167,Log Incident,2026-02-23 11:17,Service Desk Agent
+INC-0167,Categorize Incident,2026-02-23 12:13,ITSM Platform
+INC-0167,Assign Priority,2026-02-23 12:25,ITSM Platform
+INC-0167,Investigate Issue,2026-02-23 16:52,Service Desk Agent
+INC-0167,Apply Standard Fix,2026-02-23 20:50,Service Desk Agent
+INC-0167,Restore Service,2026-02-23 23:09,Network Team
+INC-0167,Await User Response,2026-02-24 06:35,End User
+INC-0167,Confirm Fix,2026-02-24 07:21,End User
+INC-0167,Close Ticket,2026-02-24 09:32,Service Desk Agent
+INC-0167,Send Satisfaction Survey,2026-02-24 10:23,ITSM Platform
+INC-0168,Log Incident,2026-02-06 08:48,Service Desk Agent
+INC-0168,Categorize Incident,2026-02-06 09:35,ITSM Platform
+INC-0168,Assign Priority,2026-02-06 09:43,ITSM Platform
+INC-0168,Investigate Issue,2026-02-06 12:35,Service Desk Agent
+INC-0168,Apply Standard Fix,2026-02-06 13:22,Service Desk Agent
+INC-0168,Restore Service,2026-02-06 16:02,Network Team
+INC-0168,Await User Response,2026-02-06 19:31,End User
+INC-0168,Confirm Fix,2026-02-06 20:26,End User
+INC-0168,Close Ticket,2026-02-06 20:41,Service Desk Agent
+INC-0168,Send Satisfaction Survey,2026-02-06 21:07,ITSM Platform
+INC-0169,Log Incident,2026-02-26 05:26,Service Desk Agent
+INC-0169,Categorize Incident,2026-02-26 06:22,ITSM Platform
+INC-0169,Assign Priority,2026-02-26 06:41,ITSM Platform
+INC-0169,Investigate Issue,2026-02-26 11:44,Service Desk Agent
+INC-0169,Open War Room,2026-02-26 12:37,Incident Manager
+INC-0169,Restore Service,2026-02-26 13:14,Network Team
+INC-0169,Escalate Ticket,2026-02-26 16:58,Service Desk Agent
+INC-0169,Investigate Issue,2026-02-27 00:28,Incident Manager
+INC-0169,Apply Standard Fix,2026-02-27 02:49,Service Desk Agent
+INC-0169,Restore Service,2026-02-27 04:16,Network Team
+INC-0169,Await User Response,2026-02-28 03:13,End User
+INC-0169,Confirm Fix,2026-02-28 03:21,End User
+INC-0169,Close Ticket,2026-02-28 06:47,Service Desk Agent
+INC-0169,Send Satisfaction Survey,2026-02-28 07:20,ITSM Platform
+INC-0170,Log Incident,2026-02-25 17:48,Service Desk Agent
+INC-0170,Categorize Incident,2026-02-25 19:11,ITSM Platform
+INC-0170,Assign Priority,2026-02-25 19:25,ITSM Platform
+INC-0170,Investigate Issue,2026-02-26 00:50,Service Desk Agent
+INC-0170,Open War Room,2026-02-26 02:31,Incident Manager
+INC-0170,Restore Service,2026-02-26 05:13,Network Team
+INC-0170,Await User Response,2026-02-26 08:32,End User
+INC-0170,Confirm Fix,2026-02-26 08:50,End User
+INC-0170,Close Ticket,2026-02-26 09:05,Service Desk Agent
+INC-0170,Send Satisfaction Survey,2026-02-26 09:48,ITSM Platform
+INC-0171,Log Incident,2026-02-21 20:07,Service Desk Agent
+INC-0171,Categorize Incident,2026-02-21 21:32,ITSM Platform
+INC-0171,Assign Priority,2026-02-21 21:39,ITSM Platform
+INC-0171,Investigate Issue,2026-02-21 22:40,Service Desk Agent
+INC-0171,Apply Standard Fix,2026-02-22 02:37,Service Desk Agent
+INC-0171,Restore Service,2026-02-22 02:56,Network Team
+INC-0171,Await User Response,2026-02-22 06:52,End User
+INC-0171,Confirm Fix,2026-02-22 07:38,End User
+INC-0171,Close Ticket,2026-02-22 07:46,Service Desk Agent
+INC-0171,Send Satisfaction Survey,2026-02-22 08:10,ITSM Platform
+INC-0172,Log Incident,2026-02-07 07:29,Service Desk Agent
+INC-0172,Categorize Incident,2026-02-07 08:13,ITSM Platform
+INC-0172,Assign Priority,2026-02-07 08:32,ITSM Platform
+INC-0172,Investigate Issue,2026-02-07 10:54,Service Desk Agent
+INC-0172,Apply Standard Fix,2026-02-07 11:56,Service Desk Agent
+INC-0172,Restore Service,2026-02-07 13:53,Network Team
+INC-0172,Escalate Ticket,2026-02-07 14:43,Service Desk Agent
+INC-0172,Investigate Issue,2026-02-07 18:53,Incident Manager
+INC-0172,Apply Standard Fix,2026-02-07 21:37,Service Desk Agent
+INC-0172,Restore Service,2026-02-07 23:09,Network Team
+INC-0172,Await User Response,2026-02-08 19:23,End User
+INC-0172,Confirm Fix,2026-02-08 19:31,End User
+INC-0172,Close Ticket,2026-02-08 21:43,Service Desk Agent
+INC-0172,Send Satisfaction Survey,2026-02-08 22:20,ITSM Platform
+INC-0173,Log Incident,2026-02-24 18:19,Service Desk Agent
+INC-0173,Categorize Incident,2026-02-24 18:29,ITSM Platform
+INC-0173,Assign Priority,2026-02-24 18:34,ITSM Platform
+INC-0173,Investigate Issue,2026-02-24 22:19,Service Desk Agent
+INC-0173,Apply Standard Fix,2026-02-25 00:17,Service Desk Agent
+INC-0173,Restore Service,2026-02-25 02:21,Network Team
+INC-0173,Escalate Ticket,2026-02-25 09:27,Service Desk Agent
+INC-0173,Investigate Issue,2026-02-25 15:01,Incident Manager
+INC-0173,Apply Standard Fix,2026-02-25 17:52,Service Desk Agent
+INC-0173,Restore Service,2026-02-25 19:26,Network Team
+INC-0173,Await User Response,2026-02-26 01:14,End User
+INC-0173,Confirm Fix,2026-02-26 01:49,End User
+INC-0173,Close Ticket,2026-02-26 05:11,Service Desk Agent
+INC-0173,Send Satisfaction Survey,2026-02-26 05:38,ITSM Platform
+INC-0174,Log Incident,2026-02-25 23:26,Service Desk Agent
+INC-0174,Categorize Incident,2026-02-25 23:44,ITSM Platform
+INC-0174,Assign Priority,2026-02-25 23:48,ITSM Platform
+INC-0174,Investigate Issue,2026-02-26 05:27,Service Desk Agent
+INC-0174,Apply Standard Fix,2026-02-26 06:20,Service Desk Agent
+INC-0174,Restore Service,2026-02-26 09:10,Network Team
+INC-0174,Escalate Ticket,2026-02-26 09:44,Service Desk Agent
+INC-0174,Investigate Issue,2026-02-26 10:18,Incident Manager
+INC-0174,Apply Standard Fix,2026-02-26 13:33,Service Desk Agent
+INC-0174,Restore Service,2026-02-26 15:08,Network Team
+INC-0174,Await User Response,2026-02-26 19:47,End User
+INC-0174,Confirm Fix,2026-02-26 20:46,End User
+INC-0174,Close Ticket,2026-02-26 21:13,Service Desk Agent
+INC-0174,Send Satisfaction Survey,2026-02-26 21:27,ITSM Platform
+INC-0175,Log Incident,2026-02-06 12:32,Service Desk Agent
+INC-0175,Categorize Incident,2026-02-06 12:53,ITSM Platform
+INC-0175,Assign Priority,2026-02-06 13:10,ITSM Platform
+INC-0175,Investigate Issue,2026-02-06 13:29,Service Desk Agent
+INC-0175,Apply Standard Fix,2026-02-06 16:09,Service Desk Agent
+INC-0175,Restore Service,2026-02-06 17:21,Network Team
+INC-0175,Await User Response,2026-02-07 19:15,End User
+INC-0175,Confirm Fix,2026-02-07 19:31,End User
+INC-0175,Close Ticket,2026-02-07 19:48,Service Desk Agent
+INC-0175,Send Satisfaction Survey,2026-02-07 20:12,ITSM Platform
+INC-0176,Log Incident,2026-02-07 14:09,Service Desk Agent
+INC-0176,Categorize Incident,2026-02-07 14:24,ITSM Platform
+INC-0176,Assign Priority,2026-02-07 14:35,ITSM Platform
+INC-0176,Investigate Issue,2026-02-07 20:06,Service Desk Agent
+INC-0176,Apply Standard Fix,2026-02-07 22:28,Service Desk Agent
+INC-0176,Restore Service,2026-02-08 00:35,Network Team
+INC-0176,Await User Response,2026-02-08 09:45,End User
+INC-0176,Confirm Fix,2026-02-08 09:53,End User
+INC-0176,Close Ticket,2026-02-08 13:01,Service Desk Agent
+INC-0176,Send Satisfaction Survey,2026-02-08 13:04,ITSM Platform
+INC-0177,Log Incident,2026-02-01 12:27,Service Desk Agent
+INC-0177,Categorize Incident,2026-02-01 12:39,ITSM Platform
+INC-0177,Assign Priority,2026-02-01 12:41,ITSM Platform
+INC-0177,Investigate Issue,2026-02-01 18:24,Service Desk Agent
+INC-0177,Apply Standard Fix,2026-02-01 21:17,Service Desk Agent
+INC-0177,Restore Service,2026-02-01 21:47,Network Team
+INC-0177,Await User Response,2026-02-02 08:56,End User
+INC-0177,Confirm Fix,2026-02-02 09:47,End User
+INC-0177,Close Ticket,2026-02-02 12:25,Service Desk Agent
+INC-0177,Send Satisfaction Survey,2026-02-02 12:36,ITSM Platform
+INC-0178,Log Incident,2026-02-23 03:12,Service Desk Agent
+INC-0178,Categorize Incident,2026-02-23 04:34,ITSM Platform
+INC-0178,Assign Priority,2026-02-23 04:37,ITSM Platform
+INC-0178,Investigate Issue,2026-02-23 07:28,Service Desk Agent
+INC-0178,Apply Standard Fix,2026-02-23 10:10,Service Desk Agent
+INC-0178,Restore Service,2026-02-23 12:12,Network Team
+INC-0178,Await User Response,2026-02-23 18:22,End User
+INC-0178,Confirm Fix,2026-02-23 18:36,End User
+INC-0178,Close Ticket,2026-02-23 22:05,Service Desk Agent
+INC-0178,Send Satisfaction Survey,2026-02-23 22:13,ITSM Platform
+INC-0179,Log Incident,2026-02-17 12:46,Service Desk Agent
+INC-0179,Categorize Incident,2026-02-17 14:13,ITSM Platform
+INC-0179,Assign Priority,2026-02-17 14:20,ITSM Platform
+INC-0179,Investigate Issue,2026-02-17 19:52,Service Desk Agent
+INC-0179,Apply Standard Fix,2026-02-17 22:09,Service Desk Agent
+INC-0179,Restore Service,2026-02-17 23:57,Network Team
+INC-0179,Await User Response,2026-02-18 15:54,End User
+INC-0179,Confirm Fix,2026-02-18 16:16,End User
+INC-0179,Close Ticket,2026-02-18 19:41,Service Desk Agent
+INC-0179,Send Satisfaction Survey,2026-02-18 20:30,ITSM Platform
+INC-0180,Log Incident,2026-02-26 19:06,Service Desk Agent
+INC-0180,Categorize Incident,2026-02-26 19:53,ITSM Platform
+INC-0180,Assign Priority,2026-02-26 20:04,ITSM Platform
+INC-0180,Investigate Issue,2026-02-26 22:37,Service Desk Agent
+INC-0180,Open War Room,2026-02-27 00:15,Incident Manager
+INC-0180,Restore Service,2026-02-27 02:58,Network Team
+INC-0180,Await User Response,2026-02-28 00:08,End User
+INC-0180,Confirm Fix,2026-02-28 00:59,End User
+INC-0180,Close Ticket,2026-02-28 01:07,Service Desk Agent
+INC-0180,Send Satisfaction Survey,2026-02-28 02:01,ITSM Platform
+INC-0181,Log Incident,2026-02-07 21:03,Service Desk Agent
+INC-0181,Categorize Incident,2026-02-07 22:24,ITSM Platform
+INC-0181,Assign Priority,2026-02-07 22:35,ITSM Platform
+INC-0181,Investigate Issue,2026-02-08 03:44,Service Desk Agent
+INC-0181,Apply Standard Fix,2026-02-08 05:02,Service Desk Agent
+INC-0181,Restore Service,2026-02-08 06:48,Network Team
+INC-0181,Await User Response,2026-02-08 20:08,End User
+INC-0181,Confirm Fix,2026-02-08 20:51,End User
+INC-0181,Close Ticket,2026-02-09 00:13,Service Desk Agent
+INC-0181,Send Satisfaction Survey,2026-02-09 01:11,ITSM Platform
+INC-0182,Log Incident,2026-02-11 15:58,Service Desk Agent
+INC-0182,Categorize Incident,2026-02-11 17:00,ITSM Platform
+INC-0182,Assign Priority,2026-02-11 17:11,ITSM Platform
+INC-0182,Investigate Issue,2026-02-11 17:21,Service Desk Agent
+INC-0182,Apply Standard Fix,2026-02-11 18:44,Service Desk Agent
+INC-0182,Restore Service,2026-02-11 20:42,Network Team
+INC-0182,Escalate Ticket,2026-02-11 21:55,Service Desk Agent
+INC-0182,Investigate Issue,2026-02-12 00:52,Incident Manager
+INC-0182,Apply Standard Fix,2026-02-12 04:45,Service Desk Agent
+INC-0182,Restore Service,2026-02-12 05:13,Network Team
+INC-0182,Await User Response,2026-02-13 01:14,End User
+INC-0182,Confirm Fix,2026-02-13 01:28,End User
+INC-0182,Close Ticket,2026-02-13 02:43,Service Desk Agent
+INC-0182,Send Satisfaction Survey,2026-02-13 03:38,ITSM Platform
+INC-0183,Log Incident,2026-02-25 22:23,Service Desk Agent
+INC-0183,Categorize Incident,2026-02-25 23:31,ITSM Platform
+INC-0183,Assign Priority,2026-02-25 23:44,ITSM Platform
+INC-0183,Investigate Issue,2026-02-26 04:27,Service Desk Agent
+INC-0183,Open War Room,2026-02-26 05:52,Incident Manager
+INC-0183,Restore Service,2026-02-26 08:06,Network Team
+INC-0183,Await User Response,2026-02-26 15:26,End User
+INC-0183,Confirm Fix,2026-02-26 16:21,End User
+INC-0183,Close Ticket,2026-02-26 19:38,Service Desk Agent
+INC-0183,Send Satisfaction Survey,2026-02-26 20:25,ITSM Platform
+INC-0184,Log Incident,2026-02-11 15:37,Service Desk Agent
+INC-0184,Categorize Incident,2026-02-11 16:21,ITSM Platform
+INC-0184,Assign Priority,2026-02-11 16:24,ITSM Platform
+INC-0184,Investigate Issue,2026-02-11 22:20,Service Desk Agent
+INC-0184,Apply Standard Fix,2026-02-12 01:36,Service Desk Agent
+INC-0184,Restore Service,2026-02-12 02:38,Network Team
+INC-0184,Await User Response,2026-02-12 23:08,End User
+INC-0184,Confirm Fix,2026-02-13 00:01,End User
+INC-0184,Close Ticket,2026-02-13 00:08,Service Desk Agent
+INC-0184,Send Satisfaction Survey,2026-02-13 00:59,ITSM Platform
+INC-0185,Log Incident,2026-02-18 12:29,Service Desk Agent
+INC-0185,Categorize Incident,2026-02-18 13:32,ITSM Platform
+INC-0185,Assign Priority,2026-02-18 13:51,ITSM Platform
+INC-0185,Investigate Issue,2026-02-18 14:45,Service Desk Agent
+INC-0185,Apply Standard Fix,2026-02-18 16:30,Service Desk Agent
+INC-0185,Restore Service,2026-02-18 16:56,Network Team
+INC-0185,Await User Response,2026-02-19 13:13,End User
+INC-0185,Confirm Fix,2026-02-19 13:51,End User
+INC-0185,Close Ticket,2026-02-19 17:45,Service Desk Agent
+INC-0185,Send Satisfaction Survey,2026-02-19 18:02,ITSM Platform
+INC-0186,Log Incident,2026-02-24 18:00,Service Desk Agent
+INC-0186,Categorize Incident,2026-02-24 18:46,ITSM Platform
+INC-0186,Assign Priority,2026-02-24 19:03,ITSM Platform
+INC-0186,Investigate Issue,2026-02-24 23:32,Service Desk Agent
+INC-0186,Apply Standard Fix,2026-02-25 00:35,Service Desk Agent
+INC-0186,Restore Service,2026-02-25 01:39,Network Team
+INC-0186,Escalate Ticket,2026-02-25 05:14,Service Desk Agent
+INC-0186,Investigate Issue,2026-02-25 12:36,Incident Manager
+INC-0186,Apply Standard Fix,2026-02-25 15:55,Service Desk Agent
+INC-0186,Restore Service,2026-02-25 16:42,Network Team
+INC-0186,Await User Response,2026-02-26 05:35,End User
+INC-0186,Confirm Fix,2026-02-26 06:16,End User
+INC-0186,Close Ticket,2026-02-26 08:45,Service Desk Agent
+INC-0186,Send Satisfaction Survey,2026-02-26 09:08,ITSM Platform
+INC-0187,Log Incident,2026-02-19 07:37,Service Desk Agent
+INC-0187,Categorize Incident,2026-02-19 08:48,ITSM Platform
+INC-0187,Assign Priority,2026-02-19 08:54,ITSM Platform
+INC-0187,Investigate Issue,2026-02-19 11:10,Service Desk Agent
+INC-0187,Open War Room,2026-02-19 12:28,Incident Manager
+INC-0187,Restore Service,2026-02-19 14:13,Network Team
+INC-0187,Await User Response,2026-02-20 03:24,End User
+INC-0187,Confirm Fix,2026-02-20 04:09,End User
+INC-0187,Close Ticket,2026-02-20 06:12,Service Desk Agent
+INC-0187,Send Satisfaction Survey,2026-02-20 07:03,ITSM Platform
+INC-0188,Log Incident,2026-02-04 17:16,Service Desk Agent
+INC-0188,Categorize Incident,2026-02-04 17:40,ITSM Platform
+INC-0188,Assign Priority,2026-02-04 17:52,ITSM Platform
+INC-0188,Investigate Issue,2026-02-04 23:07,Service Desk Agent
+INC-0188,Open War Room,2026-02-04 23:57,Incident Manager
+INC-0188,Restore Service,2026-02-05 02:19,Network Team
+INC-0188,Await User Response,2026-02-05 06:01,End User
+INC-0188,Confirm Fix,2026-02-05 06:08,End User
+INC-0188,Close Ticket,2026-02-05 07:05,Service Desk Agent
+INC-0188,Send Satisfaction Survey,2026-02-05 08:01,ITSM Platform
+INC-0189,Log Incident,2026-02-26 17:38,Service Desk Agent
+INC-0189,Categorize Incident,2026-02-26 18:45,ITSM Platform
+INC-0189,Assign Priority,2026-02-26 19:05,ITSM Platform
+INC-0189,Investigate Issue,2026-02-27 00:05,Service Desk Agent
+INC-0189,Apply Standard Fix,2026-02-27 03:39,Service Desk Agent
+INC-0189,Restore Service,2026-02-27 05:00,Network Team
+INC-0189,Await User Response,2026-02-27 20:45,End User
+INC-0189,Confirm Fix,2026-02-27 21:39,End User
+INC-0189,Close Ticket,2026-02-28 00:15,Service Desk Agent
+INC-0189,Send Satisfaction Survey,2026-02-28 01:08,ITSM Platform
+INC-0190,Log Incident,2026-02-28 16:53,Service Desk Agent
+INC-0190,Categorize Incident,2026-02-28 17:14,ITSM Platform
+INC-0190,Assign Priority,2026-02-28 17:24,ITSM Platform
+INC-0190,Investigate Issue,2026-02-28 17:53,Service Desk Agent
+INC-0190,Apply Standard Fix,2026-02-28 18:54,Service Desk Agent
+INC-0190,Restore Service,2026-02-28 20:40,Network Team
+INC-0190,Escalate Ticket,2026-02-28 22:02,Service Desk Agent
+INC-0190,Investigate Issue,2026-02-28 22:49,Incident Manager
+INC-0190,Apply Standard Fix,2026-03-01 01:31,Service Desk Agent
+INC-0190,Restore Service,2026-03-01 02:28,Network Team
+INC-0190,Await User Response,2026-03-02 03:03,End User
+INC-0190,Confirm Fix,2026-03-02 03:37,End User
+INC-0190,Close Ticket,2026-03-02 05:46,Service Desk Agent
+INC-0190,Send Satisfaction Survey,2026-03-02 06:41,ITSM Platform
+INC-0191,Log Incident,2026-02-03 22:06,Service Desk Agent
+INC-0191,Categorize Incident,2026-02-03 23:27,ITSM Platform
+INC-0191,Assign Priority,2026-02-03 23:41,ITSM Platform
+INC-0191,Investigate Issue,2026-02-04 00:52,Service Desk Agent
+INC-0191,Apply Standard Fix,2026-02-04 01:30,Service Desk Agent
+INC-0191,Restore Service,2026-02-04 02:45,Network Team
+INC-0191,Await User Response,2026-02-04 11:12,End User
+INC-0191,Confirm Fix,2026-02-04 11:58,End User
+INC-0191,Close Ticket,2026-02-04 12:25,Service Desk Agent
+INC-0191,Send Satisfaction Survey,2026-02-04 13:24,ITSM Platform
+INC-0192,Log Incident,2026-02-24 01:14,Service Desk Agent
+INC-0192,Categorize Incident,2026-02-24 02:09,ITSM Platform
+INC-0192,Assign Priority,2026-02-24 02:16,ITSM Platform
+INC-0192,Investigate Issue,2026-02-24 06:15,Service Desk Agent
+INC-0192,Apply Standard Fix,2026-02-24 08:04,Service Desk Agent
+INC-0192,Restore Service,2026-02-24 09:14,Network Team
+INC-0192,Await User Response,2026-02-24 17:18,End User
+INC-0192,Confirm Fix,2026-02-24 17:34,End User
+INC-0192,Close Ticket,2026-02-24 17:48,Service Desk Agent
+INC-0192,Send Satisfaction Survey,2026-02-24 18:05,ITSM Platform
+INC-0193,Log Incident,2026-02-17 00:29,Service Desk Agent
+INC-0193,Categorize Incident,2026-02-17 00:41,ITSM Platform
+INC-0193,Assign Priority,2026-02-17 01:00,ITSM Platform
+INC-0193,Investigate Issue,2026-02-17 01:24,Service Desk Agent
+INC-0193,Apply Standard Fix,2026-02-17 01:51,Service Desk Agent
+INC-0193,Restore Service,2026-02-17 03:07,Network Team
+INC-0193,Await User Response,2026-02-18 03:50,End User
+INC-0193,Confirm Fix,2026-02-18 04:42,End User
+INC-0193,Close Ticket,2026-02-18 07:32,Service Desk Agent
+INC-0193,Send Satisfaction Survey,2026-02-18 08:21,ITSM Platform
+INC-0194,Log Incident,2026-02-23 00:01,Service Desk Agent
+INC-0194,Categorize Incident,2026-02-23 00:13,ITSM Platform
+INC-0194,Assign Priority,2026-02-23 00:18,ITSM Platform
+INC-0194,Investigate Issue,2026-02-23 01:42,Service Desk Agent
+INC-0194,Apply Standard Fix,2026-02-23 01:58,Service Desk Agent
+INC-0194,Restore Service,2026-02-23 02:58,Network Team
+INC-0194,Await User Response,2026-02-23 13:39,End User
+INC-0194,Confirm Fix,2026-02-23 14:21,End User
+INC-0194,Close Ticket,2026-02-23 16:57,Service Desk Agent
+INC-0194,Send Satisfaction Survey,2026-02-23 17:26,ITSM Platform
+INC-0195,Log Incident,2026-02-05 19:08,Service Desk Agent
+INC-0195,Categorize Incident,2026-02-05 20:13,ITSM Platform
+INC-0195,Assign Priority,2026-02-05 20:25,ITSM Platform
+INC-0195,Investigate Issue,2026-02-05 23:45,Service Desk Agent
+INC-0195,Apply Standard Fix,2026-02-06 00:31,Service Desk Agent
+INC-0195,Restore Service,2026-02-06 02:16,Network Team
+INC-0195,Await User Response,2026-02-06 08:31,End User
+INC-0195,Confirm Fix,2026-02-06 09:04,End User
+INC-0195,Close Ticket,2026-02-06 10:10,Service Desk Agent
+INC-0195,Send Satisfaction Survey,2026-02-06 11:02,ITSM Platform
+INC-0196,Log Incident,2026-02-07 12:21,Service Desk Agent
+INC-0196,Categorize Incident,2026-02-07 12:27,ITSM Platform
+INC-0196,Assign Priority,2026-02-07 12:43,ITSM Platform
+INC-0196,Investigate Issue,2026-02-07 14:32,Service Desk Agent
+INC-0196,Apply Standard Fix,2026-02-07 15:27,Service Desk Agent
+INC-0196,Restore Service,2026-02-07 16:33,Network Team
+INC-0196,Escalate Ticket,2026-02-08 03:36,Service Desk Agent
+INC-0196,Investigate Issue,2026-02-08 11:29,Incident Manager
+INC-0196,Apply Standard Fix,2026-02-08 13:24,Service Desk Agent
+INC-0196,Restore Service,2026-02-08 15:09,Network Team
+INC-0196,Await User Response,2026-02-08 20:25,End User
+INC-0196,Confirm Fix,2026-02-08 21:19,End User
+INC-0196,Close Ticket,2026-02-08 23:18,Service Desk Agent
+INC-0196,Send Satisfaction Survey,2026-02-08 23:25,ITSM Platform
+INC-0197,Log Incident,2026-02-18 12:36,Service Desk Agent
+INC-0197,Categorize Incident,2026-02-18 12:43,ITSM Platform
+INC-0197,Assign Priority,2026-02-18 12:47,ITSM Platform
+INC-0197,Investigate Issue,2026-02-18 16:48,Service Desk Agent
+INC-0197,Apply Standard Fix,2026-02-18 18:25,Service Desk Agent
+INC-0197,Restore Service,2026-02-18 19:34,Network Team
+INC-0197,Await User Response,2026-02-19 17:30,End User
+INC-0197,Confirm Fix,2026-02-19 17:58,End User
+INC-0197,Close Ticket,2026-02-19 18:39,Service Desk Agent
+INC-0197,Send Satisfaction Survey,2026-02-19 19:01,ITSM Platform
+INC-0198,Log Incident,2026-02-11 02:06,Service Desk Agent
+INC-0198,Categorize Incident,2026-02-11 02:18,ITSM Platform
+INC-0198,Assign Priority,2026-02-11 02:25,ITSM Platform
+INC-0198,Investigate Issue,2026-02-11 06:26,Service Desk Agent
+INC-0198,Apply Standard Fix,2026-02-11 07:18,Service Desk Agent
+INC-0198,Restore Service,2026-02-11 09:20,Network Team
+INC-0198,Await User Response,2026-02-11 18:55,End User
+INC-0198,Confirm Fix,2026-02-11 19:26,End User
+INC-0198,Close Ticket,2026-02-11 21:16,Service Desk Agent
+INC-0198,Send Satisfaction Survey,2026-02-11 21:32,ITSM Platform
+INC-0199,Log Incident,2026-02-08 02:03,Service Desk Agent
+INC-0199,Categorize Incident,2026-02-08 02:11,ITSM Platform
+INC-0199,Assign Priority,2026-02-08 02:21,ITSM Platform
+INC-0199,Investigate Issue,2026-02-08 07:23,Service Desk Agent
+INC-0199,Apply Standard Fix,2026-02-08 09:03,Service Desk Agent
+INC-0199,Restore Service,2026-02-08 09:55,Network Team
+INC-0199,Await User Response,2026-02-08 14:08,End User
+INC-0199,Confirm Fix,2026-02-08 14:33,End User
+INC-0199,Close Ticket,2026-02-08 16:34,Service Desk Agent
+INC-0199,Send Satisfaction Survey,2026-02-08 17:32,ITSM Platform
+INC-0200,Log Incident,2026-02-22 22:56,Service Desk Agent
+INC-0200,Categorize Incident,2026-02-22 23:15,ITSM Platform
+INC-0200,Assign Priority,2026-02-22 23:21,ITSM Platform
+INC-0200,Investigate Issue,2026-02-23 03:53,Service Desk Agent
+INC-0200,Open War Room,2026-02-23 05:48,Incident Manager
+INC-0200,Restore Service,2026-02-23 06:52,Network Team
+INC-0200,Await User Response,2026-02-23 17:08,End User
+INC-0200,Confirm Fix,2026-02-23 17:20,End User
+INC-0200,Close Ticket,2026-02-23 18:30,Service Desk Agent
+INC-0200,Send Satisfaction Survey,2026-02-23 19:19,ITSM Platform
+INC-0201,Log Incident,2026-02-10 04:13,Service Desk Agent
+INC-0201,Categorize Incident,2026-02-10 05:04,ITSM Platform
+INC-0201,Assign Priority,2026-02-10 05:19,ITSM Platform
+INC-0201,Investigate Issue,2026-02-10 07:42,Service Desk Agent
+INC-0201,Apply Standard Fix,2026-02-10 08:57,Service Desk Agent
+INC-0201,Restore Service,2026-02-10 09:31,Network Team
+INC-0201,Await User Response,2026-02-11 00:12,End User
+INC-0201,Confirm Fix,2026-02-11 00:27,End User
+INC-0201,Close Ticket,2026-02-11 00:46,Service Desk Agent
+INC-0201,Send Satisfaction Survey,2026-02-11 01:40,ITSM Platform
+INC-0202,Log Incident,2026-02-14 08:36,Service Desk Agent
+INC-0202,Categorize Incident,2026-02-14 08:59,ITSM Platform
+INC-0202,Assign Priority,2026-02-14 09:01,ITSM Platform
+INC-0202,Investigate Issue,2026-02-14 12:57,Service Desk Agent
+INC-0202,Apply Standard Fix,2026-02-14 14:39,Service Desk Agent
+INC-0202,Restore Service,2026-02-14 16:59,Network Team
+INC-0202,Escalate Ticket,2026-02-14 17:30,Service Desk Agent
+INC-0202,Investigate Issue,2026-02-15 00:44,Incident Manager
+INC-0202,Apply Standard Fix,2026-02-15 04:37,Service Desk Agent
+INC-0202,Restore Service,2026-02-15 05:54,Network Team
+INC-0202,Await User Response,2026-02-15 16:10,End User
+INC-0202,Confirm Fix,2026-02-15 16:26,End User
+INC-0202,Close Ticket,2026-02-15 18:03,Service Desk Agent
+INC-0202,Send Satisfaction Survey,2026-02-15 18:31,ITSM Platform
+INC-0203,Log Incident,2026-02-02 20:17,Service Desk Agent
+INC-0203,Categorize Incident,2026-02-02 21:14,ITSM Platform
+INC-0203,Assign Priority,2026-02-02 21:22,ITSM Platform
+INC-0203,Investigate Issue,2026-02-02 23:53,Service Desk Agent
+INC-0203,Apply Standard Fix,2026-02-03 00:43,Service Desk Agent
+INC-0203,Restore Service,2026-02-03 01:39,Network Team
+INC-0203,Await User Response,2026-02-03 10:00,End User
+INC-0203,Confirm Fix,2026-02-03 10:50,End User
+INC-0203,Close Ticket,2026-02-03 11:39,Service Desk Agent
+INC-0203,Send Satisfaction Survey,2026-02-03 11:52,ITSM Platform
+INC-0204,Log Incident,2026-02-28 08:04,Service Desk Agent
+INC-0204,Categorize Incident,2026-02-28 08:19,ITSM Platform
+INC-0204,Assign Priority,2026-02-28 08:23,ITSM Platform
+INC-0204,Investigate Issue,2026-02-28 13:44,Service Desk Agent
+INC-0204,Apply Standard Fix,2026-02-28 17:13,Service Desk Agent
+INC-0204,Restore Service,2026-02-28 18:33,Network Team
+INC-0204,Escalate Ticket,2026-02-28 21:23,Service Desk Agent
+INC-0204,Investigate Issue,2026-03-01 03:06,Incident Manager
+INC-0204,Apply Standard Fix,2026-03-01 06:17,Service Desk Agent
+INC-0204,Restore Service,2026-03-01 07:57,Network Team
+INC-0204,Await User Response,2026-03-02 05:54,End User
+INC-0204,Confirm Fix,2026-03-02 06:50,End User
+INC-0204,Close Ticket,2026-03-02 07:44,Service Desk Agent
+INC-0204,Send Satisfaction Survey,2026-03-02 08:22,ITSM Platform
+INC-0205,Log Incident,2026-02-15 00:27,Service Desk Agent
+INC-0205,Categorize Incident,2026-02-15 00:57,ITSM Platform
+INC-0205,Assign Priority,2026-02-15 00:59,ITSM Platform
+INC-0205,Investigate Issue,2026-02-15 01:42,Service Desk Agent
+INC-0205,Apply Standard Fix,2026-02-15 04:10,Service Desk Agent
+INC-0205,Restore Service,2026-02-15 06:04,Network Team
+INC-0205,Await User Response,2026-02-15 08:27,End User
+INC-0205,Confirm Fix,2026-02-15 09:05,End User
+INC-0205,Close Ticket,2026-02-15 12:37,Service Desk Agent
+INC-0205,Send Satisfaction Survey,2026-02-15 13:00,ITSM Platform
+INC-0206,Log Incident,2026-02-16 06:08,Service Desk Agent
+INC-0206,Categorize Incident,2026-02-16 06:49,ITSM Platform
+INC-0206,Assign Priority,2026-02-16 07:06,ITSM Platform
+INC-0206,Investigate Issue,2026-02-16 08:02,Service Desk Agent
+INC-0206,Open War Room,2026-02-16 09:54,Incident Manager
+INC-0206,Restore Service,2026-02-16 12:06,Network Team
+INC-0206,Escalate Ticket,2026-02-16 23:57,Service Desk Agent
+INC-0206,Investigate Issue,2026-02-17 02:43,Incident Manager
+INC-0206,Apply Standard Fix,2026-02-17 04:06,Service Desk Agent
+INC-0206,Restore Service,2026-02-17 04:39,Network Team
+INC-0206,Await User Response,2026-02-18 00:22,End User
+INC-0206,Confirm Fix,2026-02-18 01:20,End User
+INC-0206,Close Ticket,2026-02-18 02:58,Service Desk Agent
+INC-0206,Send Satisfaction Survey,2026-02-18 03:01,ITSM Platform
+INC-0207,Log Incident,2026-02-08 10:34,Service Desk Agent
+INC-0207,Categorize Incident,2026-02-08 11:26,ITSM Platform
+INC-0207,Assign Priority,2026-02-08 11:46,ITSM Platform
+INC-0207,Investigate Issue,2026-02-08 17:00,Service Desk Agent
+INC-0207,Apply Standard Fix,2026-02-08 18:46,Service Desk Agent
+INC-0207,Restore Service,2026-02-08 21:09,Network Team
+INC-0207,Await User Response,2026-02-09 15:15,End User
+INC-0207,Confirm Fix,2026-02-09 15:24,End User
+INC-0207,Close Ticket,2026-02-09 15:59,Service Desk Agent
+INC-0207,Send Satisfaction Survey,2026-02-09 16:22,ITSM Platform
+INC-0208,Log Incident,2026-02-12 03:18,Service Desk Agent
+INC-0208,Categorize Incident,2026-02-12 04:04,ITSM Platform
+INC-0208,Assign Priority,2026-02-12 04:18,ITSM Platform
+INC-0208,Investigate Issue,2026-02-12 09:23,Service Desk Agent
+INC-0208,Apply Standard Fix,2026-02-12 09:53,Service Desk Agent
+INC-0208,Restore Service,2026-02-12 11:17,Network Team
+INC-0208,Await User Response,2026-02-13 12:43,End User
+INC-0208,Confirm Fix,2026-02-13 13:19,End User
+INC-0208,Close Ticket,2026-02-13 15:18,Service Desk Agent
+INC-0208,Send Satisfaction Survey,2026-02-13 15:51,ITSM Platform
+INC-0209,Log Incident,2026-02-02 04:00,Service Desk Agent
+INC-0209,Categorize Incident,2026-02-02 05:12,ITSM Platform
+INC-0209,Assign Priority,2026-02-02 05:31,ITSM Platform
+INC-0209,Investigate Issue,2026-02-02 06:49,Service Desk Agent
+INC-0209,Open War Room,2026-02-02 07:15,Incident Manager
+INC-0209,Restore Service,2026-02-02 08:22,Network Team
+INC-0209,Await User Response,2026-02-02 14:35,End User
+INC-0209,Confirm Fix,2026-02-02 14:46,End User
+INC-0209,Close Ticket,2026-02-02 16:10,Service Desk Agent
+INC-0209,Send Satisfaction Survey,2026-02-02 16:27,ITSM Platform
+INC-0210,Log Incident,2026-02-26 06:36,Service Desk Agent
+INC-0210,Categorize Incident,2026-02-26 06:44,ITSM Platform
+INC-0210,Assign Priority,2026-02-26 06:46,ITSM Platform
+INC-0210,Investigate Issue,2026-02-26 07:45,Service Desk Agent
+INC-0210,Apply Standard Fix,2026-02-26 11:09,Service Desk Agent
+INC-0210,Restore Service,2026-02-26 12:08,Network Team
+INC-0210,Await User Response,2026-02-27 09:05,End User
+INC-0210,Confirm Fix,2026-02-27 09:50,End User
+INC-0210,Close Ticket,2026-02-27 12:22,Service Desk Agent
+INC-0210,Send Satisfaction Survey,2026-02-27 12:52,ITSM Platform
+INC-0211,Log Incident,2026-02-24 19:09,Service Desk Agent
+INC-0211,Categorize Incident,2026-02-24 19:44,ITSM Platform
+INC-0211,Assign Priority,2026-02-24 20:00,ITSM Platform
+INC-0211,Investigate Issue,2026-02-24 21:02,Service Desk Agent
+INC-0211,Apply Standard Fix,2026-02-24 21:41,Service Desk Agent
+INC-0211,Restore Service,2026-02-24 22:36,Network Team
+INC-0211,Escalate Ticket,2026-02-25 01:12,Service Desk Agent
+INC-0211,Investigate Issue,2026-02-25 05:40,Incident Manager
+INC-0211,Apply Standard Fix,2026-02-25 08:06,Service Desk Agent
+INC-0211,Restore Service,2026-02-25 09:30,Network Team
+INC-0211,Await User Response,2026-02-26 03:05,End User
+INC-0211,Confirm Fix,2026-02-26 03:58,End User
+INC-0211,Close Ticket,2026-02-26 05:14,Service Desk Agent
+INC-0211,Send Satisfaction Survey,2026-02-26 05:22,ITSM Platform
+INC-0212,Log Incident,2026-02-06 13:17,Service Desk Agent
+INC-0212,Categorize Incident,2026-02-06 13:37,ITSM Platform
+INC-0212,Assign Priority,2026-02-06 13:51,ITSM Platform
+INC-0212,Investigate Issue,2026-02-06 15:11,Service Desk Agent
+INC-0212,Apply Standard Fix,2026-02-06 16:24,Service Desk Agent
+INC-0212,Restore Service,2026-02-06 17:32,Network Team
+INC-0212,Escalate Ticket,2026-02-07 03:48,Service Desk Agent
+INC-0212,Investigate Issue,2026-02-07 08:14,Incident Manager
+INC-0212,Apply Standard Fix,2026-02-07 11:45,Service Desk Agent
+INC-0212,Restore Service,2026-02-07 12:45,Network Team
+INC-0212,Await User Response,2026-02-07 18:51,End User
+INC-0212,Confirm Fix,2026-02-07 19:48,End User
+INC-0212,Close Ticket,2026-02-07 19:57,Service Desk Agent
+INC-0212,Send Satisfaction Survey,2026-02-07 20:38,ITSM Platform
+INC-0213,Log Incident,2026-02-18 16:36,Service Desk Agent
+INC-0213,Categorize Incident,2026-02-18 17:34,ITSM Platform
+INC-0213,Assign Priority,2026-02-18 17:52,ITSM Platform
+INC-0213,Investigate Issue,2026-02-18 18:20,Service Desk Agent
+INC-0213,Apply Standard Fix,2026-02-18 18:48,Service Desk Agent
+INC-0213,Restore Service,2026-02-18 20:30,Network Team
+INC-0213,Await User Response,2026-02-19 05:12,End User
+INC-0213,Confirm Fix,2026-02-19 06:10,End User
+INC-0213,Close Ticket,2026-02-19 07:40,Service Desk Agent
+INC-0213,Send Satisfaction Survey,2026-02-19 08:26,ITSM Platform
+INC-0214,Log Incident,2026-02-20 19:46,Service Desk Agent
+INC-0214,Categorize Incident,2026-02-20 21:03,ITSM Platform
+INC-0214,Assign Priority,2026-02-20 21:15,ITSM Platform
+INC-0214,Investigate Issue,2026-02-21 00:50,Service Desk Agent
+INC-0214,Apply Standard Fix,2026-02-21 01:18,Service Desk Agent
+INC-0214,Restore Service,2026-02-21 02:51,Network Team
+INC-0214,Await User Response,2026-02-22 02:33,End User
+INC-0214,Confirm Fix,2026-02-22 03:00,End User
+INC-0214,Close Ticket,2026-02-22 04:08,Service Desk Agent
+INC-0214,Send Satisfaction Survey,2026-02-22 05:04,ITSM Platform
+INC-0215,Log Incident,2026-02-20 05:05,Service Desk Agent
+INC-0215,Categorize Incident,2026-02-20 06:34,ITSM Platform
+INC-0215,Assign Priority,2026-02-20 06:36,ITSM Platform
+INC-0215,Investigate Issue,2026-02-20 09:52,Service Desk Agent
+INC-0215,Open War Room,2026-02-20 10:30,Incident Manager
+INC-0215,Restore Service,2026-02-20 10:57,Network Team
+INC-0215,Await User Response,2026-02-20 18:18,End User
+INC-0215,Confirm Fix,2026-02-20 18:55,End User
+INC-0215,Close Ticket,2026-02-20 21:51,Service Desk Agent
+INC-0215,Send Satisfaction Survey,2026-02-20 21:53,ITSM Platform
+INC-0216,Log Incident,2026-02-11 06:16,Service Desk Agent
+INC-0216,Categorize Incident,2026-02-11 06:38,ITSM Platform
+INC-0216,Assign Priority,2026-02-11 06:53,ITSM Platform
+INC-0216,Investigate Issue,2026-02-11 10:26,Service Desk Agent
+INC-0216,Apply Standard Fix,2026-02-11 12:37,Service Desk Agent
+INC-0216,Restore Service,2026-02-11 15:29,Network Team
+INC-0216,Escalate Ticket,2026-02-11 16:40,Service Desk Agent
+INC-0216,Investigate Issue,2026-02-11 17:27,Incident Manager
+INC-0216,Apply Standard Fix,2026-02-11 20:31,Service Desk Agent
+INC-0216,Restore Service,2026-02-11 22:00,Network Team
+INC-0216,Await User Response,2026-02-12 07:34,End User
+INC-0216,Confirm Fix,2026-02-12 08:22,End User
+INC-0216,Close Ticket,2026-02-12 11:06,Service Desk Agent
+INC-0216,Send Satisfaction Survey,2026-02-12 11:24,ITSM Platform
+INC-0217,Log Incident,2026-02-25 16:17,Service Desk Agent
+INC-0217,Categorize Incident,2026-02-25 16:26,ITSM Platform
+INC-0217,Assign Priority,2026-02-25 16:31,ITSM Platform
+INC-0217,Investigate Issue,2026-02-25 18:49,Service Desk Agent
+INC-0217,Open War Room,2026-02-25 19:05,Incident Manager
+INC-0217,Restore Service,2026-02-25 21:06,Network Team
+INC-0217,Await User Response,2026-02-25 22:56,End User
+INC-0217,Confirm Fix,2026-02-25 23:19,End User
+INC-0217,Close Ticket,2026-02-25 23:52,Service Desk Agent
+INC-0217,Send Satisfaction Survey,2026-02-26 00:12,ITSM Platform
+INC-0218,Log Incident,2026-02-16 19:37,Service Desk Agent
+INC-0218,Categorize Incident,2026-02-16 21:04,ITSM Platform
+INC-0218,Assign Priority,2026-02-16 21:11,ITSM Platform
+INC-0218,Investigate Issue,2026-02-16 22:22,Service Desk Agent
+INC-0218,Open War Room,2026-02-16 23:42,Incident Manager
+INC-0218,Restore Service,2026-02-17 01:00,Network Team
+INC-0218,Escalate Ticket,2026-02-17 11:34,Service Desk Agent
+INC-0218,Investigate Issue,2026-02-17 16:37,Incident Manager
+INC-0218,Apply Standard Fix,2026-02-17 17:34,Service Desk Agent
+INC-0218,Restore Service,2026-02-17 18:40,Network Team
+INC-0218,Await User Response,2026-02-17 23:23,End User
+INC-0218,Confirm Fix,2026-02-18 00:00,End User
+INC-0218,Close Ticket,2026-02-18 00:38,Service Desk Agent
+INC-0218,Send Satisfaction Survey,2026-02-18 01:35,ITSM Platform
+INC-0219,Log Incident,2026-02-14 08:41,Service Desk Agent
+INC-0219,Categorize Incident,2026-02-14 09:38,ITSM Platform
+INC-0219,Assign Priority,2026-02-14 09:58,ITSM Platform
+INC-0219,Investigate Issue,2026-02-14 12:35,Service Desk Agent
+INC-0219,Apply Standard Fix,2026-02-14 15:58,Service Desk Agent
+INC-0219,Restore Service,2026-02-14 16:30,Network Team
+INC-0219,Await User Response,2026-02-15 02:48,End User
+INC-0219,Confirm Fix,2026-02-15 03:46,End User
+INC-0219,Close Ticket,2026-02-15 05:47,Service Desk Agent
+INC-0219,Send Satisfaction Survey,2026-02-15 06:27,ITSM Platform
+INC-0220,Log Incident,2026-02-26 22:47,Service Desk Agent
+INC-0220,Categorize Incident,2026-02-26 23:20,ITSM Platform
+INC-0220,Assign Priority,2026-02-26 23:34,ITSM Platform
+INC-0220,Investigate Issue,2026-02-27 01:27,Service Desk Agent
+INC-0220,Apply Standard Fix,2026-02-27 03:15,Service Desk Agent
+INC-0220,Restore Service,2026-02-27 05:22,Network Team
+INC-0220,Await User Response,2026-02-27 16:13,End User
+INC-0220,Confirm Fix,2026-02-27 16:57,End User
+INC-0220,Close Ticket,2026-02-27 19:04,Service Desk Agent
+INC-0220,Send Satisfaction Survey,2026-02-27 19:35,ITSM Platform
+INC-0221,Log Incident,2026-02-15 03:09,Service Desk Agent
+INC-0221,Categorize Incident,2026-02-15 03:17,ITSM Platform
+INC-0221,Assign Priority,2026-02-15 03:26,ITSM Platform
+INC-0221,Investigate Issue,2026-02-15 06:26,Service Desk Agent
+INC-0221,Apply Standard Fix,2026-02-15 08:52,Service Desk Agent
+INC-0221,Restore Service,2026-02-15 11:21,Network Team
+INC-0221,Await User Response,2026-02-16 07:50,End User
+INC-0221,Confirm Fix,2026-02-16 08:20,End User
+INC-0221,Close Ticket,2026-02-16 08:28,Service Desk Agent
+INC-0221,Send Satisfaction Survey,2026-02-16 09:28,ITSM Platform
+INC-0222,Log Incident,2026-02-17 01:11,Service Desk Agent
+INC-0222,Categorize Incident,2026-02-17 01:36,ITSM Platform
+INC-0222,Assign Priority,2026-02-17 01:45,ITSM Platform
+INC-0222,Investigate Issue,2026-02-17 04:40,Service Desk Agent
+INC-0222,Apply Standard Fix,2026-02-17 07:00,Service Desk Agent
+INC-0222,Restore Service,2026-02-17 08:19,Network Team
+INC-0222,Await User Response,2026-02-17 16:11,End User
+INC-0222,Confirm Fix,2026-02-17 16:34,End User
+INC-0222,Close Ticket,2026-02-17 16:53,Service Desk Agent
+INC-0222,Send Satisfaction Survey,2026-02-17 17:43,ITSM Platform
+INC-0223,Log Incident,2026-02-01 23:47,Service Desk Agent
+INC-0223,Categorize Incident,2026-02-02 00:12,ITSM Platform
+INC-0223,Assign Priority,2026-02-02 00:31,ITSM Platform
+INC-0223,Investigate Issue,2026-02-02 01:15,Service Desk Agent
+INC-0223,Apply Standard Fix,2026-02-02 02:59,Service Desk Agent
+INC-0223,Restore Service,2026-02-02 05:01,Network Team
+INC-0223,Await User Response,2026-02-02 23:09,End User
+INC-0223,Confirm Fix,2026-02-02 23:38,End User
+INC-0223,Close Ticket,2026-02-03 03:16,Service Desk Agent
+INC-0223,Send Satisfaction Survey,2026-02-03 03:45,ITSM Platform
+INC-0224,Log Incident,2026-02-17 02:47,Service Desk Agent
+INC-0224,Categorize Incident,2026-02-17 03:05,ITSM Platform
+INC-0224,Assign Priority,2026-02-17 03:23,ITSM Platform
+INC-0224,Investigate Issue,2026-02-17 05:28,Service Desk Agent
+INC-0224,Apply Standard Fix,2026-02-17 08:36,Service Desk Agent
+INC-0224,Restore Service,2026-02-17 09:25,Network Team
+INC-0224,Await User Response,2026-02-18 08:43,End User
+INC-0224,Confirm Fix,2026-02-18 09:10,End User
+INC-0224,Close Ticket,2026-02-18 09:50,Service Desk Agent
+INC-0224,Send Satisfaction Survey,2026-02-18 10:34,ITSM Platform
+INC-0225,Log Incident,2026-02-10 05:10,Service Desk Agent
+INC-0225,Categorize Incident,2026-02-10 06:33,ITSM Platform
+INC-0225,Assign Priority,2026-02-10 06:43,ITSM Platform
+INC-0225,Investigate Issue,2026-02-10 11:18,Service Desk Agent
+INC-0225,Open War Room,2026-02-10 13:08,Incident Manager
+INC-0225,Restore Service,2026-02-10 15:19,Network Team
+INC-0225,Await User Response,2026-02-11 13:20,End User
+INC-0225,Confirm Fix,2026-02-11 14:10,End User
+INC-0225,Close Ticket,2026-02-11 16:56,Service Desk Agent
+INC-0225,Send Satisfaction Survey,2026-02-11 17:55,ITSM Platform
+INC-0226,Log Incident,2026-02-06 19:00,Service Desk Agent
+INC-0226,Categorize Incident,2026-02-06 19:57,ITSM Platform
+INC-0226,Assign Priority,2026-02-06 20:02,ITSM Platform
+INC-0226,Investigate Issue,2026-02-06 20:14,Service Desk Agent
+INC-0226,Apply Standard Fix,2026-02-06 22:49,Service Desk Agent
+INC-0226,Restore Service,2026-02-07 01:28,Network Team
+INC-0226,Escalate Ticket,2026-02-07 08:45,Service Desk Agent
+INC-0226,Investigate Issue,2026-02-07 14:07,Incident Manager
+INC-0226,Apply Standard Fix,2026-02-07 15:05,Service Desk Agent
+INC-0226,Restore Service,2026-02-07 16:08,Network Team
+INC-0226,Await User Response,2026-02-08 02:10,End User
+INC-0226,Confirm Fix,2026-02-08 03:10,End User
+INC-0226,Close Ticket,2026-02-08 05:54,Service Desk Agent
+INC-0226,Send Satisfaction Survey,2026-02-08 06:33,ITSM Platform
+INC-0227,Log Incident,2026-02-06 01:16,Service Desk Agent
+INC-0227,Categorize Incident,2026-02-06 02:09,ITSM Platform
+INC-0227,Assign Priority,2026-02-06 02:25,ITSM Platform
+INC-0227,Investigate Issue,2026-02-06 06:29,Service Desk Agent
+INC-0227,Apply Standard Fix,2026-02-06 08:14,Service Desk Agent
+INC-0227,Restore Service,2026-02-06 09:38,Network Team
+INC-0227,Await User Response,2026-02-07 04:05,End User
+INC-0227,Confirm Fix,2026-02-07 04:45,End User
+INC-0227,Close Ticket,2026-02-07 07:22,Service Desk Agent
+INC-0227,Send Satisfaction Survey,2026-02-07 07:47,ITSM Platform
+INC-0228,Log Incident,2026-02-15 15:42,Service Desk Agent
+INC-0228,Categorize Incident,2026-02-15 15:47,ITSM Platform
+INC-0228,Assign Priority,2026-02-15 16:04,ITSM Platform
+INC-0228,Investigate Issue,2026-02-15 19:28,Service Desk Agent
+INC-0228,Apply Standard Fix,2026-02-15 20:30,Service Desk Agent
+INC-0228,Restore Service,2026-02-15 22:57,Network Team
+INC-0228,Await User Response,2026-02-16 04:23,End User
+INC-0228,Confirm Fix,2026-02-16 04:55,End User
+INC-0228,Close Ticket,2026-02-16 07:27,Service Desk Agent
+INC-0228,Send Satisfaction Survey,2026-02-16 07:52,ITSM Platform
+INC-0229,Log Incident,2026-02-27 11:14,Service Desk Agent
+INC-0229,Categorize Incident,2026-02-27 11:48,ITSM Platform
+INC-0229,Assign Priority,2026-02-27 11:52,ITSM Platform
+INC-0229,Investigate Issue,2026-02-27 14:51,Service Desk Agent
+INC-0229,Apply Standard Fix,2026-02-27 18:41,Service Desk Agent
+INC-0229,Restore Service,2026-02-27 21:26,Network Team
+INC-0229,Await User Response,2026-02-28 09:03,End User
+INC-0229,Confirm Fix,2026-02-28 09:21,End User
+INC-0229,Close Ticket,2026-02-28 11:15,Service Desk Agent
+INC-0229,Send Satisfaction Survey,2026-02-28 12:13,ITSM Platform
+INC-0230,Log Incident,2026-02-01 11:40,Service Desk Agent
+INC-0230,Categorize Incident,2026-02-01 11:48,ITSM Platform
+INC-0230,Assign Priority,2026-02-01 11:51,ITSM Platform
+INC-0230,Investigate Issue,2026-02-01 14:12,Service Desk Agent
+INC-0230,Apply Standard Fix,2026-02-01 16:34,Service Desk Agent
+INC-0230,Restore Service,2026-02-01 18:00,Network Team
+INC-0230,Await User Response,2026-02-02 05:09,End User
+INC-0230,Confirm Fix,2026-02-02 05:48,End User
+INC-0230,Close Ticket,2026-02-02 08:31,Service Desk Agent
+INC-0230,Send Satisfaction Survey,2026-02-02 08:59,ITSM Platform
+INC-0231,Log Incident,2026-02-24 13:11,Service Desk Agent
+INC-0231,Categorize Incident,2026-02-24 14:22,ITSM Platform
+INC-0231,Assign Priority,2026-02-24 14:37,ITSM Platform
+INC-0231,Investigate Issue,2026-02-24 18:06,Service Desk Agent
+INC-0231,Apply Standard Fix,2026-02-24 18:31,Service Desk Agent
+INC-0231,Restore Service,2026-02-24 21:13,Network Team
+INC-0231,Await User Response,2026-02-25 13:10,End User
+INC-0231,Confirm Fix,2026-02-25 13:15,End User
+INC-0231,Close Ticket,2026-02-25 16:13,Service Desk Agent
+INC-0231,Send Satisfaction Survey,2026-02-25 16:18,ITSM Platform
+INC-0232,Log Incident,2026-02-24 21:42,Service Desk Agent
+INC-0232,Categorize Incident,2026-02-24 22:16,ITSM Platform
+INC-0232,Assign Priority,2026-02-24 22:21,ITSM Platform
+INC-0232,Investigate Issue,2026-02-25 02:00,Service Desk Agent
+INC-0232,Apply Standard Fix,2026-02-25 03:57,Service Desk Agent
+INC-0232,Restore Service,2026-02-25 06:53,Network Team
+INC-0232,Await User Response,2026-02-26 02:58,End User
+INC-0232,Confirm Fix,2026-02-26 03:12,End User
+INC-0232,Close Ticket,2026-02-26 07:02,Service Desk Agent
+INC-0232,Send Satisfaction Survey,2026-02-26 07:15,ITSM Platform
+INC-0233,Log Incident,2026-02-20 04:05,Service Desk Agent
+INC-0233,Categorize Incident,2026-02-20 05:12,ITSM Platform
+INC-0233,Assign Priority,2026-02-20 05:26,ITSM Platform
+INC-0233,Investigate Issue,2026-02-20 09:21,Service Desk Agent
+INC-0233,Apply Standard Fix,2026-02-20 12:06,Service Desk Agent
+INC-0233,Restore Service,2026-02-20 13:43,Network Team
+INC-0233,Await User Response,2026-02-21 15:41,End User
+INC-0233,Confirm Fix,2026-02-21 16:38,End User
+INC-0233,Close Ticket,2026-02-21 17:06,Service Desk Agent
+INC-0233,Send Satisfaction Survey,2026-02-21 17:17,ITSM Platform
+INC-0234,Log Incident,2026-02-17 12:11,Service Desk Agent
+INC-0234,Categorize Incident,2026-02-17 12:56,ITSM Platform
+INC-0234,Assign Priority,2026-02-17 13:09,ITSM Platform
+INC-0234,Investigate Issue,2026-02-17 13:57,Service Desk Agent
+INC-0234,Apply Standard Fix,2026-02-17 16:23,Service Desk Agent
+INC-0234,Restore Service,2026-02-17 17:17,Network Team
+INC-0234,Escalate Ticket,2026-02-17 22:48,Service Desk Agent
+INC-0234,Investigate Issue,2026-02-18 05:11,Incident Manager
+INC-0234,Apply Standard Fix,2026-02-18 06:58,Service Desk Agent
+INC-0234,Restore Service,2026-02-18 08:53,Network Team
+INC-0234,Await User Response,2026-02-19 02:45,End User
+INC-0234,Confirm Fix,2026-02-19 03:16,End User
+INC-0234,Close Ticket,2026-02-19 06:02,Service Desk Agent
+INC-0234,Send Satisfaction Survey,2026-02-19 06:13,ITSM Platform
+INC-0235,Log Incident,2026-02-24 20:24,Service Desk Agent
+INC-0235,Categorize Incident,2026-02-24 21:06,ITSM Platform
+INC-0235,Assign Priority,2026-02-24 21:24,ITSM Platform
+INC-0235,Investigate Issue,2026-02-24 23:20,Service Desk Agent
+INC-0235,Apply Standard Fix,2026-02-25 00:23,Service Desk Agent
+INC-0235,Restore Service,2026-02-25 02:18,Network Team
+INC-0235,Escalate Ticket,2026-02-25 13:33,Service Desk Agent
+INC-0235,Investigate Issue,2026-02-25 18:52,Incident Manager
+INC-0235,Apply Standard Fix,2026-02-25 21:46,Service Desk Agent
+INC-0235,Restore Service,2026-02-25 22:09,Network Team
+INC-0235,Await User Response,2026-02-26 10:42,End User
+INC-0235,Confirm Fix,2026-02-26 11:23,End User
+INC-0235,Close Ticket,2026-02-26 14:09,Service Desk Agent
+INC-0235,Send Satisfaction Survey,2026-02-26 14:50,ITSM Platform
+INC-0236,Log Incident,2026-02-02 22:13,Service Desk Agent
+INC-0236,Categorize Incident,2026-02-02 23:10,ITSM Platform
+INC-0236,Assign Priority,2026-02-02 23:12,ITSM Platform
+INC-0236,Investigate Issue,2026-02-02 23:23,Service Desk Agent
+INC-0236,Apply Standard Fix,2026-02-03 02:34,Service Desk Agent
+INC-0236,Restore Service,2026-02-03 05:05,Network Team
+INC-0236,Escalate Ticket,2026-02-03 10:46,Service Desk Agent
+INC-0236,Investigate Issue,2026-02-03 14:39,Incident Manager
+INC-0236,Apply Standard Fix,2026-02-03 18:34,Service Desk Agent
+INC-0236,Restore Service,2026-02-03 18:56,Network Team
+INC-0236,Await User Response,2026-02-04 15:26,End User
+INC-0236,Confirm Fix,2026-02-04 15:31,End User
+INC-0236,Close Ticket,2026-02-04 18:27,Service Desk Agent
+INC-0236,Send Satisfaction Survey,2026-02-04 18:29,ITSM Platform
+INC-0237,Log Incident,2026-02-09 22:47,Service Desk Agent
+INC-0237,Categorize Incident,2026-02-09 23:14,ITSM Platform
+INC-0237,Assign Priority,2026-02-09 23:31,ITSM Platform
+INC-0237,Investigate Issue,2026-02-10 04:24,Service Desk Agent
+INC-0237,Apply Standard Fix,2026-02-10 08:22,Service Desk Agent
+INC-0237,Restore Service,2026-02-10 11:17,Network Team
+INC-0237,Await User Response,2026-02-11 05:20,End User
+INC-0237,Confirm Fix,2026-02-11 05:34,End User
+INC-0237,Close Ticket,2026-02-11 08:06,Service Desk Agent
+INC-0237,Send Satisfaction Survey,2026-02-11 08:19,ITSM Platform
+INC-0238,Log Incident,2026-02-19 17:01,Service Desk Agent
+INC-0238,Categorize Incident,2026-02-19 18:23,ITSM Platform
+INC-0238,Assign Priority,2026-02-19 18:28,ITSM Platform
+INC-0238,Investigate Issue,2026-02-19 19:52,Service Desk Agent
+INC-0238,Open War Room,2026-02-19 21:44,Incident Manager
+INC-0238,Restore Service,2026-02-20 00:04,Network Team
+INC-0238,Escalate Ticket,2026-02-20 02:16,Service Desk Agent
+INC-0238,Investigate Issue,2026-02-20 03:24,Incident Manager
+INC-0238,Apply Standard Fix,2026-02-20 04:27,Service Desk Agent
+INC-0238,Restore Service,2026-02-20 05:43,Network Team
+INC-0238,Await User Response,2026-02-20 22:57,End User
+INC-0238,Confirm Fix,2026-02-20 23:54,End User
+INC-0238,Close Ticket,2026-02-21 01:58,Service Desk Agent
+INC-0238,Send Satisfaction Survey,2026-02-21 02:38,ITSM Platform
+INC-0239,Log Incident,2026-02-20 14:21,Service Desk Agent
+INC-0239,Categorize Incident,2026-02-20 14:33,ITSM Platform
+INC-0239,Assign Priority,2026-02-20 14:35,ITSM Platform
+INC-0239,Investigate Issue,2026-02-20 20:35,Service Desk Agent
+INC-0239,Apply Standard Fix,2026-02-20 22:12,Service Desk Agent
+INC-0239,Restore Service,2026-02-20 22:58,Network Team
+INC-0239,Await User Response,2026-02-21 11:32,End User
+INC-0239,Confirm Fix,2026-02-21 11:54,End User
+INC-0239,Close Ticket,2026-02-21 12:42,Service Desk Agent
+INC-0239,Send Satisfaction Survey,2026-02-21 12:45,ITSM Platform
+INC-0240,Log Incident,2026-02-13 03:12,Service Desk Agent
+INC-0240,Categorize Incident,2026-02-13 04:37,ITSM Platform
+INC-0240,Assign Priority,2026-02-13 04:42,ITSM Platform
+INC-0240,Investigate Issue,2026-02-13 09:50,Service Desk Agent
+INC-0240,Open War Room,2026-02-13 10:29,Incident Manager
+INC-0240,Restore Service,2026-02-13 12:34,Network Team
+INC-0240,Await User Response,2026-02-13 13:44,End User
+INC-0240,Confirm Fix,2026-02-13 13:52,End User
+INC-0240,Close Ticket,2026-02-13 14:53,Service Desk Agent
+INC-0240,Send Satisfaction Survey,2026-02-13 15:50,ITSM Platform
+INC-0241,Log Incident,2026-02-19 00:31,Service Desk Agent
+INC-0241,Categorize Incident,2026-02-19 01:50,ITSM Platform
+INC-0241,Assign Priority,2026-02-19 01:53,ITSM Platform
+INC-0241,Investigate Issue,2026-02-19 05:48,Service Desk Agent
+INC-0241,Open War Room,2026-02-19 06:33,Incident Manager
+INC-0241,Restore Service,2026-02-19 07:46,Network Team
+INC-0241,Await User Response,2026-02-19 13:42,End User
+INC-0241,Confirm Fix,2026-02-19 14:24,End User
+INC-0241,Close Ticket,2026-02-19 18:07,Service Desk Agent
+INC-0241,Send Satisfaction Survey,2026-02-19 18:19,ITSM Platform
+INC-0242,Log Incident,2026-02-15 07:50,Service Desk Agent
+INC-0242,Categorize Incident,2026-02-15 07:55,ITSM Platform
+INC-0242,Assign Priority,2026-02-15 08:11,ITSM Platform
+INC-0242,Investigate Issue,2026-02-15 10:56,Service Desk Agent
+INC-0242,Apply Standard Fix,2026-02-15 12:15,Service Desk Agent
+INC-0242,Restore Service,2026-02-15 14:31,Network Team
+INC-0242,Await User Response,2026-02-15 17:19,End User
+INC-0242,Confirm Fix,2026-02-15 17:39,End User
+INC-0242,Close Ticket,2026-02-15 20:37,Service Desk Agent
+INC-0242,Send Satisfaction Survey,2026-02-15 21:02,ITSM Platform
+INC-0243,Log Incident,2026-02-27 14:46,Service Desk Agent
+INC-0243,Categorize Incident,2026-02-27 15:19,ITSM Platform
+INC-0243,Assign Priority,2026-02-27 15:34,ITSM Platform
+INC-0243,Investigate Issue,2026-02-27 18:22,Service Desk Agent
+INC-0243,Apply Standard Fix,2026-02-27 21:39,Service Desk Agent
+INC-0243,Restore Service,2026-02-27 23:53,Network Team
+INC-0243,Escalate Ticket,2026-02-28 04:32,Service Desk Agent
+INC-0243,Investigate Issue,2026-02-28 05:46,Incident Manager
+INC-0243,Apply Standard Fix,2026-02-28 06:50,Service Desk Agent
+INC-0243,Restore Service,2026-02-28 07:21,Network Team
+INC-0243,Await User Response,2026-02-28 20:04,End User
+INC-0243,Confirm Fix,2026-02-28 20:33,End User
+INC-0243,Close Ticket,2026-02-28 21:25,Service Desk Agent
+INC-0243,Send Satisfaction Survey,2026-02-28 21:26,ITSM Platform
+INC-0244,Log Incident,2026-02-14 05:31,Service Desk Agent
+INC-0244,Categorize Incident,2026-02-14 06:26,ITSM Platform
+INC-0244,Assign Priority,2026-02-14 06:45,ITSM Platform
+INC-0244,Investigate Issue,2026-02-14 10:00,Service Desk Agent
+INC-0244,Open War Room,2026-02-14 11:23,Incident Manager
+INC-0244,Restore Service,2026-02-14 13:11,Network Team
+INC-0244,Await User Response,2026-02-15 11:54,End User
+INC-0244,Confirm Fix,2026-02-15 12:03,End User
+INC-0244,Close Ticket,2026-02-15 12:39,Service Desk Agent
+INC-0244,Send Satisfaction Survey,2026-02-15 13:07,ITSM Platform
+INC-0245,Log Incident,2026-02-16 23:39,Service Desk Agent
+INC-0245,Categorize Incident,2026-02-17 00:54,ITSM Platform
+INC-0245,Assign Priority,2026-02-17 01:03,ITSM Platform
+INC-0245,Investigate Issue,2026-02-17 04:31,Service Desk Agent
+INC-0245,Apply Standard Fix,2026-02-17 05:58,Service Desk Agent
+INC-0245,Restore Service,2026-02-17 07:36,Network Team
+INC-0245,Await User Response,2026-02-17 09:17,End User
+INC-0245,Confirm Fix,2026-02-17 09:39,End User
+INC-0245,Close Ticket,2026-02-17 12:34,Service Desk Agent
+INC-0245,Send Satisfaction Survey,2026-02-17 12:36,ITSM Platform
+INC-0246,Log Incident,2026-02-16 12:55,Service Desk Agent
+INC-0246,Categorize Incident,2026-02-16 13:19,ITSM Platform
+INC-0246,Assign Priority,2026-02-16 13:28,ITSM Platform
+INC-0246,Investigate Issue,2026-02-16 14:44,Service Desk Agent
+INC-0246,Open War Room,2026-02-16 15:33,Incident Manager
+INC-0246,Restore Service,2026-02-16 18:02,Network Team
+INC-0246,Await User Response,2026-02-16 22:53,End User
+INC-0246,Confirm Fix,2026-02-16 23:33,End User
+INC-0246,Close Ticket,2026-02-17 01:31,Service Desk Agent
+INC-0246,Send Satisfaction Survey,2026-02-17 02:01,ITSM Platform
+INC-0247,Log Incident,2026-02-11 22:20,Service Desk Agent
+INC-0247,Categorize Incident,2026-02-11 22:45,ITSM Platform
+INC-0247,Assign Priority,2026-02-11 22:58,ITSM Platform
+INC-0247,Investigate Issue,2026-02-12 02:08,Service Desk Agent
+INC-0247,Apply Standard Fix,2026-02-12 04:06,Service Desk Agent
+INC-0247,Restore Service,2026-02-12 05:52,Network Team
+INC-0247,Await User Response,2026-02-13 02:11,End User
+INC-0247,Confirm Fix,2026-02-13 02:29,End User
+INC-0247,Close Ticket,2026-02-13 03:50,Service Desk Agent
+INC-0247,Send Satisfaction Survey,2026-02-13 04:21,ITSM Platform
+INC-0248,Log Incident,2026-02-23 23:24,Service Desk Agent
+INC-0248,Categorize Incident,2026-02-23 23:55,ITSM Platform
+INC-0248,Assign Priority,2026-02-24 00:04,ITSM Platform
+INC-0248,Investigate Issue,2026-02-24 04:05,Service Desk Agent
+INC-0248,Apply Standard Fix,2026-02-24 07:20,Service Desk Agent
+INC-0248,Restore Service,2026-02-24 08:36,Network Team
+INC-0248,Await User Response,2026-02-25 00:07,End User
+INC-0248,Confirm Fix,2026-02-25 00:49,End User
+INC-0248,Close Ticket,2026-02-25 02:28,Service Desk Agent
+INC-0248,Send Satisfaction Survey,2026-02-25 03:03,ITSM Platform
+INC-0249,Log Incident,2026-02-12 04:58,Service Desk Agent
+INC-0249,Categorize Incident,2026-02-12 05:54,ITSM Platform
+INC-0249,Assign Priority,2026-02-12 06:12,ITSM Platform
+INC-0249,Investigate Issue,2026-02-12 08:10,Service Desk Agent
+INC-0249,Open War Room,2026-02-12 10:01,Incident Manager
+INC-0249,Restore Service,2026-02-12 10:42,Network Team
+INC-0249,Await User Response,2026-02-12 14:19,End User
+INC-0249,Confirm Fix,2026-02-12 14:58,End User
+INC-0249,Close Ticket,2026-02-12 18:41,Service Desk Agent
+INC-0249,Send Satisfaction Survey,2026-02-12 18:59,ITSM Platform
+INC-0250,Log Incident,2026-02-18 12:19,Service Desk Agent
+INC-0250,Categorize Incident,2026-02-18 12:27,ITSM Platform
+INC-0250,Assign Priority,2026-02-18 12:47,ITSM Platform
+INC-0250,Investigate Issue,2026-02-18 14:11,Service Desk Agent
+INC-0250,Apply Standard Fix,2026-02-18 16:05,Service Desk Agent
+INC-0250,Restore Service,2026-02-18 16:37,Network Team
+INC-0250,Await User Response,2026-02-19 01:01,End User
+INC-0250,Confirm Fix,2026-02-19 01:26,End User
+INC-0250,Close Ticket,2026-02-19 02:19,Service Desk Agent
+INC-0250,Send Satisfaction Survey,2026-02-19 03:02,ITSM Platform
+INC-0251,Log Incident,2026-02-05 23:00,Service Desk Agent
+INC-0251,Categorize Incident,2026-02-05 23:13,ITSM Platform
+INC-0251,Assign Priority,2026-02-05 23:32,ITSM Platform
+INC-0251,Investigate Issue,2026-02-06 02:47,Service Desk Agent
+INC-0251,Apply Standard Fix,2026-02-06 06:16,Service Desk Agent
+INC-0251,Restore Service,2026-02-06 07:42,Network Team
+INC-0251,Escalate Ticket,2026-02-06 13:30,Service Desk Agent
+INC-0251,Investigate Issue,2026-02-06 14:45,Incident Manager
+INC-0251,Apply Standard Fix,2026-02-06 16:02,Service Desk Agent
+INC-0251,Restore Service,2026-02-06 16:48,Network Team
+INC-0251,Await User Response,2026-02-06 21:36,End User
+INC-0251,Confirm Fix,2026-02-06 22:33,End User
+INC-0251,Close Ticket,2026-02-07 01:41,Service Desk Agent
+INC-0251,Send Satisfaction Survey,2026-02-07 02:07,ITSM Platform
+INC-0252,Log Incident,2026-02-13 20:25,Service Desk Agent
+INC-0252,Categorize Incident,2026-02-13 21:15,ITSM Platform
+INC-0252,Assign Priority,2026-02-13 21:29,ITSM Platform
+INC-0252,Investigate Issue,2026-02-14 01:36,Service Desk Agent
+INC-0252,Apply Standard Fix,2026-02-14 05:36,Service Desk Agent
+INC-0252,Restore Service,2026-02-14 08:26,Network Team
+INC-0252,Await User Response,2026-02-14 13:26,End User
+INC-0252,Confirm Fix,2026-02-14 13:48,End User
+INC-0252,Close Ticket,2026-02-14 14:38,Service Desk Agent
+INC-0252,Send Satisfaction Survey,2026-02-14 14:40,ITSM Platform
+INC-0253,Log Incident,2026-02-17 16:24,Service Desk Agent
+INC-0253,Categorize Incident,2026-02-17 17:53,ITSM Platform
+INC-0253,Assign Priority,2026-02-17 18:06,ITSM Platform
+INC-0253,Investigate Issue,2026-02-17 21:47,Service Desk Agent
+INC-0253,Open War Room,2026-02-17 23:32,Incident Manager
+INC-0253,Restore Service,2026-02-18 01:40,Network Team
+INC-0253,Await User Response,2026-02-18 15:50,End User
+INC-0253,Confirm Fix,2026-02-18 16:17,End User
+INC-0253,Close Ticket,2026-02-18 20:13,Service Desk Agent
+INC-0253,Send Satisfaction Survey,2026-02-18 20:54,ITSM Platform
+INC-0254,Log Incident,2026-02-05 10:42,Service Desk Agent
+INC-0254,Categorize Incident,2026-02-05 11:10,ITSM Platform
+INC-0254,Assign Priority,2026-02-05 11:21,ITSM Platform
+INC-0254,Investigate Issue,2026-02-05 12:29,Service Desk Agent
+INC-0254,Apply Standard Fix,2026-02-05 15:19,Service Desk Agent
+INC-0254,Restore Service,2026-02-05 16:25,Network Team
+INC-0254,Await User Response,2026-02-05 18:17,End User
+INC-0254,Confirm Fix,2026-02-05 18:47,End User
+INC-0254,Close Ticket,2026-02-05 19:02,Service Desk Agent
+INC-0254,Send Satisfaction Survey,2026-02-05 19:41,ITSM Platform
+INC-0255,Log Incident,2026-02-08 08:57,Service Desk Agent
+INC-0255,Categorize Incident,2026-02-08 09:57,ITSM Platform
+INC-0255,Assign Priority,2026-02-08 10:05,ITSM Platform
+INC-0255,Investigate Issue,2026-02-08 12:50,Service Desk Agent
+INC-0255,Open War Room,2026-02-08 14:39,Incident Manager
+INC-0255,Restore Service,2026-02-08 14:59,Network Team
+INC-0255,Await User Response,2026-02-09 12:58,End User
+INC-0255,Confirm Fix,2026-02-09 13:43,End User
+INC-0255,Close Ticket,2026-02-09 14:33,Service Desk Agent
+INC-0255,Send Satisfaction Survey,2026-02-09 15:10,ITSM Platform
+INC-0256,Log Incident,2026-02-11 08:39,Service Desk Agent
+INC-0256,Categorize Incident,2026-02-11 09:56,ITSM Platform
+INC-0256,Assign Priority,2026-02-11 10:13,ITSM Platform
+INC-0256,Investigate Issue,2026-02-11 14:49,Service Desk Agent
+INC-0256,Apply Standard Fix,2026-02-11 16:55,Service Desk Agent
+INC-0256,Restore Service,2026-02-11 19:32,Network Team
+INC-0256,Await User Response,2026-02-11 20:03,End User
+INC-0256,Confirm Fix,2026-02-11 20:15,End User
+INC-0256,Close Ticket,2026-02-11 23:53,Service Desk Agent
+INC-0256,Send Satisfaction Survey,2026-02-12 00:42,ITSM Platform
+INC-0257,Log Incident,2026-02-14 00:45,Service Desk Agent
+INC-0257,Categorize Incident,2026-02-14 00:55,ITSM Platform
+INC-0257,Assign Priority,2026-02-14 01:15,ITSM Platform
+INC-0257,Investigate Issue,2026-02-14 06:35,Service Desk Agent
+INC-0257,Apply Standard Fix,2026-02-14 07:52,Service Desk Agent
+INC-0257,Restore Service,2026-02-14 08:30,Network Team
+INC-0257,Escalate Ticket,2026-02-14 14:26,Service Desk Agent
+INC-0257,Investigate Issue,2026-02-14 16:43,Incident Manager
+INC-0257,Apply Standard Fix,2026-02-14 20:21,Service Desk Agent
+INC-0257,Restore Service,2026-02-14 21:15,Network Team
+INC-0257,Await User Response,2026-02-15 00:41,End User
+INC-0257,Confirm Fix,2026-02-15 01:12,End User
+INC-0257,Close Ticket,2026-02-15 04:14,Service Desk Agent
+INC-0257,Send Satisfaction Survey,2026-02-15 05:02,ITSM Platform
+INC-0258,Log Incident,2026-02-18 21:57,Service Desk Agent
+INC-0258,Categorize Incident,2026-02-18 23:20,ITSM Platform
+INC-0258,Assign Priority,2026-02-18 23:29,ITSM Platform
+INC-0258,Investigate Issue,2026-02-19 02:02,Service Desk Agent
+INC-0258,Apply Standard Fix,2026-02-19 03:46,Service Desk Agent
+INC-0258,Restore Service,2026-02-19 05:44,Network Team
+INC-0258,Await User Response,2026-02-19 17:50,End User
+INC-0258,Confirm Fix,2026-02-19 18:39,End User
+INC-0258,Close Ticket,2026-02-19 20:52,Service Desk Agent
+INC-0258,Send Satisfaction Survey,2026-02-19 21:40,ITSM Platform
+INC-0259,Log Incident,2026-02-21 14:33,Service Desk Agent
+INC-0259,Categorize Incident,2026-02-21 15:43,ITSM Platform
+INC-0259,Assign Priority,2026-02-21 15:46,ITSM Platform
+INC-0259,Investigate Issue,2026-02-21 21:42,Service Desk Agent
+INC-0259,Apply Standard Fix,2026-02-21 23:46,Service Desk Agent
+INC-0259,Restore Service,2026-02-22 02:07,Network Team
+INC-0259,Await User Response,2026-02-22 06:58,End User
+INC-0259,Confirm Fix,2026-02-22 07:34,End User
+INC-0259,Close Ticket,2026-02-22 10:54,Service Desk Agent
+INC-0259,Send Satisfaction Survey,2026-02-22 11:07,ITSM Platform
+INC-0260,Log Incident,2026-02-02 23:43,Service Desk Agent
+INC-0260,Categorize Incident,2026-02-03 00:59,ITSM Platform
+INC-0260,Assign Priority,2026-02-03 01:09,ITSM Platform
+INC-0260,Investigate Issue,2026-02-03 02:48,Service Desk Agent
+INC-0260,Apply Standard Fix,2026-02-03 06:22,Service Desk Agent
+INC-0260,Restore Service,2026-02-03 09:15,Network Team
+INC-0260,Await User Response,2026-02-03 18:38,End User
+INC-0260,Confirm Fix,2026-02-03 18:58,End User
+INC-0260,Close Ticket,2026-02-03 19:18,Service Desk Agent
+INC-0260,Send Satisfaction Survey,2026-02-03 19:29,ITSM Platform
+INC-0261,Log Incident,2026-02-17 06:50,Service Desk Agent
+INC-0261,Categorize Incident,2026-02-17 07:39,ITSM Platform
+INC-0261,Assign Priority,2026-02-17 07:54,ITSM Platform
+INC-0261,Investigate Issue,2026-02-17 08:51,Service Desk Agent
+INC-0261,Apply Standard Fix,2026-02-17 10:25,Service Desk Agent
+INC-0261,Restore Service,2026-02-17 11:10,Network Team
+INC-0261,Escalate Ticket,2026-02-17 19:58,Service Desk Agent
+INC-0261,Investigate Issue,2026-02-18 02:11,Incident Manager
+INC-0261,Apply Standard Fix,2026-02-18 04:34,Service Desk Agent
+INC-0261,Restore Service,2026-02-18 05:14,Network Team
+INC-0261,Await User Response,2026-02-19 05:49,End User
+INC-0261,Confirm Fix,2026-02-19 06:09,End User
+INC-0261,Close Ticket,2026-02-19 06:15,Service Desk Agent
+INC-0261,Send Satisfaction Survey,2026-02-19 06:48,ITSM Platform
+INC-0262,Log Incident,2026-02-21 06:05,Service Desk Agent
+INC-0262,Categorize Incident,2026-02-21 06:27,ITSM Platform
+INC-0262,Assign Priority,2026-02-21 06:40,ITSM Platform
+INC-0262,Investigate Issue,2026-02-21 09:23,Service Desk Agent
+INC-0262,Open War Room,2026-02-21 11:08,Incident Manager
+INC-0262,Restore Service,2026-02-21 11:54,Network Team
+INC-0262,Await User Response,2026-02-21 20:37,End User
+INC-0262,Confirm Fix,2026-02-21 21:03,End User
+INC-0262,Close Ticket,2026-02-21 23:49,Service Desk Agent
+INC-0262,Send Satisfaction Survey,2026-02-22 00:42,ITSM Platform
+INC-0263,Log Incident,2026-02-06 08:51,Service Desk Agent
+INC-0263,Categorize Incident,2026-02-06 10:06,ITSM Platform
+INC-0263,Assign Priority,2026-02-06 10:21,ITSM Platform
+INC-0263,Investigate Issue,2026-02-06 11:57,Service Desk Agent
+INC-0263,Apply Standard Fix,2026-02-06 12:51,Service Desk Agent
+INC-0263,Restore Service,2026-02-06 15:34,Network Team
+INC-0263,Await User Response,2026-02-07 05:55,End User
+INC-0263,Confirm Fix,2026-02-07 06:53,End User
+INC-0263,Close Ticket,2026-02-07 07:50,Service Desk Agent
+INC-0263,Send Satisfaction Survey,2026-02-07 07:58,ITSM Platform
+INC-0264,Log Incident,2026-02-14 04:02,Service Desk Agent
+INC-0264,Categorize Incident,2026-02-14 04:08,ITSM Platform
+INC-0264,Assign Priority,2026-02-14 04:21,ITSM Platform
+INC-0264,Investigate Issue,2026-02-14 08:40,Service Desk Agent
+INC-0264,Apply Standard Fix,2026-02-14 09:10,Service Desk Agent
+INC-0264,Restore Service,2026-02-14 10:31,Network Team
+INC-0264,Await User Response,2026-02-14 14:47,End User
+INC-0264,Confirm Fix,2026-02-14 15:36,End User
+INC-0264,Close Ticket,2026-02-14 17:00,Service Desk Agent
+INC-0264,Send Satisfaction Survey,2026-02-14 17:29,ITSM Platform
+INC-0265,Log Incident,2026-02-06 03:24,Service Desk Agent
+INC-0265,Categorize Incident,2026-02-06 03:49,ITSM Platform
+INC-0265,Assign Priority,2026-02-06 04:01,ITSM Platform
+INC-0265,Investigate Issue,2026-02-06 07:58,Service Desk Agent
+INC-0265,Apply Standard Fix,2026-02-06 09:45,Service Desk Agent
+INC-0265,Restore Service,2026-02-06 11:09,Network Team
+INC-0265,Escalate Ticket,2026-02-06 12:52,Service Desk Agent
+INC-0265,Investigate Issue,2026-02-06 13:45,Incident Manager
+INC-0265,Apply Standard Fix,2026-02-06 14:07,Service Desk Agent
+INC-0265,Restore Service,2026-02-06 15:16,Network Team
+INC-0265,Await User Response,2026-02-07 08:20,End User
+INC-0265,Confirm Fix,2026-02-07 08:30,End User
+INC-0265,Close Ticket,2026-02-07 11:46,Service Desk Agent
+INC-0265,Send Satisfaction Survey,2026-02-07 12:32,ITSM Platform
+INC-0266,Log Incident,2026-02-16 02:19,Service Desk Agent
+INC-0266,Categorize Incident,2026-02-16 03:36,ITSM Platform
+INC-0266,Assign Priority,2026-02-16 03:46,ITSM Platform
+INC-0266,Investigate Issue,2026-02-16 04:51,Service Desk Agent
+INC-0266,Apply Standard Fix,2026-02-16 06:57,Service Desk Agent
+INC-0266,Restore Service,2026-02-16 09:12,Network Team
+INC-0266,Escalate Ticket,2026-02-16 18:58,Service Desk Agent
+INC-0266,Investigate Issue,2026-02-16 22:12,Incident Manager
+INC-0266,Apply Standard Fix,2026-02-16 22:34,Service Desk Agent
+INC-0266,Restore Service,2026-02-16 23:29,Network Team
+INC-0266,Await User Response,2026-02-17 03:05,End User
+INC-0266,Confirm Fix,2026-02-17 03:51,End User
+INC-0266,Close Ticket,2026-02-17 05:09,Service Desk Agent
+INC-0266,Send Satisfaction Survey,2026-02-17 05:50,ITSM Platform
+INC-0267,Log Incident,2026-02-28 21:56,Service Desk Agent
+INC-0267,Categorize Incident,2026-02-28 23:24,ITSM Platform
+INC-0267,Assign Priority,2026-02-28 23:34,ITSM Platform
+INC-0267,Investigate Issue,2026-03-01 05:18,Service Desk Agent
+INC-0267,Apply Standard Fix,2026-03-01 06:08,Service Desk Agent
+INC-0267,Restore Service,2026-03-01 06:25,Network Team
+INC-0267,Escalate Ticket,2026-03-01 13:39,Service Desk Agent
+INC-0267,Investigate Issue,2026-03-01 21:18,Incident Manager
+INC-0267,Apply Standard Fix,2026-03-01 22:15,Service Desk Agent
+INC-0267,Restore Service,2026-03-01 23:02,Network Team
+INC-0267,Await User Response,2026-03-02 12:05,End User
+INC-0267,Confirm Fix,2026-03-02 12:21,End User
+INC-0267,Close Ticket,2026-03-02 15:09,Service Desk Agent
+INC-0267,Send Satisfaction Survey,2026-03-02 15:43,ITSM Platform
+INC-0268,Log Incident,2026-02-08 16:00,Service Desk Agent
+INC-0268,Categorize Incident,2026-02-08 16:18,ITSM Platform
+INC-0268,Assign Priority,2026-02-08 16:29,ITSM Platform
+INC-0268,Investigate Issue,2026-02-08 21:54,Service Desk Agent
+INC-0268,Apply Standard Fix,2026-02-08 22:56,Service Desk Agent
+INC-0268,Restore Service,2026-02-09 01:51,Network Team
+INC-0268,Await User Response,2026-02-09 13:16,End User
+INC-0268,Confirm Fix,2026-02-09 13:35,End User
+INC-0268,Close Ticket,2026-02-09 15:14,Service Desk Agent
+INC-0268,Send Satisfaction Survey,2026-02-09 15:23,ITSM Platform
+INC-0269,Log Incident,2026-02-26 01:59,Service Desk Agent
+INC-0269,Categorize Incident,2026-02-26 02:51,ITSM Platform
+INC-0269,Assign Priority,2026-02-26 03:01,ITSM Platform
+INC-0269,Investigate Issue,2026-02-26 05:13,Service Desk Agent
+INC-0269,Open War Room,2026-02-26 05:41,Incident Manager
+INC-0269,Restore Service,2026-02-26 08:16,Network Team
+INC-0269,Await User Response,2026-02-27 08:51,End User
+INC-0269,Confirm Fix,2026-02-27 09:21,End User
+INC-0269,Close Ticket,2026-02-27 13:17,Service Desk Agent
+INC-0269,Send Satisfaction Survey,2026-02-27 13:21,ITSM Platform
+INC-0270,Log Incident,2026-02-10 20:24,Service Desk Agent
+INC-0270,Categorize Incident,2026-02-10 21:32,ITSM Platform
+INC-0270,Assign Priority,2026-02-10 21:47,ITSM Platform
+INC-0270,Investigate Issue,2026-02-11 02:12,Service Desk Agent
+INC-0270,Apply Standard Fix,2026-02-11 03:43,Service Desk Agent
+INC-0270,Restore Service,2026-02-11 06:27,Network Team
+INC-0270,Await User Response,2026-02-11 09:41,End User
+INC-0270,Confirm Fix,2026-02-11 09:55,End User
+INC-0270,Close Ticket,2026-02-11 12:56,Service Desk Agent
+INC-0270,Send Satisfaction Survey,2026-02-11 13:11,ITSM Platform
+INC-0271,Log Incident,2026-02-08 10:44,Service Desk Agent
+INC-0271,Categorize Incident,2026-02-08 11:06,ITSM Platform
+INC-0271,Assign Priority,2026-02-08 11:22,ITSM Platform
+INC-0271,Investigate Issue,2026-02-08 16:58,Service Desk Agent
+INC-0271,Apply Standard Fix,2026-02-08 17:35,Service Desk Agent
+INC-0271,Restore Service,2026-02-08 17:55,Network Team
+INC-0271,Await User Response,2026-02-09 10:46,End User
+INC-0271,Confirm Fix,2026-02-09 11:03,End User
+INC-0271,Close Ticket,2026-02-09 12:03,Service Desk Agent
+INC-0271,Send Satisfaction Survey,2026-02-09 12:50,ITSM Platform
+INC-0272,Log Incident,2026-02-17 22:51,Service Desk Agent
+INC-0272,Categorize Incident,2026-02-17 22:56,ITSM Platform
+INC-0272,Assign Priority,2026-02-17 22:59,ITSM Platform
+INC-0272,Investigate Issue,2026-02-18 04:21,Service Desk Agent
+INC-0272,Apply Standard Fix,2026-02-18 07:57,Service Desk Agent
+INC-0272,Restore Service,2026-02-18 10:17,Network Team
+INC-0272,Await User Response,2026-02-18 20:27,End User
+INC-0272,Confirm Fix,2026-02-18 20:36,End User
+INC-0272,Close Ticket,2026-02-18 23:30,Service Desk Agent
+INC-0272,Send Satisfaction Survey,2026-02-18 23:34,ITSM Platform
+INC-0273,Log Incident,2026-02-24 10:06,Service Desk Agent
+INC-0273,Categorize Incident,2026-02-24 11:04,ITSM Platform
+INC-0273,Assign Priority,2026-02-24 11:16,ITSM Platform
+INC-0273,Investigate Issue,2026-02-24 11:58,Service Desk Agent
+INC-0273,Apply Standard Fix,2026-02-24 15:03,Service Desk Agent
+INC-0273,Restore Service,2026-02-24 15:58,Network Team
+INC-0273,Await User Response,2026-02-24 22:04,End User
+INC-0273,Confirm Fix,2026-02-24 22:33,End User
+INC-0273,Close Ticket,2026-02-24 23:53,Service Desk Agent
+INC-0273,Send Satisfaction Survey,2026-02-24 23:54,ITSM Platform
+INC-0274,Log Incident,2026-02-21 04:02,Service Desk Agent
+INC-0274,Categorize Incident,2026-02-21 05:19,ITSM Platform
+INC-0274,Assign Priority,2026-02-21 05:32,ITSM Platform
+INC-0274,Investigate Issue,2026-02-21 10:32,Service Desk Agent
+INC-0274,Apply Standard Fix,2026-02-21 11:08,Service Desk Agent
+INC-0274,Restore Service,2026-02-21 13:36,Network Team
+INC-0274,Await User Response,2026-02-22 05:49,End User
+INC-0274,Confirm Fix,2026-02-22 06:21,End User
+INC-0274,Close Ticket,2026-02-22 08:42,Service Desk Agent
+INC-0274,Send Satisfaction Survey,2026-02-22 09:41,ITSM Platform
+INC-0275,Log Incident,2026-02-08 00:36,Service Desk Agent
+INC-0275,Categorize Incident,2026-02-08 01:32,ITSM Platform
+INC-0275,Assign Priority,2026-02-08 01:36,ITSM Platform
+INC-0275,Investigate Issue,2026-02-08 02:16,Service Desk Agent
+INC-0275,Apply Standard Fix,2026-02-08 03:55,Service Desk Agent
+INC-0275,Restore Service,2026-02-08 06:40,Network Team
+INC-0275,Await User Response,2026-02-09 02:27,End User
+INC-0275,Confirm Fix,2026-02-09 03:08,End User
+INC-0275,Close Ticket,2026-02-09 05:00,Service Desk Agent
+INC-0275,Send Satisfaction Survey,2026-02-09 05:24,ITSM Platform
+INC-0276,Log Incident,2026-02-22 21:05,Service Desk Agent
+INC-0276,Categorize Incident,2026-02-22 22:34,ITSM Platform
+INC-0276,Assign Priority,2026-02-22 22:40,ITSM Platform
+INC-0276,Investigate Issue,2026-02-23 01:23,Service Desk Agent
+INC-0276,Apply Standard Fix,2026-02-23 03:53,Service Desk Agent
+INC-0276,Restore Service,2026-02-23 06:45,Network Team
+INC-0276,Escalate Ticket,2026-02-23 10:28,Service Desk Agent
+INC-0276,Investigate Issue,2026-02-23 12:51,Incident Manager
+INC-0276,Apply Standard Fix,2026-02-23 16:04,Service Desk Agent
+INC-0276,Restore Service,2026-02-23 17:48,Network Team
+INC-0276,Await User Response,2026-02-24 09:34,End User
+INC-0276,Confirm Fix,2026-02-24 10:23,End User
+INC-0276,Close Ticket,2026-02-24 10:49,Service Desk Agent
+INC-0276,Send Satisfaction Survey,2026-02-24 10:59,ITSM Platform
+INC-0277,Log Incident,2026-02-27 08:30,Service Desk Agent
+INC-0277,Categorize Incident,2026-02-27 09:22,ITSM Platform
+INC-0277,Assign Priority,2026-02-27 09:41,ITSM Platform
+INC-0277,Investigate Issue,2026-02-27 14:48,Service Desk Agent
+INC-0277,Apply Standard Fix,2026-02-27 16:35,Service Desk Agent
+INC-0277,Restore Service,2026-02-27 19:00,Network Team
+INC-0277,Await User Response,2026-02-28 10:33,End User
+INC-0277,Confirm Fix,2026-02-28 11:03,End User
+INC-0277,Close Ticket,2026-02-28 12:14,Service Desk Agent
+INC-0277,Send Satisfaction Survey,2026-02-28 12:22,ITSM Platform
+INC-0278,Log Incident,2026-02-11 08:12,Service Desk Agent
+INC-0278,Categorize Incident,2026-02-11 08:40,ITSM Platform
+INC-0278,Assign Priority,2026-02-11 08:48,ITSM Platform
+INC-0278,Investigate Issue,2026-02-11 13:38,Service Desk Agent
+INC-0278,Apply Standard Fix,2026-02-11 14:49,Service Desk Agent
+INC-0278,Restore Service,2026-02-11 16:03,Network Team
+INC-0278,Await User Response,2026-02-11 22:57,End User
+INC-0278,Confirm Fix,2026-02-11 23:35,End User
+INC-0278,Close Ticket,2026-02-12 02:31,Service Desk Agent
+INC-0278,Send Satisfaction Survey,2026-02-12 02:48,ITSM Platform
+INC-0279,Log Incident,2026-02-23 06:25,Service Desk Agent
+INC-0279,Categorize Incident,2026-02-23 06:59,ITSM Platform
+INC-0279,Assign Priority,2026-02-23 07:18,ITSM Platform
+INC-0279,Investigate Issue,2026-02-23 11:22,Service Desk Agent
+INC-0279,Apply Standard Fix,2026-02-23 14:03,Service Desk Agent
+INC-0279,Restore Service,2026-02-23 14:41,Network Team
+INC-0279,Await User Response,2026-02-24 11:16,End User
+INC-0279,Confirm Fix,2026-02-24 11:57,End User
+INC-0279,Close Ticket,2026-02-24 12:22,Service Desk Agent
+INC-0279,Send Satisfaction Survey,2026-02-24 13:17,ITSM Platform
+INC-0280,Log Incident,2026-02-19 13:40,Service Desk Agent
+INC-0280,Categorize Incident,2026-02-19 13:54,ITSM Platform
+INC-0280,Assign Priority,2026-02-19 14:10,ITSM Platform
+INC-0280,Investigate Issue,2026-02-19 15:28,Service Desk Agent
+INC-0280,Apply Standard Fix,2026-02-19 18:03,Service Desk Agent
+INC-0280,Restore Service,2026-02-19 20:22,Network Team
+INC-0280,Await User Response,2026-02-20 00:46,End User
+INC-0280,Confirm Fix,2026-02-20 01:31,End User
+INC-0280,Close Ticket,2026-02-20 04:40,Service Desk Agent
+INC-0280,Send Satisfaction Survey,2026-02-20 05:13,ITSM Platform
+INC-0281,Log Incident,2026-02-05 15:30,Service Desk Agent
+INC-0281,Categorize Incident,2026-02-05 16:33,ITSM Platform
+INC-0281,Assign Priority,2026-02-05 16:47,ITSM Platform
+INC-0281,Investigate Issue,2026-02-05 21:35,Service Desk Agent
+INC-0281,Open War Room,2026-02-05 22:14,Incident Manager
+INC-0281,Restore Service,2026-02-06 00:48,Network Team
+INC-0281,Await User Response,2026-02-06 04:28,End User
+INC-0281,Confirm Fix,2026-02-06 04:41,End User
+INC-0281,Close Ticket,2026-02-06 06:21,Service Desk Agent
+INC-0281,Send Satisfaction Survey,2026-02-06 07:11,ITSM Platform
+INC-0282,Log Incident,2026-02-03 14:51,Service Desk Agent
+INC-0282,Categorize Incident,2026-02-03 15:47,ITSM Platform
+INC-0282,Assign Priority,2026-02-03 15:56,ITSM Platform
+INC-0282,Investigate Issue,2026-02-03 16:30,Service Desk Agent
+INC-0282,Apply Standard Fix,2026-02-03 16:48,Service Desk Agent
+INC-0282,Restore Service,2026-02-03 19:30,Network Team
+INC-0282,Await User Response,2026-02-04 11:41,End User
+INC-0282,Confirm Fix,2026-02-04 12:05,End User
+INC-0282,Close Ticket,2026-02-04 12:40,Service Desk Agent
+INC-0282,Send Satisfaction Survey,2026-02-04 13:26,ITSM Platform
+INC-0283,Log Incident,2026-02-07 04:06,Service Desk Agent
+INC-0283,Categorize Incident,2026-02-07 05:05,ITSM Platform
+INC-0283,Assign Priority,2026-02-07 05:09,ITSM Platform
+INC-0283,Investigate Issue,2026-02-07 10:37,Service Desk Agent
+INC-0283,Apply Standard Fix,2026-02-07 11:43,Service Desk Agent
+INC-0283,Restore Service,2026-02-07 14:17,Network Team
+INC-0283,Escalate Ticket,2026-02-07 20:50,Service Desk Agent
+INC-0283,Investigate Issue,2026-02-07 22:46,Incident Manager
+INC-0283,Apply Standard Fix,2026-02-08 00:39,Service Desk Agent
+INC-0283,Restore Service,2026-02-08 02:24,Network Team
+INC-0283,Await User Response,2026-02-08 14:33,End User
+INC-0283,Confirm Fix,2026-02-08 15:29,End User
+INC-0283,Close Ticket,2026-02-08 18:49,Service Desk Agent
+INC-0283,Send Satisfaction Survey,2026-02-08 19:37,ITSM Platform
+INC-0284,Log Incident,2026-02-01 12:43,Service Desk Agent
+INC-0284,Categorize Incident,2026-02-01 13:20,ITSM Platform
+INC-0284,Assign Priority,2026-02-01 13:25,ITSM Platform
+INC-0284,Investigate Issue,2026-02-01 15:37,Service Desk Agent
+INC-0284,Apply Standard Fix,2026-02-01 19:00,Service Desk Agent
+INC-0284,Restore Service,2026-02-01 21:24,Network Team
+INC-0284,Await User Response,2026-02-02 22:32,End User
+INC-0284,Confirm Fix,2026-02-02 23:08,End User
+INC-0284,Close Ticket,2026-02-02 23:24,Service Desk Agent
+INC-0284,Send Satisfaction Survey,2026-02-03 00:17,ITSM Platform
+INC-0285,Log Incident,2026-02-28 11:30,Service Desk Agent
+INC-0285,Categorize Incident,2026-02-28 12:20,ITSM Platform
+INC-0285,Assign Priority,2026-02-28 12:25,ITSM Platform
+INC-0285,Investigate Issue,2026-02-28 15:37,Service Desk Agent
+INC-0285,Apply Standard Fix,2026-02-28 19:17,Service Desk Agent
+INC-0285,Restore Service,2026-02-28 22:01,Network Team
+INC-0285,Escalate Ticket,2026-03-01 02:39,Service Desk Agent
+INC-0285,Investigate Issue,2026-03-01 05:19,Incident Manager
+INC-0285,Apply Standard Fix,2026-03-01 07:09,Service Desk Agent
+INC-0285,Restore Service,2026-03-01 07:43,Network Team
+INC-0285,Await User Response,2026-03-02 07:54,End User
+INC-0285,Confirm Fix,2026-03-02 08:27,End User
+INC-0285,Close Ticket,2026-03-02 08:37,Service Desk Agent
+INC-0285,Send Satisfaction Survey,2026-03-02 09:31,ITSM Platform
+INC-0286,Log Incident,2026-02-27 11:00,Service Desk Agent
+INC-0286,Categorize Incident,2026-02-27 12:01,ITSM Platform
+INC-0286,Assign Priority,2026-02-27 12:06,ITSM Platform
+INC-0286,Investigate Issue,2026-02-27 12:26,Service Desk Agent
+INC-0286,Apply Standard Fix,2026-02-27 12:59,Service Desk Agent
+INC-0286,Restore Service,2026-02-27 14:15,Network Team
+INC-0286,Escalate Ticket,2026-02-28 00:12,Service Desk Agent
+INC-0286,Investigate Issue,2026-02-28 03:10,Incident Manager
+INC-0286,Apply Standard Fix,2026-02-28 06:25,Service Desk Agent
+INC-0286,Restore Service,2026-02-28 08:00,Network Team
+INC-0286,Await User Response,2026-02-28 21:29,End User
+INC-0286,Confirm Fix,2026-02-28 22:27,End User
+INC-0286,Close Ticket,2026-02-28 23:08,Service Desk Agent
+INC-0286,Send Satisfaction Survey,2026-02-28 23:46,ITSM Platform
+INC-0287,Log Incident,2026-02-12 09:21,Service Desk Agent
+INC-0287,Categorize Incident,2026-02-12 10:34,ITSM Platform
+INC-0287,Assign Priority,2026-02-12 10:44,ITSM Platform
+INC-0287,Investigate Issue,2026-02-12 14:41,Service Desk Agent
+INC-0287,Open War Room,2026-02-12 15:39,Incident Manager
+INC-0287,Restore Service,2026-02-12 16:27,Network Team
+INC-0287,Await User Response,2026-02-13 09:28,End User
+INC-0287,Confirm Fix,2026-02-13 10:28,End User
+INC-0287,Close Ticket,2026-02-13 10:41,Service Desk Agent
+INC-0287,Send Satisfaction Survey,2026-02-13 11:33,ITSM Platform
+INC-0288,Log Incident,2026-02-02 14:43,Service Desk Agent
+INC-0288,Categorize Incident,2026-02-02 14:57,ITSM Platform
+INC-0288,Assign Priority,2026-02-02 15:04,ITSM Platform
+INC-0288,Investigate Issue,2026-02-02 20:31,Service Desk Agent
+INC-0288,Apply Standard Fix,2026-02-02 23:39,Service Desk Agent
+INC-0288,Restore Service,2026-02-03 02:22,Network Team
+INC-0288,Await User Response,2026-02-03 19:06,End User
+INC-0288,Confirm Fix,2026-02-03 19:21,End User
+INC-0288,Close Ticket,2026-02-03 22:23,Service Desk Agent
+INC-0288,Send Satisfaction Survey,2026-02-03 23:18,ITSM Platform
+INC-0289,Log Incident,2026-02-21 09:58,Service Desk Agent
+INC-0289,Categorize Incident,2026-02-21 10:53,ITSM Platform
+INC-0289,Assign Priority,2026-02-21 11:02,ITSM Platform
+INC-0289,Investigate Issue,2026-02-21 16:24,Service Desk Agent
+INC-0289,Apply Standard Fix,2026-02-21 18:11,Service Desk Agent
+INC-0289,Restore Service,2026-02-21 19:45,Network Team
+INC-0289,Await User Response,2026-02-22 06:52,End User
+INC-0289,Confirm Fix,2026-02-22 07:05,End User
+INC-0289,Close Ticket,2026-02-22 09:40,Service Desk Agent
+INC-0289,Send Satisfaction Survey,2026-02-22 10:20,ITSM Platform
+INC-0290,Log Incident,2026-02-02 23:41,Service Desk Agent
+INC-0290,Categorize Incident,2026-02-03 00:13,ITSM Platform
+INC-0290,Assign Priority,2026-02-03 00:20,ITSM Platform
+INC-0290,Investigate Issue,2026-02-03 03:34,Service Desk Agent
+INC-0290,Apply Standard Fix,2026-02-03 05:13,Service Desk Agent
+INC-0290,Restore Service,2026-02-03 07:50,Network Team
+INC-0290,Await User Response,2026-02-03 20:24,End User
+INC-0290,Confirm Fix,2026-02-03 20:49,End User
+INC-0290,Close Ticket,2026-02-03 20:55,Service Desk Agent
+INC-0290,Send Satisfaction Survey,2026-02-03 21:17,ITSM Platform
+INC-0291,Log Incident,2026-02-27 08:35,Service Desk Agent
+INC-0291,Categorize Incident,2026-02-27 09:41,ITSM Platform
+INC-0291,Assign Priority,2026-02-27 09:53,ITSM Platform
+INC-0291,Investigate Issue,2026-02-27 11:59,Service Desk Agent
+INC-0291,Open War Room,2026-02-27 13:12,Incident Manager
+INC-0291,Restore Service,2026-02-27 15:57,Network Team
+INC-0291,Escalate Ticket,2026-02-27 18:56,Service Desk Agent
+INC-0291,Investigate Issue,2026-02-28 01:38,Incident Manager
+INC-0291,Apply Standard Fix,2026-02-28 04:49,Service Desk Agent
+INC-0291,Restore Service,2026-02-28 05:17,Network Team
+INC-0291,Await User Response,2026-02-28 15:05,End User
+INC-0291,Confirm Fix,2026-02-28 15:34,End User
+INC-0291,Close Ticket,2026-02-28 16:48,Service Desk Agent
+INC-0291,Send Satisfaction Survey,2026-02-28 16:53,ITSM Platform
+INC-0292,Log Incident,2026-02-23 18:08,Service Desk Agent
+INC-0292,Categorize Incident,2026-02-23 18:46,ITSM Platform
+INC-0292,Assign Priority,2026-02-23 18:59,ITSM Platform
+INC-0292,Investigate Issue,2026-02-24 00:00,Service Desk Agent
+INC-0292,Apply Standard Fix,2026-02-24 02:44,Service Desk Agent
+INC-0292,Restore Service,2026-02-24 03:29,Network Team
+INC-0292,Await User Response,2026-02-24 05:08,End User
+INC-0292,Confirm Fix,2026-02-24 05:48,End User
+INC-0292,Close Ticket,2026-02-24 09:44,Service Desk Agent
+INC-0292,Send Satisfaction Survey,2026-02-24 10:34,ITSM Platform
+INC-0293,Log Incident,2026-02-05 08:02,Service Desk Agent
+INC-0293,Categorize Incident,2026-02-05 08:32,ITSM Platform
+INC-0293,Assign Priority,2026-02-05 08:47,ITSM Platform
+INC-0293,Investigate Issue,2026-02-05 14:21,Service Desk Agent
+INC-0293,Apply Standard Fix,2026-02-05 15:01,Service Desk Agent
+INC-0293,Restore Service,2026-02-05 16:43,Network Team
+INC-0293,Await User Response,2026-02-06 01:20,End User
+INC-0293,Confirm Fix,2026-02-06 02:20,End User
+INC-0293,Close Ticket,2026-02-06 05:48,Service Desk Agent
+INC-0293,Send Satisfaction Survey,2026-02-06 05:58,ITSM Platform
+INC-0294,Log Incident,2026-02-04 06:40,Service Desk Agent
+INC-0294,Categorize Incident,2026-02-04 07:23,ITSM Platform
+INC-0294,Assign Priority,2026-02-04 07:35,ITSM Platform
+INC-0294,Investigate Issue,2026-02-04 10:50,Service Desk Agent
+INC-0294,Apply Standard Fix,2026-02-04 13:47,Service Desk Agent
+INC-0294,Restore Service,2026-02-04 14:59,Network Team
+INC-0294,Await User Response,2026-02-05 10:16,End User
+INC-0294,Confirm Fix,2026-02-05 11:06,End User
+INC-0294,Close Ticket,2026-02-05 12:54,Service Desk Agent
+INC-0294,Send Satisfaction Survey,2026-02-05 13:16,ITSM Platform
+INC-0295,Log Incident,2026-02-03 18:01,Service Desk Agent
+INC-0295,Categorize Incident,2026-02-03 18:49,ITSM Platform
+INC-0295,Assign Priority,2026-02-03 19:01,ITSM Platform
+INC-0295,Investigate Issue,2026-02-03 23:17,Service Desk Agent
+INC-0295,Apply Standard Fix,2026-02-04 00:34,Service Desk Agent
+INC-0295,Restore Service,2026-02-04 01:44,Network Team
+INC-0295,Await User Response,2026-02-04 07:22,End User
+INC-0295,Confirm Fix,2026-02-04 07:35,End User
+INC-0295,Close Ticket,2026-02-04 08:32,Service Desk Agent
+INC-0295,Send Satisfaction Survey,2026-02-04 08:33,ITSM Platform
+INC-0296,Log Incident,2026-02-21 14:56,Service Desk Agent
+INC-0296,Categorize Incident,2026-02-21 15:52,ITSM Platform
+INC-0296,Assign Priority,2026-02-21 16:08,ITSM Platform
+INC-0296,Investigate Issue,2026-02-21 19:40,Service Desk Agent
+INC-0296,Apply Standard Fix,2026-02-21 21:12,Service Desk Agent
+INC-0296,Restore Service,2026-02-21 22:05,Network Team
+INC-0296,Await User Response,2026-02-22 03:29,End User
+INC-0296,Confirm Fix,2026-02-22 03:53,End User
+INC-0296,Close Ticket,2026-02-22 07:02,Service Desk Agent
+INC-0296,Send Satisfaction Survey,2026-02-22 07:22,ITSM Platform
+INC-0297,Log Incident,2026-02-12 11:22,Service Desk Agent
+INC-0297,Categorize Incident,2026-02-12 12:40,ITSM Platform
+INC-0297,Assign Priority,2026-02-12 12:59,ITSM Platform
+INC-0297,Investigate Issue,2026-02-12 18:46,Service Desk Agent
+INC-0297,Apply Standard Fix,2026-02-12 20:28,Service Desk Agent
+INC-0297,Restore Service,2026-02-12 20:56,Network Team
+INC-0297,Await User Response,2026-02-13 17:20,End User
+INC-0297,Confirm Fix,2026-02-13 17:30,End User
+INC-0297,Close Ticket,2026-02-13 20:04,Service Desk Agent
+INC-0297,Send Satisfaction Survey,2026-02-13 20:16,ITSM Platform
+INC-0298,Log Incident,2026-02-14 20:18,Service Desk Agent
+INC-0298,Categorize Incident,2026-02-14 21:37,ITSM Platform
+INC-0298,Assign Priority,2026-02-14 21:50,ITSM Platform
+INC-0298,Investigate Issue,2026-02-15 01:59,Service Desk Agent
+INC-0298,Apply Standard Fix,2026-02-15 05:32,Service Desk Agent
+INC-0298,Restore Service,2026-02-15 07:31,Network Team
+INC-0298,Await User Response,2026-02-15 10:19,End User
+INC-0298,Confirm Fix,2026-02-15 11:17,End User
+INC-0298,Close Ticket,2026-02-15 13:26,Service Desk Agent
+INC-0298,Send Satisfaction Survey,2026-02-15 13:47,ITSM Platform
+INC-0299,Log Incident,2026-02-08 23:24,Service Desk Agent
+INC-0299,Categorize Incident,2026-02-09 00:04,ITSM Platform
+INC-0299,Assign Priority,2026-02-09 00:14,ITSM Platform
+INC-0299,Investigate Issue,2026-02-09 05:03,Service Desk Agent
+INC-0299,Open War Room,2026-02-09 05:39,Incident Manager
+INC-0299,Restore Service,2026-02-09 08:29,Network Team
+INC-0299,Await User Response,2026-02-10 09:01,End User
+INC-0299,Confirm Fix,2026-02-10 09:07,End User
+INC-0299,Close Ticket,2026-02-10 10:07,Service Desk Agent
+INC-0299,Send Satisfaction Survey,2026-02-10 10:11,ITSM Platform
+INC-0300,Log Incident,2026-02-19 04:26,Service Desk Agent
+INC-0300,Categorize Incident,2026-02-19 05:28,ITSM Platform
+INC-0300,Assign Priority,2026-02-19 05:36,ITSM Platform
+INC-0300,Investigate Issue,2026-02-19 10:54,Service Desk Agent
+INC-0300,Apply Standard Fix,2026-02-19 13:17,Service Desk Agent
+INC-0300,Restore Service,2026-02-19 16:12,Network Team
+INC-0300,Escalate Ticket,2026-02-19 20:49,Service Desk Agent
+INC-0300,Investigate Issue,2026-02-20 03:34,Incident Manager
+INC-0300,Apply Standard Fix,2026-02-20 04:08,Service Desk Agent
+INC-0300,Restore Service,2026-02-20 04:34,Network Team
+INC-0300,Await User Response,2026-02-21 01:34,End User
+INC-0300,Confirm Fix,2026-02-21 01:42,End User
+INC-0300,Close Ticket,2026-02-21 02:07,Service Desk Agent
+INC-0300,Send Satisfaction Survey,2026-02-21 02:12,ITSM Platform

@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" agent="ProcessMind Capstone" version="21.6.0" type="device">
+  <diagram id="pm-arch" name="ProcessMind System Architecture">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;b&gt;ProcessMind — Enterprise AI Process Mining &amp;amp; BPMN Automation: System Architecture&lt;/b&gt;&lt;br/&gt;&lt;font style=&quot;font-size:11px&quot; color=&quot;#666666&quot;&gt;Multi-agent pipeline: unstructured SOPs / event logs in → validated BPMN 2.0, bottleneck findings and As-Is/To-Be reports out.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="16" width="1200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zIn" value="1. Inputs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;fontSize=13;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="250" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="zIng" value="2. Ingestion Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff4e0;strokeColor=#d79b00;verticalAlign=top;fontSize=13;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="90" width="250" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="zOrch" value="3. Multi-agent orchestration (LangGraph / builtin)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#1a4fa0;verticalAlign=top;fontSize=13;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="440" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="zLLM" value="4. LLM providers (optional)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;verticalAlign=top;fontSize=13;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="90" width="250" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="zExp" value="5. Outputs &amp; quality gates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;fontSize=13;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="560" width="250" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="zCli" value="6. Consumers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;fontSize=13;fontStyle=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="90" width="260" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="isop" value="&lt;b&gt;SOP documents&lt;/b&gt;&lt;br&gt;.md / .txt narratives" style="shape=document;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;size=0.2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ilog" value="&lt;b&gt;Event logs&lt;/b&gt;&lt;br&gt;CSV / XES-lite&lt;br&gt;(ERP, ITSM, ticketing)" style="shape=document;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;size=0.2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="igold" value="&lt;b&gt;Gold annotations&lt;/b&gt;&lt;br&gt;eval corpus (JSON)" style="shape=document;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;size=0.2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icfg" value="&lt;b&gt;Configuration&lt;/b&gt;&lt;br&gt;env: PM_ENGINE, LLM keys,&lt;br&gt;thresholds, output dir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="560" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="inorm" value="&lt;b&gt;Normaliser&lt;/b&gt;&lt;br&gt;metadata header, markdown strip,&lt;br&gt;sentence segmentation, boilerplate skip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="345" y="150" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="isteps" value="&lt;b&gt;Step stream&lt;/b&gt;&lt;br&gt;IngestedDocument&lt;br&gt;(pydantic contract)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="345" y="300" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilogparse" value="&lt;b&gt;Log loader&lt;/b&gt;&lt;br&gt;timestamp parsing, cases,&lt;br&gt;lifecycle handling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="345" y="430" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="onode1" value="&lt;b&gt;Modeler Agent&lt;/b&gt;&lt;br&gt;text → ProcessModel JSON&lt;br&gt;(LLM schema-guided, or&lt;br&gt;offline rule parser fallback)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1a4fa0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="150" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="onode2" value="&lt;b&gt;Validator&lt;/b&gt;&lt;br&gt;structural BPMN checks&lt;br&gt;(reachability, gateways,&lt;br&gt;labels, dangling nodes)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1a4fa0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="330" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="onode3" value="&lt;b&gt;Optimizer Agent&lt;/b&gt;&lt;br&gt;bottleneck findings,&lt;br&gt;recommendations,&lt;br&gt;As-Is → To-Be transform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1a4fa0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="510" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="onode4" value="&lt;b&gt;DFG miner&lt;/b&gt;&lt;br&gt;event log → directly-follows graph&lt;br&gt;→ BPMN with XOR split/join" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1a4fa0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="690" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="onode5" value="&lt;b&gt;Repair loop&lt;/b&gt;&lt;br&gt;auto-fix + retry (max 2)&lt;br&gt;with validation feedback" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="860" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ostate" value="&lt;b&gt;PipelineState&lt;/b&gt;&lt;br&gt;typed state channels&lt;br&gt;(conditional edges)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#1a4fa0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="330" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="llopenai" value="&lt;b&gt;OpenAI-compatible&lt;/b&gt;&lt;br&gt;/chat/completions&lt;br&gt;(JSON mode, retries)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="150" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="llanthropic" value="&lt;b&gt;Anthropic Messages API&lt;/b&gt;&lt;br&gt;claude models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="290" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lloff" value="&lt;b&gt;Offline rule engine&lt;/b&gt;&lt;br&gt;always available —&lt;br&gt;no key, no network" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#2e7d32;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="obpmn" value="&lt;b&gt;BPMN 2.0 + DI&lt;/b&gt;&lt;br&gt;.bpmn (verified in bpmn-js)&lt;br&gt;As-Is + To-Be" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#2e7d32;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="600" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oexp" value="&lt;b&gt;Exports&lt;/b&gt;&lt;br&gt;draw.io, Mermaid, SVG,&lt;br&gt;model JSON, log stats JSON" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="730" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="orep" value="&lt;b&gt;HTML analyst report&lt;/b&gt;&lt;br&gt;findings, recs, before/after,&lt;br&gt;variants, embedded diagrams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="860" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ccli" value="&lt;b&gt;CLI&lt;/b&gt;&lt;br&gt;mine / analyze-log / validate&lt;br&gt;/ eval / demo / serve" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="150" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="capi" value="&lt;b&gt;REST API (FastAPI)&lt;/b&gt;&lt;br&gt;POST /mine, /analyze-log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="290" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ceval" value="&lt;b&gt;Evaluation harness&lt;/b&gt;&lt;br&gt;task F1 / actor F1 /&lt;br&gt;gateway error vs gold" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="420" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cana" value="&lt;b&gt;Analysts &amp;amp; auditors&lt;/b&gt;&lt;br&gt;reports, BPMN in Camunda/&lt;br&gt;draw.io/Lucidchart" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="560" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cpipeline" value="&lt;b&gt;CI (GitHub Actions)&lt;/b&gt;&lt;br&gt;pytest suite (125 tests)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="700" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="isop" target="inorm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="ilog" target="ilogparse">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="inorm" target="isteps">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="isteps" target="onode1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" value="feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#d6b656;exitX=0.5;exitY=0;entryX=1;entryY=0.5;" edge="1" parent="1" source="onode2" target="onode1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="onode1" target="onode2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="onode2" target="onode3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="ilogparse" target="onode4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="onode4" target="onode3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#2e7d32;" edge="1" parent="1" source="lloff" target="onode1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#2e7d32;" edge="1" parent="1" source="llopenai" target="onode1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#2e7d32;" edge="1" parent="1" source="llanthropic" target="onode1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="onode3" target="obpmn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="onode3" target="oexp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="onode3" target="orep">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="orep" target="cana">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="obpmn" target="cana">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="icfg" target="onode1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="igold" target="ceval">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,16 @@
+Purchase Request Procedure
+
+1. Submit the purchase request through the procurement portal.
+2. Validate the budget line with the finance controller. If the amount is
+   above the monthly threshold, obtain additional sign-off from the CFO.
+3. Select a vendor from the approved vendor list.
+4. If no approved vendor matches the request, run a request for quotation
+   with at least three vendors and select a vendor afterwards.
+5. Create the purchase order and send it to the vendor.
+6. Meanwhile, register the expected delivery date in the ERP system.
+7. Confirm the delivery when the goods arrive at the warehouse.
+8. Register the invoice when it arrives from the vendor.
+9. Check the invoice against the purchase order. If the invoice does not
+   match the purchase order, resolve the discrepancy with the vendor and
+   register the invoice again.
+10. Pay the invoice on the next payment run.

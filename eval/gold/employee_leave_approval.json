@@ -1,0 +1,18 @@
+{
+  "doc": "employee_leave_approval_sop.md",
+  "name": "Employee Leave Approval",
+  "tasks": [
+    "Check the leave balance automatically",
+    "Reject the request",
+    "Review the request",
+    "Request a backfill plan",
+    "Approve the leave request",
+    "Update the leave calendar",
+    "Send the confirmation to the employee",
+    "Record the deduction in the payroll run"
+  ],
+  "actors": ["Team Lead", "HR Officer", "HR System", "Payroll Team"],
+  "gateways": {"xor": 3, "and": 0},
+  "rework_loops": 0,
+  "notes": "XOR count: balance check decision, long-leave decision, merge of the backfill/approve branches."
+}

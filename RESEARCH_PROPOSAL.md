@@ -1,0 +1,94 @@
+# Research Proposal
+
+## LLM-Assisted Business Process Discovery: Combining Multi-Agent Extraction with Sound Process Mining for Automated BPMN Reconstruction
+
+**Candidate:** Aashish
+**Proposed programme:** Master of Information Technology (research pathway), Australia
+**Supporting artefact:** the merged ProcessMind framework in this repository (`MASTERS CAP1/`)
+
+---
+
+### 1. Background and motivation
+
+Business process knowledge in enterprises lives in two misaligned artefacts. The **documented process** exists as SOPs, runbooks and policy documents — unstructured, inconsistent, but intent-rich. The **enacted process** exists as event logs in ERP, CRM and ITSM systems — structured, factual, but blind to intent. Reconciling the two is the daily work of systems and business analysts, and it is expensive: mapping a single process typically takes days to weeks of interviews and workshops, and the result drifts out of date as soon as work practice changes.
+
+Process mining offers an established, algorithmic answer for the enacted side: directly-follows graph (DFG) discovery and the Inductive Miner family (Leemans et al.) produce process models from event logs with formal guarantees. But neither branch addresses the documented side, and neither reconciles intent with practice. Large language models change this picture: recent work on LLMs for business process management suggests they can read unstructured operational text and produce structured process descriptions. What is missing is a principled framework that treats LLM extraction, classical discovery, and the log–document reconciliation as *comparable, measurable alternatives within one pipeline* — rather than ad-hoc demos.
+
+### 2. Problem statement
+
+> Can heterogeneous process knowledge sources — unstructured SOP text and structured event logs — be fused into valid, conformance-checked BPMN 2.0 models by an automated pipeline, and how do LLM-based extractors compare with deterministic process-mining baselines on validity, fidelity and conformance?
+
+### 3. Research questions
+
+| # | Question | Current status in this repository |
+|---|---|---|
+| RQ1 | To what extent can unstructured SOP text be converted into structurally valid BPMN 2.0 models without human modelling effort? | Harness built; rule-parser baseline evaluated (task F1 0.78 on controlled-vocabulary corpus, honestly stated as a ceiling) |
+| RQ2 | How does a deterministic rule-based extractor compare with an LLM-based multi-agent extractor on task/actor/gateway recovery? | Comparison harness implemented; LLM runs execute when a provider key is configured |
+| RQ3 | Does multi-agent orchestration (model → validate → critique → retry) measurably improve output quality over single-prompt extraction? | Both orchestration engines implemented and asserted equivalent; experiment runnable |
+| RQ4 | How do DFG-based discovery (E4) and sound block-structured discovery (E6, Inductive Miner) trade off fitness, precision and model complexity on identical logs? | Unified benchmark implemented; first results below |
+| RQ5 | Can documented-vs-enacted drift (SOP model vs event log) be detected and quantified automatically to produce defensible As-Is → To-Be recommendations? | Drift detector (DF precision/recall + issue classification) and bottleneck-grounded optimizer implemented and tested |
+
+### 4. Method and system
+
+The framework under study is a multi-agent pipeline (`process_miner/`) with five extractor configurations evaluated by **one harness** (`process_miner/research_eval.py`):
+
+- **E1** — deterministic rule parser (SOP text → documented model);
+- **E2** — schema-guided LLM extraction (SOP text → documented model);
+- **E3** — E2 plus a bounded validate-and-retry self-correction loop (LangGraph conditional edges);
+- **E4** — DFG discovery with frequency filtering (event log → enacted model);
+- **E6** — a mini Inductive Miner (Leemans-style xor → seq → par → loop cut hierarchy, flower fallback), whose cuts are language-preserving so model soundness is a property of the *algorithm*, never of the LLM.
+
+The central design insight — inherited from the merged bpmn-miner prototype and the thesis's key architectural claim — is that **structure discovery and semantic enrichment must be separated**: control flow comes from deterministic, provably-sound mining; the LLM is confined to enrichment (naming, summarising, recommending) where errors are recoverable and human-reviewable.
+
+**Measures.** Extraction quality: task precision/recall/F1 via greedy token-stem matching against hand-annotated gold models; actor (lane) F1; gateway-count and rework-loop errors. Discovery soundness: token-based replay fitness over identical variant multisets (implemented in `process_miner/inductive/replay.py`), plus model size, structural validity and runtime. Conformance: directly-follows precision/recall and drift classification between documented and enacted models.
+
+**First results on the bundled corpora** (generated by `python -m process_miner.cli research-eval`; synthetic logs with *planted* ground truth — known bottlenecks, rework loops and noise variants):
+
+| log | cases | variants | E4 DFG fitness | E6 Inductive fitness | E6 coverage |
+|---|---|---|---|---|---|
+| IT incident management | 300 | 4 | 1.000 | 1.000 | 0.957 |
+| vendor onboarding | 250 | 4 | 1.000 | 1.000 | 0.940 |
+| invoice-to-pay (synthetic) | 150 | 3 | 1.000 | 1.000 | 1.000 |
+| order-to-cash (synthetic) | 149 | 5 | 0.919 | 1.000 | 1.000 |
+| procurement (synthetic) | 150 | 4 | 0.947 | 1.000 | 1.000 |
+| noisy synthetic | 150 | 5 | 0.667 | 0.947 | 0.947 |
+
+E6's fitness equals its variant coverage on every log — the expected signature of a sound-by-construction miner — while E4's frequency thresholding trades fitness for readability. This is exactly the fitness/precision/structure trade-off RQ4 interrogates, and it is now measurable rather than anecdotal.
+
+### 5. Planned master's-level extension
+
+The capstone artefact demonstrates feasibility; the research programme proper extends it along three axes:
+
+1. **Evaluation at scale and in the wild.** Move from controlled-vocabulary SOPs (3 bundled scenarios) to a public corpus (e.g. the BPI Challenge event-log suite) plus 5–10 real SOP documents collected under an ethics-approved protocol, with inter-annotator agreement reported for gold models. Target: ≥ 20 logs, ≥ 30 documents.
+2. **Embedding-based activity matching.** The current drift detector matches activities with token-stem similarity; replacing it with sentence-embedding matching (with an ablation against the lexical baseline) directly addresses the measured weakness (DF recall 50% on the vendor-onboarding pair due to vocabulary drift).
+3. **Human-in-the-loop study.** A within-subjects evaluation with practitioners comparing analyst effort and model quality with and without pipeline assistance — converting the system claim ("days to seconds for a first draft") into an empirical one.
+
+Statistical treatment: paired comparisons across configurations with confidence intervals; all code, seeds and corpora released for replication.
+
+### 6. Expected contributions
+
+1. A unified, reproducible benchmark (E1–E6) comparing LLM-based and classical process extractors under identical measures — currently these literatures evaluate incommensurably.
+2. Evidence on whether bounded multi-agent self-correction (validate → feedback → retry) yields measurable quality gains over single-prompt extraction (RQ3), a contested question in the emerging LLM-BPM literature.
+3. A sound-by-construction hybrid: LLM enrichment wrapped around guaranteed-sound mining, with automatic documented-vs-enacted drift detection.
+4. An open-source reference implementation with a 160+ test suite, deterministic outputs and a one-command evaluation (`python -m process_miner.cli research-eval`).
+
+### 7. Fit with Australian research environment
+
+Business process management, enterprise systems and trustworthy AI are established research strengths across Australian information-systems schools (e.g. QUT's School of Information Systems, UNSW's Information Systems and Technology Management discipline, the University of Melbourne's School of Computing and Information Systems). Process mining has direct industry uptake in Australia through Celonis/SAP Signavio ecosystems in banking, mining and government shared services, so the programme has a credible industry-internship and impact pathway alongside the academic one.
+
+### 8. Timeline (2-year research masters)
+
+| Period | Work |
+|---|---|
+| Months 1–3 | Literature review (process mining, LLM-BPM, multi-agent evaluation); corpus acquisition and ethics approval |
+| Months 4–8 | Embedding-based matching; full E1–E6 evaluation on the expanded corpus; statistical analysis |
+| Months 9–12 | Human-in-the-loop study; first paper submission (BPM workshops / CAiSE) |
+| Months 13–18 | Thesis writing; second submission or tool paper |
+| Months 19–24 | Thesis completion and defence |
+
+### 9. Resources already in place
+
+- A working merged framework: multi-agent LLM pipeline + deterministic baseline + DFG miner + Inductive Miner + token-replay conformance + drift detection + To-Be optimizer + FastAPI service + HTML analyst reports.
+- 162 passing tests; deterministic, byte-identical outputs for reproducibility.
+- A one-command research evaluation with JSON + Markdown outputs (`outputs/research/research_eval.md`).
+- Honest scope limits already documented (controlled vocabulary, heuristic drift indicators, F1 ceiling) — the starting point for the thesis's threats-to-validity section.

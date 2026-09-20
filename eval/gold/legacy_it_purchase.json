@@ -1,0 +1,24 @@
+{
+  "doc": "legacy_it_purchase_sop.txt",
+  "name": "IT Equipment Purchase Approval (legacy)",
+  "tasks": [
+    "Send the purchase requisition",
+    "Log the requisition",
+    "Attach the vendor quote",
+    "Check budget coverage",
+    "Notify the requester",
+    "Revise the amount",
+    "Sign off the order",
+    "Review the technical specification",
+    "Raise the purchase order",
+    "Email the purchase order to the vendor",
+    "Confirm goods receipt",
+    "Match the invoice",
+    "Release payment",
+    "Archive the case folder"
+  ],
+  "actors": ["Procurement Department", "Finance Controller", "CFO", "IT Manager", "Requester", "Accounts Payable"],
+  "gateways": {"xor": 3, "and": 0},
+  "rework_loops": 1,
+  "notes": "External-validity document: legacy prose with passive voice, coreferences, run-on sentences, inconsistent role naming, no metadata header. The gold reflects what a human analyst would extract; extractor scores below 1.0 here are expected and honest. Included in eval runs as the 'messy corpus' datapoint."
+}

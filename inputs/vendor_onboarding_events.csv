@@ -1,0 +1,2373 @@
+case_id,activity,timestamp,resource
+VND-0001,Receive Application,2026-03-04 12:50,Vendor Portal
+VND-0001,Verify Documents,2026-03-04 12:56,Vendor Portal
+VND-0001,Await Vendor Documents,2026-03-06 22:22,Vendor Portal
+VND-0001,Verify Documents,2026-03-06 22:27,Vendor Portal
+VND-0001,Review Application,2026-03-06 23:49,Procurement Officer
+VND-0001,Compliance Screening,2026-03-09 23:33,Compliance Team
+VND-0001,Financial Risk Assessment,2026-03-14 08:10,Finance Manager
+VND-0001,Approve Vendor,2026-03-14 14:12,Finance Manager
+VND-0001,Reject Application,2026-03-14 14:36,Procurement Officer
+VND-0002,Receive Application,2026-02-20 07:57,Vendor Portal
+VND-0002,Verify Documents,2026-02-20 08:07,Vendor Portal
+VND-0002,Review Application,2026-02-20 14:09,Procurement Officer
+VND-0002,Compliance Screening,2026-02-27 08:42,Compliance Team
+VND-0002,Financial Risk Assessment,2026-03-01 14:47,Finance Manager
+VND-0002,Approve Vendor,2026-03-02 13:46,Finance Manager
+VND-0002,Create Vendor Record,2026-03-02 13:51,ERP System
+VND-0002,Send Welcome Pack,2026-03-02 14:17,ERP System
+VND-0002,Archive Application,2026-03-02 14:44,ERP System
+VND-0003,Receive Application,2026-01-19 20:46,Vendor Portal
+VND-0003,Verify Documents,2026-01-19 20:53,Vendor Portal
+VND-0003,Review Application,2026-01-19 23:13,Procurement Officer
+VND-0003,Compliance Screening,2026-01-25 19:07,Compliance Team
+VND-0003,Financial Risk Assessment,2026-01-27 09:04,Finance Manager
+VND-0003,Approve Vendor,2026-01-27 19:40,Finance Manager
+VND-0003,Create Vendor Record,2026-01-27 20:07,ERP System
+VND-0003,Send Welcome Pack,2026-01-27 20:28,ERP System
+VND-0003,Archive Application,2026-01-27 20:38,ERP System
+VND-0004,Receive Application,2026-01-09 06:55,Vendor Portal
+VND-0004,Verify Documents,2026-01-09 07:05,Vendor Portal
+VND-0004,Review Application,2026-01-09 10:48,Procurement Officer
+VND-0004,Compliance Screening,2026-01-12 08:19,Compliance Team
+VND-0004,Financial Risk Assessment,2026-01-16 11:41,Finance Manager
+VND-0004,Approve Vendor,2026-01-18 10:35,Finance Manager
+VND-0004,Create Vendor Record,2026-01-18 11:35,ERP System
+VND-0004,Send Welcome Pack,2026-01-18 11:48,ERP System
+VND-0004,Archive Application,2026-01-18 12:08,ERP System
+VND-0005,Receive Application,2026-01-22 20:03,Vendor Portal
+VND-0005,Verify Documents,2026-01-22 20:05,Vendor Portal
+VND-0005,Review Application,2026-01-23 03:10,Procurement Officer
+VND-0005,Financial Risk Assessment,2026-01-28 10:11,Finance Manager
+VND-0005,Compliance Screening,2026-01-29 21:04,Compliance Team
+VND-0005,Approve Vendor,2026-02-01 12:13,Finance Manager
+VND-0005,Reject Application,2026-02-01 12:40,Procurement Officer
+VND-0006,Receive Application,2026-02-15 14:29,Vendor Portal
+VND-0006,Verify Documents,2026-02-15 14:36,Vendor Portal
+VND-0006,Review Application,2026-02-15 18:07,Procurement Officer
+VND-0006,Compliance Screening,2026-02-20 03:19,Compliance Team
+VND-0006,Financial Risk Assessment,2026-02-24 22:49,Finance Manager
+VND-0006,Approve Vendor,2026-02-27 18:45,Finance Manager
+VND-0006,Create Vendor Record,2026-02-27 18:54,ERP System
+VND-0006,Send Welcome Pack,2026-02-27 19:15,ERP System
+VND-0006,Archive Application,2026-02-27 19:37,ERP System
+VND-0007,Receive Application,2026-01-20 21:51,Vendor Portal
+VND-0007,Verify Documents,2026-01-20 21:56,Vendor Portal
+VND-0007,Review Application,2026-01-21 01:40,Procurement Officer
+VND-0007,Financial Risk Assessment,2026-01-26 03:22,Finance Manager
+VND-0007,Compliance Screening,2026-01-30 18:44,Compliance Team
+VND-0007,Approve Vendor,2026-01-31 13:43,Finance Manager
+VND-0007,Create Vendor Record,2026-01-31 14:41,ERP System
+VND-0007,Send Welcome Pack,2026-01-31 15:07,ERP System
+VND-0007,Archive Application,2026-01-31 15:33,ERP System
+VND-0008,Receive Application,2026-01-10 10:11,Vendor Portal
+VND-0008,Verify Documents,2026-01-10 10:13,Vendor Portal
+VND-0008,Await Vendor Documents,2026-01-16 00:07,Vendor Portal
+VND-0008,Verify Documents,2026-01-16 00:14,Vendor Portal
+VND-0008,Review Application,2026-01-16 01:17,Procurement Officer
+VND-0008,Financial Risk Assessment,2026-01-20 10:53,Finance Manager
+VND-0008,Compliance Screening,2026-01-24 16:19,Compliance Team
+VND-0008,Approve Vendor,2026-01-25 17:47,Finance Manager
+VND-0008,Create Vendor Record,2026-01-25 18:23,ERP System
+VND-0008,Send Welcome Pack,2026-01-25 18:37,ERP System
+VND-0008,Archive Application,2026-01-25 19:07,ERP System
+VND-0009,Receive Application,2026-03-04 20:19,Vendor Portal
+VND-0009,Verify Documents,2026-03-04 20:25,Vendor Portal
+VND-0009,Review Application,2026-03-05 03:16,Procurement Officer
+VND-0009,Financial Risk Assessment,2026-03-10 03:00,Finance Manager
+VND-0009,Compliance Screening,2026-03-15 08:59,Compliance Team
+VND-0009,Approve Vendor,2026-03-18 02:16,Finance Manager
+VND-0009,Create Vendor Record,2026-03-18 02:44,ERP System
+VND-0009,Send Welcome Pack,2026-03-18 02:53,ERP System
+VND-0009,Archive Application,2026-03-18 02:59,ERP System
+VND-0010,Receive Application,2026-02-20 17:04,Vendor Portal
+VND-0010,Verify Documents,2026-02-20 17:06,Vendor Portal
+VND-0010,Review Application,2026-02-20 18:54,Procurement Officer
+VND-0010,Financial Risk Assessment,2026-02-24 14:35,Finance Manager
+VND-0010,Compliance Screening,2026-03-02 02:43,Compliance Team
+VND-0010,Approve Vendor,2026-03-03 23:25,Finance Manager
+VND-0010,Reject Application,2026-03-03 23:59,Procurement Officer
+VND-0011,Receive Application,2026-02-28 13:44,Vendor Portal
+VND-0011,Verify Documents,2026-02-28 13:54,Vendor Portal
+VND-0011,Review Application,2026-02-28 19:07,Procurement Officer
+VND-0011,Financial Risk Assessment,2026-03-02 22:15,Finance Manager
+VND-0011,Compliance Screening,2026-03-07 19:07,Compliance Team
+VND-0011,Approve Vendor,2026-03-09 21:39,Finance Manager
+VND-0011,Create Vendor Record,2026-03-09 22:32,ERP System
+VND-0011,Send Welcome Pack,2026-03-09 22:42,ERP System
+VND-0011,Archive Application,2026-03-09 23:08,ERP System
+VND-0012,Receive Application,2026-03-04 16:12,Vendor Portal
+VND-0012,Verify Documents,2026-03-04 16:18,Vendor Portal
+VND-0012,Review Application,2026-03-04 20:40,Procurement Officer
+VND-0012,Financial Risk Assessment,2026-03-06 21:33,Finance Manager
+VND-0012,Compliance Screening,2026-03-12 00:08,Compliance Team
+VND-0012,Approve Vendor,2026-03-12 22:06,Finance Manager
+VND-0012,Create Vendor Record,2026-03-12 22:59,ERP System
+VND-0012,Send Welcome Pack,2026-03-12 23:06,ERP System
+VND-0012,Archive Application,2026-03-12 23:24,ERP System
+VND-0013,Receive Application,2026-01-15 00:27,Vendor Portal
+VND-0013,Verify Documents,2026-01-15 00:33,Vendor Portal
+VND-0013,Review Application,2026-01-15 05:22,Procurement Officer
+VND-0013,Compliance Screening,2026-01-19 11:40,Compliance Team
+VND-0013,Financial Risk Assessment,2026-01-21 08:32,Finance Manager
+VND-0013,Approve Vendor,2026-01-21 23:33,Finance Manager
+VND-0013,Create Vendor Record,2026-01-22 00:27,ERP System
+VND-0013,Send Welcome Pack,2026-01-22 00:45,ERP System
+VND-0013,Archive Application,2026-01-22 00:47,ERP System
+VND-0014,Receive Application,2026-02-28 20:24,Vendor Portal
+VND-0014,Verify Documents,2026-02-28 20:26,Vendor Portal
+VND-0014,Review Application,2026-03-01 00:01,Procurement Officer
+VND-0014,Compliance Screening,2026-03-06 11:59,Compliance Team
+VND-0014,Financial Risk Assessment,2026-03-08 20:40,Finance Manager
+VND-0014,Approve Vendor,2026-03-11 12:36,Finance Manager
+VND-0014,Create Vendor Record,2026-03-11 12:46,ERP System
+VND-0014,Send Welcome Pack,2026-03-11 12:50,ERP System
+VND-0014,Archive Application,2026-03-11 13:15,ERP System
+VND-0015,Receive Application,2026-02-18 13:39,Vendor Portal
+VND-0015,Verify Documents,2026-02-18 13:49,Vendor Portal
+VND-0015,Review Application,2026-02-18 15:24,Procurement Officer
+VND-0015,Compliance Screening,2026-02-26 01:11,Compliance Team
+VND-0015,Financial Risk Assessment,2026-03-02 04:14,Finance Manager
+VND-0015,Approve Vendor,2026-03-03 20:15,Finance Manager
+VND-0015,Create Vendor Record,2026-03-03 20:47,ERP System
+VND-0015,Send Welcome Pack,2026-03-03 20:55,ERP System
+VND-0015,Archive Application,2026-03-03 21:14,ERP System
+VND-0016,Receive Application,2026-01-23 15:25,Vendor Portal
+VND-0016,Verify Documents,2026-01-23 15:33,Vendor Portal
+VND-0016,Review Application,2026-01-23 21:35,Procurement Officer
+VND-0016,Financial Risk Assessment,2026-01-30 03:33,Finance Manager
+VND-0016,Compliance Screening,2026-02-02 15:21,Compliance Team
+VND-0016,Approve Vendor,2026-02-04 02:10,Finance Manager
+VND-0016,Create Vendor Record,2026-02-04 02:29,ERP System
+VND-0016,Send Welcome Pack,2026-02-04 02:33,ERP System
+VND-0016,Archive Application,2026-02-04 02:45,ERP System
+VND-0017,Receive Application,2026-01-07 05:57,Vendor Portal
+VND-0017,Verify Documents,2026-01-07 06:02,Vendor Portal
+VND-0017,Review Application,2026-01-07 06:35,Procurement Officer
+VND-0017,Financial Risk Assessment,2026-01-10 01:58,Finance Manager
+VND-0017,Compliance Screening,2026-01-15 02:36,Compliance Team
+VND-0017,Approve Vendor,2026-01-15 22:13,Finance Manager
+VND-0017,Reject Application,2026-01-15 22:25,Procurement Officer
+VND-0018,Receive Application,2026-02-04 09:49,Vendor Portal
+VND-0018,Verify Documents,2026-02-04 09:54,Vendor Portal
+VND-0018,Await Vendor Documents,2026-02-06 23:55,Vendor Portal
+VND-0018,Verify Documents,2026-02-07 00:04,Vendor Portal
+VND-0018,Review Application,2026-02-07 01:41,Procurement Officer
+VND-0018,Financial Risk Assessment,2026-02-14 10:45,Finance Manager
+VND-0018,Compliance Screening,2026-02-16 19:55,Compliance Team
+VND-0018,Approve Vendor,2026-02-19 07:02,Finance Manager
+VND-0018,Create Vendor Record,2026-02-19 07:13,ERP System
+VND-0018,Send Welcome Pack,2026-02-19 07:18,ERP System
+VND-0018,Archive Application,2026-02-19 07:41,ERP System
+VND-0019,Receive Application,2026-02-13 13:38,Vendor Portal
+VND-0019,Verify Documents,2026-02-13 13:46,Vendor Portal
+VND-0019,Review Application,2026-02-13 20:29,Procurement Officer
+VND-0019,Financial Risk Assessment,2026-02-16 11:16,Finance Manager
+VND-0019,Compliance Screening,2026-02-21 07:12,Compliance Team
+VND-0019,Approve Vendor,2026-02-23 07:18,Finance Manager
+VND-0019,Reject Application,2026-02-23 07:53,Procurement Officer
+VND-0020,Receive Application,2026-02-05 05:13,Vendor Portal
+VND-0020,Verify Documents,2026-02-05 05:16,Vendor Portal
+VND-0020,Review Application,2026-02-05 07:23,Procurement Officer
+VND-0020,Compliance Screening,2026-02-12 09:53,Compliance Team
+VND-0020,Financial Risk Assessment,2026-02-14 05:01,Finance Manager
+VND-0020,Approve Vendor,2026-02-15 04:01,Finance Manager
+VND-0020,Create Vendor Record,2026-02-15 05:01,ERP System
+VND-0020,Send Welcome Pack,2026-02-15 05:05,ERP System
+VND-0020,Archive Application,2026-02-15 05:21,ERP System
+VND-0021,Receive Application,2026-02-24 10:12,Vendor Portal
+VND-0021,Verify Documents,2026-02-24 10:22,Vendor Portal
+VND-0021,Await Vendor Documents,2026-03-02 04:30,Vendor Portal
+VND-0021,Verify Documents,2026-03-02 04:32,Vendor Portal
+VND-0021,Review Application,2026-03-02 11:27,Procurement Officer
+VND-0021,Compliance Screening,2026-03-07 03:59,Compliance Team
+VND-0021,Financial Risk Assessment,2026-03-09 02:41,Finance Manager
+VND-0021,Approve Vendor,2026-03-10 15:32,Finance Manager
+VND-0021,Create Vendor Record,2026-03-10 16:02,ERP System
+VND-0021,Send Welcome Pack,2026-03-10 16:32,ERP System
+VND-0021,Archive Application,2026-03-10 16:35,ERP System
+VND-0022,Receive Application,2026-01-20 07:39,Vendor Portal
+VND-0022,Verify Documents,2026-01-20 07:47,Vendor Portal
+VND-0022,Review Application,2026-01-20 14:58,Procurement Officer
+VND-0022,Compliance Screening,2026-01-27 19:12,Compliance Team
+VND-0022,Financial Risk Assessment,2026-01-30 10:08,Finance Manager
+VND-0022,Approve Vendor,2026-02-02 07:29,Finance Manager
+VND-0022,Create Vendor Record,2026-02-02 08:24,ERP System
+VND-0022,Send Welcome Pack,2026-02-02 08:43,ERP System
+VND-0022,Archive Application,2026-02-02 09:06,ERP System
+VND-0023,Receive Application,2026-02-18 15:08,Vendor Portal
+VND-0023,Verify Documents,2026-02-18 15:14,Vendor Portal
+VND-0023,Await Vendor Documents,2026-02-20 20:57,Vendor Portal
+VND-0023,Verify Documents,2026-02-20 20:59,Vendor Portal
+VND-0023,Review Application,2026-02-21 02:06,Procurement Officer
+VND-0023,Compliance Screening,2026-02-23 18:44,Compliance Team
+VND-0023,Financial Risk Assessment,2026-03-01 00:51,Finance Manager
+VND-0023,Approve Vendor,2026-03-01 08:16,Finance Manager
+VND-0023,Create Vendor Record,2026-03-01 08:53,ERP System
+VND-0023,Send Welcome Pack,2026-03-01 09:22,ERP System
+VND-0023,Archive Application,2026-03-01 09:40,ERP System
+VND-0024,Receive Application,2026-01-19 15:55,Vendor Portal
+VND-0024,Verify Documents,2026-01-19 16:05,Vendor Portal
+VND-0024,Await Vendor Documents,2026-01-21 03:01,Vendor Portal
+VND-0024,Verify Documents,2026-01-21 03:05,Vendor Portal
+VND-0024,Await Vendor Documents,2026-01-22 07:43,Vendor Portal
+VND-0024,Verify Documents,2026-01-22 07:48,Vendor Portal
+VND-0024,Review Application,2026-01-22 11:44,Procurement Officer
+VND-0024,Compliance Screening,2026-01-25 20:28,Compliance Team
+VND-0024,Financial Risk Assessment,2026-01-30 02:14,Finance Manager
+VND-0024,Approve Vendor,2026-01-31 22:49,Finance Manager
+VND-0024,Reject Application,2026-01-31 23:04,Procurement Officer
+VND-0025,Receive Application,2026-02-12 11:48,Vendor Portal
+VND-0025,Verify Documents,2026-02-12 11:58,Vendor Portal
+VND-0025,Review Application,2026-02-12 14:41,Procurement Officer
+VND-0025,Financial Risk Assessment,2026-02-16 22:27,Finance Manager
+VND-0025,Compliance Screening,2026-02-21 17:53,Compliance Team
+VND-0025,Approve Vendor,2026-02-22 14:10,Finance Manager
+VND-0025,Create Vendor Record,2026-02-22 14:23,ERP System
+VND-0025,Send Welcome Pack,2026-02-22 14:46,ERP System
+VND-0025,Archive Application,2026-02-22 15:08,ERP System
+VND-0026,Receive Application,2026-02-01 15:21,Vendor Portal
+VND-0026,Verify Documents,2026-02-01 15:24,Vendor Portal
+VND-0026,Await Vendor Documents,2026-02-04 09:48,Vendor Portal
+VND-0026,Verify Documents,2026-02-04 09:51,Vendor Portal
+VND-0026,Review Application,2026-02-04 10:58,Procurement Officer
+VND-0026,Compliance Screening,2026-02-08 21:10,Compliance Team
+VND-0026,Financial Risk Assessment,2026-02-12 18:14,Finance Manager
+VND-0026,Approve Vendor,2026-02-15 13:56,Finance Manager
+VND-0026,Create Vendor Record,2026-02-15 14:05,ERP System
+VND-0026,Send Welcome Pack,2026-02-15 14:35,ERP System
+VND-0026,Archive Application,2026-02-15 14:44,ERP System
+VND-0027,Receive Application,2026-02-07 23:14,Vendor Portal
+VND-0027,Verify Documents,2026-02-07 23:23,Vendor Portal
+VND-0027,Await Vendor Documents,2026-02-13 17:13,Vendor Portal
+VND-0027,Verify Documents,2026-02-13 17:23,Vendor Portal
+VND-0027,Review Application,2026-02-13 23:06,Procurement Officer
+VND-0027,Financial Risk Assessment,2026-02-16 01:14,Finance Manager
+VND-0027,Compliance Screening,2026-02-20 20:25,Compliance Team
+VND-0027,Approve Vendor,2026-02-21 20:51,Finance Manager
+VND-0027,Create Vendor Record,2026-02-21 21:02,ERP System
+VND-0027,Send Welcome Pack,2026-02-21 21:32,ERP System
+VND-0027,Archive Application,2026-02-21 21:38,ERP System
+VND-0028,Receive Application,2026-01-29 09:44,Vendor Portal
+VND-0028,Verify Documents,2026-01-29 09:47,Vendor Portal
+VND-0028,Await Vendor Documents,2026-02-03 15:08,Vendor Portal
+VND-0028,Verify Documents,2026-02-03 15:18,Vendor Portal
+VND-0028,Review Application,2026-02-03 18:12,Procurement Officer
+VND-0028,Compliance Screening,2026-02-08 03:42,Compliance Team
+VND-0028,Financial Risk Assessment,2026-02-13 05:40,Finance Manager
+VND-0028,Approve Vendor,2026-02-15 08:35,Finance Manager
+VND-0028,Create Vendor Record,2026-02-15 08:56,ERP System
+VND-0028,Send Welcome Pack,2026-02-15 09:14,ERP System
+VND-0028,Archive Application,2026-02-15 09:31,ERP System
+VND-0029,Receive Application,2026-01-28 04:34,Vendor Portal
+VND-0029,Verify Documents,2026-01-28 04:36,Vendor Portal
+VND-0029,Review Application,2026-01-28 08:42,Procurement Officer
+VND-0029,Compliance Screening,2026-02-02 12:15,Compliance Team
+VND-0029,Financial Risk Assessment,2026-02-03 18:16,Finance Manager
+VND-0029,Approve Vendor,2026-02-06 02:54,Finance Manager
+VND-0029,Create Vendor Record,2026-02-06 03:15,ERP System
+VND-0029,Send Welcome Pack,2026-02-06 03:22,ERP System
+VND-0029,Archive Application,2026-02-06 03:47,ERP System
+VND-0030,Receive Application,2026-02-14 13:12,Vendor Portal
+VND-0030,Verify Documents,2026-02-14 13:20,Vendor Portal
+VND-0030,Review Application,2026-02-14 14:47,Procurement Officer
+VND-0030,Financial Risk Assessment,2026-02-17 11:19,Finance Manager
+VND-0030,Compliance Screening,2026-02-22 09:39,Compliance Team
+VND-0030,Approve Vendor,2026-02-24 02:53,Finance Manager
+VND-0030,Reject Application,2026-02-24 03:26,Procurement Officer
+VND-0031,Receive Application,2026-02-27 08:30,Vendor Portal
+VND-0031,Verify Documents,2026-02-27 08:38,Vendor Portal
+VND-0031,Review Application,2026-02-27 11:45,Procurement Officer
+VND-0031,Financial Risk Assessment,2026-03-05 15:19,Finance Manager
+VND-0031,Compliance Screening,2026-03-11 04:00,Compliance Team
+VND-0031,Approve Vendor,2026-03-11 10:43,Finance Manager
+VND-0031,Create Vendor Record,2026-03-11 11:01,ERP System
+VND-0031,Send Welcome Pack,2026-03-11 11:24,ERP System
+VND-0031,Archive Application,2026-03-11 11:33,ERP System
+VND-0032,Receive Application,2026-01-14 16:33,Vendor Portal
+VND-0032,Verify Documents,2026-01-14 16:43,Vendor Portal
+VND-0032,Review Application,2026-01-14 20:41,Procurement Officer
+VND-0032,Financial Risk Assessment,2026-01-18 14:53,Finance Manager
+VND-0032,Compliance Screening,2026-01-20 23:12,Compliance Team
+VND-0032,Approve Vendor,2026-01-23 21:50,Finance Manager
+VND-0032,Create Vendor Record,2026-01-23 22:06,ERP System
+VND-0032,Send Welcome Pack,2026-01-23 22:36,ERP System
+VND-0032,Archive Application,2026-01-23 22:51,ERP System
+VND-0033,Receive Application,2026-01-07 14:08,Vendor Portal
+VND-0033,Verify Documents,2026-01-07 14:15,Vendor Portal
+VND-0033,Await Vendor Documents,2026-01-13 01:04,Vendor Portal
+VND-0033,Verify Documents,2026-01-13 01:12,Vendor Portal
+VND-0033,Review Application,2026-01-13 09:04,Procurement Officer
+VND-0033,Compliance Screening,2026-01-18 04:49,Compliance Team
+VND-0033,Financial Risk Assessment,2026-01-20 17:14,Finance Manager
+VND-0033,Approve Vendor,2026-01-22 21:06,Finance Manager
+VND-0033,Reject Application,2026-01-22 21:18,Procurement Officer
+VND-0034,Receive Application,2026-02-17 04:14,Vendor Portal
+VND-0034,Verify Documents,2026-02-17 04:23,Vendor Portal
+VND-0034,Await Vendor Documents,2026-02-20 04:07,Vendor Portal
+VND-0034,Verify Documents,2026-02-20 04:13,Vendor Portal
+VND-0034,Review Application,2026-02-20 12:09,Procurement Officer
+VND-0034,Compliance Screening,2026-02-25 02:17,Compliance Team
+VND-0034,Financial Risk Assessment,2026-02-27 08:43,Finance Manager
+VND-0034,Approve Vendor,2026-02-28 01:54,Finance Manager
+VND-0034,Create Vendor Record,2026-02-28 02:16,ERP System
+VND-0034,Send Welcome Pack,2026-02-28 02:45,ERP System
+VND-0034,Archive Application,2026-02-28 02:49,ERP System
+VND-0035,Receive Application,2026-01-30 17:45,Vendor Portal
+VND-0035,Verify Documents,2026-01-30 17:55,Vendor Portal
+VND-0035,Review Application,2026-01-31 01:36,Procurement Officer
+VND-0035,Compliance Screening,2026-02-05 20:01,Compliance Team
+VND-0035,Financial Risk Assessment,2026-02-06 23:47,Finance Manager
+VND-0035,Approve Vendor,2026-02-09 22:01,Finance Manager
+VND-0035,Create Vendor Record,2026-02-09 22:43,ERP System
+VND-0035,Send Welcome Pack,2026-02-09 22:53,ERP System
+VND-0035,Archive Application,2026-02-09 22:56,ERP System
+VND-0036,Receive Application,2026-01-15 04:48,Vendor Portal
+VND-0036,Verify Documents,2026-01-15 04:55,Vendor Portal
+VND-0036,Review Application,2026-01-15 08:05,Procurement Officer
+VND-0036,Financial Risk Assessment,2026-01-22 07:14,Finance Manager
+VND-0036,Compliance Screening,2026-01-26 18:00,Compliance Team
+VND-0036,Approve Vendor,2026-01-27 05:53,Finance Manager
+VND-0036,Create Vendor Record,2026-01-27 06:34,ERP System
+VND-0036,Send Welcome Pack,2026-01-27 06:42,ERP System
+VND-0036,Archive Application,2026-01-27 06:52,ERP System
+VND-0037,Receive Application,2026-01-09 08:57,Vendor Portal
+VND-0037,Verify Documents,2026-01-09 08:59,Vendor Portal
+VND-0037,Review Application,2026-01-09 16:21,Procurement Officer
+VND-0037,Compliance Screening,2026-01-13 22:09,Compliance Team
+VND-0037,Financial Risk Assessment,2026-01-16 23:52,Finance Manager
+VND-0037,Approve Vendor,2026-01-19 20:38,Finance Manager
+VND-0037,Create Vendor Record,2026-01-19 21:04,ERP System
+VND-0037,Send Welcome Pack,2026-01-19 21:25,ERP System
+VND-0037,Archive Application,2026-01-19 21:37,ERP System
+VND-0038,Receive Application,2026-01-16 16:14,Vendor Portal
+VND-0038,Verify Documents,2026-01-16 16:20,Vendor Portal
+VND-0038,Review Application,2026-01-16 22:31,Procurement Officer
+VND-0038,Compliance Screening,2026-01-23 14:02,Compliance Team
+VND-0038,Financial Risk Assessment,2026-01-26 10:34,Finance Manager
+VND-0038,Approve Vendor,2026-01-27 10:45,Finance Manager
+VND-0038,Create Vendor Record,2026-01-27 11:02,ERP System
+VND-0038,Send Welcome Pack,2026-01-27 11:17,ERP System
+VND-0038,Archive Application,2026-01-27 11:40,ERP System
+VND-0039,Receive Application,2026-02-08 20:15,Vendor Portal
+VND-0039,Verify Documents,2026-02-08 20:19,Vendor Portal
+VND-0039,Review Application,2026-02-08 23:23,Procurement Officer
+VND-0039,Financial Risk Assessment,2026-02-15 14:16,Finance Manager
+VND-0039,Compliance Screening,2026-02-19 17:04,Compliance Team
+VND-0039,Approve Vendor,2026-02-20 17:48,Finance Manager
+VND-0039,Create Vendor Record,2026-02-20 18:20,ERP System
+VND-0039,Send Welcome Pack,2026-02-20 18:47,ERP System
+VND-0039,Archive Application,2026-02-20 19:07,ERP System
+VND-0040,Receive Application,2026-03-01 13:16,Vendor Portal
+VND-0040,Verify Documents,2026-03-01 13:25,Vendor Portal
+VND-0040,Review Application,2026-03-01 19:40,Procurement Officer
+VND-0040,Compliance Screening,2026-03-06 06:01,Compliance Team
+VND-0040,Financial Risk Assessment,2026-03-10 03:48,Finance Manager
+VND-0040,Approve Vendor,2026-03-12 21:19,Finance Manager
+VND-0040,Create Vendor Record,2026-03-12 22:11,ERP System
+VND-0040,Send Welcome Pack,2026-03-12 22:18,ERP System
+VND-0040,Archive Application,2026-03-12 22:41,ERP System
+VND-0041,Receive Application,2026-01-13 01:14,Vendor Portal
+VND-0041,Verify Documents,2026-01-13 01:21,Vendor Portal
+VND-0041,Await Vendor Documents,2026-01-14 14:06,Vendor Portal
+VND-0041,Verify Documents,2026-01-14 14:11,Vendor Portal
+VND-0041,Review Application,2026-01-14 16:36,Procurement Officer
+VND-0041,Compliance Screening,2026-01-18 22:58,Compliance Team
+VND-0041,Financial Risk Assessment,2026-01-20 19:05,Finance Manager
+VND-0041,Approve Vendor,2026-01-21 15:47,Finance Manager
+VND-0041,Create Vendor Record,2026-01-21 16:31,ERP System
+VND-0041,Send Welcome Pack,2026-01-21 17:00,ERP System
+VND-0041,Archive Application,2026-01-21 17:26,ERP System
+VND-0042,Receive Application,2026-01-11 23:05,Vendor Portal
+VND-0042,Verify Documents,2026-01-11 23:10,Vendor Portal
+VND-0042,Review Application,2026-01-12 02:56,Procurement Officer
+VND-0042,Compliance Screening,2026-01-19 17:55,Compliance Team
+VND-0042,Financial Risk Assessment,2026-01-23 00:28,Finance Manager
+VND-0042,Approve Vendor,2026-01-25 01:15,Finance Manager
+VND-0042,Create Vendor Record,2026-01-25 02:08,ERP System
+VND-0042,Send Welcome Pack,2026-01-25 02:37,ERP System
+VND-0042,Archive Application,2026-01-25 03:03,ERP System
+VND-0043,Receive Application,2026-01-15 00:50,Vendor Portal
+VND-0043,Verify Documents,2026-01-15 00:55,Vendor Portal
+VND-0043,Review Application,2026-01-15 07:21,Procurement Officer
+VND-0043,Compliance Screening,2026-01-23 04:47,Compliance Team
+VND-0043,Financial Risk Assessment,2026-01-26 20:12,Finance Manager
+VND-0043,Approve Vendor,2026-01-27 17:12,Finance Manager
+VND-0043,Create Vendor Record,2026-01-27 17:24,ERP System
+VND-0043,Send Welcome Pack,2026-01-27 17:40,ERP System
+VND-0043,Archive Application,2026-01-27 17:46,ERP System
+VND-0044,Receive Application,2026-02-16 15:01,Vendor Portal
+VND-0044,Verify Documents,2026-02-16 15:11,Vendor Portal
+VND-0044,Review Application,2026-02-16 22:07,Procurement Officer
+VND-0044,Financial Risk Assessment,2026-02-23 22:58,Finance Manager
+VND-0044,Compliance Screening,2026-02-28 10:36,Compliance Team
+VND-0044,Approve Vendor,2026-03-03 03:29,Finance Manager
+VND-0044,Create Vendor Record,2026-03-03 04:27,ERP System
+VND-0044,Send Welcome Pack,2026-03-03 04:46,ERP System
+VND-0044,Archive Application,2026-03-03 05:02,ERP System
+VND-0045,Receive Application,2026-01-19 19:41,Vendor Portal
+VND-0045,Verify Documents,2026-01-19 19:50,Vendor Portal
+VND-0045,Review Application,2026-01-20 02:44,Procurement Officer
+VND-0045,Financial Risk Assessment,2026-01-24 22:14,Finance Manager
+VND-0045,Compliance Screening,2026-01-30 16:54,Compliance Team
+VND-0045,Approve Vendor,2026-02-02 01:10,Finance Manager
+VND-0045,Create Vendor Record,2026-02-02 01:46,ERP System
+VND-0045,Send Welcome Pack,2026-02-02 02:08,ERP System
+VND-0045,Archive Application,2026-02-02 02:17,ERP System
+VND-0046,Receive Application,2026-01-30 07:52,Vendor Portal
+VND-0046,Verify Documents,2026-01-30 07:58,Vendor Portal
+VND-0046,Review Application,2026-01-30 11:19,Procurement Officer
+VND-0046,Compliance Screening,2026-02-05 02:37,Compliance Team
+VND-0046,Financial Risk Assessment,2026-02-09 04:21,Finance Manager
+VND-0046,Approve Vendor,2026-02-09 18:38,Finance Manager
+VND-0046,Create Vendor Record,2026-02-09 19:27,ERP System
+VND-0046,Send Welcome Pack,2026-02-09 19:33,ERP System
+VND-0046,Archive Application,2026-02-09 19:57,ERP System
+VND-0047,Receive Application,2026-01-24 19:23,Vendor Portal
+VND-0047,Verify Documents,2026-01-24 19:31,Vendor Portal
+VND-0047,Await Vendor Documents,2026-01-27 16:41,Vendor Portal
+VND-0047,Verify Documents,2026-01-27 16:51,Vendor Portal
+VND-0047,Review Application,2026-01-27 17:52,Procurement Officer
+VND-0047,Compliance Screening,2026-02-01 02:20,Compliance Team
+VND-0047,Financial Risk Assessment,2026-02-06 20:03,Finance Manager
+VND-0047,Approve Vendor,2026-02-09 13:49,Finance Manager
+VND-0047,Create Vendor Record,2026-02-09 14:38,ERP System
+VND-0047,Send Welcome Pack,2026-02-09 14:40,ERP System
+VND-0047,Archive Application,2026-02-09 15:09,ERP System
+VND-0048,Receive Application,2026-02-26 17:36,Vendor Portal
+VND-0048,Verify Documents,2026-02-26 17:38,Vendor Portal
+VND-0048,Review Application,2026-02-26 20:40,Procurement Officer
+VND-0048,Financial Risk Assessment,2026-03-05 07:09,Finance Manager
+VND-0048,Compliance Screening,2026-03-11 03:40,Compliance Team
+VND-0048,Approve Vendor,2026-03-13 16:43,Finance Manager
+VND-0048,Create Vendor Record,2026-03-13 17:35,ERP System
+VND-0048,Send Welcome Pack,2026-03-13 18:00,ERP System
+VND-0048,Archive Application,2026-03-13 18:19,ERP System
+VND-0049,Receive Application,2026-03-01 05:49,Vendor Portal
+VND-0049,Verify Documents,2026-03-01 05:58,Vendor Portal
+VND-0049,Review Application,2026-03-01 10:11,Procurement Officer
+VND-0049,Compliance Screening,2026-03-08 22:47,Compliance Team
+VND-0049,Financial Risk Assessment,2026-03-10 02:44,Finance Manager
+VND-0049,Approve Vendor,2026-03-12 04:23,Finance Manager
+VND-0049,Create Vendor Record,2026-03-12 04:53,ERP System
+VND-0049,Send Welcome Pack,2026-03-12 05:18,ERP System
+VND-0049,Archive Application,2026-03-12 05:25,ERP System
+VND-0050,Receive Application,2026-02-16 21:01,Vendor Portal
+VND-0050,Verify Documents,2026-02-16 21:11,Vendor Portal
+VND-0050,Await Vendor Documents,2026-02-19 00:04,Vendor Portal
+VND-0050,Verify Documents,2026-02-19 00:06,Vendor Portal
+VND-0050,Review Application,2026-02-19 01:18,Procurement Officer
+VND-0050,Financial Risk Assessment,2026-02-25 22:20,Finance Manager
+VND-0050,Compliance Screening,2026-02-27 16:51,Compliance Team
+VND-0050,Approve Vendor,2026-02-28 09:15,Finance Manager
+VND-0050,Reject Application,2026-02-28 09:49,Procurement Officer
+VND-0051,Receive Application,2026-02-04 03:06,Vendor Portal
+VND-0051,Verify Documents,2026-02-04 03:13,Vendor Portal
+VND-0051,Await Vendor Documents,2026-02-07 01:17,Vendor Portal
+VND-0051,Verify Documents,2026-02-07 01:25,Vendor Portal
+VND-0051,Review Application,2026-02-07 09:00,Procurement Officer
+VND-0051,Financial Risk Assessment,2026-02-14 04:06,Finance Manager
+VND-0051,Compliance Screening,2026-02-16 14:32,Compliance Team
+VND-0051,Approve Vendor,2026-02-18 02:38,Finance Manager
+VND-0051,Reject Application,2026-02-18 03:22,Procurement Officer
+VND-0052,Receive Application,2026-01-10 01:46,Vendor Portal
+VND-0052,Verify Documents,2026-01-10 01:53,Vendor Portal
+VND-0052,Review Application,2026-01-10 02:58,Procurement Officer
+VND-0052,Compliance Screening,2026-01-12 13:57,Compliance Team
+VND-0052,Financial Risk Assessment,2026-01-17 20:55,Finance Manager
+VND-0052,Approve Vendor,2026-01-18 17:47,Finance Manager
+VND-0052,Create Vendor Record,2026-01-18 17:53,ERP System
+VND-0052,Send Welcome Pack,2026-01-18 18:14,ERP System
+VND-0052,Archive Application,2026-01-18 18:20,ERP System
+VND-0053,Receive Application,2026-01-27 01:06,Vendor Portal
+VND-0053,Verify Documents,2026-01-27 01:09,Vendor Portal
+VND-0053,Await Vendor Documents,2026-01-31 06:09,Vendor Portal
+VND-0053,Verify Documents,2026-01-31 06:14,Vendor Portal
+VND-0053,Review Application,2026-01-31 08:55,Procurement Officer
+VND-0053,Financial Risk Assessment,2026-02-06 13:38,Finance Manager
+VND-0053,Compliance Screening,2026-02-08 12:32,Compliance Team
+VND-0053,Approve Vendor,2026-02-11 10:19,Finance Manager
+VND-0053,Create Vendor Record,2026-02-11 10:31,ERP System
+VND-0053,Send Welcome Pack,2026-02-11 10:57,ERP System
+VND-0053,Archive Application,2026-02-11 11:25,ERP System
+VND-0054,Receive Application,2026-01-20 05:45,Vendor Portal
+VND-0054,Verify Documents,2026-01-20 05:48,Vendor Portal
+VND-0054,Review Application,2026-01-20 08:57,Procurement Officer
+VND-0054,Financial Risk Assessment,2026-01-26 15:26,Finance Manager
+VND-0054,Compliance Screening,2026-01-29 21:35,Compliance Team
+VND-0054,Approve Vendor,2026-01-30 15:07,Finance Manager
+VND-0054,Reject Application,2026-01-30 16:01,Procurement Officer
+VND-0055,Receive Application,2026-03-03 10:13,Vendor Portal
+VND-0055,Verify Documents,2026-03-03 10:19,Vendor Portal
+VND-0055,Await Vendor Documents,2026-03-09 06:24,Vendor Portal
+VND-0055,Verify Documents,2026-03-09 06:27,Vendor Portal
+VND-0055,Review Application,2026-03-09 11:46,Procurement Officer
+VND-0055,Financial Risk Assessment,2026-03-11 22:58,Finance Manager
+VND-0055,Compliance Screening,2026-03-14 22:22,Compliance Team
+VND-0055,Approve Vendor,2026-03-16 23:31,Finance Manager
+VND-0055,Create Vendor Record,2026-03-17 00:08,ERP System
+VND-0055,Send Welcome Pack,2026-03-17 00:30,ERP System
+VND-0055,Archive Application,2026-03-17 00:42,ERP System
+VND-0056,Receive Application,2026-01-06 11:38,Vendor Portal
+VND-0056,Verify Documents,2026-01-06 11:47,Vendor Portal
+VND-0056,Review Application,2026-01-06 15:22,Procurement Officer
+VND-0056,Compliance Screening,2026-01-13 20:54,Compliance Team
+VND-0056,Financial Risk Assessment,2026-01-18 21:28,Finance Manager
+VND-0056,Approve Vendor,2026-01-19 13:29,Finance Manager
+VND-0056,Create Vendor Record,2026-01-19 14:15,ERP System
+VND-0056,Send Welcome Pack,2026-01-19 14:25,ERP System
+VND-0056,Archive Application,2026-01-19 14:46,ERP System
+VND-0057,Receive Application,2026-02-23 07:39,Vendor Portal
+VND-0057,Verify Documents,2026-02-23 07:48,Vendor Portal
+VND-0057,Review Application,2026-02-23 14:32,Procurement Officer
+VND-0057,Financial Risk Assessment,2026-02-28 15:49,Finance Manager
+VND-0057,Compliance Screening,2026-03-03 11:49,Compliance Team
+VND-0057,Approve Vendor,2026-03-06 00:31,Finance Manager
+VND-0057,Create Vendor Record,2026-03-06 00:53,ERP System
+VND-0057,Send Welcome Pack,2026-03-06 01:23,ERP System
+VND-0057,Archive Application,2026-03-06 01:39,ERP System
+VND-0058,Receive Application,2026-01-27 12:43,Vendor Portal
+VND-0058,Verify Documents,2026-01-27 12:51,Vendor Portal
+VND-0058,Review Application,2026-01-27 17:34,Procurement Officer
+VND-0058,Compliance Screening,2026-02-02 10:19,Compliance Team
+VND-0058,Financial Risk Assessment,2026-02-04 11:08,Finance Manager
+VND-0058,Approve Vendor,2026-02-05 15:21,Finance Manager
+VND-0058,Create Vendor Record,2026-02-05 15:47,ERP System
+VND-0058,Send Welcome Pack,2026-02-05 15:57,ERP System
+VND-0058,Archive Application,2026-02-05 16:27,ERP System
+VND-0059,Receive Application,2026-02-28 14:19,Vendor Portal
+VND-0059,Verify Documents,2026-02-28 14:25,Vendor Portal
+VND-0059,Review Application,2026-02-28 19:19,Procurement Officer
+VND-0059,Compliance Screening,2026-03-04 23:29,Compliance Team
+VND-0059,Financial Risk Assessment,2026-03-06 11:10,Finance Manager
+VND-0059,Approve Vendor,2026-03-07 18:54,Finance Manager
+VND-0059,Create Vendor Record,2026-03-07 19:47,ERP System
+VND-0059,Send Welcome Pack,2026-03-07 19:56,ERP System
+VND-0059,Archive Application,2026-03-07 20:20,ERP System
+VND-0060,Receive Application,2026-02-17 16:02,Vendor Portal
+VND-0060,Verify Documents,2026-02-17 16:11,Vendor Portal
+VND-0060,Review Application,2026-02-17 16:49,Procurement Officer
+VND-0060,Compliance Screening,2026-02-20 18:13,Compliance Team
+VND-0060,Financial Risk Assessment,2026-02-23 10:23,Finance Manager
+VND-0060,Approve Vendor,2026-02-25 13:36,Finance Manager
+VND-0060,Create Vendor Record,2026-02-25 14:23,ERP System
+VND-0060,Send Welcome Pack,2026-02-25 14:43,ERP System
+VND-0060,Archive Application,2026-02-25 14:56,ERP System
+VND-0061,Receive Application,2026-02-17 09:51,Vendor Portal
+VND-0061,Verify Documents,2026-02-17 09:58,Vendor Portal
+VND-0061,Review Application,2026-02-17 16:49,Procurement Officer
+VND-0061,Financial Risk Assessment,2026-02-23 11:08,Finance Manager
+VND-0061,Compliance Screening,2026-02-26 11:10,Compliance Team
+VND-0061,Approve Vendor,2026-02-27 09:39,Finance Manager
+VND-0061,Create Vendor Record,2026-02-27 09:58,ERP System
+VND-0061,Send Welcome Pack,2026-02-27 10:03,ERP System
+VND-0061,Archive Application,2026-02-27 10:28,ERP System
+VND-0062,Receive Application,2026-01-22 20:42,Vendor Portal
+VND-0062,Verify Documents,2026-01-22 20:52,Vendor Portal
+VND-0062,Review Application,2026-01-23 03:15,Procurement Officer
+VND-0062,Compliance Screening,2026-01-27 05:48,Compliance Team
+VND-0062,Financial Risk Assessment,2026-01-29 07:57,Finance Manager
+VND-0062,Approve Vendor,2026-01-30 21:00,Finance Manager
+VND-0062,Create Vendor Record,2026-01-30 21:42,ERP System
+VND-0062,Send Welcome Pack,2026-01-30 22:08,ERP System
+VND-0062,Archive Application,2026-01-30 22:26,ERP System
+VND-0063,Receive Application,2026-02-28 15:42,Vendor Portal
+VND-0063,Verify Documents,2026-02-28 15:45,Vendor Portal
+VND-0063,Await Vendor Documents,2026-03-06 09:25,Vendor Portal
+VND-0063,Verify Documents,2026-03-06 09:30,Vendor Portal
+VND-0063,Review Application,2026-03-06 13:04,Procurement Officer
+VND-0063,Compliance Screening,2026-03-10 14:03,Compliance Team
+VND-0063,Financial Risk Assessment,2026-03-13 07:19,Finance Manager
+VND-0063,Approve Vendor,2026-03-14 23:46,Finance Manager
+VND-0063,Create Vendor Record,2026-03-14 23:53,ERP System
+VND-0063,Send Welcome Pack,2026-03-14 23:56,ERP System
+VND-0063,Archive Application,2026-03-15 00:15,ERP System
+VND-0064,Receive Application,2026-01-31 22:10,Vendor Portal
+VND-0064,Verify Documents,2026-01-31 22:14,Vendor Portal
+VND-0064,Review Application,2026-02-01 05:09,Procurement Officer
+VND-0064,Financial Risk Assessment,2026-02-08 19:11,Finance Manager
+VND-0064,Compliance Screening,2026-02-10 09:11,Compliance Team
+VND-0064,Approve Vendor,2026-02-12 04:22,Finance Manager
+VND-0064,Create Vendor Record,2026-02-12 04:57,ERP System
+VND-0064,Send Welcome Pack,2026-02-12 05:13,ERP System
+VND-0064,Archive Application,2026-02-12 05:25,ERP System
+VND-0065,Receive Application,2026-01-22 02:44,Vendor Portal
+VND-0065,Verify Documents,2026-01-22 02:50,Vendor Portal
+VND-0065,Review Application,2026-01-22 07:24,Procurement Officer
+VND-0065,Compliance Screening,2026-01-25 14:33,Compliance Team
+VND-0065,Financial Risk Assessment,2026-01-31 06:47,Finance Manager
+VND-0065,Approve Vendor,2026-02-01 20:21,Finance Manager
+VND-0065,Reject Application,2026-02-01 21:11,Procurement Officer
+VND-0066,Receive Application,2026-01-10 05:06,Vendor Portal
+VND-0066,Verify Documents,2026-01-10 05:12,Vendor Portal
+VND-0066,Await Vendor Documents,2026-01-11 16:49,Vendor Portal
+VND-0066,Verify Documents,2026-01-11 16:54,Vendor Portal
+VND-0066,Review Application,2026-01-11 23:55,Procurement Officer
+VND-0066,Financial Risk Assessment,2026-01-18 17:33,Finance Manager
+VND-0066,Compliance Screening,2026-01-23 04:19,Compliance Team
+VND-0066,Approve Vendor,2026-01-25 02:32,Finance Manager
+VND-0066,Create Vendor Record,2026-01-25 03:10,ERP System
+VND-0066,Send Welcome Pack,2026-01-25 03:24,ERP System
+VND-0066,Archive Application,2026-01-25 03:40,ERP System
+VND-0067,Receive Application,2026-02-14 15:08,Vendor Portal
+VND-0067,Verify Documents,2026-02-14 15:16,Vendor Portal
+VND-0067,Await Vendor Documents,2026-02-17 08:57,Vendor Portal
+VND-0067,Verify Documents,2026-02-17 08:59,Vendor Portal
+VND-0067,Review Application,2026-02-17 15:47,Procurement Officer
+VND-0067,Compliance Screening,2026-02-20 18:52,Compliance Team
+VND-0067,Financial Risk Assessment,2026-02-26 03:00,Finance Manager
+VND-0067,Approve Vendor,2026-02-26 21:24,Finance Manager
+VND-0067,Create Vendor Record,2026-02-26 21:34,ERP System
+VND-0067,Send Welcome Pack,2026-02-26 21:41,ERP System
+VND-0067,Archive Application,2026-02-26 21:50,ERP System
+VND-0068,Receive Application,2026-01-21 03:42,Vendor Portal
+VND-0068,Verify Documents,2026-01-21 03:46,Vendor Portal
+VND-0068,Await Vendor Documents,2026-01-23 10:31,Vendor Portal
+VND-0068,Verify Documents,2026-01-23 10:40,Vendor Portal
+VND-0068,Review Application,2026-01-23 13:39,Procurement Officer
+VND-0068,Compliance Screening,2026-01-25 22:33,Compliance Team
+VND-0068,Financial Risk Assessment,2026-01-28 06:09,Finance Manager
+VND-0068,Approve Vendor,2026-01-29 05:27,Finance Manager
+VND-0068,Create Vendor Record,2026-01-29 06:01,ERP System
+VND-0068,Send Welcome Pack,2026-01-29 06:05,ERP System
+VND-0068,Archive Application,2026-01-29 06:28,ERP System
+VND-0069,Receive Application,2026-01-26 13:55,Vendor Portal
+VND-0069,Verify Documents,2026-01-26 14:00,Vendor Portal
+VND-0069,Review Application,2026-01-26 19:08,Procurement Officer
+VND-0069,Compliance Screening,2026-01-31 08:31,Compliance Team
+VND-0069,Financial Risk Assessment,2026-02-05 00:56,Finance Manager
+VND-0069,Approve Vendor,2026-02-05 23:04,Finance Manager
+VND-0069,Create Vendor Record,2026-02-05 23:13,ERP System
+VND-0069,Send Welcome Pack,2026-02-05 23:16,ERP System
+VND-0069,Archive Application,2026-02-05 23:23,ERP System
+VND-0070,Receive Application,2026-02-02 07:59,Vendor Portal
+VND-0070,Verify Documents,2026-02-02 08:05,Vendor Portal
+VND-0070,Review Application,2026-02-02 12:34,Procurement Officer
+VND-0070,Compliance Screening,2026-02-07 23:36,Compliance Team
+VND-0070,Financial Risk Assessment,2026-02-12 23:08,Finance Manager
+VND-0070,Approve Vendor,2026-02-13 21:43,Finance Manager
+VND-0070,Create Vendor Record,2026-02-13 22:19,ERP System
+VND-0070,Send Welcome Pack,2026-02-13 22:35,ERP System
+VND-0070,Archive Application,2026-02-13 22:39,ERP System
+VND-0071,Receive Application,2026-02-28 18:25,Vendor Portal
+VND-0071,Verify Documents,2026-02-28 18:33,Vendor Portal
+VND-0071,Await Vendor Documents,2026-03-05 22:50,Vendor Portal
+VND-0071,Verify Documents,2026-03-05 22:57,Vendor Portal
+VND-0071,Review Application,2026-03-05 23:40,Procurement Officer
+VND-0071,Financial Risk Assessment,2026-03-09 00:36,Finance Manager
+VND-0071,Compliance Screening,2026-03-11 07:51,Compliance Team
+VND-0071,Approve Vendor,2026-03-13 20:55,Finance Manager
+VND-0071,Create Vendor Record,2026-03-13 21:37,ERP System
+VND-0071,Send Welcome Pack,2026-03-13 21:39,ERP System
+VND-0071,Archive Application,2026-03-13 22:05,ERP System
+VND-0072,Receive Application,2026-01-29 20:45,Vendor Portal
+VND-0072,Verify Documents,2026-01-29 20:49,Vendor Portal
+VND-0072,Review Application,2026-01-30 02:52,Procurement Officer
+VND-0072,Compliance Screening,2026-02-06 03:37,Compliance Team
+VND-0072,Financial Risk Assessment,2026-02-08 17:35,Finance Manager
+VND-0072,Approve Vendor,2026-02-10 13:32,Finance Manager
+VND-0072,Create Vendor Record,2026-02-10 14:29,ERP System
+VND-0072,Send Welcome Pack,2026-02-10 14:46,ERP System
+VND-0072,Archive Application,2026-02-10 14:50,ERP System
+VND-0073,Receive Application,2026-02-17 02:45,Vendor Portal
+VND-0073,Verify Documents,2026-02-17 02:52,Vendor Portal
+VND-0073,Review Application,2026-02-17 04:15,Procurement Officer
+VND-0073,Compliance Screening,2026-02-21 00:09,Compliance Team
+VND-0073,Financial Risk Assessment,2026-02-23 21:10,Finance Manager
+VND-0073,Approve Vendor,2026-02-25 10:59,Finance Manager
+VND-0073,Create Vendor Record,2026-02-25 11:29,ERP System
+VND-0073,Send Welcome Pack,2026-02-25 11:57,ERP System
+VND-0073,Archive Application,2026-02-25 12:23,ERP System
+VND-0074,Receive Application,2026-02-24 09:42,Vendor Portal
+VND-0074,Verify Documents,2026-02-24 09:45,Vendor Portal
+VND-0074,Await Vendor Documents,2026-02-27 04:41,Vendor Portal
+VND-0074,Verify Documents,2026-02-27 04:47,Vendor Portal
+VND-0074,Review Application,2026-02-27 11:52,Procurement Officer
+VND-0074,Financial Risk Assessment,2026-03-06 02:14,Finance Manager
+VND-0074,Compliance Screening,2026-03-12 00:19,Compliance Team
+VND-0074,Approve Vendor,2026-03-14 23:46,Finance Manager
+VND-0074,Reject Application,2026-03-15 00:30,Procurement Officer
+VND-0075,Receive Application,2026-02-16 09:12,Vendor Portal
+VND-0075,Verify Documents,2026-02-16 09:17,Vendor Portal
+VND-0075,Review Application,2026-02-16 15:05,Procurement Officer
+VND-0075,Compliance Screening,2026-02-24 07:12,Compliance Team
+VND-0075,Financial Risk Assessment,2026-02-28 20:35,Finance Manager
+VND-0075,Approve Vendor,2026-03-01 04:06,Finance Manager
+VND-0075,Create Vendor Record,2026-03-01 04:46,ERP System
+VND-0075,Send Welcome Pack,2026-03-01 04:52,ERP System
+VND-0075,Archive Application,2026-03-01 05:03,ERP System
+VND-0076,Receive Application,2026-02-14 05:04,Vendor Portal
+VND-0076,Verify Documents,2026-02-14 05:13,Vendor Portal
+VND-0076,Review Application,2026-02-14 11:05,Procurement Officer
+VND-0076,Compliance Screening,2026-02-19 04:25,Compliance Team
+VND-0076,Financial Risk Assessment,2026-02-24 05:19,Finance Manager
+VND-0076,Approve Vendor,2026-02-25 22:55,Finance Manager
+VND-0076,Reject Application,2026-02-25 23:31,Procurement Officer
+VND-0077,Receive Application,2026-01-13 19:37,Vendor Portal
+VND-0077,Verify Documents,2026-01-13 19:40,Vendor Portal
+VND-0077,Await Vendor Documents,2026-01-17 10:40,Vendor Portal
+VND-0077,Verify Documents,2026-01-17 10:43,Vendor Portal
+VND-0077,Review Application,2026-01-17 12:31,Procurement Officer
+VND-0077,Compliance Screening,2026-01-25 04:36,Compliance Team
+VND-0077,Financial Risk Assessment,2026-01-30 06:26,Finance Manager
+VND-0077,Approve Vendor,2026-02-01 10:35,Finance Manager
+VND-0077,Create Vendor Record,2026-02-01 11:33,ERP System
+VND-0077,Send Welcome Pack,2026-02-01 11:50,ERP System
+VND-0077,Archive Application,2026-02-01 12:07,ERP System
+VND-0078,Receive Application,2026-01-27 12:26,Vendor Portal
+VND-0078,Verify Documents,2026-01-27 12:30,Vendor Portal
+VND-0078,Review Application,2026-01-27 18:06,Procurement Officer
+VND-0078,Financial Risk Assessment,2026-02-04 12:53,Finance Manager
+VND-0078,Compliance Screening,2026-02-09 18:46,Compliance Team
+VND-0078,Approve Vendor,2026-02-12 09:45,Finance Manager
+VND-0078,Reject Application,2026-02-12 10:44,Procurement Officer
+VND-0079,Receive Application,2026-02-12 02:27,Vendor Portal
+VND-0079,Verify Documents,2026-02-12 02:37,Vendor Portal
+VND-0079,Review Application,2026-02-12 03:08,Procurement Officer
+VND-0079,Compliance Screening,2026-02-17 08:22,Compliance Team
+VND-0079,Financial Risk Assessment,2026-02-22 11:29,Finance Manager
+VND-0079,Approve Vendor,2026-02-24 07:33,Finance Manager
+VND-0079,Create Vendor Record,2026-02-24 08:20,ERP System
+VND-0079,Send Welcome Pack,2026-02-24 08:37,ERP System
+VND-0079,Archive Application,2026-02-24 09:06,ERP System
+VND-0080,Receive Application,2026-01-18 20:36,Vendor Portal
+VND-0080,Verify Documents,2026-01-18 20:45,Vendor Portal
+VND-0080,Review Application,2026-01-19 01:57,Procurement Officer
+VND-0080,Financial Risk Assessment,2026-01-25 08:57,Finance Manager
+VND-0080,Compliance Screening,2026-01-28 23:07,Compliance Team
+VND-0080,Approve Vendor,2026-01-31 14:28,Finance Manager
+VND-0080,Create Vendor Record,2026-01-31 15:17,ERP System
+VND-0080,Send Welcome Pack,2026-01-31 15:26,ERP System
+VND-0080,Archive Application,2026-01-31 15:46,ERP System
+VND-0081,Receive Application,2026-02-09 04:36,Vendor Portal
+VND-0081,Verify Documents,2026-02-09 04:44,Vendor Portal
+VND-0081,Await Vendor Documents,2026-02-10 10:41,Vendor Portal
+VND-0081,Verify Documents,2026-02-10 10:48,Vendor Portal
+VND-0081,Review Application,2026-02-10 17:19,Procurement Officer
+VND-0081,Financial Risk Assessment,2026-02-17 01:25,Finance Manager
+VND-0081,Compliance Screening,2026-02-20 06:07,Compliance Team
+VND-0081,Approve Vendor,2026-02-22 16:12,Finance Manager
+VND-0081,Create Vendor Record,2026-02-22 16:26,ERP System
+VND-0081,Send Welcome Pack,2026-02-22 16:43,ERP System
+VND-0081,Archive Application,2026-02-22 16:46,ERP System
+VND-0082,Receive Application,2026-01-16 19:47,Vendor Portal
+VND-0082,Verify Documents,2026-01-16 19:54,Vendor Portal
+VND-0082,Review Application,2026-01-17 03:51,Procurement Officer
+VND-0082,Financial Risk Assessment,2026-01-24 04:04,Finance Manager
+VND-0082,Compliance Screening,2026-01-25 17:40,Compliance Team
+VND-0082,Approve Vendor,2026-01-27 04:51,Finance Manager
+VND-0082,Reject Application,2026-01-27 05:10,Procurement Officer
+VND-0083,Receive Application,2026-02-11 15:36,Vendor Portal
+VND-0083,Verify Documents,2026-02-11 15:40,Vendor Portal
+VND-0083,Await Vendor Documents,2026-02-13 09:45,Vendor Portal
+VND-0083,Verify Documents,2026-02-13 09:52,Vendor Portal
+VND-0083,Review Application,2026-02-13 15:41,Procurement Officer
+VND-0083,Compliance Screening,2026-02-20 04:13,Compliance Team
+VND-0083,Financial Risk Assessment,2026-02-24 20:56,Finance Manager
+VND-0083,Approve Vendor,2026-02-25 23:21,Finance Manager
+VND-0083,Create Vendor Record,2026-02-26 00:20,ERP System
+VND-0083,Send Welcome Pack,2026-02-26 00:39,ERP System
+VND-0083,Archive Application,2026-02-26 00:53,ERP System
+VND-0084,Receive Application,2026-02-03 03:45,Vendor Portal
+VND-0084,Verify Documents,2026-02-03 03:54,Vendor Portal
+VND-0084,Review Application,2026-02-03 04:42,Procurement Officer
+VND-0084,Financial Risk Assessment,2026-02-05 23:23,Finance Manager
+VND-0084,Compliance Screening,2026-02-08 07:26,Compliance Team
+VND-0084,Approve Vendor,2026-02-11 02:18,Finance Manager
+VND-0084,Create Vendor Record,2026-02-11 02:37,ERP System
+VND-0084,Send Welcome Pack,2026-02-11 03:02,ERP System
+VND-0084,Archive Application,2026-02-11 03:06,ERP System
+VND-0085,Receive Application,2026-02-13 20:01,Vendor Portal
+VND-0085,Verify Documents,2026-02-13 20:04,Vendor Portal
+VND-0085,Review Application,2026-02-14 02:29,Procurement Officer
+VND-0085,Compliance Screening,2026-02-19 12:15,Compliance Team
+VND-0085,Financial Risk Assessment,2026-02-20 16:12,Finance Manager
+VND-0085,Approve Vendor,2026-02-23 02:33,Finance Manager
+VND-0085,Reject Application,2026-02-23 03:05,Procurement Officer
+VND-0086,Receive Application,2026-02-08 10:51,Vendor Portal
+VND-0086,Verify Documents,2026-02-08 10:56,Vendor Portal
+VND-0086,Review Application,2026-02-08 16:15,Procurement Officer
+VND-0086,Compliance Screening,2026-02-12 17:25,Compliance Team
+VND-0086,Financial Risk Assessment,2026-02-14 16:37,Finance Manager
+VND-0086,Approve Vendor,2026-02-16 14:13,Finance Manager
+VND-0086,Create Vendor Record,2026-02-16 14:57,ERP System
+VND-0086,Send Welcome Pack,2026-02-16 15:20,ERP System
+VND-0086,Archive Application,2026-02-16 15:29,ERP System
+VND-0087,Receive Application,2026-02-19 15:10,Vendor Portal
+VND-0087,Verify Documents,2026-02-19 15:14,Vendor Portal
+VND-0087,Review Application,2026-02-19 21:10,Procurement Officer
+VND-0087,Compliance Screening,2026-02-24 18:31,Compliance Team
+VND-0087,Financial Risk Assessment,2026-02-28 09:15,Finance Manager
+VND-0087,Approve Vendor,2026-02-28 13:53,Finance Manager
+VND-0087,Create Vendor Record,2026-02-28 14:27,ERP System
+VND-0087,Send Welcome Pack,2026-02-28 14:57,ERP System
+VND-0087,Archive Application,2026-02-28 15:08,ERP System
+VND-0088,Receive Application,2026-02-24 02:03,Vendor Portal
+VND-0088,Verify Documents,2026-02-24 02:12,Vendor Portal
+VND-0088,Await Vendor Documents,2026-02-27 01:22,Vendor Portal
+VND-0088,Verify Documents,2026-02-27 01:28,Vendor Portal
+VND-0088,Review Application,2026-02-27 05:35,Procurement Officer
+VND-0088,Financial Risk Assessment,2026-03-04 01:52,Finance Manager
+VND-0088,Compliance Screening,2026-03-07 16:14,Compliance Team
+VND-0088,Approve Vendor,2026-03-08 09:49,Finance Manager
+VND-0088,Create Vendor Record,2026-03-08 10:48,ERP System
+VND-0088,Send Welcome Pack,2026-03-08 11:05,ERP System
+VND-0088,Archive Application,2026-03-08 11:10,ERP System
+VND-0089,Receive Application,2026-01-26 22:11,Vendor Portal
+VND-0089,Verify Documents,2026-01-26 22:18,Vendor Portal
+VND-0089,Review Application,2026-01-27 04:46,Procurement Officer
+VND-0089,Financial Risk Assessment,2026-02-01 13:23,Finance Manager
+VND-0089,Compliance Screening,2026-02-02 16:22,Compliance Team
+VND-0089,Approve Vendor,2026-02-04 17:18,Finance Manager
+VND-0089,Create Vendor Record,2026-02-04 17:23,ERP System
+VND-0089,Send Welcome Pack,2026-02-04 17:43,ERP System
+VND-0089,Archive Application,2026-02-04 18:12,ERP System
+VND-0090,Receive Application,2026-01-09 19:08,Vendor Portal
+VND-0090,Verify Documents,2026-01-09 19:17,Vendor Portal
+VND-0090,Review Application,2026-01-09 22:13,Procurement Officer
+VND-0090,Financial Risk Assessment,2026-01-14 13:03,Finance Manager
+VND-0090,Compliance Screening,2026-01-18 23:56,Compliance Team
+VND-0090,Approve Vendor,2026-01-19 18:53,Finance Manager
+VND-0090,Create Vendor Record,2026-01-19 19:37,ERP System
+VND-0090,Send Welcome Pack,2026-01-19 19:47,ERP System
+VND-0090,Archive Application,2026-01-19 20:10,ERP System
+VND-0091,Receive Application,2026-03-06 08:00,Vendor Portal
+VND-0091,Verify Documents,2026-03-06 08:04,Vendor Portal
+VND-0091,Review Application,2026-03-06 13:55,Procurement Officer
+VND-0091,Financial Risk Assessment,2026-03-09 00:40,Finance Manager
+VND-0091,Compliance Screening,2026-03-11 18:50,Compliance Team
+VND-0091,Approve Vendor,2026-03-12 01:06,Finance Manager
+VND-0091,Create Vendor Record,2026-03-12 01:57,ERP System
+VND-0091,Send Welcome Pack,2026-03-12 02:03,ERP System
+VND-0091,Archive Application,2026-03-12 02:07,ERP System
+VND-0092,Receive Application,2026-02-01 04:40,Vendor Portal
+VND-0092,Verify Documents,2026-02-01 04:48,Vendor Portal
+VND-0092,Review Application,2026-02-01 06:25,Procurement Officer
+VND-0092,Financial Risk Assessment,2026-02-07 10:19,Finance Manager
+VND-0092,Compliance Screening,2026-02-11 10:47,Compliance Team
+VND-0092,Approve Vendor,2026-02-12 09:23,Finance Manager
+VND-0092,Create Vendor Record,2026-02-12 09:44,ERP System
+VND-0092,Send Welcome Pack,2026-02-12 10:12,ERP System
+VND-0092,Archive Application,2026-02-12 10:29,ERP System
+VND-0093,Receive Application,2026-02-01 04:44,Vendor Portal
+VND-0093,Verify Documents,2026-02-01 04:51,Vendor Portal
+VND-0093,Review Application,2026-02-01 09:20,Procurement Officer
+VND-0093,Financial Risk Assessment,2026-02-04 05:53,Finance Manager
+VND-0093,Compliance Screening,2026-02-06 01:06,Compliance Team
+VND-0093,Approve Vendor,2026-02-06 20:30,Finance Manager
+VND-0093,Create Vendor Record,2026-02-06 21:21,ERP System
+VND-0093,Send Welcome Pack,2026-02-06 21:44,ERP System
+VND-0093,Archive Application,2026-02-06 21:58,ERP System
+VND-0094,Receive Application,2026-02-25 01:28,Vendor Portal
+VND-0094,Verify Documents,2026-02-25 01:36,Vendor Portal
+VND-0094,Await Vendor Documents,2026-02-27 14:13,Vendor Portal
+VND-0094,Verify Documents,2026-02-27 14:16,Vendor Portal
+VND-0094,Review Application,2026-02-27 18:38,Procurement Officer
+VND-0094,Financial Risk Assessment,2026-03-05 23:16,Finance Manager
+VND-0094,Compliance Screening,2026-03-10 19:07,Compliance Team
+VND-0094,Approve Vendor,2026-03-11 17:00,Finance Manager
+VND-0094,Create Vendor Record,2026-03-11 17:57,ERP System
+VND-0094,Send Welcome Pack,2026-03-11 18:19,ERP System
+VND-0094,Archive Application,2026-03-11 18:32,ERP System
+VND-0095,Receive Application,2026-01-15 04:41,Vendor Portal
+VND-0095,Verify Documents,2026-01-15 04:50,Vendor Portal
+VND-0095,Await Vendor Documents,2026-01-17 19:09,Vendor Portal
+VND-0095,Verify Documents,2026-01-17 19:16,Vendor Portal
+VND-0095,Review Application,2026-01-18 00:58,Procurement Officer
+VND-0095,Compliance Screening,2026-01-22 13:24,Compliance Team
+VND-0095,Financial Risk Assessment,2026-01-27 05:49,Finance Manager
+VND-0095,Approve Vendor,2026-01-29 18:03,Finance Manager
+VND-0095,Create Vendor Record,2026-01-29 18:52,ERP System
+VND-0095,Send Welcome Pack,2026-01-29 19:03,ERP System
+VND-0095,Archive Application,2026-01-29 19:25,ERP System
+VND-0096,Receive Application,2026-02-11 11:56,Vendor Portal
+VND-0096,Verify Documents,2026-02-11 11:58,Vendor Portal
+VND-0096,Await Vendor Documents,2026-02-12 17:02,Vendor Portal
+VND-0096,Verify Documents,2026-02-12 17:08,Vendor Portal
+VND-0096,Review Application,2026-02-12 18:37,Procurement Officer
+VND-0096,Financial Risk Assessment,2026-02-15 21:09,Finance Manager
+VND-0096,Compliance Screening,2026-02-18 05:12,Compliance Team
+VND-0096,Approve Vendor,2026-02-18 18:27,Finance Manager
+VND-0096,Create Vendor Record,2026-02-18 18:55,ERP System
+VND-0096,Send Welcome Pack,2026-02-18 19:18,ERP System
+VND-0096,Archive Application,2026-02-18 19:43,ERP System
+VND-0097,Receive Application,2026-02-23 12:04,Vendor Portal
+VND-0097,Verify Documents,2026-02-23 12:08,Vendor Portal
+VND-0097,Review Application,2026-02-23 18:13,Procurement Officer
+VND-0097,Compliance Screening,2026-02-26 21:15,Compliance Team
+VND-0097,Financial Risk Assessment,2026-03-04 15:04,Finance Manager
+VND-0097,Approve Vendor,2026-03-05 22:55,Finance Manager
+VND-0097,Create Vendor Record,2026-03-05 23:17,ERP System
+VND-0097,Send Welcome Pack,2026-03-05 23:20,ERP System
+VND-0097,Archive Application,2026-03-05 23:44,ERP System
+VND-0098,Receive Application,2026-02-08 01:26,Vendor Portal
+VND-0098,Verify Documents,2026-02-08 01:35,Vendor Portal
+VND-0098,Await Vendor Documents,2026-02-10 09:49,Vendor Portal
+VND-0098,Verify Documents,2026-02-10 09:56,Vendor Portal
+VND-0098,Review Application,2026-02-10 16:17,Procurement Officer
+VND-0098,Financial Risk Assessment,2026-02-16 20:35,Finance Manager
+VND-0098,Compliance Screening,2026-02-20 22:55,Compliance Team
+VND-0098,Approve Vendor,2026-02-22 22:56,Finance Manager
+VND-0098,Create Vendor Record,2026-02-22 23:26,ERP System
+VND-0098,Send Welcome Pack,2026-02-22 23:36,ERP System
+VND-0098,Archive Application,2026-02-22 23:44,ERP System
+VND-0099,Receive Application,2026-01-16 10:51,Vendor Portal
+VND-0099,Verify Documents,2026-01-16 11:00,Vendor Portal
+VND-0099,Review Application,2026-01-16 13:18,Procurement Officer
+VND-0099,Financial Risk Assessment,2026-01-18 19:07,Finance Manager
+VND-0099,Compliance Screening,2026-01-20 02:01,Compliance Team
+VND-0099,Approve Vendor,2026-01-20 22:38,Finance Manager
+VND-0099,Create Vendor Record,2026-01-20 23:33,ERP System
+VND-0099,Send Welcome Pack,2026-01-20 23:53,ERP System
+VND-0099,Archive Application,2026-01-21 00:01,ERP System
+VND-0100,Receive Application,2026-01-11 13:52,Vendor Portal
+VND-0100,Verify Documents,2026-01-11 14:02,Vendor Portal
+VND-0100,Review Application,2026-01-11 16:22,Procurement Officer
+VND-0100,Financial Risk Assessment,2026-01-16 07:59,Finance Manager
+VND-0100,Compliance Screening,2026-01-19 04:50,Compliance Team
+VND-0100,Approve Vendor,2026-01-21 14:40,Finance Manager
+VND-0100,Create Vendor Record,2026-01-21 14:45,ERP System
+VND-0100,Send Welcome Pack,2026-01-21 14:55,ERP System
+VND-0100,Archive Application,2026-01-21 15:24,ERP System
+VND-0101,Receive Application,2026-01-18 12:04,Vendor Portal
+VND-0101,Verify Documents,2026-01-18 12:14,Vendor Portal
+VND-0101,Review Application,2026-01-18 14:13,Procurement Officer
+VND-0101,Financial Risk Assessment,2026-01-21 20:14,Finance Manager
+VND-0101,Compliance Screening,2026-01-26 14:29,Compliance Team
+VND-0101,Approve Vendor,2026-01-27 03:28,Finance Manager
+VND-0101,Reject Application,2026-01-27 04:28,Procurement Officer
+VND-0102,Receive Application,2026-01-26 23:46,Vendor Portal
+VND-0102,Verify Documents,2026-01-26 23:48,Vendor Portal
+VND-0102,Review Application,2026-01-27 00:44,Procurement Officer
+VND-0102,Compliance Screening,2026-01-30 11:20,Compliance Team
+VND-0102,Financial Risk Assessment,2026-02-04 16:36,Finance Manager
+VND-0102,Approve Vendor,2026-02-05 04:21,Finance Manager
+VND-0102,Create Vendor Record,2026-02-05 04:56,ERP System
+VND-0102,Send Welcome Pack,2026-02-05 05:12,ERP System
+VND-0102,Archive Application,2026-02-05 05:38,ERP System
+VND-0103,Receive Application,2026-02-07 06:53,Vendor Portal
+VND-0103,Verify Documents,2026-02-07 06:56,Vendor Portal
+VND-0103,Review Application,2026-02-07 09:19,Procurement Officer
+VND-0103,Financial Risk Assessment,2026-02-09 21:09,Finance Manager
+VND-0103,Compliance Screening,2026-02-15 00:26,Compliance Team
+VND-0103,Approve Vendor,2026-02-17 15:37,Finance Manager
+VND-0103,Create Vendor Record,2026-02-17 16:01,ERP System
+VND-0103,Send Welcome Pack,2026-02-17 16:17,ERP System
+VND-0103,Archive Application,2026-02-17 16:39,ERP System
+VND-0104,Receive Application,2026-01-08 04:02,Vendor Portal
+VND-0104,Verify Documents,2026-01-08 04:11,Vendor Portal
+VND-0104,Await Vendor Documents,2026-01-13 23:52,Vendor Portal
+VND-0104,Verify Documents,2026-01-14 00:00,Vendor Portal
+VND-0104,Review Application,2026-01-14 01:25,Procurement Officer
+VND-0104,Financial Risk Assessment,2026-01-21 15:17,Finance Manager
+VND-0104,Compliance Screening,2026-01-26 16:32,Compliance Team
+VND-0104,Approve Vendor,2026-01-27 01:33,Finance Manager
+VND-0104,Create Vendor Record,2026-01-27 01:58,ERP System
+VND-0104,Send Welcome Pack,2026-01-27 02:19,ERP System
+VND-0104,Archive Application,2026-01-27 02:25,ERP System
+VND-0105,Receive Application,2026-01-11 07:29,Vendor Portal
+VND-0105,Verify Documents,2026-01-11 07:39,Vendor Portal
+VND-0105,Await Vendor Documents,2026-01-16 08:52,Vendor Portal
+VND-0105,Verify Documents,2026-01-16 08:59,Vendor Portal
+VND-0105,Review Application,2026-01-16 14:34,Procurement Officer
+VND-0105,Financial Risk Assessment,2026-01-21 23:05,Finance Manager
+VND-0105,Compliance Screening,2026-01-25 13:01,Compliance Team
+VND-0105,Approve Vendor,2026-01-26 22:23,Finance Manager
+VND-0105,Reject Application,2026-01-26 23:17,Procurement Officer
+VND-0106,Receive Application,2026-01-15 17:56,Vendor Portal
+VND-0106,Verify Documents,2026-01-15 18:06,Vendor Portal
+VND-0106,Review Application,2026-01-15 20:26,Procurement Officer
+VND-0106,Financial Risk Assessment,2026-01-22 17:52,Finance Manager
+VND-0106,Compliance Screening,2026-01-26 07:31,Compliance Team
+VND-0106,Approve Vendor,2026-01-27 15:45,Finance Manager
+VND-0106,Create Vendor Record,2026-01-27 16:19,ERP System
+VND-0106,Send Welcome Pack,2026-01-27 16:33,ERP System
+VND-0106,Archive Application,2026-01-27 16:48,ERP System
+VND-0107,Receive Application,2026-01-13 23:43,Vendor Portal
+VND-0107,Verify Documents,2026-01-13 23:50,Vendor Portal
+VND-0107,Review Application,2026-01-14 03:31,Procurement Officer
+VND-0107,Financial Risk Assessment,2026-01-17 21:11,Finance Manager
+VND-0107,Compliance Screening,2026-01-22 18:57,Compliance Team
+VND-0107,Approve Vendor,2026-01-23 03:31,Finance Manager
+VND-0107,Reject Application,2026-01-23 03:46,Procurement Officer
+VND-0108,Receive Application,2026-01-13 19:39,Vendor Portal
+VND-0108,Verify Documents,2026-01-13 19:46,Vendor Portal
+VND-0108,Review Application,2026-01-14 01:00,Procurement Officer
+VND-0108,Financial Risk Assessment,2026-01-16 17:22,Finance Manager
+VND-0108,Compliance Screening,2026-01-21 01:26,Compliance Team
+VND-0108,Approve Vendor,2026-01-22 19:46,Finance Manager
+VND-0108,Create Vendor Record,2026-01-22 19:58,ERP System
+VND-0108,Send Welcome Pack,2026-01-22 20:13,ERP System
+VND-0108,Archive Application,2026-01-22 20:26,ERP System
+VND-0109,Receive Application,2026-02-12 19:55,Vendor Portal
+VND-0109,Verify Documents,2026-02-12 19:57,Vendor Portal
+VND-0109,Review Application,2026-02-13 01:34,Procurement Officer
+VND-0109,Compliance Screening,2026-02-18 14:53,Compliance Team
+VND-0109,Financial Risk Assessment,2026-02-21 14:53,Finance Manager
+VND-0109,Approve Vendor,2026-02-23 05:31,Finance Manager
+VND-0109,Create Vendor Record,2026-02-23 06:18,ERP System
+VND-0109,Send Welcome Pack,2026-02-23 06:35,ERP System
+VND-0109,Archive Application,2026-02-23 06:44,ERP System
+VND-0110,Receive Application,2026-01-15 04:24,Vendor Portal
+VND-0110,Verify Documents,2026-01-15 04:34,Vendor Portal
+VND-0110,Review Application,2026-01-15 11:34,Procurement Officer
+VND-0110,Compliance Screening,2026-01-20 15:38,Compliance Team
+VND-0110,Financial Risk Assessment,2026-01-24 22:01,Finance Manager
+VND-0110,Approve Vendor,2026-01-26 07:18,Finance Manager
+VND-0110,Create Vendor Record,2026-01-26 08:12,ERP System
+VND-0110,Send Welcome Pack,2026-01-26 08:40,ERP System
+VND-0110,Archive Application,2026-01-26 09:01,ERP System
+VND-0111,Receive Application,2026-03-02 04:22,Vendor Portal
+VND-0111,Verify Documents,2026-03-02 04:32,Vendor Portal
+VND-0111,Await Vendor Documents,2026-03-05 01:26,Vendor Portal
+VND-0111,Verify Documents,2026-03-05 01:32,Vendor Portal
+VND-0111,Review Application,2026-03-05 02:16,Procurement Officer
+VND-0111,Financial Risk Assessment,2026-03-09 03:31,Finance Manager
+VND-0111,Compliance Screening,2026-03-11 16:49,Compliance Team
+VND-0111,Approve Vendor,2026-03-12 17:54,Finance Manager
+VND-0111,Create Vendor Record,2026-03-12 18:21,ERP System
+VND-0111,Send Welcome Pack,2026-03-12 18:23,ERP System
+VND-0111,Archive Application,2026-03-12 18:30,ERP System
+VND-0112,Receive Application,2026-01-18 08:56,Vendor Portal
+VND-0112,Verify Documents,2026-01-18 09:04,Vendor Portal
+VND-0112,Await Vendor Documents,2026-01-21 04:17,Vendor Portal
+VND-0112,Verify Documents,2026-01-21 04:19,Vendor Portal
+VND-0112,Review Application,2026-01-21 05:35,Procurement Officer
+VND-0112,Compliance Screening,2026-01-25 16:19,Compliance Team
+VND-0112,Financial Risk Assessment,2026-01-28 19:40,Finance Manager
+VND-0112,Approve Vendor,2026-01-29 22:56,Finance Manager
+VND-0112,Create Vendor Record,2026-01-29 23:20,ERP System
+VND-0112,Send Welcome Pack,2026-01-29 23:45,ERP System
+VND-0112,Archive Application,2026-01-29 23:57,ERP System
+VND-0113,Receive Application,2026-02-25 23:55,Vendor Portal
+VND-0113,Verify Documents,2026-02-25 23:57,Vendor Portal
+VND-0113,Review Application,2026-02-26 06:53,Procurement Officer
+VND-0113,Compliance Screening,2026-02-28 20:28,Compliance Team
+VND-0113,Financial Risk Assessment,2026-03-05 16:29,Finance Manager
+VND-0113,Approve Vendor,2026-03-07 02:43,Finance Manager
+VND-0113,Create Vendor Record,2026-03-07 03:19,ERP System
+VND-0113,Send Welcome Pack,2026-03-07 03:40,ERP System
+VND-0113,Archive Application,2026-03-07 03:56,ERP System
+VND-0114,Receive Application,2026-02-12 00:47,Vendor Portal
+VND-0114,Verify Documents,2026-02-12 00:57,Vendor Portal
+VND-0114,Await Vendor Documents,2026-02-13 16:29,Vendor Portal
+VND-0114,Verify Documents,2026-02-13 16:36,Vendor Portal
+VND-0114,Review Application,2026-02-13 19:31,Procurement Officer
+VND-0114,Financial Risk Assessment,2026-02-21 08:23,Finance Manager
+VND-0114,Compliance Screening,2026-02-25 08:19,Compliance Team
+VND-0114,Approve Vendor,2026-02-25 15:25,Finance Manager
+VND-0114,Create Vendor Record,2026-02-25 16:08,ERP System
+VND-0114,Send Welcome Pack,2026-02-25 16:11,ERP System
+VND-0114,Archive Application,2026-02-25 16:13,ERP System
+VND-0115,Receive Application,2026-01-23 22:34,Vendor Portal
+VND-0115,Verify Documents,2026-01-23 22:39,Vendor Portal
+VND-0115,Review Application,2026-01-24 05:40,Procurement Officer
+VND-0115,Compliance Screening,2026-01-29 03:26,Compliance Team
+VND-0115,Financial Risk Assessment,2026-01-31 18:57,Finance Manager
+VND-0115,Approve Vendor,2026-01-31 23:28,Finance Manager
+VND-0115,Create Vendor Record,2026-02-01 00:00,ERP System
+VND-0115,Send Welcome Pack,2026-02-01 00:07,ERP System
+VND-0115,Archive Application,2026-02-01 00:13,ERP System
+VND-0116,Receive Application,2026-02-08 22:34,Vendor Portal
+VND-0116,Verify Documents,2026-02-08 22:39,Vendor Portal
+VND-0116,Review Application,2026-02-09 06:15,Procurement Officer
+VND-0116,Compliance Screening,2026-02-15 06:57,Compliance Team
+VND-0116,Financial Risk Assessment,2026-02-16 16:47,Finance Manager
+VND-0116,Approve Vendor,2026-02-18 23:26,Finance Manager
+VND-0116,Reject Application,2026-02-18 23:37,Procurement Officer
+VND-0117,Receive Application,2026-02-16 04:20,Vendor Portal
+VND-0117,Verify Documents,2026-02-16 04:27,Vendor Portal
+VND-0117,Review Application,2026-02-16 09:50,Procurement Officer
+VND-0117,Financial Risk Assessment,2026-02-23 00:16,Finance Manager
+VND-0117,Compliance Screening,2026-02-28 01:08,Compliance Team
+VND-0117,Approve Vendor,2026-03-01 00:53,Finance Manager
+VND-0117,Reject Application,2026-03-01 01:04,Procurement Officer
+VND-0118,Receive Application,2026-02-03 21:28,Vendor Portal
+VND-0118,Verify Documents,2026-02-03 21:37,Vendor Portal
+VND-0118,Await Vendor Documents,2026-02-09 15:12,Vendor Portal
+VND-0118,Verify Documents,2026-02-09 15:19,Vendor Portal
+VND-0118,Review Application,2026-02-09 23:01,Procurement Officer
+VND-0118,Compliance Screening,2026-02-13 03:55,Compliance Team
+VND-0118,Financial Risk Assessment,2026-02-15 13:08,Finance Manager
+VND-0118,Approve Vendor,2026-02-16 20:28,Finance Manager
+VND-0118,Create Vendor Record,2026-02-16 20:58,ERP System
+VND-0118,Send Welcome Pack,2026-02-16 21:27,ERP System
+VND-0118,Archive Application,2026-02-16 21:38,ERP System
+VND-0119,Receive Application,2026-02-05 05:40,Vendor Portal
+VND-0119,Verify Documents,2026-02-05 05:44,Vendor Portal
+VND-0119,Await Vendor Documents,2026-02-06 16:09,Vendor Portal
+VND-0119,Verify Documents,2026-02-06 16:19,Vendor Portal
+VND-0119,Review Application,2026-02-06 21:20,Procurement Officer
+VND-0119,Financial Risk Assessment,2026-02-14 16:35,Finance Manager
+VND-0119,Compliance Screening,2026-02-16 19:03,Compliance Team
+VND-0119,Approve Vendor,2026-02-17 22:54,Finance Manager
+VND-0119,Create Vendor Record,2026-02-17 23:51,ERP System
+VND-0119,Send Welcome Pack,2026-02-18 00:13,ERP System
+VND-0119,Archive Application,2026-02-18 00:41,ERP System
+VND-0120,Receive Application,2026-01-18 18:38,Vendor Portal
+VND-0120,Verify Documents,2026-01-18 18:42,Vendor Portal
+VND-0120,Await Vendor Documents,2026-01-21 05:38,Vendor Portal
+VND-0120,Verify Documents,2026-01-21 05:43,Vendor Portal
+VND-0120,Review Application,2026-01-21 07:31,Procurement Officer
+VND-0120,Financial Risk Assessment,2026-01-24 04:05,Finance Manager
+VND-0120,Compliance Screening,2026-01-26 04:16,Compliance Team
+VND-0120,Approve Vendor,2026-01-28 03:08,Finance Manager
+VND-0120,Create Vendor Record,2026-01-28 04:01,ERP System
+VND-0120,Send Welcome Pack,2026-01-28 04:21,ERP System
+VND-0120,Archive Application,2026-01-28 04:47,ERP System
+VND-0121,Receive Application,2026-02-27 01:52,Vendor Portal
+VND-0121,Verify Documents,2026-02-27 01:59,Vendor Portal
+VND-0121,Review Application,2026-02-27 07:50,Procurement Officer
+VND-0121,Compliance Screening,2026-03-04 22:09,Compliance Team
+VND-0121,Financial Risk Assessment,2026-03-06 18:45,Finance Manager
+VND-0121,Approve Vendor,2026-03-08 06:45,Finance Manager
+VND-0121,Create Vendor Record,2026-03-08 07:09,ERP System
+VND-0121,Send Welcome Pack,2026-03-08 07:36,ERP System
+VND-0121,Archive Application,2026-03-08 07:46,ERP System
+VND-0122,Receive Application,2026-02-28 03:58,Vendor Portal
+VND-0122,Verify Documents,2026-02-28 04:08,Vendor Portal
+VND-0122,Await Vendor Documents,2026-03-01 14:15,Vendor Portal
+VND-0122,Verify Documents,2026-03-01 14:21,Vendor Portal
+VND-0122,Review Application,2026-03-01 15:10,Procurement Officer
+VND-0122,Financial Risk Assessment,2026-03-04 06:42,Finance Manager
+VND-0122,Compliance Screening,2026-03-07 09:02,Compliance Team
+VND-0122,Approve Vendor,2026-03-07 18:16,Finance Manager
+VND-0122,Create Vendor Record,2026-03-07 19:15,ERP System
+VND-0122,Send Welcome Pack,2026-03-07 19:19,ERP System
+VND-0122,Archive Application,2026-03-07 19:40,ERP System
+VND-0123,Receive Application,2026-02-28 09:47,Vendor Portal
+VND-0123,Verify Documents,2026-02-28 09:56,Vendor Portal
+VND-0123,Review Application,2026-02-28 17:11,Procurement Officer
+VND-0123,Financial Risk Assessment,2026-03-03 04:23,Finance Manager
+VND-0123,Compliance Screening,2026-03-06 17:47,Compliance Team
+VND-0123,Approve Vendor,2026-03-08 12:48,Finance Manager
+VND-0123,Create Vendor Record,2026-03-08 13:13,ERP System
+VND-0123,Send Welcome Pack,2026-03-08 13:34,ERP System
+VND-0123,Archive Application,2026-03-08 13:51,ERP System
+VND-0124,Receive Application,2026-02-19 23:15,Vendor Portal
+VND-0124,Verify Documents,2026-02-19 23:17,Vendor Portal
+VND-0124,Await Vendor Documents,2026-02-23 12:47,Vendor Portal
+VND-0124,Verify Documents,2026-02-23 12:50,Vendor Portal
+VND-0124,Review Application,2026-02-23 20:28,Procurement Officer
+VND-0124,Compliance Screening,2026-03-01 18:14,Compliance Team
+VND-0124,Financial Risk Assessment,2026-03-06 19:45,Finance Manager
+VND-0124,Approve Vendor,2026-03-08 19:51,Finance Manager
+VND-0124,Create Vendor Record,2026-03-08 20:11,ERP System
+VND-0124,Send Welcome Pack,2026-03-08 20:35,ERP System
+VND-0124,Archive Application,2026-03-08 20:51,ERP System
+VND-0125,Receive Application,2026-02-14 07:55,Vendor Portal
+VND-0125,Verify Documents,2026-02-14 07:59,Vendor Portal
+VND-0125,Review Application,2026-02-14 10:53,Procurement Officer
+VND-0125,Financial Risk Assessment,2026-02-20 20:40,Finance Manager
+VND-0125,Compliance Screening,2026-02-24 04:28,Compliance Team
+VND-0125,Approve Vendor,2026-02-26 06:48,Finance Manager
+VND-0125,Create Vendor Record,2026-02-26 07:43,ERP System
+VND-0125,Send Welcome Pack,2026-02-26 08:05,ERP System
+VND-0125,Archive Application,2026-02-26 08:27,ERP System
+VND-0126,Receive Application,2026-02-04 19:03,Vendor Portal
+VND-0126,Verify Documents,2026-02-04 19:06,Vendor Portal
+VND-0126,Await Vendor Documents,2026-02-08 23:16,Vendor Portal
+VND-0126,Verify Documents,2026-02-08 23:24,Vendor Portal
+VND-0126,Review Application,2026-02-09 06:04,Procurement Officer
+VND-0126,Compliance Screening,2026-02-12 23:07,Compliance Team
+VND-0126,Financial Risk Assessment,2026-02-15 20:37,Finance Manager
+VND-0126,Approve Vendor,2026-02-17 21:55,Finance Manager
+VND-0126,Create Vendor Record,2026-02-17 22:22,ERP System
+VND-0126,Send Welcome Pack,2026-02-17 22:33,ERP System
+VND-0126,Archive Application,2026-02-17 22:55,ERP System
+VND-0127,Receive Application,2026-02-10 00:14,Vendor Portal
+VND-0127,Verify Documents,2026-02-10 00:17,Vendor Portal
+VND-0127,Await Vendor Documents,2026-02-12 18:33,Vendor Portal
+VND-0127,Verify Documents,2026-02-12 18:43,Vendor Portal
+VND-0127,Review Application,2026-02-13 01:58,Procurement Officer
+VND-0127,Compliance Screening,2026-02-18 19:39,Compliance Team
+VND-0127,Financial Risk Assessment,2026-02-24 10:40,Finance Manager
+VND-0127,Approve Vendor,2026-02-26 14:38,Finance Manager
+VND-0127,Create Vendor Record,2026-02-26 15:30,ERP System
+VND-0127,Send Welcome Pack,2026-02-26 15:53,ERP System
+VND-0127,Archive Application,2026-02-26 16:11,ERP System
+VND-0128,Receive Application,2026-01-13 20:09,Vendor Portal
+VND-0128,Verify Documents,2026-01-13 20:17,Vendor Portal
+VND-0128,Review Application,2026-01-13 20:56,Procurement Officer
+VND-0128,Compliance Screening,2026-01-19 23:56,Compliance Team
+VND-0128,Financial Risk Assessment,2026-01-22 18:06,Finance Manager
+VND-0128,Approve Vendor,2026-01-23 12:43,Finance Manager
+VND-0128,Create Vendor Record,2026-01-23 13:37,ERP System
+VND-0128,Send Welcome Pack,2026-01-23 13:54,ERP System
+VND-0128,Archive Application,2026-01-23 14:02,ERP System
+VND-0129,Receive Application,2026-01-25 22:53,Vendor Portal
+VND-0129,Verify Documents,2026-01-25 22:57,Vendor Portal
+VND-0129,Await Vendor Documents,2026-01-27 05:51,Vendor Portal
+VND-0129,Verify Documents,2026-01-27 06:01,Vendor Portal
+VND-0129,Review Application,2026-01-27 13:05,Procurement Officer
+VND-0129,Financial Risk Assessment,2026-02-04 12:51,Finance Manager
+VND-0129,Compliance Screening,2026-02-05 18:00,Compliance Team
+VND-0129,Approve Vendor,2026-02-08 09:49,Finance Manager
+VND-0129,Create Vendor Record,2026-02-08 10:02,ERP System
+VND-0129,Send Welcome Pack,2026-02-08 10:23,ERP System
+VND-0129,Archive Application,2026-02-08 10:37,ERP System
+VND-0130,Receive Application,2026-01-19 08:58,Vendor Portal
+VND-0130,Verify Documents,2026-01-19 09:02,Vendor Portal
+VND-0130,Await Vendor Documents,2026-01-24 11:29,Vendor Portal
+VND-0130,Verify Documents,2026-01-24 11:38,Vendor Portal
+VND-0130,Await Vendor Documents,2026-01-26 12:30,Vendor Portal
+VND-0130,Verify Documents,2026-01-26 12:35,Vendor Portal
+VND-0130,Review Application,2026-01-26 16:52,Procurement Officer
+VND-0130,Financial Risk Assessment,2026-01-31 22:40,Finance Manager
+VND-0130,Compliance Screening,2026-02-06 05:23,Compliance Team
+VND-0130,Approve Vendor,2026-02-07 16:01,Finance Manager
+VND-0130,Create Vendor Record,2026-02-07 16:21,ERP System
+VND-0130,Send Welcome Pack,2026-02-07 16:32,ERP System
+VND-0130,Archive Application,2026-02-07 16:59,ERP System
+VND-0131,Receive Application,2026-02-17 00:34,Vendor Portal
+VND-0131,Verify Documents,2026-02-17 00:39,Vendor Portal
+VND-0131,Review Application,2026-02-17 06:01,Procurement Officer
+VND-0131,Financial Risk Assessment,2026-02-24 06:19,Finance Manager
+VND-0131,Compliance Screening,2026-02-27 21:21,Compliance Team
+VND-0131,Approve Vendor,2026-03-02 06:28,Finance Manager
+VND-0131,Create Vendor Record,2026-03-02 07:06,ERP System
+VND-0131,Send Welcome Pack,2026-03-02 07:21,ERP System
+VND-0131,Archive Application,2026-03-02 07:28,ERP System
+VND-0132,Receive Application,2026-01-23 12:14,Vendor Portal
+VND-0132,Verify Documents,2026-01-23 12:18,Vendor Portal
+VND-0132,Review Application,2026-01-23 13:14,Procurement Officer
+VND-0132,Compliance Screening,2026-01-31 00:27,Compliance Team
+VND-0132,Financial Risk Assessment,2026-02-05 23:47,Finance Manager
+VND-0132,Approve Vendor,2026-02-08 19:33,Finance Manager
+VND-0132,Reject Application,2026-02-08 20:16,Procurement Officer
+VND-0133,Receive Application,2026-01-16 16:21,Vendor Portal
+VND-0133,Verify Documents,2026-01-16 16:25,Vendor Portal
+VND-0133,Await Vendor Documents,2026-01-19 05:39,Vendor Portal
+VND-0133,Verify Documents,2026-01-19 05:48,Vendor Portal
+VND-0133,Review Application,2026-01-19 07:33,Procurement Officer
+VND-0133,Financial Risk Assessment,2026-01-26 07:00,Finance Manager
+VND-0133,Compliance Screening,2026-01-27 19:31,Compliance Team
+VND-0133,Approve Vendor,2026-01-28 14:40,Finance Manager
+VND-0133,Create Vendor Record,2026-01-28 15:07,ERP System
+VND-0133,Send Welcome Pack,2026-01-28 15:09,ERP System
+VND-0133,Archive Application,2026-01-28 15:24,ERP System
+VND-0134,Receive Application,2026-01-10 04:20,Vendor Portal
+VND-0134,Verify Documents,2026-01-10 04:27,Vendor Portal
+VND-0134,Review Application,2026-01-10 05:38,Procurement Officer
+VND-0134,Compliance Screening,2026-01-16 12:00,Compliance Team
+VND-0134,Financial Risk Assessment,2026-01-18 18:39,Finance Manager
+VND-0134,Approve Vendor,2026-01-21 14:11,Finance Manager
+VND-0134,Reject Application,2026-01-21 15:06,Procurement Officer
+VND-0135,Receive Application,2026-03-05 11:51,Vendor Portal
+VND-0135,Verify Documents,2026-03-05 11:55,Vendor Portal
+VND-0135,Review Application,2026-03-05 14:51,Procurement Officer
+VND-0135,Financial Risk Assessment,2026-03-12 23:51,Finance Manager
+VND-0135,Compliance Screening,2026-03-17 22:53,Compliance Team
+VND-0135,Approve Vendor,2026-03-20 06:41,Finance Manager
+VND-0135,Create Vendor Record,2026-03-20 07:14,ERP System
+VND-0135,Send Welcome Pack,2026-03-20 07:35,ERP System
+VND-0135,Archive Application,2026-03-20 07:37,ERP System
+VND-0136,Receive Application,2026-01-12 13:04,Vendor Portal
+VND-0136,Verify Documents,2026-01-12 13:09,Vendor Portal
+VND-0136,Await Vendor Documents,2026-01-18 07:09,Vendor Portal
+VND-0136,Verify Documents,2026-01-18 07:13,Vendor Portal
+VND-0136,Review Application,2026-01-18 13:55,Procurement Officer
+VND-0136,Financial Risk Assessment,2026-01-25 09:29,Finance Manager
+VND-0136,Compliance Screening,2026-01-27 00:39,Compliance Team
+VND-0136,Approve Vendor,2026-01-27 20:52,Finance Manager
+VND-0136,Create Vendor Record,2026-01-27 21:00,ERP System
+VND-0136,Send Welcome Pack,2026-01-27 21:09,ERP System
+VND-0136,Archive Application,2026-01-27 21:24,ERP System
+VND-0137,Receive Application,2026-03-04 11:48,Vendor Portal
+VND-0137,Verify Documents,2026-03-04 11:57,Vendor Portal
+VND-0137,Await Vendor Documents,2026-03-06 22:04,Vendor Portal
+VND-0137,Verify Documents,2026-03-06 22:14,Vendor Portal
+VND-0137,Review Application,2026-03-06 22:52,Procurement Officer
+VND-0137,Compliance Screening,2026-03-14 19:35,Compliance Team
+VND-0137,Financial Risk Assessment,2026-03-19 02:05,Finance Manager
+VND-0137,Approve Vendor,2026-03-19 15:53,Finance Manager
+VND-0137,Create Vendor Record,2026-03-19 15:58,ERP System
+VND-0137,Send Welcome Pack,2026-03-19 16:19,ERP System
+VND-0137,Archive Application,2026-03-19 16:32,ERP System
+VND-0138,Receive Application,2026-01-27 05:31,Vendor Portal
+VND-0138,Verify Documents,2026-01-27 05:35,Vendor Portal
+VND-0138,Review Application,2026-01-27 06:48,Procurement Officer
+VND-0138,Compliance Screening,2026-02-04 05:44,Compliance Team
+VND-0138,Financial Risk Assessment,2026-02-07 06:58,Finance Manager
+VND-0138,Approve Vendor,2026-02-08 22:52,Finance Manager
+VND-0138,Create Vendor Record,2026-02-08 23:47,ERP System
+VND-0138,Send Welcome Pack,2026-02-09 00:05,ERP System
+VND-0138,Archive Application,2026-02-09 00:24,ERP System
+VND-0139,Receive Application,2026-01-07 04:25,Vendor Portal
+VND-0139,Verify Documents,2026-01-07 04:34,Vendor Portal
+VND-0139,Await Vendor Documents,2026-01-09 06:58,Vendor Portal
+VND-0139,Verify Documents,2026-01-09 07:05,Vendor Portal
+VND-0139,Review Application,2026-01-09 09:44,Procurement Officer
+VND-0139,Financial Risk Assessment,2026-01-11 14:10,Finance Manager
+VND-0139,Compliance Screening,2026-01-14 14:55,Compliance Team
+VND-0139,Approve Vendor,2026-01-15 18:27,Finance Manager
+VND-0139,Create Vendor Record,2026-01-15 19:14,ERP System
+VND-0139,Send Welcome Pack,2026-01-15 19:36,ERP System
+VND-0139,Archive Application,2026-01-15 19:41,ERP System
+VND-0140,Receive Application,2026-02-27 07:11,Vendor Portal
+VND-0140,Verify Documents,2026-02-27 07:18,Vendor Portal
+VND-0140,Review Application,2026-02-27 10:48,Procurement Officer
+VND-0140,Financial Risk Assessment,2026-03-05 07:14,Finance Manager
+VND-0140,Compliance Screening,2026-03-10 22:18,Compliance Team
+VND-0140,Approve Vendor,2026-03-13 10:59,Finance Manager
+VND-0140,Create Vendor Record,2026-03-13 11:33,ERP System
+VND-0140,Send Welcome Pack,2026-03-13 11:57,ERP System
+VND-0140,Archive Application,2026-03-13 12:14,ERP System
+VND-0141,Receive Application,2026-03-03 20:02,Vendor Portal
+VND-0141,Verify Documents,2026-03-03 20:06,Vendor Portal
+VND-0141,Await Vendor Documents,2026-03-05 04:42,Vendor Portal
+VND-0141,Verify Documents,2026-03-05 04:51,Vendor Portal
+VND-0141,Await Vendor Documents,2026-03-06 18:36,Vendor Portal
+VND-0141,Verify Documents,2026-03-06 18:38,Vendor Portal
+VND-0141,Review Application,2026-03-07 01:53,Procurement Officer
+VND-0141,Compliance Screening,2026-03-11 08:21,Compliance Team
+VND-0141,Financial Risk Assessment,2026-03-12 14:04,Finance Manager
+VND-0141,Approve Vendor,2026-03-13 15:14,Finance Manager
+VND-0141,Create Vendor Record,2026-03-13 16:11,ERP System
+VND-0141,Send Welcome Pack,2026-03-13 16:30,ERP System
+VND-0141,Archive Application,2026-03-13 16:47,ERP System
+VND-0142,Receive Application,2026-01-28 09:22,Vendor Portal
+VND-0142,Verify Documents,2026-01-28 09:27,Vendor Portal
+VND-0142,Await Vendor Documents,2026-01-31 00:30,Vendor Portal
+VND-0142,Verify Documents,2026-01-31 00:37,Vendor Portal
+VND-0142,Review Application,2026-01-31 01:31,Procurement Officer
+VND-0142,Compliance Screening,2026-02-05 20:09,Compliance Team
+VND-0142,Financial Risk Assessment,2026-02-08 09:27,Finance Manager
+VND-0142,Approve Vendor,2026-02-09 14:34,Finance Manager
+VND-0142,Create Vendor Record,2026-02-09 15:04,ERP System
+VND-0142,Send Welcome Pack,2026-02-09 15:29,ERP System
+VND-0142,Archive Application,2026-02-09 15:45,ERP System
+VND-0143,Receive Application,2026-02-09 12:38,Vendor Portal
+VND-0143,Verify Documents,2026-02-09 12:42,Vendor Portal
+VND-0143,Review Application,2026-02-09 17:26,Procurement Officer
+VND-0143,Financial Risk Assessment,2026-02-15 21:44,Finance Manager
+VND-0143,Compliance Screening,2026-02-21 10:35,Compliance Team
+VND-0143,Approve Vendor,2026-02-23 21:16,Finance Manager
+VND-0143,Reject Application,2026-02-23 21:53,Procurement Officer
+VND-0144,Receive Application,2026-01-12 12:25,Vendor Portal
+VND-0144,Verify Documents,2026-01-12 12:29,Vendor Portal
+VND-0144,Review Application,2026-01-12 15:43,Procurement Officer
+VND-0144,Compliance Screening,2026-01-15 19:43,Compliance Team
+VND-0144,Financial Risk Assessment,2026-01-17 06:38,Finance Manager
+VND-0144,Approve Vendor,2026-01-18 06:48,Finance Manager
+VND-0144,Create Vendor Record,2026-01-18 07:31,ERP System
+VND-0144,Send Welcome Pack,2026-01-18 07:55,ERP System
+VND-0144,Archive Application,2026-01-18 08:10,ERP System
+VND-0145,Receive Application,2026-01-20 12:02,Vendor Portal
+VND-0145,Verify Documents,2026-01-20 12:09,Vendor Portal
+VND-0145,Review Application,2026-01-20 18:51,Procurement Officer
+VND-0145,Financial Risk Assessment,2026-01-26 19:07,Finance Manager
+VND-0145,Compliance Screening,2026-01-31 07:03,Compliance Team
+VND-0145,Approve Vendor,2026-02-01 05:47,Finance Manager
+VND-0145,Create Vendor Record,2026-02-01 06:42,ERP System
+VND-0145,Send Welcome Pack,2026-02-01 06:45,ERP System
+VND-0145,Archive Application,2026-02-01 06:49,ERP System
+VND-0146,Receive Application,2026-03-04 08:40,Vendor Portal
+VND-0146,Verify Documents,2026-03-04 08:50,Vendor Portal
+VND-0146,Review Application,2026-03-04 15:07,Procurement Officer
+VND-0146,Compliance Screening,2026-03-08 10:48,Compliance Team
+VND-0146,Financial Risk Assessment,2026-03-09 15:03,Finance Manager
+VND-0146,Approve Vendor,2026-03-11 12:31,Finance Manager
+VND-0146,Create Vendor Record,2026-03-11 13:04,ERP System
+VND-0146,Send Welcome Pack,2026-03-11 13:07,ERP System
+VND-0146,Archive Application,2026-03-11 13:13,ERP System
+VND-0147,Receive Application,2026-01-11 10:52,Vendor Portal
+VND-0147,Verify Documents,2026-01-11 10:59,Vendor Portal
+VND-0147,Await Vendor Documents,2026-01-14 12:25,Vendor Portal
+VND-0147,Verify Documents,2026-01-14 12:33,Vendor Portal
+VND-0147,Review Application,2026-01-14 13:19,Procurement Officer
+VND-0147,Compliance Screening,2026-01-18 07:12,Compliance Team
+VND-0147,Financial Risk Assessment,2026-01-23 03:54,Finance Manager
+VND-0147,Approve Vendor,2026-01-24 09:13,Finance Manager
+VND-0147,Create Vendor Record,2026-01-24 10:06,ERP System
+VND-0147,Send Welcome Pack,2026-01-24 10:10,ERP System
+VND-0147,Archive Application,2026-01-24 10:30,ERP System
+VND-0148,Receive Application,2026-01-17 20:47,Vendor Portal
+VND-0148,Verify Documents,2026-01-17 20:55,Vendor Portal
+VND-0148,Review Application,2026-01-17 23:47,Procurement Officer
+VND-0148,Compliance Screening,2026-01-22 19:56,Compliance Team
+VND-0148,Financial Risk Assessment,2026-01-24 11:25,Finance Manager
+VND-0148,Approve Vendor,2026-01-25 04:07,Finance Manager
+VND-0148,Create Vendor Record,2026-01-25 04:36,ERP System
+VND-0148,Send Welcome Pack,2026-01-25 04:55,ERP System
+VND-0148,Archive Application,2026-01-25 05:00,ERP System
+VND-0149,Receive Application,2026-01-29 03:51,Vendor Portal
+VND-0149,Verify Documents,2026-01-29 04:00,Vendor Portal
+VND-0149,Review Application,2026-01-29 09:43,Procurement Officer
+VND-0149,Financial Risk Assessment,2026-02-03 15:41,Finance Manager
+VND-0149,Compliance Screening,2026-02-08 14:26,Compliance Team
+VND-0149,Approve Vendor,2026-02-10 03:57,Finance Manager
+VND-0149,Create Vendor Record,2026-02-10 04:10,ERP System
+VND-0149,Send Welcome Pack,2026-02-10 04:39,ERP System
+VND-0149,Archive Application,2026-02-10 04:43,ERP System
+VND-0150,Receive Application,2026-02-15 11:30,Vendor Portal
+VND-0150,Verify Documents,2026-02-15 11:39,Vendor Portal
+VND-0150,Await Vendor Documents,2026-02-16 23:38,Vendor Portal
+VND-0150,Verify Documents,2026-02-16 23:45,Vendor Portal
+VND-0150,Review Application,2026-02-17 06:18,Procurement Officer
+VND-0150,Financial Risk Assessment,2026-02-20 00:01,Finance Manager
+VND-0150,Compliance Screening,2026-02-24 03:06,Compliance Team
+VND-0150,Approve Vendor,2026-02-26 19:56,Finance Manager
+VND-0150,Create Vendor Record,2026-02-26 20:11,ERP System
+VND-0150,Send Welcome Pack,2026-02-26 20:35,ERP System
+VND-0150,Archive Application,2026-02-26 20:59,ERP System
+VND-0151,Receive Application,2026-03-04 09:04,Vendor Portal
+VND-0151,Verify Documents,2026-03-04 09:11,Vendor Portal
+VND-0151,Await Vendor Documents,2026-03-08 06:38,Vendor Portal
+VND-0151,Verify Documents,2026-03-08 06:43,Vendor Portal
+VND-0151,Review Application,2026-03-08 08:55,Procurement Officer
+VND-0151,Financial Risk Assessment,2026-03-11 22:50,Finance Manager
+VND-0151,Compliance Screening,2026-03-14 07:09,Compliance Team
+VND-0151,Approve Vendor,2026-03-14 12:56,Finance Manager
+VND-0151,Create Vendor Record,2026-03-14 13:37,ERP System
+VND-0151,Send Welcome Pack,2026-03-14 13:50,ERP System
+VND-0151,Archive Application,2026-03-14 14:06,ERP System
+VND-0152,Receive Application,2026-02-24 13:05,Vendor Portal
+VND-0152,Verify Documents,2026-02-24 13:08,Vendor Portal
+VND-0152,Await Vendor Documents,2026-02-25 22:06,Vendor Portal
+VND-0152,Verify Documents,2026-02-25 22:12,Vendor Portal
+VND-0152,Review Application,2026-02-26 04:49,Procurement Officer
+VND-0152,Compliance Screening,2026-03-05 15:31,Compliance Team
+VND-0152,Financial Risk Assessment,2026-03-09 15:17,Finance Manager
+VND-0152,Approve Vendor,2026-03-10 23:14,Finance Manager
+VND-0152,Create Vendor Record,2026-03-10 23:23,ERP System
+VND-0152,Send Welcome Pack,2026-03-10 23:29,ERP System
+VND-0152,Archive Application,2026-03-10 23:41,ERP System
+VND-0153,Receive Application,2026-03-04 19:12,Vendor Portal
+VND-0153,Verify Documents,2026-03-04 19:21,Vendor Portal
+VND-0153,Await Vendor Documents,2026-03-09 16:12,Vendor Portal
+VND-0153,Verify Documents,2026-03-09 16:22,Vendor Portal
+VND-0153,Review Application,2026-03-10 00:21,Procurement Officer
+VND-0153,Financial Risk Assessment,2026-03-14 02:02,Finance Manager
+VND-0153,Compliance Screening,2026-03-19 10:51,Compliance Team
+VND-0153,Approve Vendor,2026-03-20 20:23,Finance Manager
+VND-0153,Create Vendor Record,2026-03-20 21:23,ERP System
+VND-0153,Send Welcome Pack,2026-03-20 21:26,ERP System
+VND-0153,Archive Application,2026-03-20 21:54,ERP System
+VND-0154,Receive Application,2026-01-16 15:14,Vendor Portal
+VND-0154,Verify Documents,2026-01-16 15:20,Vendor Portal
+VND-0154,Review Application,2026-01-16 18:35,Procurement Officer
+VND-0154,Financial Risk Assessment,2026-01-21 08:09,Finance Manager
+VND-0154,Compliance Screening,2026-01-24 07:23,Compliance Team
+VND-0154,Approve Vendor,2026-01-25 22:48,Finance Manager
+VND-0154,Create Vendor Record,2026-01-25 23:47,ERP System
+VND-0154,Send Welcome Pack,2026-01-25 23:51,ERP System
+VND-0154,Archive Application,2026-01-26 00:01,ERP System
+VND-0155,Receive Application,2026-01-23 04:49,Vendor Portal
+VND-0155,Verify Documents,2026-01-23 04:59,Vendor Portal
+VND-0155,Review Application,2026-01-23 10:49,Procurement Officer
+VND-0155,Financial Risk Assessment,2026-01-28 21:30,Finance Manager
+VND-0155,Compliance Screening,2026-02-02 09:23,Compliance Team
+VND-0155,Approve Vendor,2026-02-03 23:41,Finance Manager
+VND-0155,Create Vendor Record,2026-02-04 00:23,ERP System
+VND-0155,Send Welcome Pack,2026-02-04 00:43,ERP System
+VND-0155,Archive Application,2026-02-04 00:49,ERP System
+VND-0156,Receive Application,2026-01-20 21:59,Vendor Portal
+VND-0156,Verify Documents,2026-01-20 22:06,Vendor Portal
+VND-0156,Review Application,2026-01-21 03:24,Procurement Officer
+VND-0156,Financial Risk Assessment,2026-01-23 14:38,Finance Manager
+VND-0156,Compliance Screening,2026-01-29 07:18,Compliance Team
+VND-0156,Approve Vendor,2026-01-29 16:50,Finance Manager
+VND-0156,Reject Application,2026-01-29 17:41,Procurement Officer
+VND-0157,Receive Application,2026-02-26 19:58,Vendor Portal
+VND-0157,Verify Documents,2026-02-26 20:03,Vendor Portal
+VND-0157,Await Vendor Documents,2026-03-04 04:45,Vendor Portal
+VND-0157,Verify Documents,2026-03-04 04:53,Vendor Portal
+VND-0157,Review Application,2026-03-04 05:38,Procurement Officer
+VND-0157,Financial Risk Assessment,2026-03-11 21:37,Finance Manager
+VND-0157,Compliance Screening,2026-03-16 11:14,Compliance Team
+VND-0157,Approve Vendor,2026-03-18 11:03,Finance Manager
+VND-0157,Create Vendor Record,2026-03-18 11:38,ERP System
+VND-0157,Send Welcome Pack,2026-03-18 11:47,ERP System
+VND-0157,Archive Application,2026-03-18 12:14,ERP System
+VND-0158,Receive Application,2026-02-11 07:07,Vendor Portal
+VND-0158,Verify Documents,2026-02-11 07:10,Vendor Portal
+VND-0158,Await Vendor Documents,2026-02-16 05:11,Vendor Portal
+VND-0158,Verify Documents,2026-02-16 05:13,Vendor Portal
+VND-0158,Review Application,2026-02-16 09:15,Procurement Officer
+VND-0158,Compliance Screening,2026-02-23 21:28,Compliance Team
+VND-0158,Financial Risk Assessment,2026-02-27 12:52,Finance Manager
+VND-0158,Approve Vendor,2026-03-01 10:16,Finance Manager
+VND-0158,Create Vendor Record,2026-03-01 11:16,ERP System
+VND-0158,Send Welcome Pack,2026-03-01 11:40,ERP System
+VND-0158,Archive Application,2026-03-01 11:52,ERP System
+VND-0159,Receive Application,2026-02-05 18:28,Vendor Portal
+VND-0159,Verify Documents,2026-02-05 18:32,Vendor Portal
+VND-0159,Review Application,2026-02-05 23:25,Procurement Officer
+VND-0159,Compliance Screening,2026-02-09 04:24,Compliance Team
+VND-0159,Financial Risk Assessment,2026-02-11 23:58,Finance Manager
+VND-0159,Approve Vendor,2026-02-12 12:19,Finance Manager
+VND-0159,Create Vendor Record,2026-02-12 12:39,ERP System
+VND-0159,Send Welcome Pack,2026-02-12 12:45,ERP System
+VND-0159,Archive Application,2026-02-12 12:50,ERP System
+VND-0160,Receive Application,2026-01-09 22:32,Vendor Portal
+VND-0160,Verify Documents,2026-01-09 22:40,Vendor Portal
+VND-0160,Await Vendor Documents,2026-01-15 20:39,Vendor Portal
+VND-0160,Verify Documents,2026-01-15 20:47,Vendor Portal
+VND-0160,Review Application,2026-01-16 04:40,Procurement Officer
+VND-0160,Compliance Screening,2026-01-20 00:16,Compliance Team
+VND-0160,Financial Risk Assessment,2026-01-25 15:20,Finance Manager
+VND-0160,Approve Vendor,2026-01-27 10:46,Finance Manager
+VND-0160,Create Vendor Record,2026-01-27 11:03,ERP System
+VND-0160,Send Welcome Pack,2026-01-27 11:29,ERP System
+VND-0160,Archive Application,2026-01-27 11:36,ERP System
+VND-0161,Receive Application,2026-02-19 16:28,Vendor Portal
+VND-0161,Verify Documents,2026-02-19 16:37,Vendor Portal
+VND-0161,Review Application,2026-02-19 19:44,Procurement Officer
+VND-0161,Compliance Screening,2026-02-27 11:32,Compliance Team
+VND-0161,Financial Risk Assessment,2026-02-28 14:41,Finance Manager
+VND-0161,Approve Vendor,2026-03-01 21:31,Finance Manager
+VND-0161,Create Vendor Record,2026-03-01 21:51,ERP System
+VND-0161,Send Welcome Pack,2026-03-01 21:59,ERP System
+VND-0161,Archive Application,2026-03-01 22:19,ERP System
+VND-0162,Receive Application,2026-02-06 10:54,Vendor Portal
+VND-0162,Verify Documents,2026-02-06 11:00,Vendor Portal
+VND-0162,Await Vendor Documents,2026-02-10 06:34,Vendor Portal
+VND-0162,Verify Documents,2026-02-10 06:43,Vendor Portal
+VND-0162,Review Application,2026-02-10 07:17,Procurement Officer
+VND-0162,Compliance Screening,2026-02-13 12:38,Compliance Team
+VND-0162,Financial Risk Assessment,2026-02-16 23:28,Finance Manager
+VND-0162,Approve Vendor,2026-02-17 21:31,Finance Manager
+VND-0162,Create Vendor Record,2026-02-17 22:24,ERP System
+VND-0162,Send Welcome Pack,2026-02-17 22:38,ERP System
+VND-0162,Archive Application,2026-02-17 22:51,ERP System
+VND-0163,Receive Application,2026-01-09 10:50,Vendor Portal
+VND-0163,Verify Documents,2026-01-09 11:00,Vendor Portal
+VND-0163,Review Application,2026-01-09 16:13,Procurement Officer
+VND-0163,Compliance Screening,2026-01-14 23:01,Compliance Team
+VND-0163,Financial Risk Assessment,2026-01-16 09:03,Finance Manager
+VND-0163,Approve Vendor,2026-01-17 19:47,Finance Manager
+VND-0163,Create Vendor Record,2026-01-17 20:09,ERP System
+VND-0163,Send Welcome Pack,2026-01-17 20:37,ERP System
+VND-0163,Archive Application,2026-01-17 20:58,ERP System
+VND-0164,Receive Application,2026-03-01 22:50,Vendor Portal
+VND-0164,Verify Documents,2026-03-01 22:53,Vendor Portal
+VND-0164,Await Vendor Documents,2026-03-05 04:39,Vendor Portal
+VND-0164,Verify Documents,2026-03-05 04:46,Vendor Portal
+VND-0164,Review Application,2026-03-05 08:09,Procurement Officer
+VND-0164,Compliance Screening,2026-03-11 11:59,Compliance Team
+VND-0164,Financial Risk Assessment,2026-03-16 19:03,Finance Manager
+VND-0164,Approve Vendor,2026-03-18 16:10,Finance Manager
+VND-0164,Create Vendor Record,2026-03-18 16:47,ERP System
+VND-0164,Send Welcome Pack,2026-03-18 16:50,ERP System
+VND-0164,Archive Application,2026-03-18 16:53,ERP System
+VND-0165,Receive Application,2026-01-08 21:00,Vendor Portal
+VND-0165,Verify Documents,2026-01-08 21:07,Vendor Portal
+VND-0165,Await Vendor Documents,2026-01-14 10:53,Vendor Portal
+VND-0165,Verify Documents,2026-01-14 11:02,Vendor Portal
+VND-0165,Review Application,2026-01-14 12:48,Procurement Officer
+VND-0165,Compliance Screening,2026-01-22 09:34,Compliance Team
+VND-0165,Financial Risk Assessment,2026-01-24 04:39,Finance Manager
+VND-0165,Approve Vendor,2026-01-26 02:30,Finance Manager
+VND-0165,Create Vendor Record,2026-01-26 03:00,ERP System
+VND-0165,Send Welcome Pack,2026-01-26 03:21,ERP System
+VND-0165,Archive Application,2026-01-26 03:46,ERP System
+VND-0166,Receive Application,2026-02-01 13:41,Vendor Portal
+VND-0166,Verify Documents,2026-02-01 13:51,Vendor Portal
+VND-0166,Review Application,2026-02-01 18:53,Procurement Officer
+VND-0166,Financial Risk Assessment,2026-02-09 08:38,Finance Manager
+VND-0166,Compliance Screening,2026-02-14 09:23,Compliance Team
+VND-0166,Approve Vendor,2026-02-15 21:48,Finance Manager
+VND-0166,Create Vendor Record,2026-02-15 22:16,ERP System
+VND-0166,Send Welcome Pack,2026-02-15 22:28,ERP System
+VND-0166,Archive Application,2026-02-15 22:51,ERP System
+VND-0167,Receive Application,2026-01-15 07:26,Vendor Portal
+VND-0167,Verify Documents,2026-01-15 07:32,Vendor Portal
+VND-0167,Review Application,2026-01-15 14:13,Procurement Officer
+VND-0167,Compliance Screening,2026-01-17 21:29,Compliance Team
+VND-0167,Financial Risk Assessment,2026-01-22 06:58,Finance Manager
+VND-0167,Approve Vendor,2026-01-25 04:59,Finance Manager
+VND-0167,Create Vendor Record,2026-01-25 05:53,ERP System
+VND-0167,Send Welcome Pack,2026-01-25 06:13,ERP System
+VND-0167,Archive Application,2026-01-25 06:33,ERP System
+VND-0168,Receive Application,2026-01-26 01:04,Vendor Portal
+VND-0168,Verify Documents,2026-01-26 01:13,Vendor Portal
+VND-0168,Review Application,2026-01-26 07:05,Procurement Officer
+VND-0168,Financial Risk Assessment,2026-02-01 14:54,Finance Manager
+VND-0168,Compliance Screening,2026-02-03 11:04,Compliance Team
+VND-0168,Approve Vendor,2026-02-04 07:36,Finance Manager
+VND-0168,Reject Application,2026-02-04 08:30,Procurement Officer
+VND-0169,Receive Application,2026-01-15 08:04,Vendor Portal
+VND-0169,Verify Documents,2026-01-15 08:13,Vendor Portal
+VND-0169,Await Vendor Documents,2026-01-18 03:02,Vendor Portal
+VND-0169,Verify Documents,2026-01-18 03:10,Vendor Portal
+VND-0169,Review Application,2026-01-18 09:33,Procurement Officer
+VND-0169,Financial Risk Assessment,2026-01-22 17:13,Finance Manager
+VND-0169,Compliance Screening,2026-01-26 01:14,Compliance Team
+VND-0169,Approve Vendor,2026-01-27 22:58,Finance Manager
+VND-0169,Create Vendor Record,2026-01-27 23:58,ERP System
+VND-0169,Send Welcome Pack,2026-01-28 00:27,ERP System
+VND-0169,Archive Application,2026-01-28 00:52,ERP System
+VND-0170,Receive Application,2026-01-11 00:03,Vendor Portal
+VND-0170,Verify Documents,2026-01-11 00:13,Vendor Portal
+VND-0170,Review Application,2026-01-11 03:29,Procurement Officer
+VND-0170,Compliance Screening,2026-01-18 14:06,Compliance Team
+VND-0170,Financial Risk Assessment,2026-01-22 13:50,Finance Manager
+VND-0170,Approve Vendor,2026-01-25 11:08,Finance Manager
+VND-0170,Create Vendor Record,2026-01-25 11:47,ERP System
+VND-0170,Send Welcome Pack,2026-01-25 11:59,ERP System
+VND-0170,Archive Application,2026-01-25 12:18,ERP System
+VND-0171,Receive Application,2026-02-06 13:57,Vendor Portal
+VND-0171,Verify Documents,2026-02-06 14:03,Vendor Portal
+VND-0171,Review Application,2026-02-06 16:11,Procurement Officer
+VND-0171,Financial Risk Assessment,2026-02-11 11:29,Finance Manager
+VND-0171,Compliance Screening,2026-02-14 01:34,Compliance Team
+VND-0171,Approve Vendor,2026-02-14 20:55,Finance Manager
+VND-0171,Create Vendor Record,2026-02-14 21:19,ERP System
+VND-0171,Send Welcome Pack,2026-02-14 21:45,ERP System
+VND-0171,Archive Application,2026-02-14 21:56,ERP System
+VND-0172,Receive Application,2026-01-24 04:48,Vendor Portal
+VND-0172,Verify Documents,2026-01-24 04:57,Vendor Portal
+VND-0172,Review Application,2026-01-24 08:25,Procurement Officer
+VND-0172,Compliance Screening,2026-01-29 11:05,Compliance Team
+VND-0172,Financial Risk Assessment,2026-02-01 02:22,Finance Manager
+VND-0172,Approve Vendor,2026-02-03 04:33,Finance Manager
+VND-0172,Create Vendor Record,2026-02-03 05:03,ERP System
+VND-0172,Send Welcome Pack,2026-02-03 05:31,ERP System
+VND-0172,Archive Application,2026-02-03 05:44,ERP System
+VND-0173,Receive Application,2026-01-18 15:58,Vendor Portal
+VND-0173,Verify Documents,2026-01-18 16:04,Vendor Portal
+VND-0173,Await Vendor Documents,2026-01-23 17:34,Vendor Portal
+VND-0173,Verify Documents,2026-01-23 17:37,Vendor Portal
+VND-0173,Review Application,2026-01-23 21:53,Procurement Officer
+VND-0173,Compliance Screening,2026-01-28 19:54,Compliance Team
+VND-0173,Financial Risk Assessment,2026-02-03 01:56,Finance Manager
+VND-0173,Approve Vendor,2026-02-03 19:43,Finance Manager
+VND-0173,Create Vendor Record,2026-02-03 20:05,ERP System
+VND-0173,Send Welcome Pack,2026-02-03 20:24,ERP System
+VND-0173,Archive Application,2026-02-03 20:48,ERP System
+VND-0174,Receive Application,2026-01-30 01:21,Vendor Portal
+VND-0174,Verify Documents,2026-01-30 01:26,Vendor Portal
+VND-0174,Await Vendor Documents,2026-02-01 10:32,Vendor Portal
+VND-0174,Verify Documents,2026-02-01 10:34,Vendor Portal
+VND-0174,Review Application,2026-02-01 15:35,Procurement Officer
+VND-0174,Compliance Screening,2026-02-06 05:12,Compliance Team
+VND-0174,Financial Risk Assessment,2026-02-10 20:18,Finance Manager
+VND-0174,Approve Vendor,2026-02-11 07:08,Finance Manager
+VND-0174,Create Vendor Record,2026-02-11 07:58,ERP System
+VND-0174,Send Welcome Pack,2026-02-11 08:15,ERP System
+VND-0174,Archive Application,2026-02-11 08:20,ERP System
+VND-0175,Receive Application,2026-01-17 20:18,Vendor Portal
+VND-0175,Verify Documents,2026-01-17 20:28,Vendor Portal
+VND-0175,Await Vendor Documents,2026-01-19 18:01,Vendor Portal
+VND-0175,Verify Documents,2026-01-19 18:09,Vendor Portal
+VND-0175,Review Application,2026-01-20 02:09,Procurement Officer
+VND-0175,Financial Risk Assessment,2026-01-27 12:02,Finance Manager
+VND-0175,Compliance Screening,2026-01-31 05:13,Compliance Team
+VND-0175,Approve Vendor,2026-02-02 12:49,Finance Manager
+VND-0175,Create Vendor Record,2026-02-02 13:14,ERP System
+VND-0175,Send Welcome Pack,2026-02-02 13:25,ERP System
+VND-0175,Archive Application,2026-02-02 13:47,ERP System
+VND-0176,Receive Application,2026-01-10 17:14,Vendor Portal
+VND-0176,Verify Documents,2026-01-10 17:17,Vendor Portal
+VND-0176,Review Application,2026-01-10 19:45,Procurement Officer
+VND-0176,Compliance Screening,2026-01-13 05:56,Compliance Team
+VND-0176,Financial Risk Assessment,2026-01-15 05:50,Finance Manager
+VND-0176,Approve Vendor,2026-01-17 19:00,Finance Manager
+VND-0176,Create Vendor Record,2026-01-17 19:07,ERP System
+VND-0176,Send Welcome Pack,2026-01-17 19:35,ERP System
+VND-0176,Archive Application,2026-01-17 19:49,ERP System
+VND-0177,Receive Application,2026-02-19 10:10,Vendor Portal
+VND-0177,Verify Documents,2026-02-19 10:16,Vendor Portal
+VND-0177,Await Vendor Documents,2026-02-25 09:58,Vendor Portal
+VND-0177,Verify Documents,2026-02-25 10:00,Vendor Portal
+VND-0177,Await Vendor Documents,2026-02-28 00:46,Vendor Portal
+VND-0177,Verify Documents,2026-02-28 00:49,Vendor Portal
+VND-0177,Review Application,2026-02-28 04:10,Procurement Officer
+VND-0177,Financial Risk Assessment,2026-03-05 09:52,Finance Manager
+VND-0177,Compliance Screening,2026-03-08 23:54,Compliance Team
+VND-0177,Approve Vendor,2026-03-10 16:59,Finance Manager
+VND-0177,Create Vendor Record,2026-03-10 17:12,ERP System
+VND-0177,Send Welcome Pack,2026-03-10 17:41,ERP System
+VND-0177,Archive Application,2026-03-10 17:59,ERP System
+VND-0178,Receive Application,2026-02-16 22:24,Vendor Portal
+VND-0178,Verify Documents,2026-02-16 22:27,Vendor Portal
+VND-0178,Await Vendor Documents,2026-02-19 19:35,Vendor Portal
+VND-0178,Verify Documents,2026-02-19 19:39,Vendor Portal
+VND-0178,Review Application,2026-02-20 01:40,Procurement Officer
+VND-0178,Compliance Screening,2026-02-24 23:55,Compliance Team
+VND-0178,Financial Risk Assessment,2026-03-02 02:01,Finance Manager
+VND-0178,Approve Vendor,2026-03-04 08:18,Finance Manager
+VND-0178,Create Vendor Record,2026-03-04 08:41,ERP System
+VND-0178,Send Welcome Pack,2026-03-04 09:01,ERP System
+VND-0178,Archive Application,2026-03-04 09:24,ERP System
+VND-0179,Receive Application,2026-01-22 21:58,Vendor Portal
+VND-0179,Verify Documents,2026-01-22 22:06,Vendor Portal
+VND-0179,Await Vendor Documents,2026-01-28 15:00,Vendor Portal
+VND-0179,Verify Documents,2026-01-28 15:08,Vendor Portal
+VND-0179,Review Application,2026-01-28 16:22,Procurement Officer
+VND-0179,Compliance Screening,2026-02-04 05:49,Compliance Team
+VND-0179,Financial Risk Assessment,2026-02-09 01:11,Finance Manager
+VND-0179,Approve Vendor,2026-02-12 00:11,Finance Manager
+VND-0179,Create Vendor Record,2026-02-12 00:36,ERP System
+VND-0179,Send Welcome Pack,2026-02-12 00:45,ERP System
+VND-0179,Archive Application,2026-02-12 00:47,ERP System
+VND-0180,Receive Application,2026-01-29 01:41,Vendor Portal
+VND-0180,Verify Documents,2026-01-29 01:50,Vendor Portal
+VND-0180,Review Application,2026-01-29 05:08,Procurement Officer
+VND-0180,Financial Risk Assessment,2026-02-03 15:35,Finance Manager
+VND-0180,Compliance Screening,2026-02-07 23:06,Compliance Team
+VND-0180,Approve Vendor,2026-02-08 03:52,Finance Manager
+VND-0180,Create Vendor Record,2026-02-08 04:20,ERP System
+VND-0180,Send Welcome Pack,2026-02-08 04:44,ERP System
+VND-0180,Archive Application,2026-02-08 04:53,ERP System
+VND-0181,Receive Application,2026-01-10 23:42,Vendor Portal
+VND-0181,Verify Documents,2026-01-10 23:51,Vendor Portal
+VND-0181,Review Application,2026-01-11 03:48,Procurement Officer
+VND-0181,Financial Risk Assessment,2026-01-18 21:01,Finance Manager
+VND-0181,Compliance Screening,2026-01-23 21:04,Compliance Team
+VND-0181,Approve Vendor,2026-01-26 00:11,Finance Manager
+VND-0181,Reject Application,2026-01-26 00:39,Procurement Officer
+VND-0182,Receive Application,2026-02-07 18:54,Vendor Portal
+VND-0182,Verify Documents,2026-02-07 18:59,Vendor Portal
+VND-0182,Review Application,2026-02-07 23:33,Procurement Officer
+VND-0182,Financial Risk Assessment,2026-02-11 17:22,Finance Manager
+VND-0182,Compliance Screening,2026-02-15 07:29,Compliance Team
+VND-0182,Approve Vendor,2026-02-17 04:50,Finance Manager
+VND-0182,Create Vendor Record,2026-02-17 05:39,ERP System
+VND-0182,Send Welcome Pack,2026-02-17 05:58,ERP System
+VND-0182,Archive Application,2026-02-17 06:15,ERP System
+VND-0183,Receive Application,2026-02-23 06:13,Vendor Portal
+VND-0183,Verify Documents,2026-02-23 06:18,Vendor Portal
+VND-0183,Review Application,2026-02-23 12:36,Procurement Officer
+VND-0183,Compliance Screening,2026-02-26 10:57,Compliance Team
+VND-0183,Financial Risk Assessment,2026-03-02 10:41,Finance Manager
+VND-0183,Approve Vendor,2026-03-04 14:43,Finance Manager
+VND-0183,Create Vendor Record,2026-03-04 15:24,ERP System
+VND-0183,Send Welcome Pack,2026-03-04 15:29,ERP System
+VND-0183,Archive Application,2026-03-04 15:32,ERP System
+VND-0184,Receive Application,2026-02-24 04:21,Vendor Portal
+VND-0184,Verify Documents,2026-02-24 04:26,Vendor Portal
+VND-0184,Review Application,2026-02-24 06:12,Procurement Officer
+VND-0184,Financial Risk Assessment,2026-02-28 03:07,Finance Manager
+VND-0184,Compliance Screening,2026-03-02 23:54,Compliance Team
+VND-0184,Approve Vendor,2026-03-04 10:03,Finance Manager
+VND-0184,Reject Application,2026-03-04 10:26,Procurement Officer
+VND-0185,Receive Application,2026-02-27 09:54,Vendor Portal
+VND-0185,Verify Documents,2026-02-27 10:04,Vendor Portal
+VND-0185,Review Application,2026-02-27 11:02,Procurement Officer
+VND-0185,Financial Risk Assessment,2026-03-06 14:51,Finance Manager
+VND-0185,Compliance Screening,2026-03-08 08:51,Compliance Team
+VND-0185,Approve Vendor,2026-03-09 20:02,Finance Manager
+VND-0185,Create Vendor Record,2026-03-09 20:42,ERP System
+VND-0185,Send Welcome Pack,2026-03-09 20:58,ERP System
+VND-0185,Archive Application,2026-03-09 21:21,ERP System
+VND-0186,Receive Application,2026-02-02 09:12,Vendor Portal
+VND-0186,Verify Documents,2026-02-02 09:20,Vendor Portal
+VND-0186,Review Application,2026-02-02 09:51,Procurement Officer
+VND-0186,Compliance Screening,2026-02-06 21:21,Compliance Team
+VND-0186,Financial Risk Assessment,2026-02-11 04:18,Finance Manager
+VND-0186,Approve Vendor,2026-02-12 13:13,Finance Manager
+VND-0186,Create Vendor Record,2026-02-12 13:22,ERP System
+VND-0186,Send Welcome Pack,2026-02-12 13:41,ERP System
+VND-0186,Archive Application,2026-02-12 13:44,ERP System
+VND-0187,Receive Application,2026-01-11 14:46,Vendor Portal
+VND-0187,Verify Documents,2026-01-11 14:55,Vendor Portal
+VND-0187,Await Vendor Documents,2026-01-13 18:49,Vendor Portal
+VND-0187,Verify Documents,2026-01-13 18:53,Vendor Portal
+VND-0187,Review Application,2026-01-14 01:56,Procurement Officer
+VND-0187,Financial Risk Assessment,2026-01-17 14:54,Finance Manager
+VND-0187,Compliance Screening,2026-01-22 23:27,Compliance Team
+VND-0187,Approve Vendor,2026-01-25 05:14,Finance Manager
+VND-0187,Create Vendor Record,2026-01-25 05:45,ERP System
+VND-0187,Send Welcome Pack,2026-01-25 05:58,ERP System
+VND-0187,Archive Application,2026-01-25 06:28,ERP System
+VND-0188,Receive Application,2026-02-09 03:32,Vendor Portal
+VND-0188,Verify Documents,2026-02-09 03:40,Vendor Portal
+VND-0188,Review Application,2026-02-09 09:59,Procurement Officer
+VND-0188,Financial Risk Assessment,2026-02-12 22:17,Finance Manager
+VND-0188,Compliance Screening,2026-02-17 15:30,Compliance Team
+VND-0188,Approve Vendor,2026-02-18 03:35,Finance Manager
+VND-0188,Create Vendor Record,2026-02-18 04:14,ERP System
+VND-0188,Send Welcome Pack,2026-02-18 04:28,ERP System
+VND-0188,Archive Application,2026-02-18 04:46,ERP System
+VND-0189,Receive Application,2026-01-16 22:11,Vendor Portal
+VND-0189,Verify Documents,2026-01-16 22:16,Vendor Portal
+VND-0189,Review Application,2026-01-17 05:13,Procurement Officer
+VND-0189,Compliance Screening,2026-01-19 11:25,Compliance Team
+VND-0189,Financial Risk Assessment,2026-01-22 04:09,Finance Manager
+VND-0189,Approve Vendor,2026-01-24 09:14,Finance Manager
+VND-0189,Create Vendor Record,2026-01-24 09:53,ERP System
+VND-0189,Send Welcome Pack,2026-01-24 10:07,ERP System
+VND-0189,Archive Application,2026-01-24 10:35,ERP System
+VND-0190,Receive Application,2026-01-26 05:42,Vendor Portal
+VND-0190,Verify Documents,2026-01-26 05:49,Vendor Portal
+VND-0190,Await Vendor Documents,2026-01-28 02:59,Vendor Portal
+VND-0190,Verify Documents,2026-01-28 03:05,Vendor Portal
+VND-0190,Review Application,2026-01-28 11:03,Procurement Officer
+VND-0190,Financial Risk Assessment,2026-01-31 17:51,Finance Manager
+VND-0190,Compliance Screening,2026-02-01 22:14,Compliance Team
+VND-0190,Approve Vendor,2026-02-03 06:51,Finance Manager
+VND-0190,Create Vendor Record,2026-02-03 06:57,ERP System
+VND-0190,Send Welcome Pack,2026-02-03 07:06,ERP System
+VND-0190,Archive Application,2026-02-03 07:14,ERP System
+VND-0191,Receive Application,2026-01-11 10:59,Vendor Portal
+VND-0191,Verify Documents,2026-01-11 11:01,Vendor Portal
+VND-0191,Await Vendor Documents,2026-01-14 23:58,Vendor Portal
+VND-0191,Verify Documents,2026-01-15 00:00,Vendor Portal
+VND-0191,Review Application,2026-01-15 00:52,Procurement Officer
+VND-0191,Compliance Screening,2026-01-21 14:42,Compliance Team
+VND-0191,Financial Risk Assessment,2026-01-25 02:37,Finance Manager
+VND-0191,Approve Vendor,2026-01-25 21:26,Finance Manager
+VND-0191,Create Vendor Record,2026-01-25 22:20,ERP System
+VND-0191,Send Welcome Pack,2026-01-25 22:23,ERP System
+VND-0191,Archive Application,2026-01-25 22:29,ERP System
+VND-0192,Receive Application,2026-02-20 04:46,Vendor Portal
+VND-0192,Verify Documents,2026-02-20 04:51,Vendor Portal
+VND-0192,Review Application,2026-02-20 11:35,Procurement Officer
+VND-0192,Financial Risk Assessment,2026-02-26 02:39,Finance Manager
+VND-0192,Compliance Screening,2026-03-02 09:29,Compliance Team
+VND-0192,Approve Vendor,2026-03-04 11:23,Finance Manager
+VND-0192,Create Vendor Record,2026-03-04 11:43,ERP System
+VND-0192,Send Welcome Pack,2026-03-04 11:54,ERP System
+VND-0192,Archive Application,2026-03-04 12:24,ERP System
+VND-0193,Receive Application,2026-01-18 08:57,Vendor Portal
+VND-0193,Verify Documents,2026-01-18 09:07,Vendor Portal
+VND-0193,Review Application,2026-01-18 12:10,Procurement Officer
+VND-0193,Financial Risk Assessment,2026-01-23 15:18,Finance Manager
+VND-0193,Compliance Screening,2026-01-24 23:37,Compliance Team
+VND-0193,Approve Vendor,2026-01-26 20:00,Finance Manager
+VND-0193,Create Vendor Record,2026-01-26 20:16,ERP System
+VND-0193,Send Welcome Pack,2026-01-26 20:38,ERP System
+VND-0193,Archive Application,2026-01-26 21:01,ERP System
+VND-0194,Receive Application,2026-02-13 05:14,Vendor Portal
+VND-0194,Verify Documents,2026-02-13 05:16,Vendor Portal
+VND-0194,Review Application,2026-02-13 11:15,Procurement Officer
+VND-0194,Financial Risk Assessment,2026-02-19 19:19,Finance Manager
+VND-0194,Compliance Screening,2026-02-25 06:36,Compliance Team
+VND-0194,Approve Vendor,2026-02-27 10:08,Finance Manager
+VND-0194,Create Vendor Record,2026-02-27 10:22,ERP System
+VND-0194,Send Welcome Pack,2026-02-27 10:33,ERP System
+VND-0194,Archive Application,2026-02-27 10:47,ERP System
+VND-0195,Receive Application,2026-01-22 01:41,Vendor Portal
+VND-0195,Verify Documents,2026-01-22 01:50,Vendor Portal
+VND-0195,Review Application,2026-01-22 04:15,Procurement Officer
+VND-0195,Financial Risk Assessment,2026-01-27 14:22,Finance Manager
+VND-0195,Compliance Screening,2026-02-02 11:26,Compliance Team
+VND-0195,Approve Vendor,2026-02-04 22:26,Finance Manager
+VND-0195,Create Vendor Record,2026-02-04 22:34,ERP System
+VND-0195,Send Welcome Pack,2026-02-04 22:53,ERP System
+VND-0195,Archive Application,2026-02-04 23:08,ERP System
+VND-0196,Receive Application,2026-02-12 05:52,Vendor Portal
+VND-0196,Verify Documents,2026-02-12 05:56,Vendor Portal
+VND-0196,Review Application,2026-02-12 08:36,Procurement Officer
+VND-0196,Financial Risk Assessment,2026-02-16 16:07,Finance Manager
+VND-0196,Compliance Screening,2026-02-19 13:12,Compliance Team
+VND-0196,Approve Vendor,2026-02-22 08:09,Finance Manager
+VND-0196,Create Vendor Record,2026-02-22 08:37,ERP System
+VND-0196,Send Welcome Pack,2026-02-22 08:41,ERP System
+VND-0196,Archive Application,2026-02-22 09:00,ERP System
+VND-0197,Receive Application,2026-01-22 16:06,Vendor Portal
+VND-0197,Verify Documents,2026-01-22 16:14,Vendor Portal
+VND-0197,Await Vendor Documents,2026-01-27 12:12,Vendor Portal
+VND-0197,Verify Documents,2026-01-27 12:14,Vendor Portal
+VND-0197,Review Application,2026-01-27 14:20,Procurement Officer
+VND-0197,Compliance Screening,2026-02-01 01:35,Compliance Team
+VND-0197,Financial Risk Assessment,2026-02-04 19:02,Finance Manager
+VND-0197,Approve Vendor,2026-02-07 12:57,Finance Manager
+VND-0197,Create Vendor Record,2026-02-07 13:02,ERP System
+VND-0197,Send Welcome Pack,2026-02-07 13:10,ERP System
+VND-0197,Archive Application,2026-02-07 13:18,ERP System
+VND-0198,Receive Application,2026-01-16 00:16,Vendor Portal
+VND-0198,Verify Documents,2026-01-16 00:25,Vendor Portal
+VND-0198,Review Application,2026-01-16 06:51,Procurement Officer
+VND-0198,Financial Risk Assessment,2026-01-20 14:41,Finance Manager
+VND-0198,Compliance Screening,2026-01-23 20:50,Compliance Team
+VND-0198,Approve Vendor,2026-01-25 14:31,Finance Manager
+VND-0198,Create Vendor Record,2026-01-25 14:54,ERP System
+VND-0198,Send Welcome Pack,2026-01-25 15:08,ERP System
+VND-0198,Archive Application,2026-01-25 15:24,ERP System
+VND-0199,Receive Application,2026-02-22 21:46,Vendor Portal
+VND-0199,Verify Documents,2026-02-22 21:52,Vendor Portal
+VND-0199,Review Application,2026-02-23 02:44,Procurement Officer
+VND-0199,Compliance Screening,2026-03-02 18:31,Compliance Team
+VND-0199,Financial Risk Assessment,2026-03-06 10:08,Finance Manager
+VND-0199,Approve Vendor,2026-03-09 09:07,Finance Manager
+VND-0199,Create Vendor Record,2026-03-09 10:00,ERP System
+VND-0199,Send Welcome Pack,2026-03-09 10:28,ERP System
+VND-0199,Archive Application,2026-03-09 10:40,ERP System
+VND-0200,Receive Application,2026-01-23 19:44,Vendor Portal
+VND-0200,Verify Documents,2026-01-23 19:52,Vendor Portal
+VND-0200,Await Vendor Documents,2026-01-25 10:58,Vendor Portal
+VND-0200,Verify Documents,2026-01-25 11:02,Vendor Portal
+VND-0200,Review Application,2026-01-25 11:40,Procurement Officer
+VND-0200,Financial Risk Assessment,2026-01-30 10:52,Finance Manager
+VND-0200,Compliance Screening,2026-02-03 14:24,Compliance Team
+VND-0200,Approve Vendor,2026-02-05 09:56,Finance Manager
+VND-0200,Create Vendor Record,2026-02-05 10:19,ERP System
+VND-0200,Send Welcome Pack,2026-02-05 10:25,ERP System
+VND-0200,Archive Application,2026-02-05 10:33,ERP System
+VND-0201,Receive Application,2026-02-04 08:36,Vendor Portal
+VND-0201,Verify Documents,2026-02-04 08:41,Vendor Portal
+VND-0201,Await Vendor Documents,2026-02-08 04:51,Vendor Portal
+VND-0201,Verify Documents,2026-02-08 05:01,Vendor Portal
+VND-0201,Review Application,2026-02-08 11:21,Procurement Officer
+VND-0201,Financial Risk Assessment,2026-02-14 07:31,Finance Manager
+VND-0201,Compliance Screening,2026-02-16 18:39,Compliance Team
+VND-0201,Approve Vendor,2026-02-18 08:00,Finance Manager
+VND-0201,Create Vendor Record,2026-02-18 08:46,ERP System
+VND-0201,Send Welcome Pack,2026-02-18 09:11,ERP System
+VND-0201,Archive Application,2026-02-18 09:28,ERP System
+VND-0202,Receive Application,2026-02-16 06:41,Vendor Portal
+VND-0202,Verify Documents,2026-02-16 06:48,Vendor Portal
+VND-0202,Await Vendor Documents,2026-02-18 05:54,Vendor Portal
+VND-0202,Verify Documents,2026-02-18 05:58,Vendor Portal
+VND-0202,Review Application,2026-02-18 10:38,Procurement Officer
+VND-0202,Financial Risk Assessment,2026-02-22 12:53,Finance Manager
+VND-0202,Compliance Screening,2026-02-26 14:54,Compliance Team
+VND-0202,Approve Vendor,2026-03-01 12:14,Finance Manager
+VND-0202,Reject Application,2026-03-01 12:26,Procurement Officer
+VND-0203,Receive Application,2026-01-12 02:22,Vendor Portal
+VND-0203,Verify Documents,2026-01-12 02:24,Vendor Portal
+VND-0203,Review Application,2026-01-12 06:25,Procurement Officer
+VND-0203,Financial Risk Assessment,2026-01-15 19:57,Finance Manager
+VND-0203,Compliance Screening,2026-01-21 14:59,Compliance Team
+VND-0203,Approve Vendor,2026-01-21 23:37,Finance Manager
+VND-0203,Create Vendor Record,2026-01-21 23:42,ERP System
+VND-0203,Send Welcome Pack,2026-01-21 23:50,ERP System
+VND-0203,Archive Application,2026-01-22 00:08,ERP System
+VND-0204,Receive Application,2026-02-15 20:10,Vendor Portal
+VND-0204,Verify Documents,2026-02-15 20:19,Vendor Portal
+VND-0204,Review Application,2026-02-15 20:57,Procurement Officer
+VND-0204,Financial Risk Assessment,2026-02-17 22:45,Finance Manager
+VND-0204,Compliance Screening,2026-02-21 23:24,Compliance Team
+VND-0204,Approve Vendor,2026-02-22 04:12,Finance Manager
+VND-0204,Reject Application,2026-02-22 05:08,Procurement Officer
+VND-0205,Receive Application,2026-01-30 08:10,Vendor Portal
+VND-0205,Verify Documents,2026-01-30 08:16,Vendor Portal
+VND-0205,Await Vendor Documents,2026-02-02 07:54,Vendor Portal
+VND-0205,Verify Documents,2026-02-02 08:02,Vendor Portal
+VND-0205,Review Application,2026-02-02 15:24,Procurement Officer
+VND-0205,Financial Risk Assessment,2026-02-06 16:21,Finance Manager
+VND-0205,Compliance Screening,2026-02-08 06:57,Compliance Team
+VND-0205,Approve Vendor,2026-02-09 22:44,Finance Manager
+VND-0205,Create Vendor Record,2026-02-09 23:01,ERP System
+VND-0205,Send Welcome Pack,2026-02-09 23:22,ERP System
+VND-0205,Archive Application,2026-02-09 23:40,ERP System
+VND-0206,Receive Application,2026-01-28 07:24,Vendor Portal
+VND-0206,Verify Documents,2026-01-28 07:30,Vendor Portal
+VND-0206,Review Application,2026-01-28 08:40,Procurement Officer
+VND-0206,Compliance Screening,2026-02-03 14:32,Compliance Team
+VND-0206,Financial Risk Assessment,2026-02-06 21:58,Finance Manager
+VND-0206,Approve Vendor,2026-02-07 18:34,Finance Manager
+VND-0206,Create Vendor Record,2026-02-07 18:53,ERP System
+VND-0206,Send Welcome Pack,2026-02-07 19:04,ERP System
+VND-0206,Archive Application,2026-02-07 19:27,ERP System
+VND-0207,Receive Application,2026-01-12 16:06,Vendor Portal
+VND-0207,Verify Documents,2026-01-12 16:08,Vendor Portal
+VND-0207,Review Application,2026-01-12 19:52,Procurement Officer
+VND-0207,Compliance Screening,2026-01-19 02:51,Compliance Team
+VND-0207,Financial Risk Assessment,2026-01-23 06:18,Finance Manager
+VND-0207,Approve Vendor,2026-01-25 05:46,Finance Manager
+VND-0207,Reject Application,2026-01-25 06:06,Procurement Officer
+VND-0208,Receive Application,2026-01-12 20:37,Vendor Portal
+VND-0208,Verify Documents,2026-01-12 20:45,Vendor Portal
+VND-0208,Review Application,2026-01-13 00:04,Procurement Officer
+VND-0208,Financial Risk Assessment,2026-01-16 02:06,Finance Manager
+VND-0208,Compliance Screening,2026-01-20 02:12,Compliance Team
+VND-0208,Approve Vendor,2026-01-20 21:53,Finance Manager
+VND-0208,Create Vendor Record,2026-01-20 22:53,ERP System
+VND-0208,Send Welcome Pack,2026-01-20 23:17,ERP System
+VND-0208,Archive Application,2026-01-20 23:47,ERP System
+VND-0209,Receive Application,2026-02-25 22:09,Vendor Portal
+VND-0209,Verify Documents,2026-02-25 22:11,Vendor Portal
+VND-0209,Review Application,2026-02-26 04:31,Procurement Officer
+VND-0209,Financial Risk Assessment,2026-03-03 09:04,Finance Manager
+VND-0209,Compliance Screening,2026-03-07 11:12,Compliance Team
+VND-0209,Approve Vendor,2026-03-07 17:26,Finance Manager
+VND-0209,Create Vendor Record,2026-03-07 18:25,ERP System
+VND-0209,Send Welcome Pack,2026-03-07 18:37,ERP System
+VND-0209,Archive Application,2026-03-07 18:39,ERP System
+VND-0210,Receive Application,2026-01-24 04:32,Vendor Portal
+VND-0210,Verify Documents,2026-01-24 04:40,Vendor Portal
+VND-0210,Review Application,2026-01-24 07:43,Procurement Officer
+VND-0210,Compliance Screening,2026-01-28 04:04,Compliance Team
+VND-0210,Financial Risk Assessment,2026-02-01 09:03,Finance Manager
+VND-0210,Approve Vendor,2026-02-03 22:01,Finance Manager
+VND-0210,Create Vendor Record,2026-02-03 22:49,ERP System
+VND-0210,Send Welcome Pack,2026-02-03 23:19,ERP System
+VND-0210,Archive Application,2026-02-03 23:38,ERP System
+VND-0211,Receive Application,2026-02-04 12:40,Vendor Portal
+VND-0211,Verify Documents,2026-02-04 12:44,Vendor Portal
+VND-0211,Review Application,2026-02-04 19:06,Procurement Officer
+VND-0211,Financial Risk Assessment,2026-02-07 16:30,Finance Manager
+VND-0211,Compliance Screening,2026-02-11 12:52,Compliance Team
+VND-0211,Approve Vendor,2026-02-12 16:28,Finance Manager
+VND-0211,Reject Application,2026-02-12 17:05,Procurement Officer
+VND-0212,Receive Application,2026-01-26 11:07,Vendor Portal
+VND-0212,Verify Documents,2026-01-26 11:14,Vendor Portal
+VND-0212,Review Application,2026-01-26 16:58,Procurement Officer
+VND-0212,Compliance Screening,2026-02-02 05:17,Compliance Team
+VND-0212,Financial Risk Assessment,2026-02-07 14:53,Finance Manager
+VND-0212,Approve Vendor,2026-02-09 14:10,Finance Manager
+VND-0212,Create Vendor Record,2026-02-09 14:43,ERP System
+VND-0212,Send Welcome Pack,2026-02-09 15:00,ERP System
+VND-0212,Archive Application,2026-02-09 15:09,ERP System
+VND-0213,Receive Application,2026-02-06 17:16,Vendor Portal
+VND-0213,Verify Documents,2026-02-06 17:24,Vendor Portal
+VND-0213,Review Application,2026-02-06 23:42,Procurement Officer
+VND-0213,Financial Risk Assessment,2026-02-13 07:29,Finance Manager
+VND-0213,Compliance Screening,2026-02-14 19:11,Compliance Team
+VND-0213,Approve Vendor,2026-02-15 19:20,Finance Manager
+VND-0213,Create Vendor Record,2026-02-15 20:10,ERP System
+VND-0213,Send Welcome Pack,2026-02-15 20:14,ERP System
+VND-0213,Archive Application,2026-02-15 20:18,ERP System
+VND-0214,Receive Application,2026-01-29 17:23,Vendor Portal
+VND-0214,Verify Documents,2026-01-29 17:27,Vendor Portal
+VND-0214,Await Vendor Documents,2026-02-03 22:26,Vendor Portal
+VND-0214,Verify Documents,2026-02-03 22:34,Vendor Portal
+VND-0214,Review Application,2026-02-03 23:58,Procurement Officer
+VND-0214,Financial Risk Assessment,2026-02-07 00:57,Finance Manager
+VND-0214,Compliance Screening,2026-02-08 01:39,Compliance Team
+VND-0214,Approve Vendor,2026-02-09 12:00,Finance Manager
+VND-0214,Create Vendor Record,2026-02-09 12:22,ERP System
+VND-0214,Send Welcome Pack,2026-02-09 12:27,ERP System
+VND-0214,Archive Application,2026-02-09 12:33,ERP System
+VND-0215,Receive Application,2026-01-13 06:42,Vendor Portal
+VND-0215,Verify Documents,2026-01-13 06:51,Vendor Portal
+VND-0215,Await Vendor Documents,2026-01-17 10:53,Vendor Portal
+VND-0215,Verify Documents,2026-01-17 11:03,Vendor Portal
+VND-0215,Review Application,2026-01-17 12:25,Procurement Officer
+VND-0215,Compliance Screening,2026-01-19 19:35,Compliance Team
+VND-0215,Financial Risk Assessment,2026-01-21 07:49,Finance Manager
+VND-0215,Approve Vendor,2026-01-21 18:10,Finance Manager
+VND-0215,Create Vendor Record,2026-01-21 19:05,ERP System
+VND-0215,Send Welcome Pack,2026-01-21 19:17,ERP System
+VND-0215,Archive Application,2026-01-21 19:46,ERP System
+VND-0216,Receive Application,2026-02-09 09:33,Vendor Portal
+VND-0216,Verify Documents,2026-02-09 09:41,Vendor Portal
+VND-0216,Await Vendor Documents,2026-02-12 14:37,Vendor Portal
+VND-0216,Verify Documents,2026-02-12 14:40,Vendor Portal
+VND-0216,Review Application,2026-02-12 19:56,Procurement Officer
+VND-0216,Financial Risk Assessment,2026-02-17 14:13,Finance Manager
+VND-0216,Compliance Screening,2026-02-21 20:18,Compliance Team
+VND-0216,Approve Vendor,2026-02-23 23:05,Finance Manager
+VND-0216,Create Vendor Record,2026-02-23 23:18,ERP System
+VND-0216,Send Welcome Pack,2026-02-23 23:28,ERP System
+VND-0216,Archive Application,2026-02-23 23:39,ERP System
+VND-0217,Receive Application,2026-01-29 18:20,Vendor Portal
+VND-0217,Verify Documents,2026-01-29 18:23,Vendor Portal
+VND-0217,Review Application,2026-01-29 21:14,Procurement Officer
+VND-0217,Compliance Screening,2026-02-05 16:13,Compliance Team
+VND-0217,Financial Risk Assessment,2026-02-08 09:08,Finance Manager
+VND-0217,Approve Vendor,2026-02-08 18:23,Finance Manager
+VND-0217,Create Vendor Record,2026-02-08 18:43,ERP System
+VND-0217,Send Welcome Pack,2026-02-08 19:08,ERP System
+VND-0217,Archive Application,2026-02-08 19:30,ERP System
+VND-0218,Receive Application,2026-02-19 11:05,Vendor Portal
+VND-0218,Verify Documents,2026-02-19 11:10,Vendor Portal
+VND-0218,Review Application,2026-02-19 12:49,Procurement Officer
+VND-0218,Financial Risk Assessment,2026-02-25 00:00,Finance Manager
+VND-0218,Compliance Screening,2026-02-26 00:55,Compliance Team
+VND-0218,Approve Vendor,2026-02-27 03:35,Finance Manager
+VND-0218,Create Vendor Record,2026-02-27 04:04,ERP System
+VND-0218,Send Welcome Pack,2026-02-27 04:31,ERP System
+VND-0218,Archive Application,2026-02-27 05:00,ERP System
+VND-0219,Receive Application,2026-02-04 07:53,Vendor Portal
+VND-0219,Verify Documents,2026-02-04 08:01,Vendor Portal
+VND-0219,Review Application,2026-02-04 15:51,Procurement Officer
+VND-0219,Compliance Screening,2026-02-08 05:01,Compliance Team
+VND-0219,Financial Risk Assessment,2026-02-10 22:02,Finance Manager
+VND-0219,Approve Vendor,2026-02-13 18:42,Finance Manager
+VND-0219,Create Vendor Record,2026-02-13 19:17,ERP System
+VND-0219,Send Welcome Pack,2026-02-13 19:29,ERP System
+VND-0219,Archive Application,2026-02-13 19:36,ERP System
+VND-0220,Receive Application,2026-02-10 13:58,Vendor Portal
+VND-0220,Verify Documents,2026-02-10 14:04,Vendor Portal
+VND-0220,Review Application,2026-02-10 19:58,Procurement Officer
+VND-0220,Financial Risk Assessment,2026-02-18 10:02,Finance Manager
+VND-0220,Compliance Screening,2026-02-22 16:39,Compliance Team
+VND-0220,Approve Vendor,2026-02-23 18:53,Finance Manager
+VND-0220,Create Vendor Record,2026-02-23 19:50,ERP System
+VND-0220,Send Welcome Pack,2026-02-23 20:17,ERP System
+VND-0220,Archive Application,2026-02-23 20:31,ERP System
+VND-0221,Receive Application,2026-02-07 13:23,Vendor Portal
+VND-0221,Verify Documents,2026-02-07 13:28,Vendor Portal
+VND-0221,Await Vendor Documents,2026-02-11 22:19,Vendor Portal
+VND-0221,Verify Documents,2026-02-11 22:29,Vendor Portal
+VND-0221,Review Application,2026-02-12 05:32,Procurement Officer
+VND-0221,Compliance Screening,2026-02-14 12:52,Compliance Team
+VND-0221,Financial Risk Assessment,2026-02-19 16:09,Finance Manager
+VND-0221,Approve Vendor,2026-02-21 20:30,Finance Manager
+VND-0221,Create Vendor Record,2026-02-21 21:26,ERP System
+VND-0221,Send Welcome Pack,2026-02-21 21:37,ERP System
+VND-0221,Archive Application,2026-02-21 22:05,ERP System
+VND-0222,Receive Application,2026-01-11 15:04,Vendor Portal
+VND-0222,Verify Documents,2026-01-11 15:12,Vendor Portal
+VND-0222,Review Application,2026-01-11 16:53,Procurement Officer
+VND-0222,Compliance Screening,2026-01-17 03:34,Compliance Team
+VND-0222,Financial Risk Assessment,2026-01-19 12:36,Finance Manager
+VND-0222,Approve Vendor,2026-01-20 03:07,Finance Manager
+VND-0222,Create Vendor Record,2026-01-20 04:02,ERP System
+VND-0222,Send Welcome Pack,2026-01-20 04:16,ERP System
+VND-0222,Archive Application,2026-01-20 04:20,ERP System
+VND-0223,Receive Application,2026-02-15 05:00,Vendor Portal
+VND-0223,Verify Documents,2026-02-15 05:09,Vendor Portal
+VND-0223,Review Application,2026-02-15 10:12,Procurement Officer
+VND-0223,Financial Risk Assessment,2026-02-23 04:32,Finance Manager
+VND-0223,Compliance Screening,2026-03-01 03:16,Compliance Team
+VND-0223,Approve Vendor,2026-03-02 20:22,Finance Manager
+VND-0223,Reject Application,2026-03-02 20:55,Procurement Officer
+VND-0224,Receive Application,2026-02-23 04:53,Vendor Portal
+VND-0224,Verify Documents,2026-02-23 04:56,Vendor Portal
+VND-0224,Review Application,2026-02-23 07:33,Procurement Officer
+VND-0224,Financial Risk Assessment,2026-03-01 08:29,Finance Manager
+VND-0224,Compliance Screening,2026-03-03 07:11,Compliance Team
+VND-0224,Approve Vendor,2026-03-03 14:12,Finance Manager
+VND-0224,Create Vendor Record,2026-03-03 14:58,ERP System
+VND-0224,Send Welcome Pack,2026-03-03 15:21,ERP System
+VND-0224,Archive Application,2026-03-03 15:43,ERP System
+VND-0225,Receive Application,2026-02-10 16:58,Vendor Portal
+VND-0225,Verify Documents,2026-02-10 17:05,Vendor Portal
+VND-0225,Review Application,2026-02-10 21:15,Procurement Officer
+VND-0225,Compliance Screening,2026-02-14 02:10,Compliance Team
+VND-0225,Financial Risk Assessment,2026-02-15 03:36,Finance Manager
+VND-0225,Approve Vendor,2026-02-15 22:45,Finance Manager
+VND-0225,Create Vendor Record,2026-02-15 23:23,ERP System
+VND-0225,Send Welcome Pack,2026-02-15 23:42,ERP System
+VND-0225,Archive Application,2026-02-16 00:02,ERP System
+VND-0226,Receive Application,2026-02-26 16:37,Vendor Portal
+VND-0226,Verify Documents,2026-02-26 16:44,Vendor Portal
+VND-0226,Await Vendor Documents,2026-03-01 22:08,Vendor Portal
+VND-0226,Verify Documents,2026-03-01 22:17,Vendor Portal
+VND-0226,Review Application,2026-03-02 03:48,Procurement Officer
+VND-0226,Compliance Screening,2026-03-09 20:27,Compliance Team
+VND-0226,Financial Risk Assessment,2026-03-11 17:01,Finance Manager
+VND-0226,Approve Vendor,2026-03-11 22:41,Finance Manager
+VND-0226,Create Vendor Record,2026-03-11 23:04,ERP System
+VND-0226,Send Welcome Pack,2026-03-11 23:19,ERP System
+VND-0226,Archive Application,2026-03-11 23:23,ERP System
+VND-0227,Receive Application,2026-01-15 21:33,Vendor Portal
+VND-0227,Verify Documents,2026-01-15 21:37,Vendor Portal
+VND-0227,Review Application,2026-01-16 01:02,Procurement Officer
+VND-0227,Compliance Screening,2026-01-23 05:22,Compliance Team
+VND-0227,Financial Risk Assessment,2026-01-28 16:26,Finance Manager
+VND-0227,Approve Vendor,2026-01-30 05:24,Finance Manager
+VND-0227,Create Vendor Record,2026-01-30 05:35,ERP System
+VND-0227,Send Welcome Pack,2026-01-30 05:51,ERP System
+VND-0227,Archive Application,2026-01-30 06:16,ERP System
+VND-0228,Receive Application,2026-02-15 12:23,Vendor Portal
+VND-0228,Verify Documents,2026-02-15 12:29,Vendor Portal
+VND-0228,Await Vendor Documents,2026-02-16 20:20,Vendor Portal
+VND-0228,Verify Documents,2026-02-16 20:22,Vendor Portal
+VND-0228,Review Application,2026-02-17 04:06,Procurement Officer
+VND-0228,Compliance Screening,2026-02-23 01:46,Compliance Team
+VND-0228,Financial Risk Assessment,2026-02-27 18:14,Finance Manager
+VND-0228,Approve Vendor,2026-03-02 04:51,Finance Manager
+VND-0228,Create Vendor Record,2026-03-02 05:43,ERP System
+VND-0228,Send Welcome Pack,2026-03-02 05:52,ERP System
+VND-0228,Archive Application,2026-03-02 06:10,ERP System
+VND-0229,Receive Application,2026-01-21 05:05,Vendor Portal
+VND-0229,Verify Documents,2026-01-21 05:12,Vendor Portal
+VND-0229,Review Application,2026-01-21 09:38,Procurement Officer
+VND-0229,Compliance Screening,2026-01-26 00:56,Compliance Team
+VND-0229,Financial Risk Assessment,2026-01-31 13:51,Finance Manager
+VND-0229,Approve Vendor,2026-02-01 06:26,Finance Manager
+VND-0229,Create Vendor Record,2026-02-01 07:13,ERP System
+VND-0229,Send Welcome Pack,2026-02-01 07:28,ERP System
+VND-0229,Archive Application,2026-02-01 07:42,ERP System
+VND-0230,Receive Application,2026-01-07 23:46,Vendor Portal
+VND-0230,Verify Documents,2026-01-07 23:51,Vendor Portal
+VND-0230,Review Application,2026-01-08 04:00,Procurement Officer
+VND-0230,Financial Risk Assessment,2026-01-14 14:10,Finance Manager
+VND-0230,Compliance Screening,2026-01-15 14:46,Compliance Team
+VND-0230,Approve Vendor,2026-01-16 08:48,Finance Manager
+VND-0230,Create Vendor Record,2026-01-16 09:38,ERP System
+VND-0230,Send Welcome Pack,2026-01-16 10:05,ERP System
+VND-0230,Archive Application,2026-01-16 10:32,ERP System
+VND-0231,Receive Application,2026-01-11 00:40,Vendor Portal
+VND-0231,Verify Documents,2026-01-11 00:50,Vendor Portal
+VND-0231,Review Application,2026-01-11 04:06,Procurement Officer
+VND-0231,Compliance Screening,2026-01-15 09:54,Compliance Team
+VND-0231,Financial Risk Assessment,2026-01-19 00:22,Finance Manager
+VND-0231,Approve Vendor,2026-01-21 02:09,Finance Manager
+VND-0231,Create Vendor Record,2026-01-21 02:47,ERP System
+VND-0231,Send Welcome Pack,2026-01-21 03:09,ERP System
+VND-0231,Archive Application,2026-01-21 03:21,ERP System
+VND-0232,Receive Application,2026-02-28 16:06,Vendor Portal
+VND-0232,Verify Documents,2026-02-28 16:14,Vendor Portal
+VND-0232,Review Application,2026-02-28 19:42,Procurement Officer
+VND-0232,Compliance Screening,2026-03-06 19:48,Compliance Team
+VND-0232,Financial Risk Assessment,2026-03-12 15:14,Finance Manager
+VND-0232,Approve Vendor,2026-03-13 07:00,Finance Manager
+VND-0232,Create Vendor Record,2026-03-13 07:50,ERP System
+VND-0232,Send Welcome Pack,2026-03-13 08:17,ERP System
+VND-0232,Archive Application,2026-03-13 08:28,ERP System
+VND-0233,Receive Application,2026-03-02 06:21,Vendor Portal
+VND-0233,Verify Documents,2026-03-02 06:25,Vendor Portal
+VND-0233,Review Application,2026-03-02 08:57,Procurement Officer
+VND-0233,Compliance Screening,2026-03-07 20:20,Compliance Team
+VND-0233,Financial Risk Assessment,2026-03-09 12:18,Finance Manager
+VND-0233,Approve Vendor,2026-03-11 15:38,Finance Manager
+VND-0233,Create Vendor Record,2026-03-11 16:07,ERP System
+VND-0233,Send Welcome Pack,2026-03-11 16:22,ERP System
+VND-0233,Archive Application,2026-03-11 16:43,ERP System
+VND-0234,Receive Application,2026-01-17 21:10,Vendor Portal
+VND-0234,Verify Documents,2026-01-17 21:18,Vendor Portal
+VND-0234,Review Application,2026-01-18 03:13,Procurement Officer
+VND-0234,Compliance Screening,2026-01-22 02:31,Compliance Team
+VND-0234,Financial Risk Assessment,2026-01-26 06:16,Finance Manager
+VND-0234,Approve Vendor,2026-01-27 05:59,Finance Manager
+VND-0234,Create Vendor Record,2026-01-27 06:24,ERP System
+VND-0234,Send Welcome Pack,2026-01-27 06:52,ERP System
+VND-0234,Archive Application,2026-01-27 07:08,ERP System
+VND-0235,Receive Application,2026-03-02 17:07,Vendor Portal
+VND-0235,Verify Documents,2026-03-02 17:14,Vendor Portal
+VND-0235,Await Vendor Documents,2026-03-03 18:32,Vendor Portal
+VND-0235,Verify Documents,2026-03-03 18:41,Vendor Portal
+VND-0235,Review Application,2026-03-04 02:08,Procurement Officer
+VND-0235,Financial Risk Assessment,2026-03-10 10:58,Finance Manager
+VND-0235,Compliance Screening,2026-03-14 15:38,Compliance Team
+VND-0235,Approve Vendor,2026-03-16 05:25,Finance Manager
+VND-0235,Create Vendor Record,2026-03-16 06:01,ERP System
+VND-0235,Send Welcome Pack,2026-03-16 06:16,ERP System
+VND-0235,Archive Application,2026-03-16 06:40,ERP System
+VND-0236,Receive Application,2026-02-14 17:36,Vendor Portal
+VND-0236,Verify Documents,2026-02-14 17:39,Vendor Portal
+VND-0236,Review Application,2026-02-15 00:56,Procurement Officer
+VND-0236,Compliance Screening,2026-02-19 13:09,Compliance Team
+VND-0236,Financial Risk Assessment,2026-02-22 05:01,Finance Manager
+VND-0236,Approve Vendor,2026-02-23 00:21,Finance Manager
+VND-0236,Create Vendor Record,2026-02-23 00:36,ERP System
+VND-0236,Send Welcome Pack,2026-02-23 01:02,ERP System
+VND-0236,Archive Application,2026-02-23 01:18,ERP System
+VND-0237,Receive Application,2026-02-25 19:40,Vendor Portal
+VND-0237,Verify Documents,2026-02-25 19:49,Vendor Portal
+VND-0237,Review Application,2026-02-25 21:16,Procurement Officer
+VND-0237,Financial Risk Assessment,2026-03-01 04:27,Finance Manager
+VND-0237,Compliance Screening,2026-03-03 17:01,Compliance Team
+VND-0237,Approve Vendor,2026-03-06 05:13,Finance Manager
+VND-0237,Create Vendor Record,2026-03-06 05:52,ERP System
+VND-0237,Send Welcome Pack,2026-03-06 06:20,ERP System
+VND-0237,Archive Application,2026-03-06 06:46,ERP System
+VND-0238,Receive Application,2026-01-09 02:53,Vendor Portal
+VND-0238,Verify Documents,2026-01-09 03:02,Vendor Portal
+VND-0238,Review Application,2026-01-09 07:09,Procurement Officer
+VND-0238,Financial Risk Assessment,2026-01-12 11:06,Finance Manager
+VND-0238,Compliance Screening,2026-01-17 15:35,Compliance Team
+VND-0238,Approve Vendor,2026-01-19 22:52,Finance Manager
+VND-0238,Create Vendor Record,2026-01-19 23:52,ERP System
+VND-0238,Send Welcome Pack,2026-01-19 23:55,ERP System
+VND-0238,Archive Application,2026-01-20 00:11,ERP System
+VND-0239,Receive Application,2026-01-29 06:07,Vendor Portal
+VND-0239,Verify Documents,2026-01-29 06:10,Vendor Portal
+VND-0239,Review Application,2026-01-29 07:40,Procurement Officer
+VND-0239,Financial Risk Assessment,2026-02-03 00:22,Finance Manager
+VND-0239,Compliance Screening,2026-02-05 05:01,Compliance Team
+VND-0239,Approve Vendor,2026-02-07 01:09,Finance Manager
+VND-0239,Create Vendor Record,2026-02-07 02:09,ERP System
+VND-0239,Send Welcome Pack,2026-02-07 02:33,ERP System
+VND-0239,Archive Application,2026-02-07 02:54,ERP System
+VND-0240,Receive Application,2026-03-03 22:18,Vendor Portal
+VND-0240,Verify Documents,2026-03-03 22:22,Vendor Portal
+VND-0240,Review Application,2026-03-04 05:48,Procurement Officer
+VND-0240,Compliance Screening,2026-03-08 14:18,Compliance Team
+VND-0240,Financial Risk Assessment,2026-03-14 04:16,Finance Manager
+VND-0240,Approve Vendor,2026-03-15 08:12,Finance Manager
+VND-0240,Create Vendor Record,2026-03-15 08:55,ERP System
+VND-0240,Send Welcome Pack,2026-03-15 09:14,ERP System
+VND-0240,Archive Application,2026-03-15 09:21,ERP System
+VND-0241,Receive Application,2026-02-03 19:01,Vendor Portal
+VND-0241,Verify Documents,2026-02-03 19:07,Vendor Portal
+VND-0241,Review Application,2026-02-03 21:53,Procurement Officer
+VND-0241,Financial Risk Assessment,2026-02-11 18:21,Finance Manager
+VND-0241,Compliance Screening,2026-02-16 15:05,Compliance Team
+VND-0241,Approve Vendor,2026-02-17 04:20,Finance Manager
+VND-0241,Create Vendor Record,2026-02-17 05:15,ERP System
+VND-0241,Send Welcome Pack,2026-02-17 05:30,ERP System
+VND-0241,Archive Application,2026-02-17 05:33,ERP System
+VND-0242,Receive Application,2026-01-30 13:49,Vendor Portal
+VND-0242,Verify Documents,2026-01-30 13:53,Vendor Portal
+VND-0242,Review Application,2026-01-30 15:30,Procurement Officer
+VND-0242,Financial Risk Assessment,2026-02-04 11:40,Finance Manager
+VND-0242,Compliance Screening,2026-02-06 07:38,Compliance Team
+VND-0242,Approve Vendor,2026-02-08 20:11,Finance Manager
+VND-0242,Create Vendor Record,2026-02-08 21:09,ERP System
+VND-0242,Send Welcome Pack,2026-02-08 21:32,ERP System
+VND-0242,Archive Application,2026-02-08 21:46,ERP System
+VND-0243,Receive Application,2026-02-18 21:14,Vendor Portal
+VND-0243,Verify Documents,2026-02-18 21:20,Vendor Portal
+VND-0243,Await Vendor Documents,2026-02-23 11:03,Vendor Portal
+VND-0243,Verify Documents,2026-02-23 11:11,Vendor Portal
+VND-0243,Review Application,2026-02-23 12:19,Procurement Officer
+VND-0243,Financial Risk Assessment,2026-02-26 13:44,Finance Manager
+VND-0243,Compliance Screening,2026-03-01 20:44,Compliance Team
+VND-0243,Approve Vendor,2026-03-02 19:43,Finance Manager
+VND-0243,Create Vendor Record,2026-03-02 20:11,ERP System
+VND-0243,Send Welcome Pack,2026-03-02 20:27,ERP System
+VND-0243,Archive Application,2026-03-02 20:44,ERP System
+VND-0244,Receive Application,2026-02-04 02:58,Vendor Portal
+VND-0244,Verify Documents,2026-02-04 03:01,Vendor Portal
+VND-0244,Review Application,2026-02-04 07:25,Procurement Officer
+VND-0244,Compliance Screening,2026-02-10 09:14,Compliance Team
+VND-0244,Financial Risk Assessment,2026-02-16 05:18,Finance Manager
+VND-0244,Approve Vendor,2026-02-17 21:47,Finance Manager
+VND-0244,Create Vendor Record,2026-02-17 22:19,ERP System
+VND-0244,Send Welcome Pack,2026-02-17 22:47,ERP System
+VND-0244,Archive Application,2026-02-17 22:55,ERP System
+VND-0245,Receive Application,2026-02-19 08:43,Vendor Portal
+VND-0245,Verify Documents,2026-02-19 08:49,Vendor Portal
+VND-0245,Await Vendor Documents,2026-02-22 06:55,Vendor Portal
+VND-0245,Verify Documents,2026-02-22 07:05,Vendor Portal
+VND-0245,Review Application,2026-02-22 12:24,Procurement Officer
+VND-0245,Compliance Screening,2026-03-02 00:55,Compliance Team
+VND-0245,Financial Risk Assessment,2026-03-07 12:32,Finance Manager
+VND-0245,Approve Vendor,2026-03-09 15:07,Finance Manager
+VND-0245,Create Vendor Record,2026-03-09 15:14,ERP System
+VND-0245,Send Welcome Pack,2026-03-09 15:19,ERP System
+VND-0245,Archive Application,2026-03-09 15:41,ERP System
+VND-0246,Receive Application,2026-02-16 03:58,Vendor Portal
+VND-0246,Verify Documents,2026-02-16 04:02,Vendor Portal
+VND-0246,Await Vendor Documents,2026-02-19 16:17,Vendor Portal
+VND-0246,Verify Documents,2026-02-19 16:26,Vendor Portal
+VND-0246,Await Vendor Documents,2026-02-21 21:38,Vendor Portal
+VND-0246,Verify Documents,2026-02-21 21:43,Vendor Portal
+VND-0246,Review Application,2026-02-22 04:05,Procurement Officer
+VND-0246,Compliance Screening,2026-02-25 16:06,Compliance Team
+VND-0246,Financial Risk Assessment,2026-03-02 08:50,Finance Manager
+VND-0246,Approve Vendor,2026-03-05 00:31,Finance Manager
+VND-0246,Create Vendor Record,2026-03-05 00:53,ERP System
+VND-0246,Send Welcome Pack,2026-03-05 00:57,ERP System
+VND-0246,Archive Application,2026-03-05 01:19,ERP System
+VND-0247,Receive Application,2026-02-07 03:22,Vendor Portal
+VND-0247,Verify Documents,2026-02-07 03:29,Vendor Portal
+VND-0247,Await Vendor Documents,2026-02-11 22:12,Vendor Portal
+VND-0247,Verify Documents,2026-02-11 22:16,Vendor Portal
+VND-0247,Await Vendor Documents,2026-02-14 16:58,Vendor Portal
+VND-0247,Verify Documents,2026-02-14 17:04,Vendor Portal
+VND-0247,Review Application,2026-02-14 23:45,Procurement Officer
+VND-0247,Financial Risk Assessment,2026-02-19 15:41,Finance Manager
+VND-0247,Compliance Screening,2026-02-23 02:17,Compliance Team
+VND-0247,Approve Vendor,2026-02-25 06:19,Finance Manager
+VND-0247,Reject Application,2026-02-25 06:42,Procurement Officer
+VND-0248,Receive Application,2026-02-17 17:36,Vendor Portal
+VND-0248,Verify Documents,2026-02-17 17:41,Vendor Portal
+VND-0248,Await Vendor Documents,2026-02-21 16:36,Vendor Portal
+VND-0248,Verify Documents,2026-02-21 16:45,Vendor Portal
+VND-0248,Await Vendor Documents,2026-02-24 16:14,Vendor Portal
+VND-0248,Verify Documents,2026-02-24 16:21,Vendor Portal
+VND-0248,Review Application,2026-02-24 23:49,Procurement Officer
+VND-0248,Compliance Screening,2026-02-28 08:44,Compliance Team
+VND-0248,Financial Risk Assessment,2026-03-06 06:11,Finance Manager
+VND-0248,Approve Vendor,2026-03-06 19:12,Finance Manager
+VND-0248,Create Vendor Record,2026-03-06 19:31,ERP System
+VND-0248,Send Welcome Pack,2026-03-06 19:45,ERP System
+VND-0248,Archive Application,2026-03-06 19:49,ERP System
+VND-0249,Receive Application,2026-01-14 15:45,Vendor Portal
+VND-0249,Verify Documents,2026-01-14 15:52,Vendor Portal
+VND-0249,Await Vendor Documents,2026-01-17 08:43,Vendor Portal
+VND-0249,Verify Documents,2026-01-17 08:47,Vendor Portal
+VND-0249,Review Application,2026-01-17 16:13,Procurement Officer
+VND-0249,Financial Risk Assessment,2026-01-21 04:34,Finance Manager
+VND-0249,Compliance Screening,2026-01-25 20:09,Compliance Team
+VND-0249,Approve Vendor,2026-01-26 09:54,Finance Manager
+VND-0249,Reject Application,2026-01-26 10:40,Procurement Officer
+VND-0250,Receive Application,2026-01-06 02:30,Vendor Portal
+VND-0250,Verify Documents,2026-01-06 02:34,Vendor Portal
+VND-0250,Review Application,2026-01-06 09:13,Procurement Officer
+VND-0250,Financial Risk Assessment,2026-01-10 19:23,Finance Manager
+VND-0250,Compliance Screening,2026-01-15 09:08,Compliance Team
+VND-0250,Approve Vendor,2026-01-18 03:55,Finance Manager
+VND-0250,Create Vendor Record,2026-01-18 04:43,ERP System
+VND-0250,Send Welcome Pack,2026-01-18 04:59,ERP System
+VND-0250,Archive Application,2026-01-18 05:28,ERP System

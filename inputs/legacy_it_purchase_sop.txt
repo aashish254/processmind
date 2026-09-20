@@ -1,0 +1,33 @@
+Legacy Procedure — IT Equipment Purchase Approval
+(revised 2019, owner: purchasing, scan of signed original on file)
+
+The procedure described herein governs the acquisition of IT equipment by
+business units. It has been applied since 2017 and supersedes memo P-112.
+Requests for exceptions are to be directed to the procurement department in
+writing.
+
+Basically how it works these days: an employee fills in the purchase
+requisition form and sends it to the IT procurement mailbox.
+
+The requisition is logged into the tracking sheet by the procurement
+department, and they also attach the vendor quote to the case folder.
+
+Once logged, it gets checked by the Finance Controller for budget coverage.
+Should the budget not be sufficient, the requester is notified by the
+procurement department and the whole thing is sent back to them to revise the
+amount, after which it is checked again by the Finance Controller.
+
+Note: orders above 5000 EUR additionally require a sign-off by the CFO. This
+note was added after the 2021 audit finding.
+
+The IT Manager then reviews the technical specification. In practice they
+sometimes skip this when it is a repeat purchase, but officially the review is
+mandatory.
+
+After both reviews are done, the purchase order is raised in the ERP by
+procurement and emailed to the vendor by the same person.
+
+Goods receipt is confirmed by the requester upon delivery, the invoice is
+matched by Accounts Payable, and payment is released by them after matching.
+End of procedure; the case folder is archived by the procurement department
+once payment has been released.

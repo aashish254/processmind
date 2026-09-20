@@ -1,0 +1,25 @@
+{
+  "doc": "it_incident_management_sop.md",
+  "name": "IT Incident Management",
+  "tasks": [
+    "Log the incident in the ITSM Platform",
+    "Categorize the incident",
+    "Assign the priority",
+    "Investigate the issue",
+    "Document the diagnosis in the ticket",
+    "Open a war room",
+    "Apply the standard fix",
+    "Inform the business stakeholders",
+    "Restore the affected service",
+    "Escalate the ticket to the Incident Manager",
+    "Verify the resolution with the End User",
+    "Confirm the fix",
+    "Close the ticket in the ITSM Platform",
+    "Send the satisfaction survey to the End User",
+    "Archive the ticket"
+  ],
+  "actors": ["Service Desk Agent", "ITSM Platform", "Incident Manager", "Network Team", "End User"],
+  "gateways": {"xor": 4, "and": 2},
+  "rework_loops": 1,
+  "notes": "XOR count: major-incident decision, both-cases merge, escalation decision, rework merge. AND pair models the parallel communicate/restore step."
+}

@@ -1,0 +1,23 @@
+{
+  "doc": "vendor_onboarding_sop.md",
+  "name": "Vendor Onboarding",
+  "tasks": [
+    "Verify the completeness of the submitted documents",
+    "Notify the vendor to resubmit the documents",
+    "Review the application in detail",
+    "Perform background screening",
+    "Prepare the financial risk assessment",
+    "Reject the application",
+    "Evaluate the financial documents",
+    "Approve the vendor request",
+    "Approve the compliance findings",
+    "Create the vendor record",
+    "Send the welcome pack to the vendor",
+    "Enter the vendor category in the ERP System",
+    "Archive the application file"
+  ],
+  "actors": ["Procurement Officer", "Compliance Team", "Finance Manager", "Vendor Portal", "ERP System"],
+  "gateways": {"xor": 3, "and": 2},
+  "rework_loops": 1,
+  "notes": "XOR count includes the explicit merge gateway for the resubmission rework loop. AND pair models the parallel screening/risk-assessment step."
+}
