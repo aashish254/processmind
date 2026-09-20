@@ -11,6 +11,8 @@ numbersections: true
 
 **Repository (code, data, and one-command reproduction):** https://github.com/aashish254/processmind
 
+**Full thesis (preprint):** https://doi.org/10.5281/zenodo.22854334
+
 # Introduction
 
 Business process knowledge lives in two artefacts that rarely agree. The **documented process** — standard operating procedures (SOPs), runbooks, and policy documents — is intent-rich but written for humans. The **enacted process** — event logs in ERP, CRM, and ITSM systems — is factual and machine-readable but blind to intent. Reconciling the two is the daily work of business and systems analysts, and it is slow: mapping a single process typically takes days to weeks of interviews and iterative validation (Mendling et al., 2010).
